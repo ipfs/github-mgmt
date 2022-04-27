@@ -1,4 +1,9 @@
 {
+  "github-mgmt": {
+     "galargh": {
+        "permission": "admin" 
+     }
+  },
   "aegir": {
     "hugomrdias": {
       "permission": "admin"
