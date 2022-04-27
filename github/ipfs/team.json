@@ -1,1 +1,177 @@
-{}
+{
+  "CI": {
+    "id": "2556223",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Go Core Team": {
+    "id": "1403959",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "IPFS Camp 2019 Attendees": {
+    "id": "3240211",
+    "parent_team_id": 3568009,
+    "privacy": "closed"
+  },
+  "IPFS Camp 2019 Org Team": {
+    "id": "3256005",
+    "parent_team_id": 3568009,
+    "privacy": "closed"
+  },
+  "IPFS Camp 2019 Trainers": {
+    "id": "3269675",
+    "parent_team_id": 3568009,
+    "privacy": "closed"
+  },
+  "IPFS Camp 2019": {
+    "id": "3568009",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "IPFS HTTP Client Maintainers": {
+    "id": "3013008",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "JS Core Team": {
+    "id": "3232522",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Maintainers": {
+    "id": "3729031",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Merge - Go": {
+    "id": "3364102",
+    "parent_team_id": 3232508,
+    "privacy": "closed"
+  },
+  "Repos - Go": {
+    "id": "3232508",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Java": {
+    "id": "1760537",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - JavaScript": {
+    "id": "1433120",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Python": {
+    "id": "1440760",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Rust": {
+    "id": "2598321",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Scala": {
+    "id": "2570156",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Swift": {
+    "id": "2563330",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "TestGround": {
+    "id": "3516691",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "WG Captains": {
+    "id": "2649026",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "WG GUI/UX": {
+    "id": "2825335",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "WG IPFS Cluster": {
+    "id": "2297042",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "WG Infrastructure": {
+    "id": "1404017",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "WG Project": {
+    "id": "2965968",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "WG Web Browsers": {
+    "id": "3232532",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "admin": {
+    "id": "1516991",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "comms": {
+    "id": "2934003",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "community": {
+    "id": "5082620",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "contributors": {
+    "id": "1376970",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "devgrants": {
+    "id": "3926435",
+    "parent_team_id": null,
+    "privacy": "secret"
+  },
+  "docs": {
+    "id": "2540579",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "go-ipfs release": {
+    "id": "3706208",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "go-ipfs-priv": {
+    "id": "5789902",
+    "parent_team_id": null,
+    "privacy": "secret"
+  },
+  "w3dt-stewards": {
+    "id": "4656983",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "website-deployers": {
+    "id": "3413255",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "wg-pinning-services": {
+    "id": "3968017",
+    "parent_team_id": null,
+    "privacy": "closed"
+  }
+}
