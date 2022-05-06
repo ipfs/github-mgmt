@@ -1,0 +1,7 @@
+{
+  "ipfs-desktop": {
+    ".github/workflows/stale.yml": {
+      "content": ""
+    }
+  }
+}
