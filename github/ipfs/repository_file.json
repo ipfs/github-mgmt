@@ -4,5 +4,10 @@
       "branch": "main",
       "content": "./.github/workflows/stale.yml"
     }
+  },
+  "go-ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
   }
 }
