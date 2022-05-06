@@ -1,8 +1,8 @@
 {
-  "github-mgmt": {
-     "galargh": {
-        "permission": "admin" 
-     }
+  "2022.ipfs.camp": {
+    "cwaring": {
+      "permission": "admin"
+    }
   },
   "aegir": {
     "hugomrdias": {
@@ -115,10 +115,7 @@
   },
   "devgrants": {
     "ErinOCon": {
-      "permission": "maintain"
-    },
-    "SeedingTrees": {
-      "permission": "push"
+      "permission": "admin"
     },
     "autonome": {
       "permission": "admin"
@@ -130,9 +127,6 @@
       "permission": "admin"
     },
     "momack2": {
-      "permission": "admin"
-    },
-    "parkan": {
       "permission": "admin"
     },
     "realChainLife": {
@@ -210,6 +204,11 @@
   "fs-repo-migrations": {
     "web3-bot": {
       "permission": "push"
+    }
+  },
+  "github-mgmt": {
+    "galargh": {
+      "permission": "admin"
     }
   },
   "go-bitfield": {
