@@ -21,6 +21,23 @@ resource "github_repository_collaborator" "this" {
   }
 }
 
+resource "github_repository_file" "this" {
+  lifecycle {
+    # @resources.repository_file.ignore_changes
+    ignore_changes = [
+      id,
+      # branch,
+      commit_author,
+      commit_email,
+      commit_message,
+      commit_sha,
+      overwrite_on_create,
+      sha
+    ]
+  }
+}
+
+
 resource "github_team" "this" {
   lifecycle {
     # @resources.team.ignore_changes
