@@ -839,5 +839,35 @@
     ".github/workflows/stale.yml": {
       "content": "./.github/workflows/stale.yml"
     }
+  },
+  "download-ipfs-distribution-action": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-bitfield": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-dag-service": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "papers": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "pinning-services-api-spec": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "start-ipfs-daemon-action": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
   }
 }
