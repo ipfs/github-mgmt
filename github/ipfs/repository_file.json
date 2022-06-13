@@ -665,12 +665,6 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "ipfs-spec": {
-    ".github/workflows/stale.yml": {
-      "branch": "main",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "ipfs-update": {
     ".github/workflows/stale.yml": {
       "branch": "master",
@@ -926,6 +920,12 @@
   "roadmap": {
     ".github/workflows/stale.yml": {
       "branch": "master",
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "specs": {
+    ".github/workflows/stale.yml": {
+      "branch": "main",
       "content": "./.github/workflows/stale.yml"
     }
   },
