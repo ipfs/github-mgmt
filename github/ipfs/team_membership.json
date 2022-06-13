@@ -1553,6 +1553,17 @@
       "role": "member"
     }
   },
+  "docs-writers": {
+    "TheDiscordian": {
+      "role": "member"
+    },
+    "johnnymatthews": {
+      "role": "maintainer"
+    },
+    "yusefnapora": {
+      "role": "member"
+    }
+  },
   "go-ipfs release": {
     "Stebalien": {
       "role": "maintainer"

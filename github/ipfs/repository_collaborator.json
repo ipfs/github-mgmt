@@ -988,6 +988,9 @@
     "TMoMoreau": {
       "permission": "push"
     },
+    "TheDiscordian": {
+      "permission": "maintain"
+    },
     "cwaring": {
       "permission": "admin"
     },
@@ -997,8 +1000,14 @@
     "hugomrdias": {
       "permission": "maintain"
     },
+    "johndmulhausen": {
+      "permission": "push"
+    },
     "johnnymatthews": {
       "permission": "admin"
+    },
+    "thattommyhall": {
+      "permission": "triage"
     },
     "walkerlj0": {
       "permission": "maintain"
