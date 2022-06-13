@@ -680,7 +680,7 @@
   "ipfs-webui": {
     ".github/workflows/stale.yml": {
       "branch": "main",
-      "content": "name: Close and mark stale issue\n\non:\n  schedule:\n  - cron: '0 0 * * *'\n\njobs:\n  stale:\n\n    runs-on: ubuntu-latest\n    permissions:\n      issues: write\n      pull-requests: write\n\n    steps:\n    - uses: actions/stale@v3\n      with:\n        repo-token: ${{ secrets.GITHUB_TOKEN }}\n        stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 30 days.'\n        close-issue-message: 'This issue was closed because it is missing author input.'\n        stale-issue-label: 'kind/stale'\n        any-of-labels: 'hint/needs-author-input,need/author-input'\n        days-before-issue-stale: 30\n        days-before-issue-close: 30\n        enable-statistics: true\n"
+      "content": "./.github/workflows/stale.yml"
     }
   },
   "ipget": {
