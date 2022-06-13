@@ -4,5 +4,870 @@
       "branch": "main",
       "content": "./.github/workflows/stale.yml"
     }
+  },
+  "go-ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "2022.ipfs.camp": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "aegir": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "aegir-typedoc-theme": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "apps": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "artwork": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "awesome-ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "benchmarks": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "browser-design-guidelines": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "camp": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "camp.ipfs.io": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "choco-go-ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ci-helpers": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "community": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "devgrants": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "dir-index-html": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "distributed-wikipedia-mirror": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "distributions": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ecosystem-directory": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "eslint-config-ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "fs-repo-migrations": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "gh-issue-form-test": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "github-mgmt": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-bitswap": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-bitswap-priv": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-block-format": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-blockservice": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-bs-sqlite3": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-cid": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-cidutil": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-dag-store": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-dagwriter": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-data-transfer-bus": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-datastore": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-delegated-routing": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-dnslink": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-badger2": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-bitcask": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-crdt": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-dynamodb": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-flatfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-leveldb": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-measure": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-pebble": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-redis": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-s3": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-sql": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ds-swift": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-fetcher": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-filestore": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-fs-lock": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-graphsync": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-api": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-archived": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-blockstore": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-blocksutil": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-chunker": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-cmdkit": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-cmds": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-config": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-delay": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-ds-help": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-example-plugin": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-exchange-interface": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-exchange-offline": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-files": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-gateway": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-http-client": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-keystore": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-posinfo": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-pq": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-priv": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-provider": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-regression": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-routing": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipfs-util": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipld-cbor": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipld-eth": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipld-eth-import": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipld-format": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipld-git": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipld-legacy": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipld-zcash": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-ipns": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-jaeger-plugin": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-libp2p-dns-router": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-log": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-merkledag": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-metrics-interface": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-metrics-prometheus": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-mfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-namesys": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-path": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-peertaskqueue": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-pinning-service-http-client": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-poll-endpoint": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-qringbuf": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-sbs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-todocounter": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-unixfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-unixfsnode": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-verifcid": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "gomod": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "gs-priv": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "in-web-browsers": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "infra": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "interface-datastore": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "interface-go-ipfs-core": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "interop": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-blog": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-cluster": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-cluster-website": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-companion": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-docs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-ds-convert": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-gui": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-project.org": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-repository-template": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-update": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-website": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipfs-webui": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipget": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "ipld-explorer-components": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "iptb": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "iptb-plugins": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-blockstore-core": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-blockstore-datastore-adapter": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-core": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-datastore-core": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-datastore-fs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-datastore-idb": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-datastore-level": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-datastore-pubsub": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-datastore-s3": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-fs-pull-blob-store": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-hamt-sharding": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-idb-pull-blob-store": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-bitswap": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-block-service": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-http-response": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-interfaces": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-merkle-dag": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-repo": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-repo-migrations": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-unixfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfs-utils": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipfsd-ctl": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-ipns": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-level-pull-blob-store": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js.ipfs.io": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "lightning-storm": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "local-offline-collab": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "metrics": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "mobile-design-guidelines": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "newsletter": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "notes": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "npm-go-ipfs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "protons": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "public-gateway-checker": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "rainbow": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "roadmap": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "specs": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "tar-utils": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "team-mgmt": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "test-plans": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "download-ipfs-distribution-action": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "go-bitfield": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "js-dag-service": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "papers": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "pinning-services-api-spec": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
+  },
+  "start-ipfs-daemon-action": {
+    ".github/workflows/stale.yml": {
+      "content": "./.github/workflows/stale.yml"
+    }
   }
 }
