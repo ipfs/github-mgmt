@@ -10,11 +10,6 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "2022.ipfs.camp": {
-    ".github/workflows/stale.yml": {
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "aegir": {
     ".github/workflows/stale.yml": {
       "content": "./.github/workflows/stale.yml"
@@ -161,11 +156,6 @@
     }
   },
   "go-dagwriter": {
-    ".github/workflows/stale.yml": {
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "go-data-transfer-bus": {
     ".github/workflows/stale.yml": {
       "content": "./.github/workflows/stale.yml"
     }
@@ -761,11 +751,6 @@
     }
   },
   "js.ipfs.io": {
-    ".github/workflows/stale.yml": {
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "lightning-storm": {
     ".github/workflows/stale.yml": {
       "content": "./.github/workflows/stale.yml"
     }
