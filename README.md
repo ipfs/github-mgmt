@@ -1,8 +1,10 @@
-# GitHub Management via Terraform: Template
+# GitHub Management via Terraform: ipfs
 
-This repository is meant to serve as a template for creating new repositories responsible for managing GitHub configuration as code with Terraform. It provides an opinionated way to manage GitHub configuration without following the Terraform usage guidelines to the letter. It was designed with managing multiple, medium to large sized GitHub organisations in mind and that is exactly what it is/is going to be optimised for.
+This repository is responsible for managing GitHub configuration of `ipfs` organisation as code with Terraform. It was created from [github-mgmt-template](https://github.com/protocol/github-mgmt-template) and it will receive updates from that repository.
 
 **IMPORTANT**: Having write access to GitHub Management repository can be as powerful as having admin access to the organizations managed by that repository.
+
+*NOTE*: Because we don't have merge queue functionality enabled for the repository yet, after a merge, wait for the `Apply` and `Update` workflows to complete before merging any other PRs.
 
 To learn more, check out:
 - [What is GitHub Management and how does it work?](docs/ABOUT.md)
