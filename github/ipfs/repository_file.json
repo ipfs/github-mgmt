@@ -611,18 +611,6 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "ipfs-cluster": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "ipfs-cluster-website": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "ipfs-companion": {
     ".github/workflows/stale.yml": {
       "branch": "main",

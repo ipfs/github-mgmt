@@ -9,12 +9,6 @@
     "go-ds-sql": {
       "permission": "pull"
     },
-    "ipfs-cluster": {
-      "permission": "push"
-    },
-    "ipfs-cluster-website": {
-      "permission": "push"
-    },
     "ipfs-docs": {
       "permission": "push"
     },
@@ -237,12 +231,6 @@
       "permission": "push"
     },
     "interop": {
-      "permission": "push"
-    },
-    "ipfs-cluster": {
-      "permission": "push"
-    },
-    "ipfs-cluster-website": {
       "permission": "push"
     },
     "ipfs-update": {
@@ -510,6 +498,9 @@
     "go-ipfs-pq": {
       "permission": "maintain"
     },
+    "go-ipfs-provider": {
+      "permission": "maintain"
+    },
     "go-ipfs-routing": {
       "permission": "maintain"
     },
@@ -552,6 +543,9 @@
     "go-metrics-prometheus": {
       "permission": "maintain"
     },
+    "go-mfs": {
+      "permission": "maintain"
+    },
     "go-path": {
       "permission": "maintain"
     },
@@ -583,12 +577,6 @@
       "permission": "maintain"
     },
     "ipfs": {
-      "permission": "maintain"
-    },
-    "ipfs-cluster": {
-      "permission": "maintain"
-    },
-    "ipfs-cluster-website": {
       "permission": "maintain"
     },
     "ipfs-ds-convert": {
@@ -1363,12 +1351,6 @@
     },
     "go-ds-crdt": {
       "permission": "push"
-    },
-    "ipfs-cluster": {
-      "permission": "push"
-    },
-    "ipfs-cluster-website": {
-      "permission": "push"
     }
   },
   "WG Infrastructure": {
@@ -1377,9 +1359,6 @@
     },
     "infra": {
       "permission": "admin"
-    },
-    "ipfs-cluster-website": {
-      "permission": "push"
     },
     "js-ipfs": {
       "permission": "push"
@@ -1588,6 +1567,9 @@
     "go-metrics-prometheus": {
       "permission": "admin"
     },
+    "go-path": {
+      "permission": "admin"
+    },
     "go-poll-endpoint": {
       "permission": "admin"
     },
@@ -1595,6 +1577,9 @@
       "permission": "admin"
     },
     "go-todocounter": {
+      "permission": "admin"
+    },
+    "go-unixfs": {
       "permission": "admin"
     },
     "go-verifcid": {
@@ -1613,12 +1598,6 @@
       "permission": "admin"
     },
     "ipfs": {
-      "permission": "admin"
-    },
-    "ipfs-cluster": {
-      "permission": "admin"
-    },
-    "ipfs-cluster-website": {
       "permission": "admin"
     },
     "ipfs-desktop": {
@@ -1858,6 +1837,9 @@
     "go-cid": {
       "permission": "admin"
     },
+    "go-cidutil": {
+      "permission": "admin"
+    },
     "go-datastore": {
       "permission": "admin"
     },
@@ -1984,6 +1966,9 @@
     "go-todocounter": {
       "permission": "admin"
     },
+    "go-unixfs": {
+      "permission": "admin"
+    },
     "go-verifcid": {
       "permission": "admin"
     },
@@ -2000,12 +1985,6 @@
       "permission": "admin"
     },
     "ipfs": {
-      "permission": "admin"
-    },
-    "ipfs-cluster": {
-      "permission": "admin"
-    },
-    "ipfs-cluster-website": {
       "permission": "admin"
     },
     "ipfs-companion": {
