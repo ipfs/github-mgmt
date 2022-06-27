@@ -29,12 +29,6 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "benchmarks": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "browser-design-guidelines": {
     ".github/workflows/stale.yml": {
       "branch": "master",
@@ -77,12 +71,6 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "distributed-wikipedia-mirror": {
-    ".github/workflows/stale.yml": {
-      "branch": "main",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "distributions": {
     ".github/workflows/stale.yml": {
       "branch": "master",
@@ -119,19 +107,7 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "github-mgmt": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "go-bitfield": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "go-bitswap": {
     ".github/workflows/stale.yml": {
       "branch": "master",
       "content": "./.github/workflows/stale.yml"
@@ -158,12 +134,6 @@
   "go-bs-sqlite3": {
     ".github/workflows/stale.yml": {
       "branch": "main",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "go-cid": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
       "content": "./.github/workflows/stale.yml"
     }
   },
@@ -467,12 +437,6 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "go-ipld-zcash": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "go-ipns": {
     ".github/workflows/stale.yml": {
       "branch": "master",
@@ -608,18 +572,6 @@
   "ipfs-blog": {
     ".github/workflows/stale.yml": {
       "branch": "main",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "ipfs-cluster": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "ipfs-cluster-website": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
       "content": "./.github/workflows/stale.yml"
     }
   },
@@ -797,12 +749,6 @@
       "content": "./.github/workflows/stale.yml"
     }
   },
-  "js-ipfs-interfaces": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
   "js-ipfs-merkle-dag": {
     ".github/workflows/stale.yml": {
       "branch": "master",
@@ -846,12 +792,6 @@
     }
   },
   "js.ipfs.io": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "local-offline-collab": {
     ".github/workflows/stale.yml": {
       "branch": "master",
       "content": "./.github/workflows/stale.yml"
@@ -942,12 +882,6 @@
     }
   },
   "team-mgmt": {
-    ".github/workflows/stale.yml": {
-      "branch": "master",
-      "content": "./.github/workflows/stale.yml"
-    }
-  },
-  "test-plans": {
     ".github/workflows/stale.yml": {
       "branch": "master",
       "content": "./.github/workflows/stale.yml"

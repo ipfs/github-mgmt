@@ -62,14 +62,6 @@
       "permission": "push"
     }
   },
-  "benchmarks": {
-    "alanshaw": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "browser-design-guidelines": {
     "autonome": {
       "permission": "admin"
@@ -152,14 +144,6 @@
       "permission": "push"
     }
   },
-  "distributed-wikipedia-mirror": {
-    "lidel": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "distributions": {
     "web3-bot": {
       "permission": "push"
@@ -206,17 +190,7 @@
       "permission": "push"
     }
   },
-  "github-mgmt": {
-    "galargh": {
-      "permission": "admin"
-    }
-  },
   "go-bitfield": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-bitswap": {
     "web3-bot": {
       "permission": "push"
     }
@@ -276,11 +250,6 @@
     "raulk": {
       "permission": "admin"
     },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-cid": {
     "web3-bot": {
       "permission": "push"
     }
@@ -681,14 +650,6 @@
       "permission": "push"
     }
   },
-  "go-ipld-zcash": {
-    "arcalinea": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "go-ipns": {
     "web3-bot": {
       "permission": "push"
@@ -887,73 +848,6 @@
     },
     "warpfork": {
       "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "ipfs-cluster": {
-    "FrankPetrilli": {
-      "permission": "pull"
-    },
-    "Laevos": {
-      "permission": "pull"
-    },
-    "RubenKelevra": {
-      "permission": "push"
-    },
-    "Stebalien": {
-      "permission": "admin"
-    },
-    "ZenGround0": {
-      "permission": "push"
-    },
-    "alekswn": {
-      "permission": "push"
-    },
-    "brainstorm": {
-      "permission": "pull"
-    },
-    "dgrisham": {
-      "permission": "pull"
-    },
-    "elopio": {
-      "permission": "pull"
-    },
-    "evalsocket": {
-      "permission": "push"
-    },
-    "hsanjuan": {
-      "permission": "admin"
-    },
-    "jglukasik": {
-      "permission": "pull"
-    },
-    "roignpar": {
-      "permission": "pull"
-    },
-    "s1na": {
-      "permission": "pull"
-    },
-    "sona1111": {
-      "permission": "pull"
-    },
-    "vasa-develop": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "ipfs-cluster-website": {
-    "akrych": {
-      "permission": "push"
-    },
-    "ericronne": {
-      "permission": "push"
-    },
-    "hsanjuan": {
-      "permission": "admin"
     },
     "web3-bot": {
       "permission": "push"
@@ -1276,11 +1170,6 @@
       "permission": "push"
     }
   },
-  "js-ipfs-interfaces": {
-    "achingbrain": {
-      "permission": "admin"
-    }
-  },
   "js-ipfs-merkle-dag": {
     "daviddias": {
       "permission": "admin"
@@ -1368,17 +1257,6 @@
   "lightning-storm": {
     "hannahhoward": {
       "permission": "admin"
-    }
-  },
-  "local-offline-collab": {
-    "momack2": {
-      "permission": "admin"
-    },
-    "terichadbourne": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "metrics": {
@@ -1495,23 +1373,6 @@
     }
   },
   "team-mgmt": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "test-plans": {
-    "dirkmc": {
-      "permission": "push"
-    },
-    "hacdias": {
-      "permission": "maintain"
-    },
-    "nonsense": {
-      "permission": "maintain"
-    },
-    "raulk": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
