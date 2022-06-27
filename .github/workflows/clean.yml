@@ -35,7 +35,7 @@ jobs:
         id: workspaces
         run: |
           if [[ -z '${{ github.event.inputs.workspaces }}' ]]; then
-            workspaces="$(ls github | jq --raw-input '[.[0:-4]]' | jq -sc add)"
+            workspaces="$(ls github | jq --raw-input '[.]' | jq -sc add)"
           else
             workspaces="$(echo '${{ github.event.inputs.workspaces }}' | jq --raw-input 'split(" ")')"
           fi
