@@ -1101,6 +1101,29 @@
       "role": "member"
     }
   },
+  "Specs Stewards": {
+    "BigLep": {
+      "role": "maintainer"
+    },
+    "Stebalien": {
+      "role": "maintainer"
+    },
+    "achingbrain": {
+      "role": "member"
+    },
+    "aschmahmann": {
+      "role": "maintainer"
+    },
+    "lidel": {
+      "role": "maintainer"
+    },
+    "marten-seemann": {
+      "role": "member"
+    },
+    "petar": {
+      "role": "member"
+    }
+  },
   "TestGround": {
     "daviddias": {
       "role": "maintainer"
@@ -1591,8 +1614,14 @@
     "BigLep": {
       "role": "maintainer"
     },
+    "Jorropo": {
+      "role": "member"
+    },
     "Stebalien": {
       "role": "maintainer"
+    },
+    "ajnavarro": {
+      "role": "member"
     },
     "aschmahmann": {
       "role": "maintainer"
