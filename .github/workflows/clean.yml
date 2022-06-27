@@ -87,4 +87,4 @@ jobs:
             dryRunFlag='-dry-run'
           fi
           terraform state list | grep -E '${{ github.event.inputs.regex }}'
-          # terraform state rm $dryRunFlag $(terraform state list | grep -E '${{ github.event.inputs.regex }}')
+          # terraform state rm $dryRunFlag $(terraform state list | grep -E '^${{ github.event.inputs.regex }}$')
