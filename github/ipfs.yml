@@ -1,0 +1,474 @@
+# yaml-language-server: $schema=.schema.json
+
+repositories:
+  aegir:
+    files:
+      .github/workflows/stale.yml: {}
+  aegir-typedoc-theme:
+    files:
+      .github/workflows/stale.yml: {}
+  apps:
+    files:
+      .github/workflows/stale.yml: {}
+  artwork:
+    files:
+      .github/workflows/stale.yml: {}
+  awesome-ipfs:
+    files:
+      .github/workflows/stale.yml: {}
+  benchmarks:
+    files:
+      .github/workflows/stale.yml: {}
+  browser-design-guidelines:
+    files:
+      .github/workflows/stale.yml: {}
+  camp:
+    files:
+      .github/workflows/stale.yml: {}
+  camp.ipfs.io:
+    files:
+      .github/workflows/stale.yml: {}
+  choco-go-ipfs:
+    files:
+      .github/workflows/stale.yml: {}
+  ci-helpers:
+    files:
+      .github/workflows/stale.yml: {}
+  community:
+    files:
+      .github/workflows/stale.yml: {}
+  devgrants:
+    files:
+      .github/workflows/stale.yml: {}
+  distributed-wikipedia-mirror:
+    files:
+      .github/workflows/stale.yml: {}
+  distributions:
+    files:
+      .github/workflows/stale.yml: {}
+  download-ipfs-distribution-action:
+    files:
+      .github/workflows/stale.yml: {}
+  ecosystem-directory:
+    files:
+      .github/workflows/stale.yml: {}
+  eslint-config-ipfs:
+    files:
+      .github/workflows/stale.yml: {}
+  fs-repo-migrations:
+    files:
+      .github/workflows/stale.yml: {}
+  gh-issue-form-test:
+    files:
+      .github/workflows/stale.yml: {}
+  github-mgmt:
+    files:
+      .github/workflows/stale.yml: {}
+  go-bitfield:
+    files:
+      .github/workflows/stale.yml: {}
+  go-bitswap:
+    files:
+      .github/workflows/stale.yml: {}
+  go-bitswap-priv:
+    files:
+      .github/workflows/stale.yml: {}
+  go-block-format:
+    files:
+      .github/workflows/stale.yml: {}
+  go-blockservice:
+    files:
+      .github/workflows/stale.yml: {}
+  go-bs-sqlite3:
+    files:
+      .github/workflows/stale.yml: {}
+  go-cid:
+    files:
+      .github/workflows/stale.yml: {}
+  go-cidutil:
+    files:
+      .github/workflows/stale.yml: {}
+  go-dag-store:
+    files:
+      .github/workflows/stale.yml: {}
+  go-dagwriter:
+    files:
+      .github/workflows/stale.yml: {}
+  go-datastore:
+    files:
+      .github/workflows/stale.yml: {}
+  go-delegated-routing:
+    files:
+      .github/workflows/stale.yml: {}
+  go-dnslink:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-badger2:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-bitcask:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-crdt:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-dynamodb:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-flatfs:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-leveldb:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-measure:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-pebble:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-redis:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-s3:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-sql:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ds-swift:
+    files:
+      .github/workflows/stale.yml: {}
+  go-fetcher:
+    files:
+      .github/workflows/stale.yml: {}
+  go-filestore:
+    files:
+      .github/workflows/stale.yml: {}
+  go-fs-lock:
+    files:
+      .github/workflows/stale.yml: {}
+  go-graphsync:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-api:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-archived:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-blockstore:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-blocksutil:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-chunker:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-cmds:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-delay:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-ds-help:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-example-plugin:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-exchange-interface:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-exchange-offline:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-files:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-gateway:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-http-client:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-keystore:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-posinfo:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-pq:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-priv:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-provider:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-regression:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-routing:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipfs-util:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipld-cbor:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipld-eth-import:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipld-format:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipld-git:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipld-legacy:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipld-zcash:
+    files:
+      .github/workflows/stale.yml: {}
+  go-ipns:
+    files:
+      .github/workflows/stale.yml: {}
+  go-libp2p-dns-router:
+    files:
+      .github/workflows/stale.yml: {}
+  go-log:
+    files:
+      .github/workflows/stale.yml: {}
+  go-merkledag:
+    files:
+      .github/workflows/stale.yml: {}
+  go-metrics-interface:
+    files:
+      .github/workflows/stale.yml: {}
+  go-metrics-prometheus:
+    files:
+      .github/workflows/stale.yml: {}
+  go-mfs:
+    files:
+      .github/workflows/stale.yml: {}
+  go-namesys:
+    files:
+      .github/workflows/stale.yml: {}
+  go-path:
+    files:
+      .github/workflows/stale.yml: {}
+  go-peertaskqueue:
+    files:
+      .github/workflows/stale.yml: {}
+  go-pinning-service-http-client:
+    files:
+      .github/workflows/stale.yml: {}
+  go-qringbuf:
+    files:
+      .github/workflows/stale.yml: {}
+  go-todocounter:
+    files:
+      .github/workflows/stale.yml: {}
+  go-unixfs:
+    files:
+      .github/workflows/stale.yml: {}
+  go-unixfsnode:
+    files:
+      .github/workflows/stale.yml: {}
+  go-verifcid:
+    files:
+      .github/workflows/stale.yml: {}
+  gomod:
+    files:
+      .github/workflows/stale.yml: {}
+  gs-priv:
+    files:
+      .github/workflows/stale.yml: {}
+  in-web-browsers:
+    files:
+      .github/workflows/stale.yml: {}
+  interface-go-ipfs-core:
+    files:
+      .github/workflows/stale.yml: {}
+  interop:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-blog:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-companion:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-desktop:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-docs:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-ds-convert:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-gui:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-project.org:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-repository-template:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-update:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-website:
+    files:
+      .github/workflows/stale.yml: {}
+  ipfs-webui:
+    files:
+      .github/workflows/stale.yml: {}
+  ipget:
+    files:
+      .github/workflows/stale.yml: {}
+  ipld-explorer-components:
+    files:
+      .github/workflows/stale.yml: {}
+  iptb:
+    files:
+      .github/workflows/stale.yml: {}
+  iptb-plugins:
+    files:
+      .github/workflows/stale.yml: {}
+  js-blockstore-core:
+    files:
+      .github/workflows/stale.yml: {}
+  js-blockstore-datastore-adapter:
+    files:
+      .github/workflows/stale.yml: {}
+  js-core:
+    files:
+      .github/workflows/stale.yml: {}
+  js-dag-service:
+    files:
+      .github/workflows/stale.yml: {}
+  js-datastore-core:
+    files:
+      .github/workflows/stale.yml: {}
+  js-datastore-fs:
+    files:
+      .github/workflows/stale.yml: {}
+  js-datastore-idb:
+    files:
+      .github/workflows/stale.yml: {}
+  js-datastore-level:
+    files:
+      .github/workflows/stale.yml: {}
+  js-datastore-pubsub:
+    files:
+      .github/workflows/stale.yml: {}
+  js-datastore-s3:
+    files:
+      .github/workflows/stale.yml: {}
+  js-fs-pull-blob-store:
+    files:
+      .github/workflows/stale.yml: {}
+  js-hamt-sharding:
+    files:
+      .github/workflows/stale.yml: {}
+  js-idb-pull-blob-store:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfs:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfs-bitswap:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfs-interfaces:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfs-merkle-dag:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfs-repo:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfs-unixfs:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfs-utils:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipfsd-ctl:
+    files:
+      .github/workflows/stale.yml: {}
+  js-ipns:
+    files:
+      .github/workflows/stale.yml: {}
+  js-level-pull-blob-store:
+    files:
+      .github/workflows/stale.yml: {}
+  js.ipfs.io:
+    files:
+      .github/workflows/stale.yml: {}
+  local-offline-collab:
+    files:
+      .github/workflows/stale.yml: {}
+  metrics:
+    files:
+      .github/workflows/stale.yml: {}
+  mobile-design-guidelines:
+    files:
+      .github/workflows/stale.yml: {}
+  newsletter:
+    files:
+      .github/workflows/stale.yml: {}
+  notes:
+    files:
+      .github/workflows/stale.yml: {}
+  npm-go-ipfs:
+    files:
+      .github/workflows/stale.yml: {}
+  papers:
+    files:
+      .github/workflows/stale.yml: {}
+  pinning-services-api-spec:
+    files:
+      .github/workflows/stale.yml: {}
+  protons:
+    files:
+      .github/workflows/stale.yml: {}
+  public-gateway-checker:
+    files:
+      .github/workflows/stale.yml: {}
+  rainbow:
+    files:
+      .github/workflows/stale.yml: {}
+  roadmap:
+    files:
+      .github/workflows/stale.yml: {}
+  specs:
+    files:
+      .github/workflows/stale.yml: {}
+  start-ipfs-daemon-action:
+    files:
+      .github/workflows/stale.yml: {}
+  tar-utils:
+    files:
+      .github/workflows/stale.yml: {}
+  team-mgmt:
+    files:
+      .github/workflows/stale.yml: {}
+  test-plans:
+    files:
+      .github/workflows/stale.yml: {}
