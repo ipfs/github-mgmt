@@ -1,474 +1,4471 @@
 # yaml-language-server: $schema=.schema.json
 
+members:
+  admin:
+    - BigLep
+    - Stebalien
+    - aschmahmann
+    - autonome
+    - daviddias
+    - galargh
+    - hsanjuan
+    - jacobheun
+    - jbenet
+    - lidel
+    - mikeal
+    - momack2
+    - olizilla
+    - protocollabsit
+    - whyrusleeping
+  member:
+    - 1015bit
+    - Aaron1011
+    - AdamStone
+    - AliabbasMerchant
+    - AquiGorka
+    - AuHau
+    - BrendanBenshoof
+    - DrCatman
+    - Gozala
+    - JGAntunes
+    - JonKrone
+    - Jorropo
+    - JulienPalard
+    - JustMaier
+    - Kubuxu
+    - Luzifer
+    - MAkcanca
+    - MarcoPolo
+    - MarneeDear
+    - MichaelMure
+    - Mr0grog
+    - NeoTeo
+    - NukeManDan
+    - Prtfw
+    - RichardLitt
+    - Robmat05
+    - Schwartz10
+    - Seenivasanseeni
+    - SgtPooki
+    - ShishKabab
+    - SidHarder
+    - TheDiscordian
+    - Wondertan
+    - ZenGround0
+    - aarshkshah1992
+    - abn
+    - achingbrain
+    - adlrocha
+    - aeddi
+    - ajnavarro
+    - aknuds1
+    - akru
+    - akrych
+    - alanshaw
+    - alekswn
+    - amstocker
+    - andrew
+    - andrewxhill
+    - andyschwab
+    - angiemaguire
+    - anorth
+    - apronkin
+    - arajasek
+    - arcalinea
+    - arsstone
+    - avras
+    - b5
+    - balupton
+    - bigs
+    - bjoyce3
+    - blackforestboi
+    - bmcorser
+    - carsonfarmer
+    - cboddy
+    - cesarosum
+    - cleichner
+    - cmk
+    - codynhat
+    - coryschwartz
+    - cpacia
+    - cwaring
+    - daijiale
+    - dankelleher
+    - darkdh
+    - davidar
+    - dborzov
+    - dchoi27
+    - deltazxm
+    - dgrisham
+    - dignifiedquire
+    - dirkmc
+    - doctorrobinson
+    - dongtianyi
+    - drbh
+    - dryajov
+    - dylanPowers
+    - ec1oud
+    - emerick
+    - enricomarino
+    - ericronne
+    - eshon
+    - fbaiodias
+    - ferristseng
+    - flyingzumwalt
+    - frrist
+    - gammazero
+    - gavinmcdermott
+    - gfanton
+    - gkbrk
+    - glouvigny
+    - gmasgras
+    - gnunicorn
+    - gorhgorh
+    - gpestana
+    - gregdhill
+    - guillemcordoba
+    - guseggert
+    - haadcode
+    - hacdias
+    - hannahhoward
+    - hareeshnagaraj
+    - harlantwood
+    - hinshun
+    - hosh
+    - hugomrdias
+    - ianamunoz
+    - iand
+    - ianopolous
+    - ipfsbot
+    - jamiejn
+    - janjanovna
+    - jbenetsafer
+    - jdelgadopin
+    - jesseclay
+    - jimpick
+    - jkarni
+    - joaosantos15
+    - johnnymatthews
+    - jonnycrunch
+    - jsoares
+    - kanej
+    - keks
+    - kevina
+    - kinu
+    - kk3wong
+    - koalalorenzo
+    - krl
+    - kumavis
+    - kylehuntsman
+    - laurentsenta
+    - leshokunin
+    - listenaddress
+    - litvintech
+    - litzenberger
+    - locotorp
+    - ma82
+    - mafintosh
+    - magik6k
+    - magnshen
+    - maparent
+    - marcooliveira
+    - marten-seemann
+    - masih
+    - mastercyb
+    - mcollina
+    - mildred
+    - mishmosh
+    - miyazono
+    - moeghashim
+    - moul
+    - neogeweb3
+    - nginnever
+    - nicola
+    - nonsense
+    - ntninja
+    - nunofmn
+    - obo20
+    - parkan
+    - pepoospina
+    - petar
+    - pooja
+    - protocollabsit-readonly
+    - ratoshniuk
+    - raulk
+    - requilence
+    - ribasushi
+    - richardschneider
+    - rittme
+    - rklaehn
+    - roignpar
+    - romaric-juniet
+    - rvagg
+    - schomatis
+    - sericaia
+    - smihaylov
+    - stefanhans
+    - steven004
+    - stongo
+    - sublimino
+    - teh-f00l
+    - terichadbourne
+    - thattommyhall
+    - travisperson
+    - tv42
+    - vasa-develop
+    - vasco-santos
+    - victorb
+    - vmx
+    - vojtechsimetka
+    - vrortvedt
+    - vyzo
+    - walkerlj0
+    - wanderer
+    - warpfork
+    - waynewyang
+    - web3-bot
+    - whereswaldon
+    - willscott
+    - yangwao
+    - yiannisbot
+    - yrliou
+    - yunigraham
+    - yusefnapora
+    - zeckli
+    - zignig
 repositories:
+  2022.ipfs.camp:
+    collaborators:
+      admin:
+        - cwaring
+    description: IPFS Camp 2022
+    visibility: private
   aegir:
+    collaborators:
+      admin:
+        - hugomrdias
+      push:
+        - web3-bot
+    description: AEgir - Automated JavaScript project building
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Repos - JavaScript
+    topics:
+      - aegir
+      - coverage
+      - esbuild
+      - linting
+      - testing
+      - typescript
+    visibility: public
   aegir-typedoc-theme:
+    collaborators:
+      admin:
+        - hugomrdias
+      push:
+        - web3-bot
+    description: Aegir themes for TypeDoc.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   apps:
+    collaborators:
+      push:
+        - davidar
+        - web3-bot
+    description: Coordinating writing apps on top of ipfs, and their concerns.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+    visibility: public
   artwork:
+    collaborators:
+      admin:
+        - flyingzumwalt
+      push:
+        - web3-bot
+    description: Open-licensed IPFS-related artwork
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+    visibility: public
   awesome-ipfs:
+    collaborators:
+      admin:
+        - autonome
+        - dignifiedquire
+        - hacdias
+        - lidel
+      push:
+        - koalalorenzo
+        - parkan
+        - victorb
+        - web3-bot
+    description: Useful resources for using IPFS and building things on top of it
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - CI
+    topics:
+      - awesome
+      - awesome-ipfs
+      - ipfs
+    visibility: public
+  bbloom:
+    collaborators:
+      push:
+        - web3-bot
+    description: "go/golang: fast bit set Bloom filter "
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+    visibility: public
   benchmarks:
+    collaborators:
+      admin:
+        - alanshaw
+      push:
+        - web3-bot
+    description: Benchmarking for IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Repos - JavaScript
+        - WG Infrastructure
+    visibility: public
   browser-design-guidelines:
+    collaborators:
+      admin:
+        - autonome
+      maintain:
+        - jkosem
+      push:
+        - web3-bot
+    description: Guidelines and recommendations for browser vendor design and
+      implementation of IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - WG Web Browsers
+    topics:
+      - design
+      - design-pa
+      - internet
+      - ipfs-browser
+      - p2p
+      - protocol
+      - research
+      - user-interface
+    visibility: public
   camp:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: 🏕 IPFS Camp is a 3 day hacker retreat designed for the builders of
+      the Distributed Web.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - IPFS Camp 2019 Org Team
+        - comms
+        - community
+      triage:
+        - IPFS Camp 2019 Attendees
+        - IPFS Camp 2019 Trainers
+        - docs
+    visibility: public
   camp.ipfs.io:
+    collaborators:
+      admin:
+        - cwaring
+        - lidel
+        - olizilla
+      push:
+        - web3-bot
+    description: IPFS Camp 2019 Website
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - WG GUI/UX
+        - gui-dev
+    visibility: public
   choco-go-ipfs:
+    description: Automation for publishing go-ipfs releases to Chocolatey
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    visibility: public
   ci-helpers:
+    collaborators:
+      push:
+        - web3-bot
+    description: Helper scripts for C.I.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+    visibility: public
   community:
+    collaborators:
+      push:
+        - web3-bot
+      triage:
+        - leshokunin
+    description: Discussion and documentation on community practices
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - JS Core Team
+        - WG Captains
+        - WG GUI/UX
+        - WG IPFS Cluster
+        - WG Project
+        - WG Web Browsers
+        - community
+        - docs
+        - gui-dev
+      triage:
+        - contributors
+    visibility: public
   devgrants:
+    collaborators:
+      admin:
+        - ErinOCon
+        - autonome
+        - lidel
+        - mishmosh
+        - momack2
+      maintain:
+        - realChainLife
+      push:
+        - web3-bot
+    description: The IPFS Grant platform connects funding organizations with
+      builders and researchers in the IPFS community.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - community
+        - contributors
+    visibility: public
+  dht-node:
+    collaborators:
+      admin:
+        - aschmahmann
+      push:
+        - raulk
+    description: "[ARCHIVED] Run just an ipfs dht node (Or many nodes at once!)"
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+    visibility: public
+  dir-index-html:
+    collaborators:
+      push:
+        - ipfsbot
+        - web3-bot
+    description: Directory listing HTML for go-ipfs gateways
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+        - Repos - JavaScript
+        - WG GUI/UX
+        - gui-dev
+    visibility: public
   distributed-wikipedia-mirror:
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - web3-bot
+    description: Putting Wikipedia Snapshots on IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      pull:
+        - contributors
+    topics:
+      - decentralized
+      - distributed
+      - ipfs
+      - p2p
+      - peer-to-peer
+      - wikipedia
+    visibility: public
   distributions:
+    collaborators:
+      push:
+        - web3-bot
+    description: dist.ipfs.io website and artifact build tools
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   download-ipfs-distribution-action:
+    collaborators:
+      admin:
+        - galargh
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   ecosystem-directory:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - orvn
+      maintain:
+        - D3AS8A
+        - amanda-agency-undone
+        - emilymariahh
+        - svvimming
+        - timelytree
+      push:
+        - web3-bot
+    description: Interactive showcase of projects and products built using IPFS, the
+      InterPlanetary File System.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: develop
+        content: .github/workflows/stale.yml
+    teams:
+      maintain:
+        - website-deployers
+    topics:
+      - decentralized
+      - dweb
+      - ipfs
+      - web3
+    visibility: public
   eslint-config-ipfs:
+    collaborators:
+      admin:
+        - hugomrdias
+      push:
+        - web3-bot
+    description: An ESLint Shareable Config used by IPFS project
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: default
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Repos - JavaScript
+    visibility: public
   fs-repo-migrations:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: Migrations for the filesystem repository of ipfs clients
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   gh-issue-form-test:
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   github-mgmt:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - galargh
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   go-bitfield:
+    collaborators:
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-bitswap:
+    collaborators:
+      push:
+        - web3-bot
+    description: The golang implementation of the bitswap protocol
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-bitswap-priv:
+    collaborators:
+      admin:
+        - Kubuxu
+        - Stebalien
+        - aschmahmann
+        - daviddias
+        - dirkmc
+        - magik6k
+        - vyzo
+        - whyrusleeping
+      push:
+        - adlrocha
+        - web3-bot
+        - yiannisbot
+    description: Private fork of go-bitswap for security changes
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: private
   go-block-format:
+    collaborators:
+      admin:
+        - Stebalien
+        - whyrusleeping
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-blockservice:
+    collaborators:
+      push:
+        - web3-bot
+    description: The go 'blockservice' implementation, combines local and remote
+      storage seamlessly
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-bs-sqlite3:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - raulk
+      push:
+        - web3-bot
+    description: "optimized sqlite3-backed IPFS blockstore "
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-cid:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: Content ID v1 implemented in go
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    topics:
+      - cid
+      - ipld
+      - multiformats
+    visibility: public
   go-cidutil:
+    collaborators:
+      push:
+        - web3-bot
+    description: Utility functions and types for working with CIDs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-dag-store:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    description: A prototype of a diskbased datastore looks up DAG data by selector
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - contributors
+    visibility: private
   go-dagwriter:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-data-transfer-bus:
+    collaborators:
+      admin:
+        - hannahhoward
+    description: Simple event bus for data transfers
+    visibility: public
   go-datastore:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: key-value datastore interfaces
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-delegated-routing:
+    collaborators:
+      push:
+        - web3-bot
+    description: Delegated routing, aka Reframe API, protocol implementation
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    visibility: public
+  go-detect-race:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: detect if compiled with race
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-dnslink:
+    collaborators:
+      admin:
+        - jbenet
+      push:
+        - web3-bot
+    description: dnslink resolution in go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-ds-badger:
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
   go-ds-badger2:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-ds-bench:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - web3-bot
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-bitcask:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - web3-bot
+    description: Experimental datastore implementation using Bitcask
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
+  go-ds-bolt:
+    collaborators:
+      push:
+        - web3-bot
+    description: A wrapper for boltdb that implements jbenet/go-datastore's
+      Datastore interface
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-crdt:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: A distributed go-datastore implementation using Merkle-CRDTs.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+        - WG IPFS Cluster
+    visibility: public
   go-ds-dynamodb:
+    collaborators:
+      admin:
+        - guseggert
+      maintain:
+        - web3-bot
+    description: DynamoDB datastore implementation
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      maintain:
+        - CI
+        - Go Core Team
+    visibility: public
   go-ds-flatfs:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: A datastore implementation using sharded directories and flat files
+      to store data
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-leveldb:
+    collaborators:
+      admin:
+        - whyrusleeping
+      push:
+        - web3-bot
+    description: An implementation of go-datastore using leveldb
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-measure:
+    collaborators:
+      push:
+        - web3-bot
+    description: A datastore implementation that keeps metrics on all calls made
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-pebble:
+    collaborators:
+      admin:
+        - Kubuxu
+        - raulk
+      push:
+        - web3-bot
+    description: A datastore implementation backed by
+      https://github.com/cockroachdb/pebble (experimental)
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   go-ds-redis:
+    collaborators:
+      push:
+        - web3-bot
+    description: A datastore implementation using redis
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-s3:
+    branch_protection:
+      master: {}
+    collaborators:
+      maintain:
+        - MichaelMure
+      push:
+        - web3-bot
+    description: An s3 datastore implementation
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-sql:
+    collaborators:
+      push:
+        - n0izn0iz
+        - web3-bot
+    description: An implementation of ipfs/go-datastore that can be backed by any
+      SQL database.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      pull:
+        - CI
+        - Go Core Team
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-swift:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - web3-bot
+    description: Experimental Swift / Openstack Object Storage datastore
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-fetcher:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    description: Handles IPLD prime graph data retrieval accross IPFS.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-filestore:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-fs-lock:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: Filesystem based locking
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-graphsync:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - dirkmc
+        - hannahhoward
+        - willscott
+      maintain:
+        - davidd8
+      push:
+        - anorth
+        - vmx
+        - web3-bot
+    description: Initial Implementation Of GraphSync Wire Protocol
     files:
-      .github/workflows/stale.yml: {}
-  go-ipfs:
-    files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-hamt-ipld:
+    collaborators:
+      push:
+        - web3-bot
+    description: An implementation of a HAMT using ipld
+    visibility: public
   go-ipfs-api:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: The go interface to ipfs's HTTP API
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-archived:
+    collaborators:
+      push:
+        - web3-bot
+    description: Archived branches of go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: archived/master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-blockstore:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: This module provides a thin wrapper over a datastore and provides
+      caching strategies.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-blocksutil:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: Utility functions for working with Blocks
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-chunker:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: go-ipfs-chunkers provides Splitter implementations for data before
+      being ingested to IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-ipfs-cmdkit:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-cmds:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPFS commands package
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-ipfs-config:
+    collaborators:
+      push:
+        - web3-bot
+    description: "[ARCHIVED] config is now part of go-ipfs repo"
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-delay:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: A module to add (threadsafe) configurable delays to other objects
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-ds-help:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: Utilities for parsing and creating datastore keys used by go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-example-plugin:
+    collaborators:
+      admin:
+        - Stebalien
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-exchange-interface:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: The IPFS Exchange interface
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-exchange-offline:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: An offline IPFS exchange implementation
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-files:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - web3-bot
+    description: File interfaces and utils used in IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-gateway:
+    collaborators:
+      push:
+        - web3-bot
+    description: Go implementation of the HTTP-to-IPFS gateway -- currently lives in go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-http-client:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - web3-bot
+    description: Go-IPFS API implementation over HTTP API
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-keystore:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - Kubuxu
+        - ZenGround0
+        - hsanjuan
+      push:
+        - frrist
+        - web3-bot
+    description: go-ipfs-keystore provides an interface and implementation of key
+      storage for IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-ipfs-pinner:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: "go-ipfs-pinner provides an interface and implementation of a
+      Pinner for IPFS "
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-posinfo:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: Posinfo wraps offset information for ipfs filestore nodes
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-pq:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: A priority queue used by go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-priv:
+    collaborators:
+      admin:
+        - galargh
+      pull:
+        - gmasgras
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - go-ipfs-priv
+    visibility: private
   go-ipfs-provider:
+    branch_protection:
+      remove-ipfs-dep: {}
+    collaborators:
+      admin:
+        - Stebalien
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-regression:
+    collaborators:
+      admin:
+        - petar
+    description: This repo provides definitions of regression statistics produced by
+      IPFS testground experiments
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   go-ipfs-routing:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    description: go-ipfs-routing provides go-libp2p-routing implementations used in go-ipfs.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipfs-util:
+    collaborators:
+      admin:
+        - whyrusleeping
+      push:
+        - web3-bot
+    description: Common utilities used by go-ipfs and other related go packages
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipld-cbor:
+    collaborators:
+      push:
+        - web3-bot
+    description: A cbor implementation of the go-ipld-format
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-ipld-eth:
+    collaborators:
+      admin:
+        - whyrusleeping
+      push:
+        - dryajov
+        - web3-bot
+    description: Plugin of the Go IPFS Client for Ethereum Blockchain IPLD objects
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    topics:
+      - blockchain
+      - eth
+      - ethereum
+      - golang
+      - ipfs
+      - ipld
+      - ipld-eth
+      - plugin
+      - storage
+    visibility: public
   go-ipld-eth-import:
+    collaborators:
+      push:
+        - web3-bot
+    description: ":globe_with_meridians: Bring Ethereum to IPFS :globe_with_meridians:"
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    topics:
+      - ethereum
+      - go
+      - golang
+      - ipfs
+      - ipld
+    visibility: public
   go-ipld-format:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPLD Node and Resolver interfaces in Go
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipld-git:
+    collaborators:
+      push:
+        - web3-bot
+    description: ipld handlers for git objects
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipld-legacy:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    description: A translation layer between go-ipld-prime nodes and go-ipld-format
+      legacy interface
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   go-ipld-zcash:
+    collaborators:
+      push:
+        - arcalinea
+        - web3-bot
+    description: An implementation of the zcash block and transaction datastructures
+      for ipld
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ipns:
+    collaborators:
+      push:
+        - web3-bot
+    description: Utilities for creating, parsing, and validating IPNS records
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-jaeger-plugin:
+    collaborators:
+      push:
+        - frrist
+        - web3-bot
+    description: A Jaeger plugin for IPFS
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-libp2p-dns-router:
+    collaborators:
+      push:
+        - web3-bot
+    description: Under construction /!\
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   go-log:
+    collaborators:
+      push:
+        - web3-bot
+    description: A logging library used by go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-merkledag:
+    collaborators:
+      push:
+        - web3-bot
+    description: The go-ipfs merkledag 'service' implementation
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-metrics-interface:
+    collaborators:
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-metrics-prometheus:
+    collaborators:
+      admin:
+        - Kubuxu
+      push:
+        - web3-bot
+    description: Prometheus bindings for go-metrics-interface
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-mfs:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: An in memory model of a mutable IPFS filesystem
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-namesys:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: go-namesys provides publish and resolution support for the /ipns/
+      namespace in go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-path:
+    collaborators:
+      push:
+        - web3-bot
+    description: Utilities for dealing with ipfs paths
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-peertaskqueue:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    description: A prioritized queue of abstract tasks distributed among peers
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-pinning-service-http-client:
+    collaborators:
+      push:
+        - web3-bot
+    description: An IPFS Pinning Service HTTP Client
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  go-poll-endpoint:
+    collaborators:
+      push:
+        - web3-bot
+    description: Unix util to poll an endpoint
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-qringbuf:
+    collaborators:
+      admin:
+        - ribasushi
+      push:
+        - web3-bot
+    description: An implementation of a Quantized Ring Buffer
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - Merge - Go
+        - Repos - Go
+      push:
+        - Go Core Team
+    visibility: public
+  go-sbs:
+    collaborators:
+      push:
+        - web3-bot
+    description: static block store (very experimental)
+    teams:
+      admin:
+        - admin
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-todocounter:
+    collaborators:
+      push:
+        - web3-bot
+    description: A threadsafe counter
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-unixfs:
+    collaborators:
+      push:
+        - web3-bot
+    description: Implementation of a unix-like filesystem on top of an ipld merkledag
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-unixfsnode:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    description: An ADL IPLD prime node that wraps go-codec-dagpb's implementation
+      of protobuf to enable pathing
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-verifcid:
+    collaborators:
+      push:
+        - web3-bot
+    description: Temporary repo to provide cid security code prior to it getting
+      merged into go-cid
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   gomod:
+    collaborators:
+      admin:
+        - Kubuxu
+      push:
+        - web3-bot
+    description: Tips, tricks and scripts for gomod
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   gs-priv:
+    collaborators:
+      admin:
+        - hannahhoward
+      pull:
+        - jennijuju
+        - ribasushi
+        - rvagg
+    description: private version of go-graphsync
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - Go Core Team
+    visibility: private
+  hang-fds:
+    collaborators:
+      admin:
+        - Kubuxu
+      push:
+        - web3-bot
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   in-web-browsers:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - autonome
+        - lidel
+      push:
+        - hugomrdias
+        - web3-bot
+    description: Tracking the endeavor towards getting web browsers to natively
+      support IPFS.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      pull:
+        - contributors
+      push:
+        - Repos - JavaScript
+        - WG Web Browsers
+    visibility: public
+  infra:
+    collaborators:
+      push:
+        - locotorp
+        - web3-bot
+    description: Tools and systems for the IPFS community
+    teams:
+      admin:
+        - WG Infrastructure
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+    visibility: public
+  interface-datastore:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: datastore interface
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Repos - JavaScript
+    visibility: public
   interface-go-ipfs-core:
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - web3-bot
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   interop:
+    collaborators:
+      push:
+        - web3-bot
+    description: Interoperability tests for IPFS Implementations (on-the-wire interop)
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+        - Repos - JavaScript
+    visibility: public
   ipfs:
+    collaborators:
+      push:
+        - web3-bot
+    description: Peer-to-peer hypermedia protocol
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      pull:
+        - contributors
+      triage:
+        - community
+    topics:
+      - ipfs
+      - ipfs-protocol
+      - ipfs-web
+      - ipld
+      - js-ipfs
+      - multiformats
+      - p2p
+      - paper
+      - protocol
+    visibility: public
   ipfs-blog:
+    branch_protection:
+      staging: {}
+    collaborators:
+      admin:
+        - cwaring
+        - jdiogopeixoto
+      push:
+        - TheDiscordian
+        - emilymvaughan
+        - stan-pl
+        - warpfork
+        - web3-bot
+    description: IPFS Blog & News
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - website-deployers
+    topics:
+      - decentralization
+      - dweb
+      - ipfs
+      - web3
+    visibility: public
   ipfs-companion:
+    branch_protection:
+      legacy-sdk: {}
+      main: {}
+    collaborators:
+      admin:
+        - lidel
+        - olizilla
+      maintain:
+        - meandavejustice
+      push:
+        - web3-bot
+    description: Browser extension that simplifies access to IPFS resources on the web
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - WG GUI/UX
+        - gui-dev
+    topics:
+      - chrome-extension
+      - dweb
+      - firefox-extension
+      - ipfs
+      - ipfs-companion
+      - ipfs-gateway
+      - p2p
+      - protocol
+      - webextension
+    visibility: public
   ipfs-desktop:
+    branch_protection:
+      main: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: "An unobtrusive and user-friendly desktop application for IPFS on
+      Windows, Mac and Linux. "
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - admin
+      push:
+        - WG GUI/UX
+        - gui-dev
+    topics:
+      - desktop
+      - dweb
+      - ipfs
+      - ipfs-desktop
+      - menubar
+      - p2p
+      - protocol
+    visibility: public
   ipfs-docs:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - cwaring
+        - johnnymatthews
+      maintain:
+        - BlocksOnAChain
+        - TheDiscordian
+        - hugomrdias
+        - walkerlj0
+        - yusefnapora
+      push:
+        - Annamarie2019
+        - TMoMoreau
+        - gmasgras
+        - johndmulhausen
+        - web3-bot
+      triage:
+        - thattommyhall
+    description: 📚IPFS documentation platform
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - CI
+        - community
+        - docs
+    topics:
+      - bounties
+      - hacktoberfest
+      - ipfs
+      - ipfs-docs
+    visibility: public
   ipfs-ds-convert:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: Command-line tool for converting datastores (e.g. from FlatFS to Badger)
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
+  ipfs-ds-postgres:
+    collaborators:
+      push:
+        - web3-bot
+    description: 🐘 PostgreSQL datastore for IPFS
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   ipfs-gui:
+    collaborators:
+      push:
+        - web3-bot
+    description: Creating standards and patterns for IPFS that are simple,
+      accessible, reusable, and beautiful
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - WG GUI/UX
+        - admin
+        - gui-dev
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+    visibility: public
   ipfs-project.org:
+    collaborators:
+      admin:
+        - andyschwab
+        - guseggert
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    visibility: public
   ipfs-repository-template:
+    branch_protection:
+      main: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: This is an empty repository template that includes issue templates
+      and license.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    visibility: public
   ipfs-update:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: An updater tool for IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   ipfs-website:
+    collaborators:
+      push:
+        - web3-bot
+    description: Official IPFS Project website
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      maintain:
+        - website-deployers
+    topics:
+      - decentralized
+      - dweb
+      - ipfs
+      - web3
+    visibility: public
   ipfs-webui:
+    collaborators:
+      push:
+        - hugomrdias
+        - ipfsbot
+        - web3-bot
+    description: A frontend for an IPFS node.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      push:
+        - WG GUI/UX
+        - gui-dev
+    topics:
+      - ipfs
+      - javascript
+      - p2p
+      - react
+      - redux
+      - redux-bundler
+    visibility: public
   ipget:
+    collaborators:
+      push:
+        - web3-bot
+    description: Retrieve files over IPFS and save them locally.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   ipld-explorer-components:
+    collaborators:
+      admin:
+        - olizilla
+      push:
+        - alvin-reyes
+        - web3-bot
+    description: React components for https://explore.ipld.io and ipfs-webui
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - WG GUI/UX
+        - gui-dev
+    visibility: public
   iptb:
+    collaborators:
+      push:
+        - web3-bot
+    description: InterPlanetary TestBed 🌌🛌
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Repos - JavaScript
+    visibility: public
   iptb-plugins:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPTB Plugins for IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   js-blockstore-core:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: Contains various implementations of the API contract described in
+      interface-blockstore
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   js-blockstore-datastore-adapter:
+    collaborators:
+      admin:
+        - achingbrain
+    description: A blockstore that uses a datastore for storage
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   js-core:
+    collaborators:
+      admin:
+        - alanshaw
+        - jacobheun
+      push:
+        - dirkmc
+        - vasco-santos
+        - vmx
+        - web3-bot
+    description: 🌟 Entry point for coordination of the JS Core working group members
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - JS Core Team
+    visibility: public
   js-dag-service:
+    branch_protection:
+      default: {}
+    collaborators:
+      admin:
+        - Gozala
+        - carsonfarmer
+        - mikeal
+      push:
+        - andrewxhill
+        - asutula
+        - sanderpick
+        - web3-bot
+    description: Library for storing and replicating hash-linked data over the IPFS network.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: default
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - JS Core Team
+      push:
+        - Repos - JavaScript
+    topics:
+      - dag
+      - decentralized
+      - distributed
+      - ipfs
+      - ipld
+      - p2p
+      - peer-to-peer
+    visibility: public
   js-datastore-core:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: "Contains various implementations of the API contract described in
+      interface-datastore "
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-datastore-fs:
+    collaborators:
+      admin:
+        - achingbrain
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: Datastore implementation with file system backend
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-datastore-idb:
+    collaborators:
+      admin:
+        - achingbrain
+        - hugomrdias
+      push:
+        - web3-bot
+    description: Datastore implementation with IndexedDB backend.
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   js-datastore-level:
+    collaborators:
+      admin:
+        - achingbrain
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: Datastore implementation with level(up/down) backend
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-datastore-pubsub:
+    collaborators:
+      admin:
+        - achingbrain
+        - vasco-santos
+      push:
+        - web3-bot
+    description: Responsible for providing an interface-datastore compliant api
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - Go Core Team
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-datastore-s3:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: Datastore implementation with S3 backend
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-fs-pull-blob-store:
+    collaborators:
+      admin:
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: pull-blob-store implementation for the filesystem in node.js
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-hamt-sharding:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: JavaScript implementation of hash array mapped tries for use in sharding
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - CI
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-idb-pull-blob-store:
+    collaborators:
+      admin:
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: IndexedDB implementation for interface-pull-blob-store
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-ipfs:
+    collaborators:
+      admin:
+        - achingbrain
+        - alanshaw
+        - hugomrdias
+      push:
+        - web3-bot
+    description: IPFS implementation in JavaScript
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+        - WG Infrastructure
+      triage:
+        - Go Core Team
+    topics:
+      - decentralized
+      - distributed
+      - immutable
+      - ipfs
+      - ipld
+      - javascript
+      - js-ipfs
+      - libp2p
+      - p2p
+      - peer-to-peer
+    visibility: public
   js-ipfs-bitswap:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: JavaScript implementation of Bitswap 'data exchange' protocol used by IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
+  js-ipfs-block-service:
+    collaborators:
+      admin:
+        - achingbrain
+        - daviddias
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: JavaScript Implementation of Block and BlockService
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
+  js-ipfs-http-response:
+    collaborators:
+      admin:
+        - achingbrain
+        - vasco-santos
+      push:
+        - web3-bot
+    description: Creates an HTTP response from an IPFS Hash
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      pull:
+        - admin
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-ipfs-interfaces:
+    collaborators:
+      admin:
+        - achingbrain
+    description: TypeScript interfaces used by IPFS internals
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - JS Core Team
+    visibility: public
   js-ipfs-merkle-dag:
+    collaborators:
+      admin:
+        - daviddias
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: "[DEPRECATED]"
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-ipfs-repo:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: Implementation of the IPFS Repo spec in JavaScript
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
+  js-ipfs-repo-migrations:
+    collaborators:
+      admin:
+        - alanshaw
+      push:
+        - AuHau
+        - web3-bot
+    description: Migration framework for versioning of JS IPFS Repo
+    teams:
+      admin:
+        - CI
+      push:
+        - Repos - JavaScript
+    visibility: public
   js-ipfs-unixfs:
+    collaborators:
+      admin:
+        - achingbrain
+        - daviddias
+      push:
+        - ipfsbot
+        - web3-bot
+    description: JavaScript implementation of IPFS' unixfs (a Unix FileSystem
+      representation on top of a MerkleDAG)
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js-ipfs-utils:
+    collaborators:
+      admin:
+        - achingbrain
+      maintain:
+        - hugomrdias
+      push:
+        - web3-bot
+    description: IPFS utils
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - WG Web Browsers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    topics:
+      - ipfs
+    visibility: public
   js-ipfsd-ctl:
+    collaborators:
+      admin:
+        - achingbrain
+        - hugomrdias
+      push:
+        - web3-bot
+    description: Control an IPFS daemon (go-ipfs or js-ipfs) using JavaScript!
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    topics:
+      - ctl
+      - daemon
+      - go-ipfs
+      - ipfs
+      - js-ipfs
+    visibility: public
   js-ipns:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: Utilities for creating, parsing, and validating IPNS records
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+        - admin
+    visibility: public
   js-level-pull-blob-store:
+    collaborators:
+      push:
+        - web3-bot
+    description: Leveldb implementation of interface-pull-blob-store
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+    visibility: public
   js.ipfs.io:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: The Website for the JavaScript implementation of the IPFS protocol
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - CI
+        - JS Core Team
+        - Repos - JavaScript
+        - docs
+    visibility: public
+  kubo:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPFS implementation in Go
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      pull:
+        - contributors
+      push:
+        - Maintainers
+        - Merge - Go
+        - Repos - Go
+    topics:
+      - ipfs
+    visibility: public
+  lightning-storm:
+    collaborators:
+      admin:
+        - hannahhoward
+    description: Just a planning repo for project lightning storm for now
+    visibility: public
   local-offline-collab:
+    collaborators:
+      admin:
+        - momack2
+      push:
+        - terichadbourne
+        - web3-bot
+    description: Local Offline Collaboration Special Interest Group
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   metrics:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Regularly collect and publish metrics about the IPFS ecosystem
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   mobile-design-guidelines:
+    collaborators:
+      admin:
+        - autonome
+      push:
+        - web3-bot
+    description: Making IPFS work for mobile
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    topics:
+      - ipfs
+      - mobile
+      - offline-first
+      - p2p
+    visibility: public
   newsletter:
+    collaborators:
+      push:
+        - eminence
+        - moyid
+        - web3-bot
+    description: Prepare and store the IPFS Newsletter
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - comms
+    visibility: public
   notes:
+    collaborators:
+      push:
+        - jsoares
+        - web3-bot
+        - yiannisbot
+    description: IPFS Collaborative Notebook for Research
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+    visibility: public
   npm-go-ipfs:
+    collaborators:
+      push:
+        - web3-bot
+      triage:
+        - hugomrdias
+    description: install go-ipfs from npm
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      pull:
+        - Go Core Team
+        - JS Core Team
+    visibility: public
   papers:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPFS Papers (not specs)
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  pinbot-irc:
+    collaborators:
+      push:
+        - web3-bot
+    description: a bot for the ipfs irc channel that pins things (among other menial tasks)
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+    visibility: public
   pinning-services-api-spec:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - jacobheun
+        - lidel
+      push:
+        - Gozala
+        - web3-bot
+      triage:
+        - johnnymatthews
+    description: New vendor-agnostic Pinning Service API for IPFS ecosystem
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - wg-pinning-services
+      push:
+        - Go Core Team
+        - JS Core Team
+    topics:
+      - ipfs
+      - pinning
+      - pinning-commands
+      - pinning-services
+    visibility: public
   protons:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: Protocol Buffers for Node.js and the browser without eval
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Repos - JavaScript
+    visibility: public
   public-gateway-checker:
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - jamiew
+        - web3-bot
+    description: Checks which public gateways are online or not
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      pull:
+        - CI
+        - JS Core Team
+        - Repos - JavaScript
+        - WG GUI/UX
+        - WG Web Browsers
+        - comms
+        - gui-dev
+      push:
+        - WG Infrastructure
+    visibility: public
   rainbow:
+    description: "EXPERIMENT: A standalone ipfs gateway"
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   roadmap:
+    collaborators:
+      admin:
+        - dchoi27
+      push:
+        - web3-bot
+    description: IPFS Project && Working Group Roadmaps Repo
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      pull:
+        - contributors
+      push:
+        - WG Captains
+        - community
+    visibility: public
   specs:
+    branch_protection:
+      main: {}
+    collaborators:
+      push:
+        - vmx
+        - web3-bot
+    description: Technical specifications for the IPFS protocol stack
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: main
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Merge - Go
+        - Repos - Go
+        - docs
+      triage:
+        - community
+    visibility: public
   start-ipfs-daemon-action:
+    collaborators:
+      admin:
+        - galargh
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    visibility: public
   tar-utils:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: Utilities for extracting tar files generated by go-ipfs
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   team-mgmt:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPFS Team Planning, Management & Coordination threads
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - JS Core Team
+        - WG Captains
+        - WG GUI/UX
+        - WG Project
+        - WG Web Browsers
+        - community
+        - docs
+        - gui-dev
+      triage:
+        - contributors
+    visibility: public
   test-plans:
+    collaborators:
+      admin:
+        - raulk
+      maintain:
+        - hacdias
+        - nonsense
+      push:
+        - dirkmc
+        - web3-bot
+    description: Testground test plans for IPFS
     files:
-      .github/workflows/stale.yml: {}
+      .github/workflows/stale.yml:
+        branch: master
+        content: .github/workflows/stale.yml
+    teams:
+      maintain:
+        - TestGround
+    visibility: public
+teams:
+  CI:
+    description: continous integration
+    members:
+      member:
+        - ipfsbot
+        - locotorp
+    privacy: closed
+  Go Core Team:
+    description: Members of the core team for Go repositories
+    members:
+      maintainer:
+        - Kubuxu
+        - Stebalien
+        - aschmahmann
+      member:
+        - dirkmc
+        - gammazero
+        - guseggert
+        - hacdias
+        - hannahhoward
+        - magik6k
+        - masih
+        - ribasushi
+        - warpfork
+    privacy: closed
+  IPFS Camp 2019:
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - 1015bit
+        - AquiGorka
+        - AuHau
+        - DrCatman
+        - Gozala
+        - JustMaier
+        - Kubuxu
+        - MAkcanca
+        - MarneeDear
+        - MichaelMure
+        - Schwartz10
+        - ShishKabab
+        - Stebalien
+        - abn
+        - achingbrain
+        - aeddi
+        - aknuds1
+        - akru
+        - alanshaw
+        - alekswn
+        - andrewxhill
+        - angiemaguire
+        - anorth
+        - aschmahmann
+        - autonome
+        - avras
+        - b5
+        - balupton
+        - bigs
+        - bjoyce3
+        - blackforestboi
+        - carsonfarmer
+        - cesarosum
+        - cmk
+        - codynhat
+        - cpacia
+        - cwaring
+        - daijiale
+        - dankelleher
+        - darkdh
+        - dborzov
+        - dignifiedquire
+        - doctorrobinson
+        - dongtianyi
+        - drbh
+        - ec1oud
+        - emerick
+        - enricomarino
+        - eshon
+        - gfanton
+        - glouvigny
+        - gnunicorn
+        - gorhgorh
+        - gpestana
+        - gregdhill
+        - guillemcordoba
+        - hannahhoward
+        - hareeshnagaraj
+        - hinshun
+        - hsanjuan
+        - hugomrdias
+        - ianamunoz
+        - ianopolous
+        - jacobheun
+        - jbenet
+        - jimpick
+        - jkarni
+        - joaosantos15
+        - jonnycrunch
+        - kanej
+        - kinu
+        - koalalorenzo
+        - lidel
+        - listenaddress
+        - litvintech
+        - ma82
+        - mafintosh
+        - maparent
+        - mikeal
+        - momack2
+        - moul
+        - obo20
+        - olizilla
+        - parkan
+        - pepoospina
+        - pooja
+        - ratoshniuk
+        - raulk
+        - requilence
+        - rittme
+        - rklaehn
+        - romaric-juniet
+        - smihaylov
+        - stefanhans
+        - steven004
+        - vojtechsimetka
+        - whyrusleeping
+        - yrliou
+        - zeckli
+    privacy: closed
+  IPFS Camp 2019 Attendees:
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - autonome
+        - daviddias
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - lidel
+        - mikeal
+        - momack2
+        - olizilla
+        - whyrusleeping
+      member:
+        - 1015bit
+        - AquiGorka
+        - AuHau
+        - DrCatman
+        - Gozala
+        - JustMaier
+        - Kubuxu
+        - MAkcanca
+        - MarneeDear
+        - MichaelMure
+        - Schwartz10
+        - ShishKabab
+        - abn
+        - achingbrain
+        - aeddi
+        - aknuds1
+        - akru
+        - alanshaw
+        - alekswn
+        - andrewxhill
+        - angiemaguire
+        - anorth
+        - avras
+        - b5
+        - balupton
+        - bigs
+        - bjoyce3
+        - blackforestboi
+        - carsonfarmer
+        - cesarosum
+        - cmk
+        - codynhat
+        - cpacia
+        - cwaring
+        - daijiale
+        - dankelleher
+        - darkdh
+        - dborzov
+        - dignifiedquire
+        - doctorrobinson
+        - dongtianyi
+        - drbh
+        - ec1oud
+        - emerick
+        - enricomarino
+        - eshon
+        - gfanton
+        - glouvigny
+        - gnunicorn
+        - gorhgorh
+        - gpestana
+        - gregdhill
+        - guillemcordoba
+        - hannahhoward
+        - hareeshnagaraj
+        - hinshun
+        - hugomrdias
+        - ianamunoz
+        - ianopolous
+        - jimpick
+        - jkarni
+        - joaosantos15
+        - jonnycrunch
+        - kanej
+        - kinu
+        - koalalorenzo
+        - listenaddress
+        - litvintech
+        - ma82
+        - mafintosh
+        - maparent
+        - moul
+        - obo20
+        - parkan
+        - pepoospina
+        - pooja
+        - ratoshniuk
+        - raulk
+        - requilence
+        - rittme
+        - rklaehn
+        - romaric-juniet
+        - smihaylov
+        - stefanhans
+        - steven004
+        - vojtechsimetka
+        - yrliou
+        - zeckli
+    parent_team_id: IPFS Camp 2019
+    privacy: closed
+  IPFS Camp 2019 Org Team:
+    description: Organizers & Content DRIs
+    members:
+      maintainer:
+        - autonome
+        - daviddias
+        - momack2
+        - olizilla
+      member:
+        - alanshaw
+        - angiemaguire
+        - cwaring
+        - jamiejn
+        - jimpick
+        - parkan
+    parent_team_id: IPFS Camp 2019
+    privacy: closed
+  IPFS Camp 2019 Trainers:
+    description: The Core & Elective Course Trainers
+    members:
+      maintainer:
+        - Stebalien
+        - autonome
+        - hsanjuan
+        - jacobheun
+        - lidel
+        - mikeal
+        - olizilla
+      member:
+        - Gozala
+        - NukeManDan
+        - achingbrain
+        - alanshaw
+        - andrewxhill
+        - b5
+        - balupton
+        - carsonfarmer
+        - gorhgorh
+        - hugomrdias
+        - jimpick
+        - joaosantos15
+        - kk3wong
+        - obo20
+        - raulk
+        - stefanhans
+    parent_team_id: IPFS Camp 2019
+    privacy: closed
+  IPFS HTTP Client Maintainers:
+    description: The group of folks who maintain the IPFS HTTP Client Libraries
+    members:
+      maintainer:
+        - daviddias
+        - mikeal
+      member:
+        - alanshaw
+        - ferristseng
+        - gkbrk
+        - ntninja
+        - whereswaldon
+    privacy: closed
+  JS Core Team:
+    description: Members of the core team for JS repositories
+    members:
+      maintainer:
+        - alanshaw
+      member:
+        - achingbrain
+        - dirkmc
+        - jimpick
+        - vasco-santos
+    privacy: closed
+  Maintainers:
+    description: People with Maintainer access to all repositories
+    members:
+      maintainer:
+        - BigLep
+        - hsanjuan
+      member:
+        - johnnymatthews
+    privacy: closed
+  Merge - Go:
+    description: Merge permissions to Go repos
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - hsanjuan
+        - jacobheun
+        - whyrusleeping
+      member:
+        - Jorropo
+        - Kubuxu
+        - alanshaw
+        - dirkmc
+        - frrist
+        - hannahhoward
+        - magik6k
+        - marten-seemann
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
+        - willscott
+    parent_team_id: Repos - Go
+    privacy: closed
+  Repos - Go:
+    description: Golang Repos
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - autonome
+        - daviddias
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - lidel
+        - whyrusleeping
+      member:
+        - Jorropo
+        - Kubuxu
+        - aarshkshah1992
+        - achingbrain
+        - adlrocha
+        - alanshaw
+        - anorth
+        - coryschwartz
+        - dchoi27
+        - dignifiedquire
+        - dirkmc
+        - frrist
+        - gammazero
+        - gmasgras
+        - guseggert
+        - hacdias
+        - hannahhoward
+        - iand
+        - ipfsbot
+        - kylehuntsman
+        - magik6k
+        - marten-seemann
+        - masih
+        - petar
+        - raulk
+        - ribasushi
+        - rvagg
+        - schomatis
+        - thattommyhall
+        - travisperson
+        - vyzo
+        - warpfork
+        - willscott
+    privacy: closed
+  Repos - Java:
+    description: Java Java Java
+    members:
+      member:
+        - ianopolous
+    privacy: closed
+  Repos - JavaScript:
+    description: JavaScript IPFS team
+    members:
+      maintainer:
+        - alanshaw
+        - daviddias
+        - jacobheun
+        - jbenet
+        - lidel
+        - mikeal
+        - momack2
+        - olizilla
+      member:
+        - AuHau
+        - Gozala
+        - SgtPooki
+        - achingbrain
+        - adlrocha
+        - dchoi27
+        - dirkmc
+        - hacdias
+        - hugomrdias
+        - ipfsbot
+        - kumavis
+        - magik6k
+        - rvagg
+        - vasco-santos
+        - vmx
+        - yusefnapora
+    privacy: closed
+  Repos - Python:
+    description: python ipfs implementation
+    members:
+      member:
+        - AliabbasMerchant
+        - Seenivasanseeni
+        - ntninja
+    privacy: closed
+  Repos - Rust:
+    members:
+      maintainer:
+        - vmx
+      member:
+        - dignifiedquire
+    privacy: closed
+  Repos - Scala:
+    members:
+      maintainer:
+        - magik6k
+      member:
+        - cboddy
+    privacy: closed
+  Repos - Swift:
+    members:
+      member:
+        - NeoTeo
+    privacy: closed
+  Specs Stewards:
+    description: IPFS Specifications Stewards
+    members:
+      maintainer:
+        - BigLep
+        - Stebalien
+        - aschmahmann
+        - lidel
+      member:
+        - achingbrain
+        - marten-seemann
+        - petar
+    privacy: closed
+  TestGround:
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - hacdias
+        - jimpick
+        - nonsense
+        - raulk
+    privacy: closed
+  WG Captains:
+    description: Captains of the various working groups
+    members:
+      maintainer:
+        - Stebalien
+        - autonome
+        - daviddias
+        - momack2
+        - olizilla
+      member:
+        - alanshaw
+        - raulk
+    privacy: closed
+  WG GUI/UX:
+    description: "The GUI/UX Team - Making IPFS GUIs simple, accessible, reusable
+      and beautiful. "
+    members:
+      maintainer:
+        - autonome
+        - lidel
+        - olizilla
+      member:
+        - SgtPooki
+        - akrych
+        - alanshaw
+        - andyschwab
+        - cwaring
+        - ericronne
+        - hacdias
+    privacy: closed
+  WG IPFS Cluster:
+    description: People that collaborate or is involved in IPFS Cluster
+    members:
+      maintainer:
+        - hsanjuan
+    privacy: closed
+  WG Infrastructure:
+    description: IPFS Infrastructure WG - Maintaining IPFS Infrastructure since 2014!
+    members:
+      maintainer:
+        - gmasgras
+        - hsanjuan
+        - olizilla
+      member:
+        - stongo
+        - thattommyhall
+    privacy: closed
+  WG Project:
+    description: Project Working Group
+    members:
+      maintainer:
+        - daviddias
+        - momack2
+      member:
+        - parkan
+    privacy: closed
+  WG Web Browsers:
+    description: Geting IPFS in a browser next to you
+    members:
+      maintainer:
+        - autonome
+        - lidel
+      member:
+        - Gozala
+        - hugomrdias
+    privacy: closed
+  admin:
+    description: Admin Access to all repos, for CI etc
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - daviddias
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - momack2
+        - olizilla
+        - whyrusleeping
+      member:
+        - Kubuxu
+        - achingbrain
+        - alanshaw
+        - arajasek
+        - marten-seemann
+    privacy: closed
+  comms:
+    description: Communications
+    members:
+      maintainer:
+        - autonome
+        - mikeal
+        - momack2
+      member:
+        - jesseclay
+        - mishmosh
+    privacy: closed
+  community:
+    description: Community managers, community engineers, and other people that need
+      write privs.
+    members:
+      maintainer:
+        - TheDiscordian
+        - autonome
+        - mishmosh
+    privacy: closed
+  contributors:
+    members:
+      maintainer:
+        - BigLep
+        - Stebalien
+        - aschmahmann
+        - autonome
+        - jacobheun
+        - jbenet
+        - mikeal
+        - momack2
+        - olizilla
+        - whyrusleeping
+      member:
+        - AdamStone
+        - BrendanBenshoof
+        - JGAntunes
+        - JonKrone
+        - Luzifer
+        - MichaelMure
+        - Mr0grog
+        - NeoTeo
+        - Robmat05
+        - SidHarder
+        - TheDiscordian
+        - Wondertan
+        - achingbrain
+        - adlrocha
+        - akrych
+        - alanshaw
+        - angiemaguire
+        - b5
+        - bigs
+        - cleichner
+        - coryschwartz
+        - dchoi27
+        - dignifiedquire
+        - dirkmc
+        - dryajov
+        - dylanPowers
+        - ericronne
+        - fbaiodias
+        - flyingzumwalt
+        - gavinmcdermott
+        - gpestana
+        - haadcode
+        - hacdias
+        - hannahhoward
+        - harlantwood
+        - hosh
+        - hugomrdias
+        - ianopolous
+        - jesseclay
+        - jimpick
+        - johnnymatthews
+        - jonnycrunch
+        - jsoares
+        - keks
+        - krl
+        - litzenberger
+        - magik6k
+        - marcooliveira
+        - marten-seemann
+        - mcollina
+        - mildred
+        - mishmosh
+        - miyazono
+        - nicola
+        - nunofmn
+        - parkan
+        - petar
+        - richardschneider
+        - schomatis
+        - sericaia
+        - travisperson
+        - tv42
+        - vasco-santos
+        - wanderer
+        - warpfork
+        - yangwao
+        - yiannisbot
+        - yunigraham
+        - yusefnapora
+    privacy: closed
+  devgrants:
+    members:
+      maintainer:
+        - parkan
+    privacy: secret
+  docs:
+    description: We take care of tooling and processes for documentation
+    members:
+      maintainer:
+        - cwaring
+        - lidel
+      member:
+        - achingbrain
+        - ericronne
+        - johnnymatthews
+        - magik6k
+    privacy: closed
+  docs-writers:
+    description: Folks who actively write to the various docs projects across this org.
+    members:
+      maintainer:
+        - johnnymatthews
+      member:
+        - TheDiscordian
+        - yusefnapora
+    privacy: closed
+  go-ipfs release:
+    description: Who may cut a release of go-ipfs
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - lidel
+        - olizilla
+      member:
+        - guseggert
+        - petar
+        - thattommyhall
+    privacy: closed
+  go-ipfs-priv:
+    members:
+      maintainer:
+        - BigLep
+        - Stebalien
+        - aschmahmann
+        - lidel
+        - momack2
+      member:
+        - Jorropo
+        - ajnavarro
+        - guseggert
+    privacy: secret
+  gui-dev:
+    description: GUI Developers and engineers
+    members:
+      maintainer:
+        - SgtPooki
+        - lidel
+      member:
+        - hacdias
+    parent_team_id: WG GUI/UX
+    privacy: closed
+  w3dt-stewards:
+    members:
+      maintainer:
+        - BigLep
+        - Stebalien
+        - aschmahmann
+        - galargh
+        - lidel
+      member:
+        - Jorropo
+        - MarcoPolo
+        - SgtPooki
+        - achingbrain
+        - ajnavarro
+        - guseggert
+        - laurentsenta
+        - marten-seemann
+        - petar
+    privacy: closed
+  website-deployers:
+    description: We can deploy the websites
+    members:
+      maintainer:
+        - autonome
+        - daviddias
+        - jacobheun
+        - lidel
+        - olizilla
+      member:
+        - achingbrain
+        - andyschwab
+        - cwaring
+        - ericronne
+        - hugomrdias
+        - johnnymatthews
+        - raulk
+    privacy: closed
+  wg-pinning-services:
+    description: Special Interest Group interested in generic Pinning Service API ecosystem
+    members:
+      maintainer:
+        - aschmahmann
+        - jacobheun
+        - lidel
+      member:
+        - Gozala
+        - achingbrain
+        - eshon
+        - pooja
+    privacy: closed
