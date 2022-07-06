@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       workspaces:
-        description: Space separated list of workspaces to sync (leave blank to sync all)
+        description: Space separated list of workspaces to clean (leave blank to clean all)
         required: false
       regex:
         description: Regex string to use to find the resources to remove from the state
@@ -15,7 +15,7 @@ on:
         required: false
         default: "true"
       lock:
-        description: Whether to acquire terraform state lock during sync
+        description: Whether to acquire terraform state lock during clean
         required: false
         default: "true"
 
@@ -35,7 +35,7 @@ jobs:
         id: workspaces
         run: |
           if [[ -z '${{ github.event.inputs.workspaces }}' ]]; then
-            workspaces="$(ls github | jq --raw-input '[.]' | jq -sc add)"
+            workspaces="$(ls github | jq --raw-input '[.[0:-4]]' | jq -sc add)"
           else
             workspaces="$(echo '${{ github.event.inputs.workspaces }}' | jq --raw-input 'split(" ")')"
           fi
@@ -73,7 +73,7 @@ jobs:
           terraform_version: 1.1.4
           terraform_wrapper: false
       - name: Initialize terraform
-        run: terraform init
+        run: terraform init -upgrade
         working-directory: terraform
       - name: Select terraform workspace
         run: |
