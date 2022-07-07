@@ -963,6 +963,12 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-badger:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: Datastore implementation using badger as backend.
     teams:
       admin:
         - admin
@@ -972,6 +978,7 @@ repositories:
       push:
         - Merge - Go
         - Repos - Go
+    visibility: public
   go-ds-badger2:
     branch_protection:
       master: {}
