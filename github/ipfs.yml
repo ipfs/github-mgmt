@@ -1296,6 +1296,7 @@ repositories:
         - anorth
         - vmx
         - web3-bot
+        - kylehuntsman
     description: Initial Implementation Of GraphSync Wire Protocol
     files:
       .github/workflows/stale.yml:
