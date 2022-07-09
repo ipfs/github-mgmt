@@ -734,8 +734,11 @@ repositories:
       .github/workflows/stale.yml:
         branch: master
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: >
+          *       @galargh
     teams:
-      triage:
+      maintain:
         - w3dt-stewards
     visibility: public
   go-bitfield:
