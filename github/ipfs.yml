@@ -1406,6 +1406,7 @@ repositories:
         - vmx
         - web3-bot
         - kylehuntsman
+        - elijaharita
     description: Initial Implementation Of GraphSync Wire Protocol
     files:
       .github/workflows/stale.yml:
@@ -2654,6 +2655,7 @@ repositories:
         - stan-pl
         - warpfork
         - web3-bot
+        - 2color
     description: IPFS Blog & News
     files:
       .github/workflows/stale.yml:
@@ -2752,6 +2754,7 @@ repositories:
         - gmasgras
         - johndmulhausen
         - web3-bot
+        - 2color
       triage:
         - thattommyhall
     description: 📚IPFS documentation platform
@@ -2909,6 +2912,7 @@ repositories:
         - hugomrdias
         - ipfsbot
         - web3-bot
+        - ipfs-gui-bot
     description: A frontend for an IPFS node.
     files:
       .github/workflows/stale.yml:
@@ -3901,6 +3905,7 @@ repositories:
         - Merge - Go
         - Repos - Go
         - docs
+        - Specs Stewards
       triage:
         - community
     visibility: public
