@@ -736,7 +736,7 @@ repositories:
         content: .github/workflows/stale.yml
       CODEOWNERS:
         content: >
-          *       @galargh
+          *       @ipfs/ipdx
     teams:
       maintain:
         - w3dt-stewards
