@@ -4750,6 +4750,11 @@ teams:
         - ajnavarro
         - guseggert
     privacy: secret
+  ipdx:
+    maintainer:
+      - galargh
+      - laurentsenta
+    privacy: closed
   gui-dev:
     description: GUI Developers and engineers
     members:
