@@ -2715,6 +2715,8 @@ repositories:
     description: "An unobtrusive and user-friendly desktop application for IPFS on
       Windows, Mac and Linux. "
     files:
+      .github/workflows/auto-project.yml:
+        content: files/.github/workflows/add_issues_to_gui_project.yml
       .github/workflows/stale.yml:
         branch: main
         content: .github/workflows/stale.yml
@@ -4750,13 +4752,6 @@ teams:
         - ajnavarro
         - guseggert
     privacy: secret
-  ipdx:
-    members:
-      maintainer:
-        - galargh
-        - laurentsenta
-    parent_team_id: w3dt-stewards
-    privacy: closed
   gui-dev:
     description: GUI Developers and engineers
     members:
@@ -4766,6 +4761,13 @@ teams:
       member:
         - hacdias
     parent_team_id: WG GUI/UX
+    privacy: closed
+  ipdx:
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   w3dt-stewards:
     members:
