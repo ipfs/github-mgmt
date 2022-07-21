@@ -2717,6 +2717,7 @@ repositories:
     files:
       .github/workflows/auto-project.yml:
         content: files/.github/workflows/add_issues_to_gui_project.yml
+        overwrite_on_create: true
       .github/workflows/stale.yml:
         branch: main
         content: .github/workflows/stale.yml
