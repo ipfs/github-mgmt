@@ -1,6 +1,8 @@
 resource "github_team" "this" {
   lifecycle {
-    ignore_changes = []
+    ignore_changes = [
+      id,
+    ] # including id because the override value cannot be empty
   }
 }
 
