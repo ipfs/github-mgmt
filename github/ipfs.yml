@@ -2656,6 +2656,7 @@ repositories:
         - warpfork
         - web3-bot
         - 2color
+        - mishmosh
     description: IPFS Blog & News
     files:
       .github/workflows/stale.yml:
