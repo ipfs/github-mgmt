@@ -160,7 +160,6 @@ members:
     - laurentsenta
     - leshokunin
     - listenaddress
-    - litvintech
     - litzenberger
     - locotorp
     - ma82
@@ -233,6 +232,7 @@ members:
     - yusefnapora
     - zeckli
     - zignig
+    - cyborgshead
 repositories:
   2022.ipfs.camp:
     collaborators:
@@ -255,6 +255,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -281,6 +282,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   apps:
     collaborators:
@@ -296,6 +298,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -314,6 +317,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -338,6 +342,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -356,6 +361,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -375,6 +381,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -399,6 +406,7 @@ repositories:
       admin:
         - WG Web Browsers
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     topics:
@@ -426,6 +434,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -454,6 +463,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -470,6 +480,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
     visibility: public
   ci-helpers:
     collaborators:
@@ -484,6 +495,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -504,6 +516,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -541,6 +554,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -572,6 +586,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -596,6 +611,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -623,6 +639,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -641,6 +658,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   ecosystem-directory:
     branch_protection:
@@ -665,6 +683,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - website-deployers
     topics:
@@ -688,6 +707,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -708,6 +728,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -723,6 +744,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   github-mgmt:
     branch_protection:
@@ -740,6 +762,7 @@ repositories:
     teams:
       maintain:
         - w3dt-stewards
+        - ipdx
     visibility: public
   go-bitfield:
     collaborators:
@@ -753,6 +776,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       push:
         - Merge - Go
         - Repos - Go
@@ -772,6 +796,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -801,6 +826,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: private
   go-block-format:
     collaborators:
@@ -817,6 +843,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -837,6 +864,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -861,6 +889,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -882,6 +911,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -906,6 +936,7 @@ repositories:
       admin:
         - w3dt-stewards
         - admin
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -927,6 +958,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       pull:
         - contributors
     visibility: private
@@ -943,6 +975,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -971,6 +1004,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -990,6 +1024,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   go-detect-race:
     collaborators:
@@ -1002,6 +1037,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1024,6 +1060,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1041,6 +1078,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1061,6 +1099,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1076,6 +1115,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1097,6 +1137,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -1110,6 +1151,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1134,6 +1176,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1160,6 +1203,7 @@ repositories:
         - CI
         - Go Core Team
         - w3dt-stewards
+        - ipdx
     visibility: public
   go-ds-flatfs:
     branch_protection:
@@ -1177,6 +1221,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1199,6 +1244,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1219,6 +1265,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1242,6 +1289,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   go-ds-redis:
     collaborators:
@@ -1256,6 +1304,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1280,6 +1329,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1302,6 +1352,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       pull:
         - CI
         - Go Core Team
@@ -1323,6 +1374,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1344,6 +1396,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       push:
         - Go Core Team
         - Merge - Go
@@ -1363,6 +1416,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1384,6 +1438,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1415,6 +1470,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1446,6 +1502,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1466,6 +1523,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1489,6 +1547,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1511,6 +1570,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1534,6 +1594,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1570,6 +1631,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1586,6 +1648,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1608,6 +1671,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1630,6 +1694,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1650,6 +1715,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1671,6 +1737,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1693,6 +1760,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1714,6 +1782,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1734,6 +1803,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1755,6 +1825,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1783,6 +1854,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1802,6 +1874,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1823,6 +1896,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1845,6 +1919,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1882,6 +1957,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1915,6 +1991,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1937,6 +2014,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1957,6 +2035,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -1976,6 +2055,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2006,6 +2086,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2031,6 +2112,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2051,6 +2133,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2073,6 +2156,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   go-ipld-zcash:
     collaborators:
@@ -2089,6 +2173,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2109,6 +2194,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2132,6 +2218,11 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-libipfs:
+    collaborators:
+      admin:
+        - guseggert
+    visibility: public
   go-libp2p-dns-router:
     collaborators:
       push:
@@ -2144,6 +2235,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -2160,6 +2252,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2179,6 +2272,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2198,6 +2292,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2220,6 +2315,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2241,6 +2337,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2263,6 +2360,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2283,6 +2381,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2305,6 +2404,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2324,6 +2424,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       push:
         - Merge - Go
         - Repos - Go
@@ -2357,6 +2458,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -2393,6 +2495,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2412,6 +2515,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2434,6 +2538,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2455,6 +2560,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2476,6 +2582,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -2496,6 +2603,7 @@ repositories:
       pull:
         - Go Core Team
         - w3dt-stewards
+        - ipdx
     visibility: private
   hang-fds:
     collaborators:
@@ -2506,6 +2614,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2532,6 +2641,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -2551,8 +2661,14 @@ repositories:
         - WG Infrastructure
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
+    visibility: public
+  integrations:
+    collaborators:
+      maintain:
+        - markg85
     visibility: public
   interface-datastore:
     collaborators:
@@ -2565,6 +2681,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2584,6 +2701,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2604,6 +2722,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2625,6 +2744,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -2664,6 +2784,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       push:
         - website-deployers
     topics:
@@ -2692,6 +2813,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       pull:
         - WG GUI/UX
         - gui-dev
@@ -2721,6 +2843,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       pull:
         - admin
       push:
@@ -2755,6 +2878,7 @@ repositories:
         - johndmulhausen
         - web3-bot
         - 2color
+        - mishmosh
       triage:
         - thattommyhall
     description: 📚IPFS documentation platform
@@ -2765,6 +2889,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2792,6 +2917,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2807,6 +2933,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       push:
         - Merge - Go
         - Repos - Go
@@ -2827,6 +2954,7 @@ repositories:
         - admin
         - gui-dev
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -2842,6 +2970,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   ipfs-repository-template:
     branch_protection:
@@ -2859,6 +2988,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -2877,6 +3007,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2896,6 +3027,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - website-deployers
     topics:
@@ -2922,6 +3054,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       push:
         - WG GUI/UX
         - gui-dev
@@ -2946,6 +3079,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -2967,6 +3101,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       pull:
         - admin
       push:
@@ -2986,6 +3121,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3005,6 +3141,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3026,6 +3163,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   js-blockstore-datastore-adapter:
     collaborators:
@@ -3039,6 +3177,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   js-core:
     collaborators:
@@ -3058,6 +3197,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3084,6 +3224,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       pull:
         - JS Core Team
         - Maintainers
@@ -3114,6 +3255,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3136,6 +3278,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3157,6 +3300,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   js-datastore-level:
     collaborators:
@@ -3174,6 +3318,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3195,6 +3340,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -3218,6 +3364,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3239,6 +3386,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3259,6 +3407,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       pull:
         - CI
         - JS Core Team
@@ -3280,6 +3429,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3303,6 +3453,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3338,6 +3489,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3358,6 +3510,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3375,6 +3528,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -3395,6 +3549,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       push:
         - JS Core Team
     visibility: public
@@ -3414,6 +3569,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3435,6 +3591,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3454,6 +3611,7 @@ repositories:
         - CI
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3477,6 +3635,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3499,6 +3658,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -3526,6 +3686,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3552,6 +3713,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3572,6 +3734,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3593,6 +3756,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3616,6 +3780,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       pull:
         - contributors
       push:
@@ -3646,6 +3811,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -3663,6 +3829,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -3680,6 +3847,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     topics:
@@ -3703,6 +3871,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3723,6 +3892,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
     visibility: public
@@ -3741,6 +3911,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       pull:
         - Go Core Team
         - JS Core Team
@@ -3757,6 +3928,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   pinbot-irc:
     collaborators:
@@ -3767,6 +3939,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3792,6 +3965,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       pull:
         - wg-pinning-services
       push:
@@ -3818,6 +3992,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3839,6 +4014,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -3874,6 +4050,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       pull:
@@ -3898,6 +4075,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3920,6 +4098,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
     visibility: public
   tar-utils:
     branch_protection:
@@ -3936,6 +4115,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       push:
         - Merge - Go
         - Repos - Go
@@ -3953,6 +4133,7 @@ repositories:
       admin:
         - admin
         - w3dt-stewards
+        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3986,6 +4167,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - ipdx
       maintain:
         - TestGround
     visibility: public
@@ -4094,7 +4276,6 @@ teams:
         - koalalorenzo
         - lidel
         - listenaddress
-        - litvintech
         - ma82
         - mafintosh
         - maparent
@@ -4140,6 +4321,7 @@ teams:
         - vrortvedt
         - waynewyang
         - yunigraham
+        - cyborgshead
     privacy: closed
   IPFS Camp 2019 Attendees:
     members:
@@ -4225,7 +4407,6 @@ teams:
         - kinu
         - koalalorenzo
         - listenaddress
-        - litvintech
         - ma82
         - mafintosh
         - maparent
@@ -4266,6 +4447,7 @@ teams:
         - vasa-develop
         - vrortvedt
         - waynewyang
+        - cyborgshead
     parent_team_id: IPFS Camp 2019
     privacy: closed
   IPFS Camp 2019 Org Team:
@@ -4750,13 +4932,6 @@ teams:
         - ajnavarro
         - guseggert
     privacy: secret
-  ipdx:
-    members:
-      maintainer:
-        - galargh
-        - laurentsenta
-    parent_team_id: w3dt-stewards
-    privacy: closed
   gui-dev:
     description: GUI Developers and engineers
     members:
@@ -4766,6 +4941,14 @@ teams:
       member:
         - hacdias
     parent_team_id: WG GUI/UX
+    privacy: closed
+  ipdx:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   w3dt-stewards:
     members:
