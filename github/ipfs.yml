@@ -2222,6 +2222,8 @@ repositories:
     collaborators:
       admin:
         - guseggert
+      push:
+        - web3-bot
     visibility: public
   go-libp2p-dns-router:
     collaborators:
