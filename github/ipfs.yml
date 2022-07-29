@@ -760,6 +760,8 @@ repositories:
         content: >
           *       @ipfs/ipdx
     teams:
+      push:
+        - Merge - Go
       maintain:
         - w3dt-stewards
         - ipdx
