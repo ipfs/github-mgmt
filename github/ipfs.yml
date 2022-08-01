@@ -1016,6 +1016,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+        - willscott
     description: Delegated routing, aka Reframe API, protocol implementation
     files:
       .github/workflows/stale.yml:
