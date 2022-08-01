@@ -1027,6 +1027,8 @@ repositories:
       admin:
         - w3dt-stewards
         - ipdx
+      push:
+        - Repos - Go
     visibility: public
   go-detect-race:
     collaborators:
