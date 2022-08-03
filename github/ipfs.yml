@@ -19,6 +19,7 @@ members:
     - whyrusleeping
   member:
     - 1015bit
+    - 2color
     - Aaron1011
     - AdamStone
     - AliabbasMerchant
@@ -672,6 +673,7 @@ repositories:
         - emilymariahh
         - svvimming
         - timelytree
+        - 2color
       push:
         - web3-bot
     description: Interactive showcase of projects and products built using IPFS, the
@@ -3024,6 +3026,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+        - 2color
     description: Official IPFS Project website
     files:
       .github/workflows/stale.yml:
