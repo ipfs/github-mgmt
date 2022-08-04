@@ -4962,7 +4962,7 @@ teams:
     privacy: closed
   org-admins: # created as a result of discussion in https://github.com/ipfs/github-mgmt/pull/30 
     create_default_maintainer: false
-    description: Users with access to GitHub Management
+    description: Users that should be allowed to perform any action an org admin can perform
     members:
       member:
         - willscott
