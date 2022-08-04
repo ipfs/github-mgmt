@@ -764,8 +764,10 @@ repositories:
           *       @ipfs/ipdx
     teams:
       maintain:
-        - w3dt-stewards
         - ipdx
+      push:
+        - org-admins
+        - w3dt-stewards # consider removing once org-admins has enough members
     visibility: public
   go-bitfield:
     collaborators:
@@ -4957,6 +4959,13 @@ teams:
         - galargh
         - laurentsenta
     parent_team_id: w3dt-stewards
+    privacy: closed
+  org-admins: # created as a result of discussion in https://github.com/ipfs/github-mgmt/pull/30 
+    create_default_maintainer: false
+    description: Users with access to GitHub Management
+    members:
+      member:
+        - willscott
     privacy: closed
   w3dt-stewards:
     members:
