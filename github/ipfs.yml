@@ -674,6 +674,7 @@ repositories:
         - svvimming
         - timelytree
         - 2color
+        - mishmosh
       push:
         - web3-bot
     description: Interactive showcase of projects and products built using IPFS, the
@@ -3027,6 +3028,7 @@ repositories:
       push:
         - web3-bot
         - 2color
+        - mishmosh
     description: Official IPFS Project website
     files:
       .github/workflows/stale.yml:
