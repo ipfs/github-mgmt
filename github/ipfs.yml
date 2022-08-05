@@ -749,7 +749,7 @@ repositories:
         - w3dt-stewards
         - ipdx
     visibility: public
-  github-mgmt: 
+  github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
