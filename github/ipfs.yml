@@ -749,25 +749,29 @@ repositories:
         - w3dt-stewards
         - ipdx
     visibility: public
-  github-mgmt:
+  github-mgmt: 
+    # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
-    collaborators:
-      admin:
-        - galargh
     files:
       .github/workflows/stale.yml:
         branch: master
         content: .github/workflows/stale.yml
       CODEOWNERS:
         content: >
-          *       @ipfs/ipdx
+          # The ipdx team is responsible for GitHub Management maintenance
+          * @ipfs/ipdx
+
+          # The org-admins team is responsible for triaging/reviewing configuration change requests
+          # TODO: uncomment once org-admins team has enough members
+          # /github/ipfs.yml @ipfs/org-admins
+    # ATTN: do not add teams with push+ access, use org-admins team membership instead
     teams:
       maintain:
         - ipdx
       push:
         - org-admins
-        - w3dt-stewards # consider removing once org-admins has enough members
+        - w3dt-stewards # TODO: remove once org-admins team has enough members
     visibility: public
   go-bitfield:
     collaborators:
@@ -4960,11 +4964,19 @@ teams:
         - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
-  org-admins: # created as a result of discussion in https://github.com/ipfs/github-mgmt/pull/30 
+  # NOTE: created to capture users with push+ access to github-mgmt repository
+  org-admins:
     create_default_maintainer: false
-    description: Users that should be allowed to perform any action an org admin can perform
+    description: Users that are effectively org admins
+    # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+    # ATTN: members are expected to:
+    #  - be familiar with GitHub Management 
+    #  - be ready to triage/review org configuration change request in github-mgmt
     members:
+      maintainer:
+        - biglep
       member:
+        - aschmahmann
         - willscott
     privacy: closed
   w3dt-stewards:
