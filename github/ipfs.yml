@@ -758,7 +758,7 @@ repositories:
         branch: master
         content: .github/workflows/stale.yml
       CODEOWNERS:
-        content: >
+        content: |
           # The ipdx team is responsible for GitHub Management maintenance
           * @ipfs/ipdx
 
