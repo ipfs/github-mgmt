@@ -763,15 +763,14 @@ repositories:
           * @ipfs/ipdx
 
           # The org-admins team is responsible for triaging/reviewing configuration change requests
-          # TODO: uncomment once org-admins team has enough members
-          # /github/ipfs.yml @ipfs/org-admins
+          # The ipdx team is added here temporarily to witness use patterns in github-mgmt
+          /github/ipfs.yml @ipfs/org-admins @ipfs/ipdx
     # ATTN: do not add teams with push+ access, use org-admins team membership instead
     teams:
       maintain:
         - ipdx
       push:
         - org-admins
-        - w3dt-stewards # TODO: remove once org-admins team has enough members
     visibility: public
   go-bitfield:
     collaborators:
@@ -4974,12 +4973,12 @@ teams:
     #  - be ready to triage/review org configuration change request in github-mgmt
     members:
       maintainer:
-        - biglep
-      member:
         - aschmahmann
-        - willscott
+        - biglep
         - lidel
+      member:
         - guseggert
+        - willscott
     privacy: closed
   w3dt-stewards:
     members:
