@@ -250,7 +250,6 @@ repositories:
     description: AEgir - Automated JavaScript project building
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -278,7 +277,6 @@ repositories:
     description: Aegir themes for TypeDoc.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -293,7 +291,6 @@ repositories:
     description: Coordinating writing apps on top of ipfs, and their concerns.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -312,7 +309,6 @@ repositories:
     description: Open-licensed IPFS-related artwork
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -337,7 +333,6 @@ repositories:
     description: Useful resources for using IPFS and building things on top of it
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -377,7 +372,6 @@ repositories:
     description: Benchmarking for IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -401,7 +395,6 @@ repositories:
       implementation of IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -430,7 +423,6 @@ repositories:
       the Distributed Web.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -458,7 +450,6 @@ repositories:
     description: IPFS Camp 2019 Website
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -475,7 +466,6 @@ repositories:
     description: Automation for publishing go-ipfs releases to Chocolatey
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -490,7 +480,6 @@ repositories:
     description: Helper scripts for C.I.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -511,7 +500,6 @@ repositories:
     description: Discussion and documentation on community practices
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -550,7 +538,6 @@ repositories:
       builders and researchers in the IPFS community.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -606,7 +593,6 @@ repositories:
     description: Putting Wikipedia Snapshots on IPFS
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -634,7 +620,6 @@ repositories:
     description: dist.ipfs.io website and artifact build tools
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -654,7 +639,6 @@ repositories:
         - galargh
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -681,7 +665,6 @@ repositories:
       InterPlanetary File System.
     files:
       .github/workflows/stale.yml:
-        branch: develop
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -704,7 +687,6 @@ repositories:
     description: An ESLint Shareable Config used by IPFS project
     files:
       .github/workflows/stale.yml:
-        branch: default
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -725,7 +707,6 @@ repositories:
     description: Migrations for the filesystem repository of ipfs clients
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -742,7 +723,6 @@ repositories:
   gh-issue-form-test:
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -757,7 +737,6 @@ repositories:
         - galargh
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
       CODEOWNERS:
         content: >
@@ -773,7 +752,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -793,7 +771,6 @@ repositories:
     description: The golang implementation of the bitswap protocol
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -824,7 +801,6 @@ repositories:
     description: Private fork of go-bitswap for security changes
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -840,7 +816,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -862,7 +837,6 @@ repositories:
       storage seamlessly
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -886,7 +860,6 @@ repositories:
     description: "optimized sqlite3-backed IPFS blockstore "
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -908,7 +881,6 @@ repositories:
     description: Content ID v1 implemented in go
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -933,7 +905,6 @@ repositories:
     description: Utility functions and types for working with CIDs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -956,7 +927,6 @@ repositories:
     description: A prototype of a diskbased datastore looks up DAG data by selector
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -973,7 +943,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1001,7 +970,6 @@ repositories:
     description: key-value datastore interfaces
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1022,7 +990,6 @@ repositories:
     description: Delegated routing, aka Reframe API, protocol implementation
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1059,7 +1026,6 @@ repositories:
     description: dnslink resolution in go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1098,7 +1064,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1137,7 +1102,6 @@ repositories:
     description: Experimental datastore implementation using Bitcask
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1175,7 +1139,6 @@ repositories:
     description: A distributed go-datastore implementation using Merkle-CRDTs.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1199,7 +1162,6 @@ repositories:
     description: DynamoDB datastore implementation
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1220,7 +1182,6 @@ repositories:
       to store data
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1243,7 +1204,6 @@ repositories:
     description: An implementation of go-datastore using leveldb
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1264,7 +1224,6 @@ repositories:
     description: A datastore implementation that keeps metrics on all calls made
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1289,7 +1248,6 @@ repositories:
       https://github.com/cockroachdb/pebble (experimental)
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1303,7 +1261,6 @@ repositories:
     description: A datastore implementation using redis
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1328,7 +1285,6 @@ repositories:
     description: An s3 datastore implementation
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1351,7 +1307,6 @@ repositories:
       SQL database.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1374,7 +1329,6 @@ repositories:
     description: Experimental Swift / Openstack Object Storage datastore
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1396,7 +1350,6 @@ repositories:
     description: Handles IPLD prime graph data retrieval accross IPFS.
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1415,7 +1368,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1437,7 +1389,6 @@ repositories:
     description: Filesystem based locking
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1470,7 +1421,6 @@ repositories:
     description: Initial Implementation Of GraphSync Wire Protocol
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1501,7 +1451,6 @@ repositories:
     description: The go interface to ipfs's HTTP API
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1522,7 +1471,6 @@ repositories:
     description: Archived branches of go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: archived/master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1546,7 +1494,6 @@ repositories:
       caching strategies.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1569,7 +1516,6 @@ repositories:
     description: Utility functions for working with Blocks
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1593,7 +1539,6 @@ repositories:
       being ingested to IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1630,7 +1575,6 @@ repositories:
     description: IPFS commands package
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1670,7 +1614,6 @@ repositories:
     description: A module to add (threadsafe) configurable delays to other objects
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1693,7 +1636,6 @@ repositories:
     description: Utilities for parsing and creating datastore keys used by go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1715,7 +1657,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1736,7 +1677,6 @@ repositories:
     description: The IPFS Exchange interface
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1759,7 +1699,6 @@ repositories:
     description: An offline IPFS exchange implementation
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1782,7 +1721,6 @@ repositories:
     description: File interfaces and utils used in IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1802,7 +1740,6 @@ repositories:
     description: Go implementation of the HTTP-to-IPFS gateway -- currently lives in go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1825,7 +1762,6 @@ repositories:
     description: Go-IPFS API implementation over HTTP API
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1853,7 +1789,6 @@ repositories:
       storage for IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1895,7 +1830,6 @@ repositories:
     description: Posinfo wraps offset information for ipfs filestore nodes
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1918,7 +1852,6 @@ repositories:
     description: A priority queue used by go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1940,7 +1873,6 @@ repositories:
         - gmasgras
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1956,7 +1888,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -1978,7 +1909,6 @@ repositories:
       IPFS testground experiments
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     visibility: public
   go-ipfs-routing:
@@ -1990,7 +1920,6 @@ repositories:
     description: go-ipfs-routing provides go-libp2p-routing implementations used in go-ipfs.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2013,7 +1942,6 @@ repositories:
     description: Common utilities used by go-ipfs and other related go packages
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2034,7 +1962,6 @@ repositories:
     description: A cbor implementation of the go-ipld-format
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2085,7 +2012,6 @@ repositories:
     description: ":globe_with_meridians: Bring Ethereum to IPFS :globe_with_meridians:"
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2111,7 +2037,6 @@ repositories:
     description: IPLD Node and Resolver interfaces in Go
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2132,7 +2057,6 @@ repositories:
     description: ipld handlers for git objects
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2156,7 +2080,6 @@ repositories:
       legacy interface
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2172,7 +2095,6 @@ repositories:
       for ipld
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2193,7 +2115,6 @@ repositories:
     description: Utilities for creating, parsing, and validating IPNS records
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2237,7 +2158,6 @@ repositories:
     description: Under construction /!\
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2253,7 +2173,6 @@ repositories:
     description: A logging library used by go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2274,7 +2193,6 @@ repositories:
     description: The go-ipfs merkledag 'service' implementation
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2293,7 +2211,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2316,7 +2233,6 @@ repositories:
     description: Prometheus bindings for go-metrics-interface
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2338,7 +2254,6 @@ repositories:
     description: An in memory model of a mutable IPFS filesystem
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2361,7 +2276,6 @@ repositories:
       namespace in go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2382,7 +2296,6 @@ repositories:
     description: Utilities for dealing with ipfs paths
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2405,7 +2318,6 @@ repositories:
     description: A prioritized queue of abstract tasks distributed among peers
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2426,7 +2338,6 @@ repositories:
     description: An IPFS Pinning Service HTTP Client
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2459,7 +2370,6 @@ repositories:
     description: An implementation of a Quantized Ring Buffer
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2496,7 +2406,6 @@ repositories:
     description: A threadsafe counter
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2516,7 +2425,6 @@ repositories:
     description: Implementation of a unix-like filesystem on top of an ipld merkledag
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2540,7 +2448,6 @@ repositories:
       of protobuf to enable pathing
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2561,7 +2468,6 @@ repositories:
       merged into go-cid
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2584,7 +2490,6 @@ repositories:
     description: Tips, tricks and scripts for gomod
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2604,7 +2509,6 @@ repositories:
     description: private version of go-graphsync
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       pull:
@@ -2642,7 +2546,6 @@ repositories:
       support IPFS.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2702,7 +2605,6 @@ repositories:
         - web3-bot
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2723,7 +2625,6 @@ repositories:
     description: Interoperability tests for IPFS Implementations (on-the-wire interop)
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2745,7 +2646,6 @@ repositories:
     description: Peer-to-peer hypermedia protocol
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2787,7 +2687,6 @@ repositories:
     description: IPFS Blog & News
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2816,7 +2715,6 @@ repositories:
     description: Browser extension that simplifies access to IPFS resources on the web
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2846,7 +2744,6 @@ repositories:
       Windows, Mac and Linux. "
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2892,7 +2789,6 @@ repositories:
     description: 📚IPFS documentation platform
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2919,7 +2815,6 @@ repositories:
     description: Command-line tool for converting datastores (e.g. from FlatFS to Badger)
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2954,7 +2849,6 @@ repositories:
       accessible, reusable, and beautiful
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2973,7 +2867,6 @@ repositories:
         - guseggert
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -2990,7 +2883,6 @@ repositories:
       and license.
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3009,7 +2901,6 @@ repositories:
     description: An updater tool for IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3032,7 +2923,6 @@ repositories:
     description: Official IPFS Project website
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3058,7 +2948,6 @@ repositories:
     description: A frontend for an IPFS node.
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3083,7 +2972,6 @@ repositories:
     description: Retrieve files over IPFS and save them locally.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3106,7 +2994,6 @@ repositories:
     description: React components for https://explore.ipld.io and ipfs-webui
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3125,7 +3012,6 @@ repositories:
     description: InterPlanetary TestBed 🌌🛌
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3145,7 +3031,6 @@ repositories:
     description: IPTB Plugins for IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3168,7 +3053,6 @@ repositories:
       interface-blockstore
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3182,7 +3066,6 @@ repositories:
     description: A blockstore that uses a datastore for storage
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3202,7 +3085,6 @@ repositories:
     description: 🌟 Entry point for coordination of the JS Core working group members
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3229,7 +3111,6 @@ repositories:
     description: Library for storing and replicating hash-linked data over the IPFS network.
     files:
       .github/workflows/stale.yml:
-        branch: default
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3259,7 +3140,6 @@ repositories:
       interface-datastore "
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3282,7 +3162,6 @@ repositories:
     description: Datastore implementation with file system backend
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3305,7 +3184,6 @@ repositories:
     description: Datastore implementation with IndexedDB backend.
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3322,7 +3200,6 @@ repositories:
     description: Datastore implementation with level(up/down) backend
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3345,7 +3222,6 @@ repositories:
     description: Responsible for providing an interface-datastore compliant api
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3368,7 +3244,6 @@ repositories:
     description: Datastore implementation with S3 backend
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3390,7 +3265,6 @@ repositories:
     description: pull-blob-store implementation for the filesystem in node.js
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3412,7 +3286,6 @@ repositories:
     description: JavaScript implementation of hash array mapped tries for use in sharding
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3433,7 +3306,6 @@ repositories:
     description: IndexedDB implementation for interface-pull-blob-store
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3457,7 +3329,6 @@ repositories:
     description: IPFS implementation in JavaScript
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3493,7 +3364,6 @@ repositories:
     description: JavaScript implementation of Bitswap 'data exchange' protocol used by IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3554,7 +3424,6 @@ repositories:
     description: TypeScript interfaces used by IPFS internals
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3573,7 +3442,6 @@ repositories:
     description: "[DEPRECATED]"
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3595,7 +3463,6 @@ repositories:
     description: Implementation of the IPFS Repo spec in JavaScript
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3639,7 +3506,6 @@ repositories:
       representation on top of a MerkleDAG)
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3663,7 +3529,6 @@ repositories:
     description: IPFS utils
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3690,7 +3555,6 @@ repositories:
     description: Control an IPFS daemon (go-ipfs or js-ipfs) using JavaScript!
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3718,7 +3582,6 @@ repositories:
     description: Utilities for creating, parsing, and validating IPNS records
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3738,7 +3601,6 @@ repositories:
     description: Leveldb implementation of interface-pull-blob-store
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3760,7 +3622,6 @@ repositories:
     description: The Website for the JavaScript implementation of the IPFS protocol
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3816,7 +3677,6 @@ repositories:
     description: Local Offline Collaboration Special Interest Group
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3834,7 +3694,6 @@ repositories:
     description: Regularly collect and publish metrics about the IPFS ecosystem
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3852,7 +3711,6 @@ repositories:
     description: Making IPFS work for mobile
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3875,7 +3733,6 @@ repositories:
     description: Prepare and store the IPFS Newsletter
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3896,7 +3753,6 @@ repositories:
     description: IPFS Collaborative Notebook for Research
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3915,7 +3771,6 @@ repositories:
     description: install go-ipfs from npm
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3933,7 +3788,6 @@ repositories:
     description: IPFS Papers (not specs)
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3970,7 +3824,6 @@ repositories:
     description: New vendor-agnostic Pinning Service API for IPFS ecosystem
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -3996,7 +3849,6 @@ repositories:
     description: Protocol Buffers for Node.js and the browser without eval
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -4018,7 +3870,6 @@ repositories:
     description: Checks which public gateways are online or not
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -4042,7 +3893,6 @@ repositories:
     description: "EXPERIMENT: A standalone ipfs gateway"
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     visibility: public
   roadmap:
@@ -4054,7 +3904,6 @@ repositories:
     description: IPFS Project && Working Group Roadmaps Repo
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -4079,7 +3928,6 @@ repositories:
     description: Technical specifications for the IPFS protocol stack
     files:
       .github/workflows/stale.yml:
-        branch: main
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -4103,7 +3951,6 @@ repositories:
         - galargh
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -4119,7 +3966,6 @@ repositories:
     description: Utilities for extracting tar files generated by go-ipfs
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -4137,7 +3983,6 @@ repositories:
     description: IPFS Team Planning, Management & Coordination threads
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
@@ -4172,7 +4017,6 @@ repositories:
     description: Testground test plans for IPFS
     files:
       .github/workflows/stale.yml:
-        branch: master
         content: .github/workflows/stale.yml
     teams:
       admin:
