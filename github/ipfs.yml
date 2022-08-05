@@ -766,11 +766,11 @@ repositories:
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/ipfs.yml @ipfs/github-mgmt-stewards @ipfs/ipdx
     teams:
-      # ATTN: do not add teams with push+ access, use org-admins team membership instead
+      # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
         - ipdx # NOTE: ipdx are the creators of GitHub Management framework
       push:
-        - org-admins
+        - github-mgmt stewards
     visibility: public
   go-bitfield:
     collaborators:
@@ -4927,7 +4927,7 @@ teams:
     members:
       # WARN: membership here should be treated exactly as cautiosly as having an org admin role
       # ATTN: members are expected to:
-      #  - be familiar with GitHub Management 
+      #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
         - aschmahmann
