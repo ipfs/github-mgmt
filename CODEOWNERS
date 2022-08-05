@@ -1,1 +1,6 @@
-*       @ipfs/ipdx
+# The ipdx team is responsible for GitHub Management maintenance
+* @ipfs/ipdx
+
+# The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
+# The ipdx team is added here temporarily to witness use patterns in github-mgmt
+/github/ipfs.yml @ipfs/github-mgmt-stewards @ipfs/ipdx

@@ -730,21 +730,26 @@ repositories:
         - ipdx
     visibility: public
   github-mgmt:
+    # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
-    collaborators:
-      admin:
-        - galargh
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
       CODEOWNERS:
-        content: >
-          *       @ipfs/ipdx
+        content: |
+          # The ipdx team is responsible for GitHub Management maintenance
+          * @ipfs/ipdx
+
+          # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
+          # The ipdx team is added here temporarily to witness use patterns in github-mgmt
+          /github/ipfs.yml @ipfs/github-mgmt-stewards @ipfs/ipdx
     teams:
+      # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
-        - w3dt-stewards
-        - ipdx
+        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      push:
+        - github-mgmt stewards
     visibility: public
   go-bitfield:
     collaborators:
@@ -4759,6 +4764,24 @@ teams:
       member:
         - TheDiscordian
         - yusefnapora
+    privacy: closed
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - aschmahmann
+        - biglep
+        - lidel
+      member:
+        - guseggert
+        - willscott
     privacy: closed
   go-ipfs release:
     description: Who may cut a release of go-ipfs
