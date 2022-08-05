@@ -4978,6 +4978,8 @@ teams:
       member:
         - aschmahmann
         - willscott
+        - lidel
+        - guseggert
     privacy: closed
   w3dt-stewards:
     members:
