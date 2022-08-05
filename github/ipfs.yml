@@ -762,13 +762,13 @@ repositories:
           # The ipdx team is responsible for GitHub Management maintenance
           * @ipfs/ipdx
 
-          # The org-admins team is responsible for triaging/reviewing configuration change requests
+          # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
-          /github/ipfs.yml @ipfs/org-admins @ipfs/ipdx
-    # ATTN: do not add teams with push+ access, use org-admins team membership instead
+          /github/ipfs.yml @ipfs/github-mgmt-stewards @ipfs/ipdx
     teams:
+      # ATTN: do not add teams with push+ access, use org-admins team membership instead
       maintain:
-        - ipdx
+        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
       push:
         - org-admins
     visibility: public
@@ -4919,6 +4919,24 @@ teams:
         - TheDiscordian
         - yusefnapora
     privacy: closed
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management 
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - aschmahmann
+        - biglep
+        - lidel
+      member:
+        - guseggert
+        - willscott
+    privacy: closed
   go-ipfs release:
     description: Who may cut a release of go-ipfs
     members:
@@ -4962,23 +4980,6 @@ teams:
         - galargh
         - laurentsenta
     parent_team_id: w3dt-stewards
-    privacy: closed
-  # NOTE: created to capture users with push+ access to github-mgmt repository
-  org-admins:
-    create_default_maintainer: false
-    description: Users that are effectively org admins
-    # WARN: membership here should be treated exactly as cautiosly as having an org admin role
-    # ATTN: members are expected to:
-    #  - be familiar with GitHub Management 
-    #  - be ready to triage/review org configuration change request in github-mgmt
-    members:
-      maintainer:
-        - aschmahmann
-        - biglep
-        - lidel
-      member:
-        - guseggert
-        - willscott
     privacy: closed
   w3dt-stewards:
     members:
