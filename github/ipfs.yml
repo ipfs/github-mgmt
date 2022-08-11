@@ -3333,6 +3333,7 @@ repositories:
         - hugomrdias
       push:
         - web3-bot
+        - 2color
     description: IPFS implementation in JavaScript
     files:
       .github/workflows/stale.yml:
