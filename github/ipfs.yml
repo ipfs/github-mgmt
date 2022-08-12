@@ -4581,6 +4581,7 @@ teams:
         - cwaring
         - ericronne
         - hacdias
+        - 2color
     privacy: closed
   WG IPFS Cluster:
     description: People that collaborate or is involved in IPFS Cluster
