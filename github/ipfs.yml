@@ -4033,6 +4033,32 @@ repositories:
       maintain:
         - TestGround
     visibility: public
+  js-kubo-rpc-client:
+    branch_protection:
+      master: {}
+      release: {}
+      release-*: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: A client library for the Kubo RPC API
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+        - ipdx
+      pull:
+        - contributors
+      push:
+        - Maintainers
+        - Merge - Go
+        - Repos - Go
+    topics:
+      - ipfs
+      - http-client
+      - rpc-client
+      - kubo
+    visibility: public
 teams:
   CI:
     description: continous integration
