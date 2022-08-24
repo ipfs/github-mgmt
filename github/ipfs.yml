@@ -1003,6 +1003,7 @@ repositories:
         - ipdx
       push:
         - Repos - Go
+        - Merge - Go
     visibility: public
   go-detect-race:
     collaborators:
@@ -1661,6 +1662,7 @@ repositories:
         - Stebalien
       push:
         - web3-bot
+    description: Demo plugin for Kubo IPFS daemon
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -2777,14 +2779,13 @@ repositories:
         - cwaring
         - johnnymatthews
       maintain:
-        - BlocksOnAChain
         - TheDiscordian
         - hugomrdias
         - walkerlj0
         - yusefnapora
-        - dannys03
+        - DannyS03
+        - jennijuju
       push:
-        - Annamarie2019
         - TMoMoreau
         - gmasgras
         - johndmulhausen
@@ -3602,6 +3603,32 @@ repositories:
         - Repos - JavaScript
         - admin
     visibility: public
+  js-kubo-rpc-client:
+    branch_protection:
+      master: {}
+      release: {}
+      release-*: {}
+    collaborators:
+      push:
+        - web3-bot
+    description: A client library for the Kubo RPC API
+    teams:
+      admin:
+        - admin
+        - w3dt-stewards
+        - ipdx
+      pull:
+        - contributors
+      push:
+        - Maintainers
+        - Merge - Go
+        - Repos - Go
+    topics:
+      - ipfs
+      - http-client
+      - rpc-client
+      - kubo
+    visibility: public
   js-level-pull-blob-store:
     collaborators:
       push:
@@ -3621,7 +3648,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
-  js.ipfs.io:
+  js.ipfs.tech:
     branch_protection:
       master: {}
     collaborators:
@@ -3631,11 +3658,12 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+        overwrite_on_create: true
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -4032,32 +4060,6 @@ repositories:
         - ipdx
       maintain:
         - TestGround
-    visibility: public
-  js-kubo-rpc-client:
-    branch_protection:
-      master: {}
-      release: {}
-      release-*: {}
-    collaborators:
-      push:
-        - web3-bot
-    description: A client library for the Kubo RPC API
-    teams:
-      admin:
-        - admin
-        - w3dt-stewards
-        - ipdx
-      pull:
-        - contributors
-      push:
-        - Maintainers
-        - Merge - Go
-        - Repos - Go
-    topics:
-      - ipfs
-      - http-client
-      - rpc-client
-      - kubo
     visibility: public
 teams:
   CI:
@@ -4807,8 +4809,8 @@ teams:
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
         - aschmahmann
-        - biglep
         - lidel
+        - BigLep
       member:
         - guseggert
         - willscott
@@ -4903,8 +4905,6 @@ teams:
         - jacobheun
         - lidel
       member:
-        - Gozala
         - achingbrain
-        - eshon
-        - pooja
+        - SgtPooki
     privacy: closed
