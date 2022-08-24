@@ -192,6 +192,7 @@ members:
     - protocollabsit-readonly
     - ratoshniuk
     - raulk
+    - reidlw
     - requilence
     - ribasushi
     - richardschneider
@@ -4876,6 +4877,7 @@ teams:
         - laurentsenta
         - marten-seemann
         - petar
+        - reidlw
     privacy: closed
   website-deployers:
     description: We can deploy the websites
