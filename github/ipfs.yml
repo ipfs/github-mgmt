@@ -192,7 +192,6 @@ members:
     - protocollabsit-readonly
     - ratoshniuk
     - raulk
-    - reidlw
     - requilence
     - ribasushi
     - richardschneider
@@ -747,8 +746,7 @@ repositories:
           /github/ipfs.yml @ipfs/github-mgmt-stewards @ipfs/ipdx
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
-      maintain:
-        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      maintain: []
       push:
         - github-mgmt stewards
     visibility: public
@@ -1003,6 +1001,7 @@ repositories:
         - ipdx
       push:
         - Repos - Go
+        - Merge - Go
     visibility: public
   go-detect-race:
     collaborators:
@@ -1661,6 +1660,7 @@ repositories:
         - Stebalien
       push:
         - web3-bot
+    description: Demo plugin for Kubo IPFS daemon
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -2777,14 +2777,13 @@ repositories:
         - cwaring
         - johnnymatthews
       maintain:
-        - BlocksOnAChain
         - TheDiscordian
         - hugomrdias
         - walkerlj0
         - yusefnapora
-        - dannys03
+        - DannyS03
+        - jennijuju
       push:
-        - Annamarie2019
         - TMoMoreau
         - gmasgras
         - johndmulhausen
@@ -3602,6 +3601,23 @@ repositories:
         - Repos - JavaScript
         - admin
     visibility: public
+  js-kubo-rpc-client:
+    collaborators:
+      admin:
+        - SgtPooki
+      push:
+        - web3-bot
+    description: A client library for the Kubo RPC API
+    teams:
+      admin: []
+      pull: []
+      push: []
+    topics:
+      - http-client
+      - ipfs
+      - kubo
+      - rpc-client
+    visibility: public
   js-level-pull-blob-store:
     collaborators:
       push:
@@ -3621,21 +3637,18 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
-  js.ipfs.io:
+  js.ipfs.tech:
     branch_protection:
       master: {}
     collaborators:
       push:
         - web3-bot
     description: The Website for the JavaScript implementation of the IPFS protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -4032,32 +4045,6 @@ repositories:
         - ipdx
       maintain:
         - TestGround
-    visibility: public
-  js-kubo-rpc-client:
-    branch_protection:
-      master: {}
-      release: {}
-      release-*: {}
-    collaborators:
-      push:
-        - web3-bot
-    description: A client library for the Kubo RPC API
-    teams:
-      admin:
-        - admin
-        - w3dt-stewards
-        - ipdx
-      pull:
-        - contributors
-      push:
-        - Maintainers
-        - Merge - Go
-        - Repos - Go
-    topics:
-      - ipfs
-      - http-client
-      - rpc-client
-      - kubo
     visibility: public
 teams:
   CI:
@@ -4807,8 +4794,8 @@ teams:
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
         - aschmahmann
-        - biglep
         - lidel
+        - BigLep
       member:
         - guseggert
         - willscott
@@ -4875,7 +4862,6 @@ teams:
         - laurentsenta
         - marten-seemann
         - petar
-        - reidlw
     privacy: closed
   website-deployers:
     description: We can deploy the websites
@@ -4903,8 +4889,6 @@ teams:
         - jacobheun
         - lidel
       member:
-        - Gozala
         - achingbrain
-        - eshon
-        - pooja
+        - SgtPooki
     privacy: closed
