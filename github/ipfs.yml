@@ -746,7 +746,8 @@ repositories:
           /github/ipfs.yml @ipfs/github-mgmt-stewards @ipfs/ipdx
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
-      maintain: []
+      maintain:
+        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
       push:
         - github-mgmt stewards
     visibility: public
@@ -3602,21 +3603,30 @@ repositories:
         - admin
     visibility: public
   js-kubo-rpc-client:
+    branch_protection:
+      master: {}
+      release: {}
+      release-*: {}
     collaborators:
-      admin:
-        - SgtPooki
       push:
         - web3-bot
     description: A client library for the Kubo RPC API
     teams:
-      admin: []
-      pull: []
-      push: []
+      admin:
+        - admin
+        - w3dt-stewards
+        - ipdx
+      pull:
+        - contributors
+      push:
+        - Maintainers
+        - Merge - Go
+        - Repos - Go
     topics:
-      - http-client
       - ipfs
-      - kubo
+      - http-client
       - rpc-client
+      - kubo
     visibility: public
   js-level-pull-blob-store:
     collaborators:
@@ -3644,6 +3654,10 @@ repositories:
       push:
         - web3-bot
     description: The Website for the JavaScript implementation of the IPFS protocol
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     teams:
       admin:
         - admin
