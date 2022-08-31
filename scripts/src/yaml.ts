@@ -77,6 +77,7 @@ class Repository {
   @Expose() archive_on_destroy?: boolean
   @Expose() archived?: boolean
   @Expose() auto_init?: boolean
+  @Expose() default_branch?: string
   @Expose() delete_branch_on_merge?: boolean
   @Expose() description?: string
   @Expose() gitignore_template?: string
@@ -431,7 +432,10 @@ export class Config {
     return this
   }
 
-  save(): void {
+  save(sort = true): void {
+    if (sort) {
+      this.sort()
+    }
     fs.writeFileSync(`${env.GITHUB_DIR}/${env.GITHUB_ORG}.yml`, this.toString())
   }
 }

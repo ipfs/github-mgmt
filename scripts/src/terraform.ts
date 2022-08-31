@@ -66,7 +66,7 @@ class DesiredResource extends Resource {
   }
 }
 
-class GithubMembership extends ManagedResource {
+export class GithubMembership extends ManagedResource {
   static yamlPath = ['members', '.+']
   static async getDesiredResources(
     _context: cfg.Config
@@ -92,7 +92,7 @@ class GithubMembership extends ManagedResource {
     )
   }
 }
-class GithubRepository extends ManagedResource {
+export class GithubRepository extends ManagedResource {
   static yamlPath = ['repositories']
   static async getDesiredResources(
     _context: cfg.Config
@@ -135,7 +135,7 @@ class GithubRepository extends ManagedResource {
     )
   }
 }
-class GithubRepositoryCollaborator extends ManagedResource {
+export class GithubRepositoryCollaborator extends ManagedResource {
   static yamlPath = ['repositories', '.+', 'collaborators', '.+']
   static async getDesiredResources(
     _context: cfg.Config
@@ -167,7 +167,7 @@ class GithubRepositoryCollaborator extends ManagedResource {
     )
   }
 }
-class GithubRepositoryFile extends ManagedResource {
+export class GithubRepositoryFile extends ManagedResource {
   static yamlPath = ['repositories', '.+', 'files']
   static async getDesiredResources(
     context: cfg.Config
@@ -225,7 +225,7 @@ class GithubRepositoryFile extends ManagedResource {
     )
   }
 }
-class GithubBranchProtection extends ManagedResource {
+export class GithubBranchProtection extends ManagedResource {
   static yamlPath = ['repositories', '.+', 'branch_protection']
   static async getDesiredResources(
     _context: cfg.Config
@@ -245,15 +245,25 @@ class GithubBranchProtection extends ManagedResource {
   override values!: Identifiable & {
     repository: string
     pattern: string
-    required_pull_request_reviews: {}[] | {}
-    required_status_checks: {}[] | {}
+    required_pull_request_reviews: {}[]
+    required_status_checks: {}[]
   }
   override async getYAMLResource(_context: State): Promise<cfg.Resource> {
-    const values = {...this.values}
-    values.required_pull_request_reviews =
-      (values.required_pull_request_reviews as {}[])[0] || {}
-    values.required_status_checks =
-      (values.required_status_checks as {}[])[0] || {}
+    const values: any = {...this.values} // eslint-disable-line @typescript-eslint/no-explicit-any
+    if (
+      values.required_pull_request_reviews &&
+      values.required_pull_request_reviews.length
+    ) {
+      values.required_pull_request_reviews =
+        values.required_pull_request_reviews[0]
+    } else {
+      delete values.required_pull_request_reviews
+    }
+    if (values.required_status_checks && values.required_status_checks.length) {
+      values.required_status_checks = values.required_status_checks[0]
+    } else {
+      delete values.required_status_checks
+    }
     const value = transformer.plainToClass(cfg.BranchProtection, values, {
       excludeExtraneousValues: true
     })
@@ -267,7 +277,7 @@ class GithubBranchProtection extends ManagedResource {
     )
   }
 }
-class GithubTeam extends ManagedResource {
+export class GithubTeam extends ManagedResource {
   static yamlPath = ['teams']
   static async getDesiredResources(
     _context: cfg.Config
@@ -314,7 +324,7 @@ class GithubTeam extends ManagedResource {
     )
   }
 }
-class GithubTeamMembership extends ManagedResource {
+export class GithubTeamMembership extends ManagedResource {
   static yamlPath = ['teams', '.+', 'members', '.+']
   static async getDesiredResources(
     _context: cfg.Config
@@ -335,12 +345,18 @@ class GithubTeamMembership extends ManagedResource {
   override async getYAMLResource(_context: State): Promise<cfg.Resource> {
     return new cfg.Resource(
       this.type,
-      ['teams', this.index.split(':')[0], 'members', this.values.role],
+      // team names, unlike usernames or repository names, allow : in them
+      [
+        'teams',
+        this.index.split(':').slice(0, -1).join(':'),
+        'members',
+        this.values.role
+      ],
       YAML.parseDocument(this.values.username).contents as YAML.Scalar
     )
   }
 }
-class GithubTeamRepository extends ManagedResource {
+export class GithubTeamRepository extends ManagedResource {
   static yamlPath = ['repositories', '.+', 'teams', '.+']
   static async getDesiredResources(
     _context: cfg.Config
