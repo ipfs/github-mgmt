@@ -32,7 +32,7 @@ async function updatePullRequests() {
     }
 
     try {
-      github.client.pulls.updateBranch({
+      await github.client.pulls.updateBranch({
         ...context.repo,
         pull_number: pull.number
       })
