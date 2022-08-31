@@ -9,7 +9,6 @@
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint **/*.ts",
-    "package": "ncc build --source-map --license licenses.txt",
     "test": "jest --passWithNoTests",
     "all": "npm run build && npm run format && npm run lint && npm test",
     "schema": "npx ts-json-schema-generator --tsconfig tsconfig.json --path src/yaml.ts --type Schema --out ../github/.schema.json",
@@ -18,6 +17,7 @@
   "dependencies": {
     "@actions/core": "^1.9.0",
     "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.0.3",
     "@octokit/auth-app": "^4.0.2",
     "@octokit/graphql": "^4.8.0",
     "@octokit/plugin-retry": "^3.0.9",
