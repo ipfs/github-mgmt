@@ -2,10 +2,9 @@
 
 members:
   admin:
-    - BigLep
-    - Stebalien
     - aschmahmann
     - autonome
+    - BigLep
     - daviddias
     - galargh
     - hsanjuan
@@ -16,45 +15,16 @@ members:
     - momack2
     - olizilla
     - protocollabsit
+    - Stebalien
     - whyrusleeping
   member:
     - 1015bit
     - 2color
     - Aaron1011
-    - AdamStone
-    - AliabbasMerchant
-    - AquiGorka
-    - AuHau
-    - BrendanBenshoof
-    - DrCatman
-    - Gozala
-    - JGAntunes
-    - JonKrone
-    - Jorropo
-    - JulienPalard
-    - JustMaier
-    - Kubuxu
-    - Luzifer
-    - MAkcanca
-    - MarcoPolo
-    - MarneeDear
-    - MichaelMure
-    - Mr0grog
-    - NeoTeo
-    - NukeManDan
-    - Prtfw
-    - RichardLitt
-    - Robmat05
-    - Schwartz10
-    - SgtPooki
-    - ShishKabab
-    - SidHarder
-    - TheDiscordian
-    - Wondertan
-    - ZenGround0
     - aarshkshah1992
     - abn
     - achingbrain
+    - AdamStone
     - adlrocha
     - aeddi
     - ajnavarro
@@ -63,6 +33,7 @@ members:
     - akrych
     - alanshaw
     - alekswn
+    - AliabbasMerchant
     - amstocker
     - andrew
     - andrewxhill
@@ -70,9 +41,11 @@ members:
     - angiemaguire
     - anorth
     - apronkin
+    - AquiGorka
     - arajasek
     - arcalinea
     - arsstone
+    - AuHau
     - avras
     - b5
     - balupton
@@ -80,6 +53,7 @@ members:
     - bjoyce3
     - blackforestboi
     - bmcorser
+    - BrendanBenshoof
     - carsonfarmer
     - cboddy
     - cesarosum
@@ -89,6 +63,7 @@ members:
     - coryschwartz
     - cpacia
     - cwaring
+    - cyborgshead
     - daijiale
     - dankelleher
     - darkdh
@@ -102,6 +77,7 @@ members:
     - doctorrobinson
     - dongtianyi
     - drbh
+    - DrCatman
     - dryajov
     - dylanPowers
     - ec1oud
@@ -121,6 +97,7 @@ members:
     - gmasgras
     - gnunicorn
     - gorhgorh
+    - Gozala
     - gpestana
     - gregdhill
     - guillemcordoba
@@ -142,12 +119,17 @@ members:
     - jbenetsafer
     - jdelgadopin
     - jesseclay
+    - JGAntunes
     - jimpick
     - jkarni
     - joaosantos15
     - johnnymatthews
+    - JonKrone
     - jonnycrunch
+    - Jorropo
     - jsoares
+    - JulienPalard
+    - JustMaier
     - kanej
     - keks
     - kevina
@@ -155,6 +137,7 @@ members:
     - kk3wong
     - koalalorenzo
     - krl
+    - Kubuxu
     - kumavis
     - kylehuntsman
     - laurentsenta
@@ -162,26 +145,34 @@ members:
     - listenaddress
     - litzenberger
     - locotorp
+    - Luzifer
     - ma82
     - mafintosh
     - magik6k
     - magnshen
+    - MAkcanca
     - maparent
     - marcooliveira
+    - MarcoPolo
+    - MarneeDear
     - marten-seemann
     - masih
     - mastercyb
     - mcollina
+    - MichaelMure
     - mildred
     - mishmosh
     - miyazono
     - moeghashim
     - moul
+    - Mr0grog
     - neogeweb3
+    - NeoTeo
     - nginnever
     - nicola
     - nonsense
     - ntninja
+    - NukeManDan
     - nunofmn
     - obo20
     - parkan
@@ -189,18 +180,26 @@ members:
     - petar
     - pooja
     - protocollabsit-readonly
+    - Prtfw
     - ratoshniuk
     - raulk
     - requilence
     - ribasushi
+    - RichardLitt
     - richardschneider
     - rittme
     - rklaehn
+    - Robmat05
     - roignpar
     - romaric-juniet
     - rvagg
     - schomatis
+    - Schwartz10
+    - seeni-dev
     - sericaia
+    - SgtPooki
+    - ShishKabab
+    - SidHarder
     - smihaylov
     - stefanhans
     - steven004
@@ -209,6 +208,7 @@ members:
     - teh-f00l
     - terichadbourne
     - thattommyhall
+    - TheDiscordian
     - travisperson
     - tv42
     - vasa-develop
@@ -225,15 +225,15 @@ members:
     - web3-bot
     - whereswaldon
     - willscott
+    - Wondertan
     - yangwao
     - yiannisbot
     - yrliou
     - yunigraham
     - yusefnapora
     - zeckli
+    - ZenGround0
     - zignig
-    - cyborgshead
-    - seeni-dev
 repositories:
   2019.ipfs.camp:
     collaborators:
@@ -253,8 +253,8 @@ repositories:
       maintain:
         - Maintainers
       push:
-        - WG GUI/UX
         - gui-dev
+        - WG GUI/UX
     visibility: public
   2022.ipfs.camp:
     collaborators:
@@ -263,6 +263,22 @@ repositories:
     default_branch: main
     description: IPFS Camp 2022
     visibility: private
+  aegir-typedoc-theme:
+    collaborators:
+      admin:
+        - hugomrdias
+      push:
+        - web3-bot
+    default_branch: master
+    description: Aegir themes for TypeDoc.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+    visibility: public
   aegir:
     collaborators:
       admin:
@@ -277,8 +293,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -290,22 +306,6 @@ repositories:
       - linting
       - testing
       - typescript
-    visibility: public
-  aegir-typedoc-theme:
-    collaborators:
-      admin:
-        - hugomrdias
-      push:
-        - web3-bot
-    default_branch: master
-    description: Aegir themes for TypeDoc.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - w3dt-stewards
-        - ipdx
     visibility: public
   apps:
     collaborators:
@@ -320,8 +320,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -339,8 +339,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -364,15 +364,15 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
         - CI
     topics:
-      - awesome
       - awesome-ipfs
+      - awesome
       - ipfs
     visibility: public
   bbloom:
@@ -384,8 +384,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -404,8 +404,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -428,14 +428,14 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - WG Web Browsers
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
+        - WG Web Browsers
       maintain:
         - Maintainers
     topics:
-      - design
       - design-pa
+      - design
       - internet
       - ipfs-browser
       - p2p
@@ -457,18 +457,18 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
-        - IPFS Camp 2019 Org Team
         - comms
         - community
+        - IPFS Camp 2019 Org Team
       triage:
+        - docs
         - IPFS Camp 2019 Attendees
         - IPFS Camp 2019 Trainers
-        - docs
     visibility: public
   choco-go-ipfs:
     default_branch: main
@@ -479,8 +479,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   ci-helpers:
     collaborators:
@@ -494,8 +494,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -515,29 +515,29 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
+        - community
+        - docs
         - Go Core Team
+        - gui-dev
         - JS Core Team
         - WG Captains
         - WG GUI/UX
         - WG IPFS Cluster
         - WG Project
         - WG Web Browsers
-        - community
-        - docs
-        - gui-dev
       triage:
         - contributors
     visibility: public
   devgrants:
     collaborators:
       admin:
-        - ErinOCon
         - autonome
+        - ErinOCon
         - lidel
         - mishmosh
         - momack2
@@ -553,8 +553,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -587,16 +587,16 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
+        - gui-dev
         - Merge - Go
         - Repos - Go
         - Repos - JavaScript
         - WG GUI/UX
-        - gui-dev
     visibility: public
   distributed-wikipedia-mirror:
     collaborators:
@@ -612,8 +612,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       pull:
@@ -640,8 +640,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -659,8 +659,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   ecosystem-directory:
     branch_protection:
@@ -669,14 +669,14 @@ repositories:
       admin:
         - orvn
       maintain:
-        - D3AS8A
-        - amanda-agency-undone
-        - emilymariahh
-        - svvimming
-        - timelytree
         - 2color
+        - amanda-agency-undone
+        - D3AS8A
+        - emilymariahh
         - mishmosh
+        - svvimming
         - tikagan
+        - timelytree
       push:
         - web3-bot
     default_branch: develop
@@ -687,8 +687,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - website-deployers
     topics:
@@ -711,8 +711,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -732,8 +732,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -748,8 +748,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
@@ -785,12 +785,37 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-bitswap-priv:
+    collaborators:
+      admin:
+        - aschmahmann
+        - daviddias
+        - dirkmc
+        - Kubuxu
+        - magik6k
+        - Stebalien
+        - vyzo
+        - whyrusleeping
+      push:
+        - adlrocha
+        - web3-bot
+        - yiannisbot
+    default_branch: master
+    description: Private fork of go-bitswap for security changes
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+    visibility: private
   go-bitswap:
     branch_protection:
       master: {}
@@ -805,39 +830,14 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
         - Merge - Go
         - Repos - Go
     visibility: public
-  go-bitswap-priv:
-    collaborators:
-      admin:
-        - Kubuxu
-        - Stebalien
-        - aschmahmann
-        - daviddias
-        - dirkmc
-        - magik6k
-        - vyzo
-        - whyrusleeping
-      push:
-        - adlrocha
-        - web3-bot
-        - yiannisbot
-    default_branch: master
-    description: Private fork of go-bitswap for security changes
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - w3dt-stewards
-        - ipdx
-    visibility: private
   go-block-format:
     collaborators:
       admin:
@@ -852,8 +852,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -873,8 +873,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -898,8 +898,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -920,8 +920,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -944,9 +944,9 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - admin
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -967,8 +967,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - contributors
     visibility: private
@@ -984,8 +984,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1014,8 +1014,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1036,11 +1036,11 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
-        - Repos - Go
         - Merge - Go
+        - Repos - Go
     visibility: public
   go-detect-race:
     collaborators:
@@ -1053,8 +1053,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1076,8 +1076,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1095,8 +1095,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1116,8 +1116,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1133,8 +1133,8 @@ repositories:
     default_branch: master
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1155,8 +1155,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -1170,8 +1170,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1195,8 +1195,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1222,8 +1222,8 @@ repositories:
       maintain:
         - CI
         - Go Core Team
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   go-ds-flatfs:
     branch_protection:
@@ -1240,8 +1240,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1263,8 +1263,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1284,8 +1284,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1308,8 +1308,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   go-ds-redis:
     collaborators:
@@ -1323,8 +1323,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1348,8 +1348,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1371,8 +1371,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - CI
         - Go Core Team
@@ -1393,8 +1393,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1415,8 +1415,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1435,8 +1435,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1457,8 +1457,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1478,10 +1478,10 @@ repositories:
         - davidd8
       push:
         - anorth
+        - elijaharita
+        - kylehuntsman
         - vmx
         - web3-bot
-        - kylehuntsman
-        - elijaharita
     default_branch: main
     description: Initial Implementation Of GraphSync Wire Protocol
     files:
@@ -1489,8 +1489,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1522,8 +1522,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1543,8 +1543,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1567,8 +1567,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1590,8 +1590,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1614,8 +1614,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1652,8 +1652,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1670,8 +1670,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1693,8 +1693,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1716,8 +1716,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1738,8 +1738,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1760,8 +1760,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1783,8 +1783,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1805,8 +1805,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1826,8 +1826,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1848,8 +1848,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1862,9 +1862,9 @@ repositories:
       master: {}
     collaborators:
       admin:
+        - hsanjuan
         - Kubuxu
         - ZenGround0
-        - hsanjuan
       push:
         - frrist
         - web3-bot
@@ -1877,8 +1877,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1898,8 +1898,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1920,8 +1920,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1943,8 +1943,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -1981,8 +1981,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2015,8 +2015,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2038,8 +2038,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2059,45 +2059,14 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
         - Go Core Team
         - Merge - Go
         - Repos - Go
-    visibility: public
-  go-ipld-eth:
-    collaborators:
-      admin:
-        - whyrusleeping
-      push:
-        - dryajov
-        - web3-bot
-    default_branch: master
-    description: Plugin of the Go IPFS Client for Ethereum Blockchain IPLD objects
-    teams:
-      admin:
-        - admin
-        - w3dt-stewards
-        - ipdx
-      maintain:
-        - Maintainers
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    topics:
-      - blockchain
-      - eth
-      - ethereum
-      - golang
-      - ipfs
-      - ipld
-      - ipld-eth
-      - plugin
-      - storage
     visibility: public
   go-ipld-eth-import:
     collaborators:
@@ -2111,8 +2080,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2124,6 +2093,37 @@ repositories:
       - golang
       - ipfs
       - ipld
+    visibility: public
+  go-ipld-eth:
+    collaborators:
+      admin:
+        - whyrusleeping
+      push:
+        - dryajov
+        - web3-bot
+    default_branch: master
+    description: Plugin of the Go IPFS Client for Ethereum Blockchain IPLD objects
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    topics:
+      - blockchain
+      - eth
+      - ethereum
+      - golang
+      - ipfs
+      - ipld-eth
+      - ipld
+      - plugin
+      - storage
     visibility: public
   go-ipld-format:
     collaborators:
@@ -2137,8 +2137,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2158,8 +2158,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2181,8 +2181,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   go-ipld-zcash:
     collaborators:
@@ -2198,8 +2198,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2219,8 +2219,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2264,8 +2264,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -2281,8 +2281,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2301,8 +2301,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2321,8 +2321,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2344,8 +2344,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2366,8 +2366,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2389,8 +2389,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2410,8 +2410,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2433,8 +2433,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2453,8 +2453,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -2488,8 +2488,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       pull:
@@ -2526,8 +2526,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2546,8 +2546,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2569,8 +2569,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2591,8 +2591,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2613,8 +2613,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -2634,8 +2634,8 @@ repositories:
     teams:
       pull:
         - Go Core Team
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: private
   hang-fds:
     collaborators:
@@ -2646,8 +2646,8 @@ repositories:
     default_branch: master
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2673,11 +2673,11 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
-        - Maintainers
         - gui-dev
+        - Maintainers
       pull:
         - contributors
       push:
@@ -2693,10 +2693,10 @@ repositories:
     description: Tools and systems for the IPFS community
     teams:
       admin:
-        - WG Infrastructure
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
+        - WG Infrastructure
       maintain:
         - Maintainers
     visibility: public
@@ -2717,8 +2717,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2737,8 +2737,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2758,8 +2758,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2767,37 +2767,6 @@ repositories:
         - Merge - Go
         - Repos - Go
         - Repos - JavaScript
-    visibility: public
-  ipfs:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Peer-to-peer hypermedia protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - admin
-        - w3dt-stewards
-        - ipdx
-      maintain:
-        - Maintainers
-      pull:
-        - contributors
-      triage:
-        - community
-    topics:
-      - ipfs
-      - ipfs-protocol
-      - ipfs-web
-      - ipld
-      - js-ipfs
-      - multiformats
-      - p2p
-      - paper
-      - protocol
     visibility: public
   ipfs-blog:
     branch_protection:
@@ -2808,13 +2777,13 @@ repositories:
         - cwaring
         - jdiogopeixoto
       push:
-        - TheDiscordian
+        - 2color
         - emilymvaughan
+        - mishmosh
         - stan-pl
+        - TheDiscordian
         - warpfork
         - web3-bot
-        - 2color
-        - mishmosh
     default_branch: main
     description: IPFS Blog & News
     files:
@@ -2822,8 +2791,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
         - website-deployers
     topics:
@@ -2851,18 +2820,18 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
-        - WG GUI/UX
         - gui-dev
+        - WG GUI/UX
     topics:
       - chrome-extension
       - dweb
       - firefox-extension
-      - ipfs
       - ipfs-companion
       - ipfs-gateway
+      - ipfs
       - p2p
       - protocol
       - webextension
@@ -2881,18 +2850,18 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - admin
       push:
-        - WG GUI/UX
         - gui-dev
+        - WG GUI/UX
     topics:
       - desktop
       - dweb
-      - ipfs
       - ipfs-desktop
+      - ipfs
       - menubar
       - p2p
       - protocol
@@ -2905,19 +2874,19 @@ repositories:
         - cwaring
         - johnnymatthews
       maintain:
-        - TheDiscordian
+        - DannyS03
         - hugomrdias
+        - jennijuju
+        - TheDiscordian
         - walkerlj0
         - yusefnapora
-        - DannyS03
-        - jennijuju
       push:
-        - TMoMoreau
+        - 2color
         - gmasgras
         - johndmulhausen
-        - web3-bot
-        - 2color
         - mishmosh
+        - TMoMoreau
+        - web3-bot
       triage:
         - thattommyhall
     default_branch: main
@@ -2927,8 +2896,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2938,8 +2907,8 @@ repositories:
     topics:
       - bounties
       - hacktoberfest
-      - ipfs
       - ipfs-docs
+      - ipfs
     visibility: public
   ipfs-ds-convert:
     branch_protection:
@@ -2955,8 +2924,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2972,8 +2941,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -2990,11 +2959,11 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - WG GUI/UX
         - admin
         - gui-dev
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
+        - WG GUI/UX
       maintain:
         - Maintainers
     visibility: public
@@ -3009,8 +2978,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   ipfs-repository-template:
     branch_protection:
@@ -3027,8 +2996,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -3046,8 +3015,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3058,9 +3027,9 @@ repositories:
   ipfs-website:
     collaborators:
       push:
-        - web3-bot
         - 2color
         - mishmosh
+        - web3-bot
     default_branch: main
     description: Official IPFS Project website
     files:
@@ -3068,8 +3037,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - website-deployers
     topics:
@@ -3084,9 +3053,9 @@ repositories:
     collaborators:
       push:
         - hugomrdias
+        - ipfs-gui-bot
         - ipfsbot
         - web3-bot
-        - ipfs-gui-bot
     default_branch: main
     description: A frontend for an IPFS node.
     files:
@@ -3095,18 +3064,49 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
-        - WG GUI/UX
         - gui-dev
+        - WG GUI/UX
     topics:
       - ipfs
       - javascript
       - p2p
       - react
-      - redux
       - redux-bundler
+      - redux
+    visibility: public
+  ipfs:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Peer-to-peer hypermedia protocol
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      pull:
+        - contributors
+      triage:
+        - community
+    topics:
+      - ipfs-protocol
+      - ipfs-web
+      - ipfs
+      - ipld
+      - js-ipfs
+      - multiformats
+      - p2p
+      - paper
+      - protocol
     visibility: public
   ipget:
     collaborators:
@@ -3120,8 +3120,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3142,33 +3142,13 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - admin
       push:
-        - WG GUI/UX
         - gui-dev
-    visibility: public
-  iptb:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: InterPlanetary TestBed 🌌🛌
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - admin
-        - w3dt-stewards
-        - ipdx
-      maintain:
-        - Maintainers
-      push:
-        - Go Core Team
-        - Repos - JavaScript
+        - WG GUI/UX
     visibility: public
   iptb-plugins:
     collaborators:
@@ -3182,13 +3162,33 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
         - Merge - Go
         - Repos - Go
+    visibility: public
+  iptb:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: InterPlanetary TestBed 🌌🛌
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - Go Core Team
+        - Repos - JavaScript
     visibility: public
   js-blockstore-core:
     collaborators:
@@ -3204,8 +3204,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   js-blockstore-datastore-adapter:
     collaborators:
@@ -3218,8 +3218,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   js-core:
     collaborators:
@@ -3238,8 +3238,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3250,8 +3250,8 @@ repositories:
       default: {}
     collaborators:
       admin:
-        - Gozala
         - carsonfarmer
+        - Gozala
         - mikeal
       push:
         - andrewxhill
@@ -3265,8 +3265,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - JS Core Team
         - Maintainers
@@ -3296,8 +3296,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3319,8 +3319,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3341,8 +3341,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   js-datastore-level:
     collaborators:
@@ -3359,8 +3359,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3381,8 +3381,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       pull:
@@ -3405,8 +3405,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3427,8 +3427,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3448,13 +3448,13 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
+        - admin
         - CI
         - JS Core Team
         - Repos - JavaScript
-        - admin
     visibility: public
   js-idb-pull-blob-store:
     collaborators:
@@ -3470,52 +3470,13 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
         - JS Core Team
         - Repos - JavaScript
-    visibility: public
-  js-ipfs:
-    collaborators:
-      admin:
-        - achingbrain
-        - alanshaw
-        - hugomrdias
-      push:
-        - web3-bot
-        - 2color
-    default_branch: master
-    description: IPFS implementation in JavaScript
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - admin
-        - w3dt-stewards
-        - ipdx
-      maintain:
-        - Maintainers
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-        - WG Infrastructure
-      triage:
-        - Go Core Team
-    topics:
-      - decentralized
-      - distributed
-      - immutable
-      - ipfs
-      - ipld
-      - javascript
-      - js-ipfs
-      - libp2p
-      - p2p
-      - peer-to-peer
     visibility: public
   js-ipfs-bitswap:
     collaborators:
@@ -3531,8 +3492,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3553,8 +3514,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3572,8 +3533,8 @@ repositories:
     description: Creates an HTTP response from an IPFS Hash
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       pull:
@@ -3593,8 +3554,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
         - JS Core Team
     visibility: public
@@ -3613,30 +3574,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
-      maintain:
-        - Maintainers
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
-  js-ipfs-repo:
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: Implementation of the IPFS Repo spec in JavaScript
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - admin
         - w3dt-stewards
-        - ipdx
       maintain:
         - Maintainers
       push:
@@ -3654,13 +3593,35 @@ repositories:
     description: Migration framework for versioning of JS IPFS Repo
     teams:
       admin:
-        - CI
         - admin
-        - w3dt-stewards
+        - CI
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
+        - Repos - JavaScript
+    visibility: public
+  js-ipfs-repo:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    default_branch: master
+    description: Implementation of the IPFS Repo spec in JavaScript
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
         - Repos - JavaScript
     visibility: public
   js-ipfs-unixfs:
@@ -3680,8 +3641,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3703,18 +3664,57 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       pull:
-        - WG Web Browsers
         - admin
+        - WG Web Browsers
       push:
         - JS Core Team
         - Repos - JavaScript
     topics:
       - ipfs
+    visibility: public
+  js-ipfs:
+    collaborators:
+      admin:
+        - achingbrain
+        - alanshaw
+        - hugomrdias
+      push:
+        - 2color
+        - web3-bot
+    default_branch: master
+    description: IPFS implementation in JavaScript
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - JS Core Team
+        - Repos - JavaScript
+        - WG Infrastructure
+      triage:
+        - Go Core Team
+    topics:
+      - decentralized
+      - distributed
+      - immutable
+      - ipfs
+      - ipld
+      - javascript
+      - js-ipfs
+      - libp2p
+      - p2p
+      - peer-to-peer
     visibility: public
   js-ipfsd-ctl:
     collaborators:
@@ -3731,8 +3731,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3758,20 +3758,20 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
+        - admin
         - JS Core Team
         - Repos - JavaScript
-        - admin
     visibility: public
   js-kubo-rpc-client:
     branch_protection:
       master: {}
-      release: {}
       release-*: {}
+      release: {}
     collaborators:
       push:
         - web3-bot
@@ -3780,8 +3780,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - contributors
       push:
@@ -3806,8 +3806,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3834,17 +3834,17 @@ repositories:
         - Maintainers
       push:
         - CI
+        - docs
         - JS Core Team
         - Repos - JavaScript
-        - docs
     visibility: public
   kubo:
     branch_protection:
       bifrost-*: {}
       feat/stabilize-dht: {}
       master: {}
-      release: {}
       release-*: {}
+      release: {}
     collaborators:
       push:
         - web3-bot
@@ -3853,8 +3853,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - contributors
       push:
@@ -3885,8 +3885,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -3903,8 +3903,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -3921,8 +3921,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     topics:
@@ -3945,8 +3945,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -3966,8 +3966,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
     visibility: public
@@ -3985,8 +3985,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - Go Core Team
         - JS Core Team
@@ -4002,8 +4002,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   pinbot-irc:
     collaborators:
@@ -4014,8 +4014,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -4040,8 +4040,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       pull:
         - wg-pinning-services
       push:
@@ -4049,9 +4049,9 @@ repositories:
         - JS Core Team
     topics:
       - ipfs
-      - pinning
       - pinning-commands
       - pinning-services
+      - pinning
     visibility: public
   protons:
     collaborators:
@@ -4067,8 +4067,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -4089,18 +4089,18 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
-        - Maintainers
         - gui-dev
+        - Maintainers
       pull:
         - CI
+        - comms
         - JS Core Team
         - Repos - JavaScript
         - WG GUI/UX
         - WG Web Browsers
-        - comms
       push:
         - WG Infrastructure
     visibility: public
@@ -4125,15 +4125,15 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       pull:
         - contributors
       push:
-        - WG Captains
         - community
+        - WG Captains
     visibility: public
   specs:
     branch_protection:
@@ -4150,15 +4150,15 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
+        - docs
         - JS Core Team
         - Merge - Go
         - Repos - Go
-        - docs
         - Specs Stewards
       triage:
         - community
@@ -4173,8 +4173,8 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
     visibility: public
   tar-utils:
     branch_protection:
@@ -4190,8 +4190,8 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4208,20 +4208,20 @@ repositories:
     teams:
       admin:
         - admin
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
+        - community
+        - docs
         - Go Core Team
+        - gui-dev
         - JS Core Team
         - WG Captains
         - WG GUI/UX
         - WG Project
         - WG Web Browsers
-        - community
-        - docs
-        - gui-dev
       triage:
         - contributors
     visibility: public
@@ -4242,12 +4242,32 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
-        - w3dt-stewards
         - ipdx
+        - w3dt-stewards
       maintain:
         - TestGround
     visibility: public
 teams:
+  admin:
+    description: Admin Access to all repos, for CI etc
+    members:
+      maintainer:
+        - aschmahmann
+        - daviddias
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - momack2
+        - olizilla
+        - Stebalien
+        - whyrusleeping
+      member:
+        - achingbrain
+        - alanshaw
+        - arajasek
+        - Kubuxu
+        - marten-seemann
+    privacy: closed
   CI:
     description: continous integration
     members:
@@ -4255,13 +4275,161 @@ teams:
         - ipfsbot
         - locotorp
     privacy: closed
+  comms:
+    description: Communications
+    members:
+      maintainer:
+        - autonome
+        - mikeal
+        - momack2
+      member:
+        - jesseclay
+        - mishmosh
+    privacy: closed
+  community:
+    description: Community managers, community engineers, and other people that need
+      write privs.
+    members:
+      maintainer:
+        - autonome
+        - mishmosh
+        - TheDiscordian
+    privacy: closed
+  contributors:
+    members:
+      maintainer:
+        - aschmahmann
+        - autonome
+        - BigLep
+        - jacobheun
+        - jbenet
+        - mikeal
+        - momack2
+        - olizilla
+        - Stebalien
+        - whyrusleeping
+      member:
+        - achingbrain
+        - AdamStone
+        - adlrocha
+        - akrych
+        - alanshaw
+        - angiemaguire
+        - b5
+        - bigs
+        - BrendanBenshoof
+        - cleichner
+        - coryschwartz
+        - dchoi27
+        - dignifiedquire
+        - dirkmc
+        - dryajov
+        - dylanPowers
+        - ericronne
+        - fbaiodias
+        - flyingzumwalt
+        - gavinmcdermott
+        - gpestana
+        - haadcode
+        - hacdias
+        - hannahhoward
+        - harlantwood
+        - hosh
+        - hugomrdias
+        - ianopolous
+        - jesseclay
+        - JGAntunes
+        - jimpick
+        - johnnymatthews
+        - JonKrone
+        - jonnycrunch
+        - jsoares
+        - keks
+        - krl
+        - litzenberger
+        - Luzifer
+        - magik6k
+        - marcooliveira
+        - marten-seemann
+        - mcollina
+        - MichaelMure
+        - mildred
+        - mishmosh
+        - miyazono
+        - Mr0grog
+        - NeoTeo
+        - nicola
+        - nunofmn
+        - parkan
+        - petar
+        - richardschneider
+        - Robmat05
+        - schomatis
+        - sericaia
+        - SidHarder
+        - TheDiscordian
+        - travisperson
+        - tv42
+        - vasco-santos
+        - wanderer
+        - warpfork
+        - Wondertan
+        - yangwao
+        - yiannisbot
+        - yunigraham
+        - yusefnapora
+    privacy: closed
+  devgrants:
+    members:
+      maintainer:
+        - parkan
+    privacy: secret
+  docs-writers:
+    description: Folks who actively write to the various docs projects across this org.
+    members:
+      maintainer:
+        - johnnymatthews
+      member:
+        - TheDiscordian
+        - yusefnapora
+    privacy: closed
+  docs:
+    description: We take care of tooling and processes for documentation
+    members:
+      maintainer:
+        - cwaring
+        - lidel
+      member:
+        - achingbrain
+        - ericronne
+        - johnnymatthews
+        - magik6k
+    privacy: closed
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - aschmahmann
+        - BigLep
+        - lidel
+      member:
+        - guseggert
+        - willscott
+    privacy: closed
   Go Core Team:
     description: Members of the core team for Go repositories
     members:
       maintainer:
+        - aschmahmann
         - Kubuxu
         - Stebalien
-        - aschmahmann
       member:
         - dirkmc
         - gammazero
@@ -4273,136 +4441,53 @@ teams:
         - ribasushi
         - warpfork
     privacy: closed
-  IPFS Camp 2019:
+  go-ipfs release:
+    description: Who may cut a release of go-ipfs
     members:
       maintainer:
-        - daviddias
-      member:
-        - 1015bit
-        - AquiGorka
-        - AuHau
-        - DrCatman
-        - Gozala
-        - JustMaier
-        - Kubuxu
-        - MAkcanca
-        - MarneeDear
-        - MichaelMure
-        - Schwartz10
-        - ShishKabab
-        - Stebalien
-        - abn
-        - achingbrain
-        - aeddi
-        - aknuds1
-        - akru
-        - alanshaw
-        - alekswn
-        - andrewxhill
-        - angiemaguire
-        - anorth
         - aschmahmann
-        - autonome
-        - avras
-        - b5
-        - balupton
-        - bigs
-        - bjoyce3
-        - blackforestboi
-        - carsonfarmer
-        - cesarosum
-        - cmk
-        - codynhat
-        - cpacia
-        - cwaring
-        - daijiale
-        - dankelleher
-        - darkdh
-        - dborzov
-        - dignifiedquire
-        - doctorrobinson
-        - dongtianyi
-        - drbh
-        - ec1oud
-        - emerick
-        - enricomarino
-        - eshon
-        - gfanton
-        - glouvigny
-        - gnunicorn
-        - gorhgorh
-        - gpestana
-        - gregdhill
-        - guillemcordoba
-        - hannahhoward
-        - hareeshnagaraj
-        - hinshun
-        - hsanjuan
-        - hugomrdias
-        - ianamunoz
-        - ianopolous
-        - jacobheun
-        - jbenet
-        - jimpick
-        - jkarni
-        - joaosantos15
-        - jonnycrunch
-        - kanej
-        - kinu
-        - koalalorenzo
         - lidel
-        - listenaddress
-        - ma82
-        - mafintosh
-        - maparent
-        - mikeal
-        - momack2
-        - moul
-        - obo20
         - olizilla
-        - parkan
-        - pepoospina
-        - pooja
-        - ratoshniuk
-        - raulk
-        - requilence
-        - rittme
-        - rklaehn
-        - romaric-juniet
-        - smihaylov
-        - stefanhans
-        - steven004
-        - vojtechsimetka
-        - whyrusleeping
-        - yrliou
-        - zeckli
-        - NukeManDan
-        - Prtfw
-        - Wondertan
-        - apronkin
-        - arsstone
-        - deltazxm
-        - jamiejn
-        - janjanovna
-        - jdelgadopin
-        - kk3wong
-        - leshokunin
-        - magnshen
-        - moeghashim
-        - neogeweb3
-        - roignpar
-        - teh-f00l
-        - terichadbourne
-        - vasa-develop
-        - vrortvedt
-        - waynewyang
-        - yunigraham
-        - cyborgshead
+        - Stebalien
+      member:
+        - guseggert
+        - petar
+        - thattommyhall
+    privacy: closed
+  go-ipfs-priv:
+    members:
+      maintainer:
+        - aschmahmann
+        - BigLep
+        - lidel
+        - momack2
+        - Stebalien
+      member:
+        - ajnavarro
+        - guseggert
+        - Jorropo
+    privacy: secret
+  gui-dev:
+    description: GUI Developers and engineers
+    members:
+      maintainer:
+        - lidel
+        - SgtPooki
+      member:
+        - hacdias
+    parent_team_id: WG GUI/UX
+    privacy: closed
+  ipdx:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   IPFS Camp 2019 Attendees:
     members:
       maintainer:
-        - Stebalien
         - aschmahmann
         - autonome
         - daviddias
@@ -4413,21 +4498,11 @@ teams:
         - mikeal
         - momack2
         - olizilla
+        - Stebalien
         - whyrusleeping
         - yunigraham
       member:
         - 1015bit
-        - AquiGorka
-        - AuHau
-        - DrCatman
-        - Gozala
-        - JustMaier
-        - Kubuxu
-        - MAkcanca
-        - MarneeDear
-        - MichaelMure
-        - Schwartz10
-        - ShishKabab
         - abn
         - achingbrain
         - aeddi
@@ -4438,6 +4513,10 @@ teams:
         - andrewxhill
         - angiemaguire
         - anorth
+        - apronkin
+        - AquiGorka
+        - arsstone
+        - AuHau
         - avras
         - b5
         - balupton
@@ -4450,14 +4529,17 @@ teams:
         - codynhat
         - cpacia
         - cwaring
+        - cyborgshead
         - daijiale
         - dankelleher
         - darkdh
         - dborzov
+        - deltazxm
         - dignifiedquire
         - doctorrobinson
         - dongtianyi
         - drbh
+        - DrCatman
         - ec1oud
         - emerick
         - enricomarino
@@ -4466,6 +4548,7 @@ teams:
         - glouvigny
         - gnunicorn
         - gorhgorh
+        - Gozala
         - gpestana
         - gregdhill
         - guillemcordoba
@@ -4475,55 +4558,58 @@ teams:
         - hugomrdias
         - ianamunoz
         - ianopolous
+        - jamiejn
+        - janjanovna
+        - jdelgadopin
         - jimpick
         - jkarni
         - joaosantos15
         - jonnycrunch
+        - JustMaier
         - kanej
         - kinu
+        - kk3wong
         - koalalorenzo
+        - Kubuxu
+        - leshokunin
         - listenaddress
         - ma82
         - mafintosh
+        - magnshen
+        - MAkcanca
         - maparent
+        - MarneeDear
+        - MichaelMure
+        - moeghashim
         - moul
+        - neogeweb3
+        - NukeManDan
         - obo20
         - parkan
         - pepoospina
         - pooja
+        - Prtfw
         - ratoshniuk
         - raulk
         - requilence
         - rittme
         - rklaehn
+        - roignpar
         - romaric-juniet
+        - Schwartz10
+        - ShishKabab
         - smihaylov
         - stefanhans
         - steven004
-        - vojtechsimetka
-        - yrliou
-        - zeckli
-        - NukeManDan
-        - Prtfw
-        - Wondertan
-        - apronkin
-        - arsstone
-        - deltazxm
-        - jamiejn
-        - janjanovna
-        - jdelgadopin
-        - kk3wong
-        - leshokunin
-        - magnshen
-        - moeghashim
-        - neogeweb3
-        - roignpar
         - teh-f00l
         - terichadbourne
         - vasa-develop
+        - vojtechsimetka
         - vrortvedt
         - waynewyang
-        - cyborgshead
+        - Wondertan
+        - yrliou
+        - zeckli
     parent_team_id: IPFS Camp 2019
     privacy: closed
   IPFS Camp 2019 Org Team:
@@ -4547,16 +4633,14 @@ teams:
     description: The Core & Elective Course Trainers
     members:
       maintainer:
-        - Stebalien
         - autonome
         - hsanjuan
         - jacobheun
         - lidel
         - mikeal
         - olizilla
+        - Stebalien
       member:
-        - Gozala
-        - NukeManDan
         - achingbrain
         - alanshaw
         - andrewxhill
@@ -4564,14 +4648,142 @@ teams:
         - balupton
         - carsonfarmer
         - gorhgorh
+        - Gozala
         - hugomrdias
         - jimpick
         - joaosantos15
         - kk3wong
+        - NukeManDan
         - obo20
         - raulk
         - stefanhans
     parent_team_id: IPFS Camp 2019
+    privacy: closed
+  IPFS Camp 2019:
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - 1015bit
+        - abn
+        - achingbrain
+        - aeddi
+        - aknuds1
+        - akru
+        - alanshaw
+        - alekswn
+        - andrewxhill
+        - angiemaguire
+        - anorth
+        - apronkin
+        - AquiGorka
+        - arsstone
+        - aschmahmann
+        - AuHau
+        - autonome
+        - avras
+        - b5
+        - balupton
+        - bigs
+        - bjoyce3
+        - blackforestboi
+        - carsonfarmer
+        - cesarosum
+        - cmk
+        - codynhat
+        - cpacia
+        - cwaring
+        - cyborgshead
+        - daijiale
+        - dankelleher
+        - darkdh
+        - dborzov
+        - deltazxm
+        - dignifiedquire
+        - doctorrobinson
+        - dongtianyi
+        - drbh
+        - DrCatman
+        - ec1oud
+        - emerick
+        - enricomarino
+        - eshon
+        - gfanton
+        - glouvigny
+        - gnunicorn
+        - gorhgorh
+        - Gozala
+        - gpestana
+        - gregdhill
+        - guillemcordoba
+        - hannahhoward
+        - hareeshnagaraj
+        - hinshun
+        - hsanjuan
+        - hugomrdias
+        - ianamunoz
+        - ianopolous
+        - jacobheun
+        - jamiejn
+        - janjanovna
+        - jbenet
+        - jdelgadopin
+        - jimpick
+        - jkarni
+        - joaosantos15
+        - jonnycrunch
+        - JustMaier
+        - kanej
+        - kinu
+        - kk3wong
+        - koalalorenzo
+        - Kubuxu
+        - leshokunin
+        - lidel
+        - listenaddress
+        - ma82
+        - mafintosh
+        - magnshen
+        - MAkcanca
+        - maparent
+        - MarneeDear
+        - MichaelMure
+        - mikeal
+        - moeghashim
+        - momack2
+        - moul
+        - neogeweb3
+        - NukeManDan
+        - obo20
+        - olizilla
+        - parkan
+        - pepoospina
+        - pooja
+        - Prtfw
+        - ratoshniuk
+        - raulk
+        - requilence
+        - rittme
+        - rklaehn
+        - roignpar
+        - romaric-juniet
+        - Schwartz10
+        - ShishKabab
+        - smihaylov
+        - Stebalien
+        - stefanhans
+        - steven004
+        - teh-f00l
+        - terichadbourne
+        - vasa-develop
+        - vojtechsimetka
+        - vrortvedt
+        - waynewyang
+        - whyrusleeping
+        - Wondertan
+        - yrliou
+        - yunigraham
+        - zeckli
     privacy: closed
   IPFS HTTP Client Maintainers:
     description: The group of folks who maintain the IPFS HTTP Client Libraries
@@ -4610,18 +4822,18 @@ teams:
     description: Merge permissions to Go repos
     members:
       maintainer:
-        - Stebalien
         - aschmahmann
         - hsanjuan
         - jacobheun
+        - Stebalien
         - whyrusleeping
       member:
-        - Jorropo
-        - Kubuxu
         - alanshaw
         - dirkmc
         - frrist
         - hannahhoward
+        - Jorropo
+        - Kubuxu
         - magik6k
         - marten-seemann
         - masih
@@ -4636,7 +4848,6 @@ teams:
     description: Golang Repos
     members:
       maintainer:
-        - Stebalien
         - aschmahmann
         - autonome
         - daviddias
@@ -4644,10 +4855,9 @@ teams:
         - jacobheun
         - jbenet
         - lidel
+        - Stebalien
         - whyrusleeping
       member:
-        - Jorropo
-        - Kubuxu
         - aarshkshah1992
         - achingbrain
         - adlrocha
@@ -4665,6 +4875,8 @@ teams:
         - hannahhoward
         - iand
         - ipfsbot
+        - Jorropo
+        - Kubuxu
         - kylehuntsman
         - magik6k
         - marten-seemann
@@ -4699,19 +4911,19 @@ teams:
         - momack2
         - olizilla
       member:
-        - AuHau
-        - Gozala
-        - SgtPooki
         - achingbrain
         - adlrocha
+        - AuHau
         - dchoi27
         - dirkmc
+        - Gozala
         - hacdias
         - hugomrdias
         - ipfsbot
         - kumavis
         - magik6k
         - rvagg
+        - SgtPooki
         - vasco-santos
         - vmx
         - yusefnapora
@@ -4747,10 +4959,10 @@ teams:
     description: IPFS Specifications Stewards
     members:
       maintainer:
-        - BigLep
-        - Stebalien
         - aschmahmann
+        - BigLep
         - lidel
+        - Stebalien
       member:
         - achingbrain
         - marten-seemann
@@ -4766,15 +4978,52 @@ teams:
         - nonsense
         - raulk
     privacy: closed
+  w3dt-stewards:
+    members:
+      maintainer:
+        - aschmahmann
+        - BigLep
+        - galargh
+        - lidel
+        - Stebalien
+      member:
+        - achingbrain
+        - ajnavarro
+        - guseggert
+        - Jorropo
+        - laurentsenta
+        - MarcoPolo
+        - marten-seemann
+        - petar
+        - SgtPooki
+    privacy: closed
+  website-deployers:
+    description: We can deploy the websites
+    members:
+      maintainer:
+        - autonome
+        - daviddias
+        - jacobheun
+        - lidel
+        - olizilla
+      member:
+        - achingbrain
+        - andyschwab
+        - cwaring
+        - ericronne
+        - hugomrdias
+        - johnnymatthews
+        - raulk
+    privacy: closed
   WG Captains:
     description: Captains of the various working groups
     members:
       maintainer:
-        - Stebalien
         - autonome
         - daviddias
         - momack2
         - olizilla
+        - Stebalien
       member:
         - alanshaw
         - raulk
@@ -4788,20 +5037,14 @@ teams:
         - lidel
         - olizilla
       member:
-        - SgtPooki
+        - 2color
         - akrych
         - alanshaw
         - andyschwab
         - cwaring
         - ericronne
         - hacdias
-        - 2color
-    privacy: closed
-  WG IPFS Cluster:
-    description: People that collaborate or is involved in IPFS Cluster
-    members:
-      maintainer:
-        - hsanjuan
+        - SgtPooki
     privacy: closed
   WG Infrastructure:
     description: IPFS Infrastructure WG - Maintaining IPFS Infrastructure since 2014!
@@ -4813,6 +5056,12 @@ teams:
       member:
         - stongo
         - thattommyhall
+    privacy: closed
+  WG IPFS Cluster:
+    description: People that collaborate or is involved in IPFS Cluster
+    members:
+      maintainer:
+        - hsanjuan
     privacy: closed
   WG Project:
     description: Project Working Group
@@ -4832,255 +5081,6 @@ teams:
       member:
         - Gozala
         - hugomrdias
-    privacy: closed
-  admin:
-    description: Admin Access to all repos, for CI etc
-    members:
-      maintainer:
-        - Stebalien
-        - aschmahmann
-        - daviddias
-        - hsanjuan
-        - jacobheun
-        - jbenet
-        - momack2
-        - olizilla
-        - whyrusleeping
-      member:
-        - Kubuxu
-        - achingbrain
-        - alanshaw
-        - arajasek
-        - marten-seemann
-    privacy: closed
-  comms:
-    description: Communications
-    members:
-      maintainer:
-        - autonome
-        - mikeal
-        - momack2
-      member:
-        - jesseclay
-        - mishmosh
-    privacy: closed
-  community:
-    description: Community managers, community engineers, and other people that need
-      write privs.
-    members:
-      maintainer:
-        - TheDiscordian
-        - autonome
-        - mishmosh
-    privacy: closed
-  contributors:
-    members:
-      maintainer:
-        - BigLep
-        - Stebalien
-        - aschmahmann
-        - autonome
-        - jacobheun
-        - jbenet
-        - mikeal
-        - momack2
-        - olizilla
-        - whyrusleeping
-      member:
-        - AdamStone
-        - BrendanBenshoof
-        - JGAntunes
-        - JonKrone
-        - Luzifer
-        - MichaelMure
-        - Mr0grog
-        - NeoTeo
-        - Robmat05
-        - SidHarder
-        - TheDiscordian
-        - Wondertan
-        - achingbrain
-        - adlrocha
-        - akrych
-        - alanshaw
-        - angiemaguire
-        - b5
-        - bigs
-        - cleichner
-        - coryschwartz
-        - dchoi27
-        - dignifiedquire
-        - dirkmc
-        - dryajov
-        - dylanPowers
-        - ericronne
-        - fbaiodias
-        - flyingzumwalt
-        - gavinmcdermott
-        - gpestana
-        - haadcode
-        - hacdias
-        - hannahhoward
-        - harlantwood
-        - hosh
-        - hugomrdias
-        - ianopolous
-        - jesseclay
-        - jimpick
-        - johnnymatthews
-        - jonnycrunch
-        - jsoares
-        - keks
-        - krl
-        - litzenberger
-        - magik6k
-        - marcooliveira
-        - marten-seemann
-        - mcollina
-        - mildred
-        - mishmosh
-        - miyazono
-        - nicola
-        - nunofmn
-        - parkan
-        - petar
-        - richardschneider
-        - schomatis
-        - sericaia
-        - travisperson
-        - tv42
-        - vasco-santos
-        - wanderer
-        - warpfork
-        - yangwao
-        - yiannisbot
-        - yunigraham
-        - yusefnapora
-    privacy: closed
-  devgrants:
-    members:
-      maintainer:
-        - parkan
-    privacy: secret
-  docs:
-    description: We take care of tooling and processes for documentation
-    members:
-      maintainer:
-        - cwaring
-        - lidel
-      member:
-        - achingbrain
-        - ericronne
-        - johnnymatthews
-        - magik6k
-    privacy: closed
-  docs-writers:
-    description: Folks who actively write to the various docs projects across this org.
-    members:
-      maintainer:
-        - johnnymatthews
-      member:
-        - TheDiscordian
-        - yusefnapora
-    privacy: closed
-  github-mgmt stewards:
-    # NOTE: created to capture users with push+ access to github-mgmt repository
-    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
-    description: Users that are effectively org admins
-    members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
-      # ATTN: members are expected to:
-      #  - be familiar with GitHub Management
-      #  - be ready to triage/review org configuration change request in github-mgmt
-      maintainer:
-        - aschmahmann
-        - lidel
-        - BigLep
-      member:
-        - guseggert
-        - willscott
-    privacy: closed
-  go-ipfs release:
-    description: Who may cut a release of go-ipfs
-    members:
-      maintainer:
-        - Stebalien
-        - aschmahmann
-        - lidel
-        - olizilla
-      member:
-        - guseggert
-        - petar
-        - thattommyhall
-    privacy: closed
-  go-ipfs-priv:
-    members:
-      maintainer:
-        - BigLep
-        - Stebalien
-        - aschmahmann
-        - lidel
-        - momack2
-      member:
-        - Jorropo
-        - ajnavarro
-        - guseggert
-    privacy: secret
-  gui-dev:
-    description: GUI Developers and engineers
-    members:
-      maintainer:
-        - SgtPooki
-        - lidel
-      member:
-        - hacdias
-    parent_team_id: WG GUI/UX
-    privacy: closed
-  ipdx:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - galargh
-        - laurentsenta
-    parent_team_id: w3dt-stewards
-    privacy: closed
-  w3dt-stewards:
-    members:
-      maintainer:
-        - BigLep
-        - Stebalien
-        - aschmahmann
-        - galargh
-        - lidel
-      member:
-        - Jorropo
-        - MarcoPolo
-        - SgtPooki
-        - achingbrain
-        - ajnavarro
-        - guseggert
-        - laurentsenta
-        - marten-seemann
-        - petar
-    privacy: closed
-  website-deployers:
-    description: We can deploy the websites
-    members:
-      maintainer:
-        - autonome
-        - daviddias
-        - jacobheun
-        - lidel
-        - olizilla
-      member:
-        - achingbrain
-        - andyschwab
-        - cwaring
-        - ericronne
-        - hugomrdias
-        - johnnymatthews
-        - raulk
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
