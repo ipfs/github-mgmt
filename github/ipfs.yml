@@ -235,6 +235,27 @@ members:
     - cyborgshead
     - seeni-dev
 repositories:
+  2019.ipfs.camp:
+    collaborators:
+      admin:
+        - cwaring
+        - lidel
+        - olizilla
+      push:
+        - web3-bot
+    default_branch: master
+    description: IPFS Camp 2019 Website
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      push:
+        - WG GUI/UX
+        - gui-dev
+    visibility: public
   2022.ipfs.camp:
     collaborators:
       admin:
@@ -449,30 +470,6 @@ repositories:
         - IPFS Camp 2019 Trainers
         - docs
     visibility: public
-  camp.ipfs.io:
-    collaborators:
-      admin:
-        - cwaring
-        - lidel
-        - olizilla
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Camp 2019 Website
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - admin
-        - w3dt-stewards
-        - ipdx
-      maintain:
-        - Maintainers
-      push:
-        - WG GUI/UX
-        - gui-dev
-    visibility: public
   choco-go-ipfs:
     default_branch: main
     description: Automation for publishing go-ipfs releases to Chocolatey
@@ -679,6 +676,7 @@ repositories:
         - timelytree
         - 2color
         - mishmosh
+        - tikagan
       push:
         - web3-bot
     default_branch: develop
@@ -2679,6 +2677,7 @@ repositories:
         - ipdx
       maintain:
         - Maintainers
+        - gui-dev
       pull:
         - contributors
       push:
@@ -4094,6 +4093,7 @@ repositories:
         - ipdx
       maintain:
         - Maintainers
+        - gui-dev
       pull:
         - CI
         - JS Core Team
@@ -4101,7 +4101,6 @@ repositories:
         - WG GUI/UX
         - WG Web Browsers
         - comms
-        - gui-dev
       push:
         - WG Infrastructure
     visibility: public
