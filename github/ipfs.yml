@@ -379,7 +379,6 @@ repositories:
       - awesome-list
       - awesome
       - ipfs
-      - awesome-list
       - ipfs-gui
     visibility: public
   bbloom:
@@ -3097,6 +3096,7 @@ repositories:
       - react
       - redux-bundler
       - redux
+      - ipfs-gui
     visibility: public
   ipfs:
     collaborators:
@@ -3171,6 +3171,9 @@ repositories:
       push:
         - gui-dev
         - WG GUI/UX
+    topics:
+      - ipfs
+      - ipfs-gui
     visibility: public
   iptb-plugins:
     collaborators:
