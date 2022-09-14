@@ -355,11 +355,11 @@ repositories:
         - hacdias
         - lidel
       push:
+        - ipfs-gui-bot
         - koalalorenzo
         - parkan
         - victorb
         - web3-bot
-        - ipfs-gui-bot
     default_branch: master
     description: Useful resources for using IPFS and building things on top of it
     files:
@@ -378,8 +378,8 @@ repositories:
       - awesome-ipfs
       - awesome-list
       - awesome
-      - ipfs
       - ipfs-gui
+      - ipfs
     visibility: public
   bbloom:
     collaborators:
@@ -637,8 +637,8 @@ repositories:
       master: {}
     collaborators:
       push:
-        - web3-bot
         - ipfs-gui-bot
+        - web3-bot
     default_branch: master
     description: dist.ipfs.io website and artifact build tools
     files:
@@ -2671,8 +2671,8 @@ repositories:
         - lidel
       push:
         - hugomrdias
-        - web3-bot
         - ipfs-gui-bot
+        - web3-bot
     default_branch: master
     description: Tracking the endeavor towards getting web browsers to natively
       support IPFS.
@@ -2693,8 +2693,8 @@ repositories:
         - Repos - JavaScript
         - WG Web Browsers
     topics:
-      - ipfs
       - ipfs-gui
+      - ipfs
     visibility: public
   infra:
     collaborators:
@@ -2824,8 +2824,8 @@ repositories:
       maintain:
         - meandavejustice
       push:
-        - web3-bot
         - ipfs-gui-bot
+        - web3-bot
     default_branch: main
     description: Browser extension that simplifies access to IPFS resources on the web
     files:
@@ -2844,19 +2844,19 @@ repositories:
       - firefox-extension
       - ipfs-companion
       - ipfs-gateway
+      - ipfs-gui
       - ipfs
       - p2p
       - protocol
       - webextension
-      - ipfs-gui
     visibility: public
   ipfs-desktop:
     branch_protection:
       main: {}
     collaborators:
       push:
-        - web3-bot
         - ipfs-gui-bot
+        - web3-bot
     default_branch: main
     description: "An unobtrusive and user-friendly desktop application for IPFS on
       Windows, Mac and Linux. "
@@ -2876,11 +2876,11 @@ repositories:
       - desktop
       - dweb
       - ipfs-desktop
+      - ipfs-gui
       - ipfs
       - menubar
       - p2p
       - protocol
-      - ipfs-gui
     visibility: public
   ipfs-docs:
     branch_protection:
@@ -2966,8 +2966,8 @@ repositories:
   ipfs-gui:
     collaborators:
       push:
-        - web3-bot
         - ipfs-gui-bot
+        - web3-bot
     default_branch: main
     description: Creating standards and patterns for IPFS that are simple,
       accessible, reusable, and beautiful
@@ -2984,8 +2984,8 @@ repositories:
       maintain:
         - Maintainers
     topics:
-      - ipfs
       - ipfs-gui
+      - ipfs
     visibility: public
   ipfs-project.org:
     collaborators:
@@ -3090,13 +3090,13 @@ repositories:
         - gui-dev
         - WG GUI/UX
     topics:
+      - ipfs-gui
       - ipfs
       - javascript
       - p2p
       - react
       - redux-bundler
       - redux
-      - ipfs-gui
     visibility: public
   ipfs:
     collaborators:
@@ -3155,8 +3155,8 @@ repositories:
         - olizilla
       push:
         - alvin-reyes
-        - web3-bot
         - ipfs-gui-bot
+        - web3-bot
     default_branch: master
     description: React components for https://explore.ipld.io and ipfs-webui
     files:
@@ -3172,8 +3172,8 @@ repositories:
         - gui-dev
         - WG GUI/UX
     topics:
-      - ipfs
       - ipfs-gui
+      - ipfs
     visibility: public
   iptb-plugins:
     collaborators:
@@ -4104,9 +4104,9 @@ repositories:
       admin:
         - lidel
       push:
+        - ipfs-gui-bot
         - jamiew
         - web3-bot
-        - ipfs-gui-bot
     default_branch: master
     description: Checks which public gateways are online or not
     files:
@@ -4130,8 +4130,8 @@ repositories:
       push:
         - WG Infrastructure
     topics:
-      - ipfs
       - ipfs-gui
+      - ipfs
     visibility: public
   rainbow:
     default_branch: master
