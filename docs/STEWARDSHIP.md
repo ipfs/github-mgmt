@@ -23,7 +23,6 @@ Membership in the `github-mgmt stewards` team should be treated with **exactly a
 - Verify that the plan posted as a comment introduces **only** the changes you expect
 - Check if there are any open PRs created by the `Sync` workflow (titles starting with `sync`) and merge them first if there are
 - Ask the author of the pull request to provide more context if needed
-- Do **not** update the pull request yourself - let the `Update` workflow do it
 - Merge the pull request if everything checks out and verify that the `Apply` workflow initiated by the merge succeeded
 
 ## How to become a GitHub Management Steward?
