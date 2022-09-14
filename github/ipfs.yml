@@ -255,6 +255,9 @@ repositories:
       push:
         - gui-dev
         - WG GUI/UX
+    topics:
+      - conference
+      - ipfs
     visibility: public
   2022.ipfs.camp:
     collaborators:
@@ -372,6 +375,7 @@ repositories:
         - CI
     topics:
       - awesome-ipfs
+      - awesome-list
       - awesome
       - ipfs
     visibility: public
@@ -643,6 +647,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       maintain:
+        - gui-dev
         - Maintainers
       push:
         - Go Core Team
