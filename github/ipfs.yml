@@ -2080,21 +2080,20 @@ repositories:
     visibility: public
   go-ipfs-redirects-file:
     archived: false
+    branch_protection:
+      main: {}
     collaborators:
       admin:
         - lidel
-      maintain:
-        - justincjohnson
       push:
+        - justincjohnson
         - web3-bot
     default_branch: main
     description: IPFS Web Gateway _redirects file format parser
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       pull:
         - admin
+        - ipdx
         - w3dt-stewards
     visibility: public
   go-ipfs-regression:
