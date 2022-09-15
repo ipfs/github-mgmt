@@ -236,6 +236,7 @@ members:
     - zignig
 repositories:
   2019.ipfs.camp:
+    archived: false
     collaborators:
       admin:
         - cwaring
@@ -260,6 +261,7 @@ repositories:
       - ipfs
     visibility: public
   2022.ipfs.camp:
+    archived: false
     collaborators:
       admin:
         - cwaring
@@ -267,6 +269,7 @@ repositories:
     description: IPFS Camp 2022
     visibility: private
   aegir-typedoc-theme:
+    archived: false
     collaborators:
       admin:
         - hugomrdias
@@ -283,6 +286,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   aegir:
+    archived: false
     collaborators:
       admin:
         - hugomrdias
@@ -311,6 +315,7 @@ repositories:
       - typescript
     visibility: public
   apps:
+    archived: false
     collaborators:
       push:
         - davidar
@@ -329,6 +334,7 @@ repositories:
         - Maintainers
     visibility: public
   artwork:
+    archived: false
     collaborators:
       admin:
         - flyingzumwalt
@@ -348,6 +354,7 @@ repositories:
         - Maintainers
     visibility: public
   awesome-ipfs:
+    archived: false
     collaborators:
       admin:
         - autonome
@@ -373,6 +380,7 @@ repositories:
         - Maintainers
       push:
         - CI
+        - gui-dev
     topics:
       - awesome-ipfs
       - awesome-list
@@ -380,6 +388,7 @@ repositories:
       - ipfs
     visibility: public
   bbloom:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -396,6 +405,7 @@ repositories:
         - Go Core Team
     visibility: public
   benchmarks:
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -417,6 +427,7 @@ repositories:
         - WG Infrastructure
     visibility: public
   browser-design-guidelines:
+    archived: false
     collaborators:
       admin:
         - autonome
@@ -448,6 +459,7 @@ repositories:
       - user-interface
     visibility: public
   camp:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -475,6 +487,7 @@ repositories:
         - IPFS Camp 2019 Trainers
     visibility: public
   choco-go-ipfs:
+    archived: false
     default_branch: main
     description: Automation for publishing go-ipfs releases to Chocolatey
     files:
@@ -487,6 +500,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   ci-helpers:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -506,6 +520,7 @@ repositories:
         - Go Core Team
     visibility: public
   community:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -538,6 +553,7 @@ repositories:
         - contributors
     visibility: public
   devgrants:
+    archived: false
     collaborators:
       admin:
         - autonome
@@ -566,6 +582,7 @@ repositories:
         - contributors
     visibility: public
   dht-node:
+    archived: true
     collaborators:
       admin:
         - aschmahmann
@@ -582,6 +599,7 @@ repositories:
         - Go Core Team
     visibility: public
   dir-index-html:
+    archived: true
     collaborators:
       push:
         - ipfsbot
@@ -603,6 +621,7 @@ repositories:
         - WG GUI/UX
     visibility: public
   distributed-wikipedia-mirror:
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -631,6 +650,7 @@ repositories:
       - wikipedia
     visibility: public
   distributions:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -655,6 +675,7 @@ repositories:
         - Repos - Go
     visibility: public
   download-ipfs-distribution-action:
+    archived: false
     collaborators:
       admin:
         - galargh
@@ -668,6 +689,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   ecosystem-directory:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -703,6 +725,7 @@ repositories:
       - web3
     visibility: public
   eslint-config-ipfs:
+    archived: false
     collaborators:
       admin:
         - hugomrdias
@@ -724,6 +747,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   fs-repo-migrations:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -747,6 +771,7 @@ repositories:
         - Repos - Go
     visibility: public
   gh-issue-form-test:
+    archived: false
     default_branch: master
     files:
       .github/workflows/stale.yml:
@@ -758,6 +783,7 @@ repositories:
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -780,6 +806,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   go-bitfield:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -797,6 +824,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-bitswap-priv:
+    archived: false
     collaborators:
       admin:
         - aschmahmann
@@ -822,6 +850,7 @@ repositories:
         - w3dt-stewards
     visibility: private
   go-bitswap:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -844,6 +873,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-block-format:
+    archived: false
     collaborators:
       admin:
         - Stebalien
@@ -867,6 +897,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-blockservice:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -888,6 +919,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-bs-sqlite3:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -912,6 +944,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-cid:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -939,6 +972,7 @@ repositories:
       - multiformats
     visibility: public
   go-cidutil:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -960,6 +994,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-dag-store:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -978,6 +1013,7 @@ repositories:
         - contributors
     visibility: private
   go-dagwriter:
+    archived: true
     collaborators:
       admin:
         - hannahhoward
@@ -999,6 +1035,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-data-transfer-bus:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -1006,6 +1043,7 @@ repositories:
     description: Simple event bus for data transfers
     visibility: public
   go-datastore:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1029,6 +1067,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-delegated-routing:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -1048,6 +1087,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-detect-race:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1068,6 +1108,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-dnslink:
+    archived: false
     collaborators:
       admin:
         - jbenet
@@ -1090,6 +1131,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-badger:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1109,6 +1151,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-badger2:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1130,6 +1173,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-bench:
+    archived: true
     collaborators:
       admin:
         - magik6k
@@ -1148,6 +1192,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-bitcask:
+    archived: false
     collaborators:
       admin:
         - magik6k
@@ -1166,6 +1211,7 @@ repositories:
         - Maintainers
     visibility: public
   go-ds-bolt:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1185,6 +1231,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-crdt:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1211,6 +1258,7 @@ repositories:
         - WG IPFS Cluster
     visibility: public
   go-ds-dynamodb:
+    archived: false
     collaborators:
       admin:
         - guseggert
@@ -1231,6 +1279,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-ds-flatfs:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1255,6 +1304,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-leveldb:
+    archived: false
     collaborators:
       admin:
         - whyrusleeping
@@ -1278,6 +1328,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-measure:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1299,6 +1350,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-pebble:
+    archived: false
     collaborators:
       admin:
         - Kubuxu
@@ -1317,6 +1369,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-ds-redis:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1338,6 +1391,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-s3:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1363,6 +1417,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-sql:
+    archived: false
     collaborators:
       push:
         - n0izn0iz
@@ -1386,6 +1441,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ds-swift:
+    archived: false
     collaborators:
       admin:
         - magik6k
@@ -1408,6 +1464,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-fetcher:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -1428,6 +1485,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-filestore:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1449,6 +1507,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-fs-lock:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1472,6 +1531,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-graphsync:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -1504,6 +1564,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-hamt-ipld:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1514,6 +1575,7 @@ repositories:
         - admin
     visibility: public
   go-ipfs-api:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1537,6 +1599,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-archived:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1558,6 +1621,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-blockstore:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1582,6 +1646,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-blocksutil:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1605,6 +1670,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-chunker:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1629,6 +1695,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-cmdkit:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1644,6 +1711,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-cmds:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1667,6 +1735,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-config:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1685,6 +1754,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-delay:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1708,6 +1778,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-ds-help:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1731,6 +1802,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-example-plugin:
+    archived: false
     collaborators:
       admin:
         - Stebalien
@@ -1752,6 +1824,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-exchange-interface:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1775,6 +1848,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-exchange-offline:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1798,6 +1872,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-files:
+    archived: false
     collaborators:
       admin:
         - magik6k
@@ -1820,6 +1895,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-gateway:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1841,6 +1917,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-http-client:
+    archived: false
     collaborators:
       admin:
         - magik6k
@@ -1863,6 +1940,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-keystore:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1892,6 +1970,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-pinner:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1912,6 +1991,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-posinfo:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1935,6 +2015,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-pq:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1958,6 +2039,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-priv:
+    archived: false
     collaborators:
       admin:
         - galargh
@@ -1972,6 +2054,7 @@ repositories:
         - go-ipfs-priv
     visibility: private
   go-ipfs-provider:
+    archived: false
     branch_protection:
       remove-ipfs-dep: {}
     collaborators:
@@ -1996,6 +2079,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-regression:
+    archived: false
     collaborators:
       admin:
         - petar
@@ -2007,6 +2091,7 @@ repositories:
         content: .github/workflows/stale.yml
     visibility: public
   go-ipfs-routing:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -2030,6 +2115,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-util:
+    archived: false
     collaborators:
       admin:
         - whyrusleeping
@@ -2053,6 +2139,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipld-cbor:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2074,6 +2161,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipld-eth-import:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2100,6 +2188,7 @@ repositories:
       - ipld
     visibility: public
   go-ipld-eth:
+    archived: true
     collaborators:
       admin:
         - whyrusleeping
@@ -2131,6 +2220,7 @@ repositories:
       - storage
     visibility: public
   go-ipld-format:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2152,6 +2242,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipld-git:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2173,6 +2264,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipld-legacy:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -2190,6 +2282,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-ipld-zcash:
+    archived: false
     collaborators:
       push:
         - arcalinea
@@ -2213,6 +2306,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipns:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2234,6 +2328,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-jaeger-plugin:
+    archived: true
     collaborators:
       push:
         - frrist
@@ -2251,6 +2346,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libipfs:
+    archived: false
     collaborators:
       admin:
         - guseggert
@@ -2259,6 +2355,7 @@ repositories:
     default_branch: main
     visibility: public
   go-libp2p-dns-router:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2275,6 +2372,7 @@ repositories:
         - Maintainers
     visibility: public
   go-log:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2296,6 +2394,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-merkledag:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2316,6 +2415,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-metrics-interface:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2336,6 +2436,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-metrics-prometheus:
+    archived: false
     collaborators:
       admin:
         - Kubuxu
@@ -2358,6 +2459,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-mfs:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -2380,6 +2482,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-namesys:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -2404,6 +2507,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-path:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2425,6 +2529,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-peertaskqueue:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -2448,6 +2553,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-pinning-service-http-client:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2465,6 +2571,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-poll-endpoint:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2480,6 +2587,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-qringbuf:
+    archived: false
     collaborators:
       admin:
         - ribasushi
@@ -2504,6 +2612,7 @@ repositories:
         - Go Core Team
     visibility: public
   go-sbs:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2520,6 +2629,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-todocounter:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2540,6 +2650,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-unixfs:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2561,6 +2672,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-unixfsnode:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -2584,6 +2696,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-verifcid:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2606,6 +2719,7 @@ repositories:
         - Repos - Go
     visibility: public
   gomod:
+    archived: false
     collaborators:
       admin:
         - Kubuxu
@@ -2624,6 +2738,7 @@ repositories:
         - Maintainers
     visibility: public
   gs-priv:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -2643,6 +2758,7 @@ repositories:
         - w3dt-stewards
     visibility: private
   hang-fds:
+    archived: false
     collaborators:
       admin:
         - Kubuxu
@@ -2660,6 +2776,7 @@ repositories:
         - Repos - Go
     visibility: public
   in-web-browsers:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -2690,6 +2807,7 @@ repositories:
         - WG Web Browsers
     visibility: public
   infra:
+    archived: true
     collaborators:
       push:
         - locotorp
@@ -2706,12 +2824,14 @@ repositories:
         - Maintainers
     visibility: public
   integrations:
+    archived: false
     collaborators:
       maintain:
         - markg85
     default_branch: main
     visibility: public
   interface-datastore:
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -2730,6 +2850,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-go-ipfs-core:
+    archived: false
     collaborators:
       admin:
         - magik6k
@@ -2752,6 +2873,7 @@ repositories:
         - Repos - Go
     visibility: public
   interop:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2774,6 +2896,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   ipfs-blog:
+    archived: false
     branch_protection:
       main: {}
       staging: {}
@@ -2807,6 +2930,7 @@ repositories:
       - web3
     visibility: public
   ipfs-companion:
+    archived: false
     branch_protection:
       legacy-sdk: {}
       main: {}
@@ -2842,6 +2966,7 @@ repositories:
       - webextension
     visibility: public
   ipfs-desktop:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -2872,6 +2997,7 @@ repositories:
       - protocol
     visibility: public
   ipfs-docs:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -2916,6 +3042,7 @@ repositories:
       - ipfs
     visibility: public
   ipfs-ds-convert:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -2938,6 +3065,7 @@ repositories:
         - Repos - Go
     visibility: public
   ipfs-ds-postgres:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2953,6 +3081,7 @@ repositories:
         - Repos - Go
     visibility: public
   ipfs-gui:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2973,6 +3102,7 @@ repositories:
         - Maintainers
     visibility: public
   ipfs-project.org:
+    archived: false
     collaborators:
       admin:
         - andyschwab
@@ -2987,6 +3117,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   ipfs-repository-template:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -3007,6 +3138,7 @@ repositories:
         - Maintainers
     visibility: public
   ipfs-update:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -3030,6 +3162,7 @@ repositories:
         - Repos - Go
     visibility: public
   ipfs-website:
+    archived: false
     collaborators:
       push:
         - 2color
@@ -3053,6 +3186,7 @@ repositories:
       - web3
     visibility: public
   ipfs-webui:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -3083,6 +3217,7 @@ repositories:
       - redux
     visibility: public
   ipfs:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3114,6 +3249,7 @@ repositories:
       - protocol
     visibility: public
   ipget:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3134,6 +3270,7 @@ repositories:
         - Repos - Go
     visibility: public
   ipld-explorer-components:
+    archived: false
     collaborators:
       admin:
         - olizilla
@@ -3156,6 +3293,7 @@ repositories:
         - WG GUI/UX
     visibility: public
   iptb-plugins:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3176,6 +3314,7 @@ repositories:
         - Repos - Go
     visibility: public
   iptb:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3196,6 +3335,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-blockstore-core:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3213,6 +3353,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-blockstore-datastore-adapter:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3227,6 +3368,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-core:
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -3251,6 +3393,7 @@ repositories:
         - JS Core Team
     visibility: public
   js-dag-service:
+    archived: false
     branch_protection:
       default: {}
     collaborators:
@@ -3287,6 +3430,7 @@ repositories:
       - peer-to-peer
     visibility: public
   js-datastore-core:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3310,6 +3454,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-fs:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3333,6 +3478,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-idb:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3350,6 +3496,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-datastore-level:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3373,6 +3520,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-pubsub:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3397,6 +3545,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-s3:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3419,6 +3568,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-fs-pull-blob-store:
+    archived: false
     collaborators:
       admin:
         - dignifiedquire
@@ -3441,6 +3591,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-hamt-sharding:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3462,6 +3613,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-idb-pull-blob-store:
+    archived: false
     collaborators:
       admin:
         - dignifiedquire
@@ -3484,6 +3636,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-bitswap:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3507,6 +3660,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-block-service:
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -3528,6 +3682,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-http-response:
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -3549,6 +3704,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-interfaces:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3565,6 +3721,7 @@ repositories:
         - JS Core Team
     visibility: public
   js-ipfs-merkle-dag:
+    archived: false
     collaborators:
       admin:
         - daviddias
@@ -3588,6 +3745,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-repo-migrations:
+    archived: true
     collaborators:
       admin:
         - alanshaw
@@ -3608,6 +3766,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-repo:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3630,6 +3789,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-unixfs:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3655,6 +3815,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-utils:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3683,6 +3844,7 @@ repositories:
       - ipfs
     visibility: public
   js-ipfs:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3722,6 +3884,7 @@ repositories:
       - peer-to-peer
     visibility: public
   js-ipfsd-ctl:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3751,6 +3914,7 @@ repositories:
       - js-ipfs
     visibility: public
   js-ipns:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -3773,6 +3937,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-kubo-rpc-client:
+    archived: false
     branch_protection:
       master: {}
       release-*: {}
@@ -3800,6 +3965,7 @@ repositories:
       - rpc-client
     visibility: public
   js-level-pull-blob-store:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3820,6 +3986,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js.ipfs.tech:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -3844,6 +4011,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   kubo:
+    archived: false
     branch_protection:
       bifrost-*: {}
       feat/stabilize-dht: {}
@@ -3870,6 +4038,7 @@ repositories:
       - ipfs
     visibility: public
   lightning-storm:
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -3877,6 +4046,7 @@ repositories:
     description: Just a planning repo for project lightning storm for now
     visibility: public
   local-offline-collab:
+    archived: false
     collaborators:
       admin:
         - momack2
@@ -3896,6 +4066,7 @@ repositories:
         - Maintainers
     visibility: public
   metrics:
+    archived: false
     collaborators:
       admin:
         - mikeal
@@ -3914,6 +4085,7 @@ repositories:
         - Maintainers
     visibility: public
   mobile-design-guidelines:
+    archived: false
     collaborators:
       admin:
         - autonome
@@ -3937,6 +4109,7 @@ repositories:
       - p2p
     visibility: public
   newsletter:
+    archived: false
     collaborators:
       push:
         - eminence
@@ -3958,6 +4131,7 @@ repositories:
         - comms
     visibility: public
   notes:
+    archived: false
     collaborators:
       push:
         - jsoares
@@ -3977,6 +4151,7 @@ repositories:
         - Maintainers
     visibility: public
   npm-go-ipfs:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3997,6 +4172,7 @@ repositories:
         - JS Core Team
     visibility: public
   papers:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -4011,6 +4187,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   pinbot-irc:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -4027,6 +4204,7 @@ repositories:
         - Go Core Team
     visibility: public
   pinning-services-api-spec:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -4059,6 +4237,7 @@ repositories:
       - pinning
     visibility: public
   protons:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -4080,6 +4259,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   public-gateway-checker:
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -4110,6 +4290,7 @@ repositories:
         - WG Infrastructure
     visibility: public
   rainbow:
+    archived: false
     default_branch: master
     description: "EXPERIMENT: A standalone ipfs gateway"
     files:
@@ -4117,6 +4298,7 @@ repositories:
         content: .github/workflows/stale.yml
     visibility: public
   roadmap:
+    archived: false
     collaborators:
       admin:
         - dchoi27
@@ -4141,6 +4323,7 @@ repositories:
         - WG Captains
     visibility: public
   specs:
+    archived: false
     branch_protection:
       main: {}
     collaborators:
@@ -4169,6 +4352,7 @@ repositories:
         - community
     visibility: public
   start-ipfs-daemon-action:
+    archived: false
     collaborators:
       admin:
         - galargh
@@ -4182,6 +4366,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   tar-utils:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -4202,6 +4387,7 @@ repositories:
         - Repos - Go
     visibility: public
   team-mgmt:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -4231,6 +4417,7 @@ repositories:
         - contributors
     visibility: public
   test-plans:
+    archived: false
     collaborators:
       admin:
         - raulk
