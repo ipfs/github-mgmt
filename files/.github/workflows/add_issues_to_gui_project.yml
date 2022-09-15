@@ -15,4 +15,4 @@ jobs:
       uses: actions/add-to-project@v0.1.0
       with:
         project-url: 'https://github.com/orgs/ipfs/projects/17'
-        github-token: ${{ secrets.AUTO_PROJECT_PAT }}
+        github-token: ${{ secrets.ADD_TO_GUI_PROJECT_PAT }}
