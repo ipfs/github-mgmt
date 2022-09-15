@@ -31,6 +31,7 @@ resource "github_repository" "this" {
   archive_on_destroy                      = try(each.value.archive_on_destroy, null)
   archived                                = try(each.value.archived, null)
   auto_init                               = try(each.value.auto_init, null)
+  default_branch                          = try(each.value.default_branch, null)
   delete_branch_on_merge                  = try(each.value.delete_branch_on_merge, null)
   description                             = try(each.value.description, null)
   gitignore_template                      = try(each.value.gitignore_template, null)
@@ -68,31 +69,7 @@ resource "github_repository" "this" {
   }
 
   lifecycle {
-    ignore_changes = [
-      allow_auto_merge,
-      allow_merge_commit,
-      allow_rebase_merge,
-      allow_squash_merge,
-      archive_on_destroy,
-      archived,
-      auto_init,
-      delete_branch_on_merge,
-      description,
-      gitignore_template,
-      has_downloads,
-      has_issues,
-      has_projects,
-      has_wiki,
-      homepage_url,
-      ignore_vulnerability_alerts_during_read,
-      is_template,
-      license_template,
-      pages,
-      template,
-      topics,
-      visibility,
-      vulnerability_alerts
-    ]
+    ignore_changes = []
   }
 }
 
@@ -161,17 +138,7 @@ resource "github_branch_protection" "this" {
   }
 
   lifecycle {
-    ignore_changes = [
-      allows_deletions,
-      allows_force_pushes,
-      enforce_admins,
-      push_restrictions,
-      require_conversation_resolution,
-      require_signed_commits,
-      required_linear_history,
-      required_pull_request_reviews,
-      required_status_checks
-    ]
+    ignore_changes = []
   }
 }
 
@@ -189,11 +156,7 @@ resource "github_team" "this" {
   privacy        = try(each.value.privacy, null)
 
   lifecycle {
-    ignore_changes = [
-      description,
-      parent_team_id,
-      privacy,
-    ]
+    ignore_changes = []
   }
 }
 
@@ -271,8 +234,6 @@ resource "github_repository_file" "this" {
   commit_message      = "chore: Update ${each.value.file} [skip ci]"
 
   lifecycle {
-    ignore_changes = [
-      overwrite_on_create,
-    ]
+    ignore_changes = []
   }
 }

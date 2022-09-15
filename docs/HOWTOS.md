@@ -86,7 +86,7 @@ I push my changes to a new branch and create a PR. An admin reviews the PR, sync
 ### ...apply GitHub Management changes to GitHub?
 
 - [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from the branch to the default branch
-- Merge the pull request once the `Plan` check passes and you verify the plan posted as a comment
+- Merge the pull request once the `Comment` check passes and you verify the plan posted as a comment
 - Confirm that the `Apply` GitHub Action workflow run applied the plan by inspecting the output
 
 ### ...synchronize GitHub Management with GitHub?
@@ -96,14 +96,30 @@ I push my changes to a new branch and create a PR. An admin reviews the PR, sync
 *NOTE*: If you run the `Sync` from an unprotected branch, then the workflow will commit changes to it directly.
 
 - Run `Sync` GitHub Action workflow from your desired `branch` - *this will import all the resources from the actual GitHub configuration state into GitHub Management*
-- Merge the pull request that the workflow created once the `Plan` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
+- Merge the pull request that the workflow created once the `Comment` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
 
 ### ...upgrade GitHub Management?
 
 - Run `Upgrade` GitHub Action workflow
-- Merge the pull request that the workflow created once the `Plan` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
+- Merge the pull request that the workflow created once the `Comment` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
 
 ### ...remove resources from GitHub Management state?
 
 - Run `Clean` GitHub Action workflow with a chosen regex
 - Follow [How to synchronize GitHub Management with GitHub?](#synchronize-github-management-with-github)
+
+### ...add a new config fix rule?
+
+- Create or modify `scripts/src/actions/fix-yaml-config.ts` file
+
+*Example*
+
+I want to ensure that all the public repositories in my organization have their default branches protected.
+
+To do that, I ensure the following content is present in `scripts/src/actions/fix-yaml-config.ts`:
+```ts
+import 'reflect-metadata'
+import { protectDefaultBranches } from './shared/protect-default-branches'
+
+protectDefaultBranches()
+```
