@@ -246,6 +246,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: IPFS Camp 2019 Website
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -267,6 +270,9 @@ repositories:
         - cwaring
     default_branch: main
     description: IPFS Camp 2022
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: private
   aegir-typedoc-theme:
     archived: false
@@ -396,6 +402,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: "go/golang: fast bit set Bloom filter "
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -1044,6 +1053,9 @@ repositories:
         - hannahhoward
     default_branch: main
     description: Simple event bus for data transfers
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   go-datastore:
     archived: false
@@ -1098,6 +1110,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: detect if compiled with race
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -1142,6 +1157,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Datastore implementation using badger as backend.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -1982,6 +2000,9 @@ repositories:
     default_branch: master
     description: "go-ipfs-pinner provides an interface and implementation of a
       Pinner for IPFS "
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -2093,6 +2114,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: IPFS Web Gateway _redirects file format parser
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       pull:
         - admin
@@ -2374,6 +2398,9 @@ repositories:
       push:
         - web3-bot
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   go-libp2p-dns-router:
     archived: false
@@ -2786,6 +2813,9 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - ipdx
@@ -2854,6 +2884,9 @@ repositories:
       maintain:
         - markg85
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   interface-datastore:
     archived: true
@@ -3100,6 +3133,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: 🐘 PostgreSQL datastore for IPFS
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -3985,6 +4021,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: A client library for the Kubo RPC API
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -4061,6 +4100,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: IPFS implementation in Go
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -4082,6 +4124,9 @@ repositories:
         - hannahhoward
     default_branch: main
     description: Just a planning repo for project lightning storm for now
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   local-offline-collab:
     archived: false
@@ -4231,6 +4276,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: a bot for the ipfs irc channel that pins things (among other menial tasks)
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
