@@ -1,41 +1,27 @@
-import 'reflect-metadata'
-import * as terraform from '../terraform'
-import * as yaml from '../yaml'
-import YAML from 'yaml'
+import { Repository } from "../resources/repository"
+import { RepositoryFile } from "../resources/repository-file"
+import { Config } from "../yaml/config"
 
-// TODO: run this script as part of some workflow (PR?, sync?), for now run:
-//       npm run build && TF_WORKSPACE=ipfs node lib/actions/add-gui-workflows.js
-async function run(): Promise<void> {
-  const config = yaml.getConfig()
+const GUI_TOPICS = ['ipfs-gui', 'gui']
 
-  // TODO: we need a better abstraction for things that are defined in the YAML
-  //       ideally, we should be able to replace all of this with something like:
-  //       config.getRepositories().filter(repository => repository.topics.includes('ipfs-desktop')).map(repository => repository.name)
-  const repositories = config.getResources([terraform.GithubRepository]).filter(repository => {
-    return ((repository.value as YAML.Pair).value as YAML.YAMLMap).toJSON().topics?.includes('ipfs-desktop')
-  }).map(repository => {
-    return (repository.value as YAML.Pair).key as string
-  })
+export async function addFileToGUIRepos(): Promise<void> {
+  const config = Config.FromPath()
+
+  const repositories = config
+    .getResources(Repository)
+    .filter(r => !r.archived)
+    .filter(r => r.topics?.some(t => GUI_TOPICS.includes(t)))
 
   for (const repository of repositories) {
-    // TODO: we need a better abstraction here, one which has a proper constructor
-    //       and doesn't know anything about terraform (i.e. values.id)
-    const file = new terraform.GithubRepositoryFile()
-    file.values = {
-      id: '',
-      file: '.github/workflows/auto-project.yml',
-      repository: repository,
-      content: '.github/workflows/add_issues_to_gui_project.yml'
+    const file = new RepositoryFile(repository.name, '.github/workflows/add_issues_to_gui_project.yml')
+    file.content = '.github/workflows/add_issues_to_gui_project.yml'
+    if (!config.someResource(file)) {
+      console.log(`Adding ${file.file} file to ${file.repository} repository`)
+      config.addResource(file)
     }
-
-    // TODO: this is not pretty, maybe the context should be optional?
-    const resource = await file.getYAMLResource(null as any)
-
-    // NOTE: add is a noop if a resource already exists
-    config.add(resource)
   }
 
   config.save()
 }
 
-run()
+addFileToGUIRepos()
