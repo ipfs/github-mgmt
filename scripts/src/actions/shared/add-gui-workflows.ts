@@ -1,6 +1,6 @@
-import { Repository } from "../resources/repository"
-import { RepositoryFile } from "../resources/repository-file"
-import { Config } from "../yaml/config"
+import { Repository } from "../../resources/repository"
+import { RepositoryFile } from "../../resources/repository-file"
+import { Config } from "../../yaml/config"
 
 const GUI_TOPICS = ['ipfs-gui', 'gui']
 
@@ -23,5 +23,3 @@ export async function addFileToGUIRepos(): Promise<void> {
 
   config.save()
 }
-
-addFileToGUIRepos()
