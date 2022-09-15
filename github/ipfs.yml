@@ -2081,6 +2081,24 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-ipfs-redirects-file:
+    archived: false
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - justincjohnson
+        - web3-bot
+    default_branch: main
+    description: IPFS Web Gateway _redirects file format parser
+    teams:
+      pull:
+        - admin
+        - ipdx
+        - w3dt-stewards
+    visibility: public
   go-ipfs-regression:
     archived: false
     collaborators:
