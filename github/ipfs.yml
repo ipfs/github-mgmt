@@ -184,6 +184,7 @@ members:
     - Prtfw
     - ratoshniuk
     - raulk
+    - reidlw
     - requilence
     - ribasushi
     - RichardLitt
@@ -5230,6 +5231,7 @@ teams:
         - MarcoPolo
         - marten-seemann
         - petar
+        - reidlw
         - SgtPooki
     privacy: closed
   website-deployers:
