@@ -114,7 +114,6 @@ members:
     - iand
     - ianopolous
     - ipfsbot
-    - ischasny
     - jamiejn
     - janjanovna
     - jbenetsafer
@@ -364,6 +363,7 @@ repositories:
         - hacdias
         - lidel
       push:
+        - 2color
         - ipfs-gui-bot
         - koalalorenzo
         - parkan
