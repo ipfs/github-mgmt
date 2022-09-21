@@ -2,6 +2,7 @@ import {Config} from '../../yaml/config'
 import {Repository} from '../../resources/repository'
 import {GitHub} from '../../github'
 import env from '../../env'
+import * as core from '@actions/core'
 
 export async function addLabelToAllRepos(
   label: string,
@@ -27,6 +28,7 @@ export async function addLabelToAllRepos(
       }
     )
     if (!labels.map(l => l.name).includes(label)) {
+      core.info(`Adding label ${label} to ${repository.name}`)
       await github.client.issues.createLabel({
         owner: env.GITHUB_ORG,
         repo: repository.name,
