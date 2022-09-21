@@ -114,6 +114,7 @@ members:
     - iand
     - ianopolous
     - ipfsbot
+    - ischasny
     - jamiejn
     - janjanovna
     - jbenetsafer
@@ -465,7 +466,16 @@ repositories:
   camp:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMyNjk2NzU=
+          - MDQ6VGVhbTMyNTYwMDU=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -656,7 +666,23 @@ repositories:
   distributions:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTE1MTY5OTE=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          contexts:
+            - build
+            - diff
+            - lint
+            - persist
+            - sign-macos
+          strict: true
     collaborators:
       push:
         - ipfs-gui-bot
@@ -696,7 +722,13 @@ repositories:
   ecosystem-directory:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: true
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       admin:
         - orvn
@@ -754,7 +786,15 @@ repositories:
   fs-repo-migrations:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -790,7 +830,22 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Comment
+          strict: true
     default_branch: master
     files:
       .github/workflows/stale.yml:
@@ -857,7 +912,15 @@ repositories:
   go-bitswap:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -926,7 +989,15 @@ repositories:
   go-bs-sqlite3:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       admin:
         - raulk
@@ -951,7 +1022,20 @@ repositories:
   go-cid:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -1050,7 +1134,15 @@ repositories:
   go-datastore:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -1074,7 +1166,20 @@ repositories:
   go-delegated-routing:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -1138,7 +1243,15 @@ repositories:
   go-ds-badger:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -1158,7 +1271,15 @@ repositories:
   go-ds-badger2:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -1238,7 +1359,22 @@ repositories:
   go-ds-crdt:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjEwMjcwMjI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       admin:
         - hsanjuan
@@ -1286,7 +1422,15 @@ repositories:
   go-ds-flatfs:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -1398,7 +1542,15 @@ repositories:
   go-ds-s3:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       maintain:
         - MichaelMure
@@ -1492,7 +1644,15 @@ repositories:
   go-filestore:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -1514,7 +1674,20 @@ repositories:
   go-fs-lock:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          contexts:
+            - All
+            - macos (go 1.16.x)
+            - ubuntu (go 1.16.x)
+            - windows (go 1.16.x)
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -1538,7 +1711,27 @@ repositories:
   go-graphsync:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - macos (go 1.16.x)
+            - macos (go 1.17.x)
+            - ubuntu (go 1.16.x)
+            - ubuntu (go 1.17.x)
+            - windows (go 1.16.x)
+            - windows (go 1.17.x)
+          strict: true
     collaborators:
       admin:
         - dirkmc
@@ -1582,7 +1775,15 @@ repositories:
   go-ipfs-api:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -1718,7 +1919,20 @@ repositories:
   go-ipfs-cmds:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -1947,7 +2161,20 @@ repositories:
   go-ipfs-keystore:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       admin:
         - hsanjuan
@@ -1977,7 +2204,15 @@ repositories:
   go-ipfs-pinner:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -2061,7 +2296,13 @@ repositories:
   go-ipfs-provider:
     archived: false
     branch_protection:
-      remove-ipfs-dep: {}
+      remove-ipfs-dep:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       admin:
         - Stebalien
@@ -2086,7 +2327,20 @@ repositories:
   go-ipfs-redirects-file:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       admin:
         - lidel
@@ -2349,6 +2603,9 @@ repositories:
         - Go Core Team
         - Merge - Go
         - Repos - Go
+    topics:
+      - ipfs
+      - ipns
     visibility: public
   go-jaeger-plugin:
     archived: true
@@ -2484,7 +2741,15 @@ repositories:
   go-mfs:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -2507,7 +2772,20 @@ repositories:
   go-namesys:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -2801,7 +3079,18 @@ repositories:
   in-web-browsers:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - autonome
@@ -2925,8 +3214,29 @@ repositories:
   ipfs-blog:
     archived: false
     branch_protection:
-      main: {}
-      staging: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 0
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - fleek/build
+          strict: true
+      staging:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       admin:
         - cwaring
@@ -2959,8 +3269,30 @@ repositories:
   ipfs-companion:
     archived: false
     branch_protection:
-      legacy-sdk: {}
-      main: {}
+      legacy-sdk:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - lidel
@@ -2997,7 +3329,18 @@ repositories:
   ipfs-desktop:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       push:
         - ipfs-gui-bot
@@ -3030,7 +3373,24 @@ repositories:
   ipfs-docs:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          dismissal_restrictions:
+            - MDQ6VXNlcjk2MTEwMDg=
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          contexts:
+            - fleek/build
+          strict: false
     collaborators:
       admin:
         - cwaring
@@ -3075,7 +3435,15 @@ repositories:
   ipfs-ds-convert:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -3154,7 +3522,13 @@ repositories:
   ipfs-repository-template:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -3175,7 +3549,15 @@ repositories:
   ipfs-update:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTMzNjQxMDI=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -3223,7 +3605,20 @@ repositories:
   ipfs-webui:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          pull_request_bypassers:
+            - U_kgDOBn5-CA
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       push:
         - hugomrdias
@@ -3435,7 +3830,23 @@ repositories:
   js-dag-service:
     archived: false
     branch_protection:
-      default: {}
+      default:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: true
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - DCO
+            - Lint+Test
+          strict: false
     collaborators:
       admin:
         - carsonfarmer
@@ -3979,9 +4390,27 @@ repositories:
   js-kubo-rpc-client:
     archived: false
     branch_protection:
-      master: {}
-      release-*: {}
-      release: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+      release-*:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+      release:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -4028,7 +4457,23 @@ repositories:
   js.ipfs.tech:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - fleek-ci
+            - fleek/build
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -4053,11 +4498,94 @@ repositories:
   kubo:
     archived: false
     branch_protection:
-      bifrost-*: {}
-      feat/stabilize-dht: {}
-      master: {}
-      release-*: {}
-      release: {}
+      bifrost-*:
+        allows_deletions: false
+        allows_force_pushes: true
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjEyODkxNg==
+          - MDQ6VXNlcjI3MzMyMjg=
+          - MDQ6VXNlcjQyNTQ5MTEz
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+      feat/stabilize-dht:
+        allows_deletions: false
+        allows_force_pushes: true
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjI3MzMyMjg=
+          - MDQ6VXNlcjQyNTQ5MTEz
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjEwNDA3Mzg1
+          - MDQ6VXNlcjEyNDMxNjQ=
+          - MDQ6VXNlcjI0MzkxOTgz
+          - MDQ6VXNlcjI3MzMyMjg=
+          - MDQ6VXNlcjMxMDM5Mw==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - "ci/circleci: gobuild"
+            - "ci/circleci: golint"
+            - "ci/circleci: gotest"
+            - "ci/circleci: sharness"
+          strict: false
+      release-*:
+        allows_deletions: true
+        allows_force_pushes: false
+        enforce_admins: true
+        push_restrictions:
+          - MDQ6VXNlcjEwMjcwMjI=
+          - MDQ6VXNlcjExOTY0NjU=
+          - MDQ6VXNlcjEyNDMxNjQ=
+          - MDQ6VXNlcjI0MzkxOTgz
+          - MDQ6VXNlcjI3MzMyMjg=
+          - MDQ6VXNlcjMxMDM5Mw==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+      release:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        push_restrictions:
+          - MDQ6VXNlcjEyNDMxNjQ=
+          - MDQ6VXNlcjI3MzMyMjg=
+          - MDQ6VXNlcjMxMDM5Mw==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - "ci/circleci: build"
+            - "ci/circleci: go-ipfs-api"
+            - "ci/circleci: go-ipfs-http-client"
+            - "ci/circleci: gobuild"
+            - "ci/circleci: golint"
+            - "ci/circleci: gotest"
+            - "ci/circleci: interop"
+            - "ci/circleci: ipfs-webui"
+            - "ci/circleci: sharness"
+          strict: true
     collaborators:
       push:
         - web3-bot
@@ -4246,7 +4774,20 @@ repositories:
   pinning-services-api-spec:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       admin:
         - jacobheun
@@ -4369,7 +4910,21 @@ repositories:
   specs:
     archived: false
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTE1MTY5OTE=
+          - MDQ6VGVhbTI1NDA1Nzk=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       push:
         - vmx
@@ -4412,7 +4967,20 @@ repositories:
   tar-utils:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - web3-bot
