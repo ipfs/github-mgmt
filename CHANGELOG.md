@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - fix workflow which executes user defined config transforms on PRs and after Apply
 - shared config fix rule which adds missing default branch protections
 - shared action for adding a file to all repositories
+- shared action for adding a label to all repositories
 
 ### Changed
 - Synchronization script: to use GitHub API directly instead of relying on TF GH Provider's Data Sources
@@ -42,3 +43,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - team imports
 - parent_team_id retrieval from state
 - saving config sync result
+- how dry run flag is passed in the clean workflow
