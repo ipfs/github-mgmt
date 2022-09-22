@@ -16,6 +16,7 @@ members:
     - olizilla
     - protocollabsit
     - Stebalien
+    - tinytb
     - whyrusleeping
   member:
     - 1015bit
@@ -5791,6 +5792,7 @@ teams:
         - galargh
         - lidel
         - Stebalien
+        - tinytb
       member:
         - achingbrain
         - ajnavarro
