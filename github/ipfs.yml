@@ -16,7 +16,6 @@ members:
     - olizilla
     - protocollabsit
     - Stebalien
-    - tinytb
     - whyrusleeping
   member:
     - 1015bit
@@ -212,6 +211,7 @@ members:
     - terichadbourne
     - thattommyhall
     - TheDiscordian
+    - tinytb
     - travisperson
     - tv42
     - vasa-develop
@@ -5216,7 +5216,7 @@ teams:
     create_default_maintainer: false
     description: Users that are effectively org admins
     members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # WARN: membership here should be treated exactly as cautiously as having an org admin role
       # ATTN: members are expected to:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
@@ -5224,6 +5224,7 @@ teams:
         - aschmahmann
         - BigLep
         - lidel
+        - tinytb
       member:
         - guseggert
         - willscott
