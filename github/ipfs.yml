@@ -719,6 +719,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+    topics:
+      - ipdx
     visibility: public
   ecosystem-directory:
     archived: false
@@ -865,6 +867,8 @@ repositories:
         - ipdx # NOTE: ipdx are the creators of GitHub Management framework
       push:
         - github-mgmt stewards
+    topics:
+      - ipdx
     visibility: public
   go-bitfield:
     archived: false
@@ -4964,6 +4968,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+    topics:
+      - ipdx
     visibility: public
   tar-utils:
     archived: false
