@@ -3317,8 +3317,9 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - gui-dev
         - WG GUI/UX
+      push:
+        - gui-dev
     topics:
       - chrome-extension
       - dweb
