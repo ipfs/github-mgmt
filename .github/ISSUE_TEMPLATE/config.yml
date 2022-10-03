@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: PR
+  - name: Self-serve Request
     url: https://github.com/ipfs/github-mgmt/edit/master/github/ipfs.yml
-    about: Propose GitHub configuration change by modifying ipfs.yml
+    about: Propose a GitHub configuration change by modifying ipfs.yml
