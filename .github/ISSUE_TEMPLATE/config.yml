@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: PR
+    url: https://github.com/ipfs/github-mgmt/edit/master/github/ipfs.yml
+    about: Propose GitHub configuration change by modifying ipfs.yml
