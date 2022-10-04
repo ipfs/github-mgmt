@@ -5621,6 +5621,19 @@ teams:
         - jimpick
         - vasco-santos
     privacy: closed
+  kubo maintainers:
+    description: Kubo Maintainers
+    members:
+      maintainer:
+        - aschmahmann
+        - BigLep
+        - lidel
+      member:
+        - ajnavarro
+        - guseggert
+        - hacdias
+        - Jorropo
+    privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
     members:
