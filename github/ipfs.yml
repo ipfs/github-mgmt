@@ -1730,12 +1730,12 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - macos (go 1.16.x)
-            - macos (go 1.17.x)
-            - ubuntu (go 1.16.x)
-            - ubuntu (go 1.17.x)
-            - windows (go 1.16.x)
-            - windows (go 1.17.x)
+            - macos (go 1.18.x)
+            - macos (go 1.19.x)
+            - ubuntu (go 1.18.x)
+            - ubuntu (go 1.19.x)
+            - windows (go 1.18.x)
+            - windows (go 1.19.x)
           strict: true
     collaborators:
       admin:
@@ -3403,6 +3403,7 @@ repositories:
         - johnnymatthews
       maintain:
         - DannyS03
+        - ElPaisano
         - hugomrdias
         - jennijuju
         - TheDiscordian
@@ -5622,6 +5623,7 @@ teams:
         - vasco-santos
     privacy: closed
   kubo maintainers:
+    create_default_maintainer: false
     description: Kubo Maintainers
     members:
       maintainer:
