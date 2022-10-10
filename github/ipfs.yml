@@ -228,6 +228,7 @@ members:
     - web3-bot
     - whereswaldon
     - willscott
+    - whizzzkid
     - Wondertan
     - yangwao
     - yiannisbot
@@ -5826,6 +5827,7 @@ teams:
         - petar
         - reidlw
         - SgtPooki
+        - whizzzkid
     privacy: closed
   website-deployers:
     description: We can deploy the websites
