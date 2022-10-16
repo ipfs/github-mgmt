@@ -3272,6 +3272,15 @@ repositories:
       - ipfs
       - web3
     visibility: public
+  ipfs-camp-2022:
+    archived: false
+    collaborators:
+      admin:
+        - reidlw
+    default_branch: main
+    description: Conference content and other resources for IPFS Camp 2022 in
+      Lisbon, Portugal
+    visibility: public
   ipfs-companion:
     archived: false
     branch_protection:
@@ -3628,6 +3637,8 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
+      admin:
+        - whizzzkid
       push:
         - hugomrdias
         - ipfs-gui-bot
@@ -4849,6 +4860,23 @@ repositories:
     visibility: public
   public-gateway-checker:
     archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - check
+          strict: true
     collaborators:
       admin:
         - lidel
