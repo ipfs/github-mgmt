@@ -3277,6 +3277,8 @@ repositories:
     collaborators:
       admin:
         - reidlw
+      push:
+        - quickhatche
     default_branch: main
     description: Conference content and other resources for IPFS Camp 2022 in
       Lisbon, Portugal
@@ -4609,7 +4611,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: IPFS implementation in Go
+    description: An IPFS implementation in Go
     teams:
       admin:
         - admin
