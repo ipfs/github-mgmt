@@ -3277,10 +3277,10 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - reidlw
-        - mishmosh
-        - thediscordian
         - 2color
+        - mishmosh
+        - reidlw
+        - thediscordian
       push:
         - quickhatche
     default_branch: main
