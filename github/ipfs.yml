@@ -3278,6 +3278,9 @@ repositories:
     collaborators:
       admin:
         - reidlw
+        - mishmosh
+        - thediscordian
+        - 2color
       push:
         - quickhatche
     default_branch: main
