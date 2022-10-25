@@ -3107,7 +3107,7 @@ repositories:
         - web3-bot
     default_branch: master
     description: Tracking the endeavor towards getting web browsers to natively
-      support IPFS.
+      support IPFS and content-addressing
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -3125,6 +3125,7 @@ repositories:
         - Repos - JavaScript
         - WG Web Browsers
     topics:
+      - browsers
       - ipfs-gui
       - ipfs
     visibility: public
