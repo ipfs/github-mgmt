@@ -3643,8 +3643,6 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
-      admin:
-        - whizzzkid
       push:
         - hugomrdias
         - ipfs-gui-bot
@@ -4841,6 +4839,20 @@ repositories:
       - pinning-commands
       - pinning-services
       - pinning
+    visibility: public
+  pomegranate:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: An implementation of IPFS in JavaScript
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
     visibility: public
   protons:
     archived: false
