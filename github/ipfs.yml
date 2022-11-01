@@ -262,16 +262,6 @@ repositories:
       - conference
       - ipfs
     visibility: public
-  ipfs-camp-2022:
-    archived: false
-    collaborators:
-      admin:
-        - cwaring
-        - reidlw
-        - mishmosh
-    default_branch: main
-    description: IPFS Camp 2022
-    visibility: public
   aegir-typedoc-theme:
     archived: false
     collaborators:
@@ -2957,6 +2947,16 @@ repositories:
       - dweb
       - ipfs
       - web3
+    visibility: public
+  ipfs-camp-2022:
+    archived: false
+    collaborators:
+      admin:
+        - cwaring
+        - mishmosh
+        - reidlw
+    default_branch: main
+    description: IPFS Camp 2022
     visibility: public
   ipfs-companion:
     archived: false
