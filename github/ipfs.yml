@@ -184,7 +184,6 @@ members:
     - Prtfw
     - ratoshniuk
     - raulk
-    - reidlw
     - requilence
     - ribasushi
     - RichardLitt
@@ -195,7 +194,6 @@ members:
     - roignpar
     - romaric-juniet
     - rvagg
-    - schomatis
     - Schwartz10
     - seeni-dev
     - sericaia
@@ -228,6 +226,7 @@ members:
     - web3-bot
     - whereswaldon
     - whizzzkid
+    - wilkyr31d
     - willscott
     - Wondertan
     - yangwao
@@ -2631,15 +2630,6 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
-  go-libipfs:
-    archived: false
-    collaborators:
-      admin:
-        - guseggert
-      push:
-        - web3-bot
-    default_branch: main
-    visibility: public
   go-libp2p-dns-router:
     archived: false
     collaborators:
@@ -3279,8 +3269,8 @@ repositories:
       admin:
         - 2color
         - mishmosh
-        - reidlw
-        - thediscordian
+        - TheDiscordian
+        - wilkyr31d
       push:
         - quickhatche
     default_branch: main
@@ -3648,6 +3638,8 @@ repositories:
         - ipfs-gui-bot
         - ipfsbot
         - web3-bot
+      triage:
+        - djmcquillan
     default_branch: main
     description: A frontend for an IPFS node.
     files:
@@ -4628,6 +4620,16 @@ repositories:
     topics:
       - ipfs
     visibility: public
+  libkubo:
+    archived: false
+    collaborators:
+      admin:
+        - guseggert
+    default_branch: main
+    teams:
+      maintain:
+        - Go Core Team
+    visibility: public
   lightning-storm:
     archived: false
     collaborators:
@@ -5224,7 +5226,6 @@ teams:
         - petar
         - richardschneider
         - Robmat05
-        - schomatis
         - sericaia
         - SidHarder
         - TheDiscordian
@@ -5760,7 +5761,6 @@ teams:
         - raulk
         - ribasushi
         - rvagg
-        - schomatis
         - thattommyhall
         - travisperson
         - vyzo
@@ -5871,9 +5871,9 @@ teams:
         - MarcoPolo
         - marten-seemann
         - petar
-        - reidlw
         - SgtPooki
         - whizzzkid
+        - wilkyr31d
     privacy: closed
   website-deployers:
     description: We can deploy the websites
