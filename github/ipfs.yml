@@ -4895,7 +4895,7 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - check
+            - fleek/build
           strict: true
     collaborators:
       admin:
