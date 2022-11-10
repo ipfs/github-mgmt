@@ -4924,8 +4924,8 @@ repositories:
         - Repos - JavaScript
         - WG Web Browsers
       push:
-        - WG Infrastructure
         - WG GUI/UX
+        - WG Infrastructure
     topics:
       - ipfs-gui
       - ipfs
