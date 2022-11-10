@@ -4922,10 +4922,10 @@ repositories:
         - comms
         - JS Core Team
         - Repos - JavaScript
-        - WG GUI/UX
         - WG Web Browsers
       push:
         - WG Infrastructure
+        - WG GUI/UX
     topics:
       - ipfs-gui
       - ipfs
