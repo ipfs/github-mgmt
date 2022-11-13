@@ -2097,6 +2097,19 @@ repositories:
     visibility: public
   go-ipfs-files:
     archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - magik6k
@@ -3634,12 +3647,11 @@ repositories:
           restrict_dismissals: false
     collaborators:
       push:
+        - djmcquillan
         - hugomrdias
         - ipfs-gui-bot
         - ipfsbot
         - web3-bot
-      triage:
-        - djmcquillan
     default_branch: main
     description: A frontend for an IPFS node.
     files:
@@ -3661,6 +3673,14 @@ repositories:
       - react
       - redux-bundler
       - redux
+    visibility: public
+  ipfs.fyi:
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    description: IPFS shortlinks
     visibility: public
   ipfs:
     archived: false
@@ -4751,7 +4771,7 @@ repositories:
       triage:
         - hugomrdias
     default_branch: master
-    description: install go-ipfs from npm
+    description: Install Kubo (go-ipfs) from NPM
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -4763,6 +4783,9 @@ repositories:
       pull:
         - Go Core Team
         - JS Core Team
+    topics:
+      - ipfs
+      - npm
     visibility: public
   papers:
     archived: false
