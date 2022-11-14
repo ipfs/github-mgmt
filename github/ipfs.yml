@@ -3827,6 +3827,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     description: A blockstore that uses a datastore for storage
     files:
