@@ -5682,6 +5682,18 @@ teams:
         - ntninja
         - whereswaldon
     privacy: closed
+  ipfs-devrel:
+    description: IPFS Developer Relations
+    members:
+      maintainer:
+        - 2color
+        - mishmosh
+      member:
+        - autonome
+        - lidel
+        - mishmosh
+        - TheDiscordian
+    privacy: closed
   JS Core Team:
     description: Members of the core team for JS repositories
     members:
@@ -5994,16 +6006,4 @@ teams:
       member:
         - achingbrain
         - SgtPooki
-    privacy: closed
-  ipfs-devrel:
-    description: IPFS Developer Relations
-    members:
-      maintainer:
-        - 2color
-        - mishmosh
-      member:
-        - lidel
-        - TheDiscordian
-        - mishmosh
-        - autonome
     privacy: closed
