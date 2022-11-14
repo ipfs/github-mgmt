@@ -5995,3 +5995,15 @@ teams:
         - achingbrain
         - SgtPooki
     privacy: closed
+  ipfs-devrel:
+    description: IPFS Developer Relations
+    members:
+      maintainer:
+        - 2color
+        - mishmosh
+      member:
+        - lidel
+        - TheDiscordian
+        - mishmosh
+        - autonome
+    privacy: closed
