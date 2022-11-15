@@ -5272,6 +5272,18 @@ teams:
       maintainer:
         - parkan
     privacy: secret
+  devrel:
+    description: IPFS Developer Relations
+    members:
+      maintainer:
+        - 2color
+        - mishmosh
+      member:
+        - autonome
+        - lidel
+        - mishmosh
+        - TheDiscordian
+    privacy: closed
   docs-writers:
     description: Folks who actively write to the various docs projects across this org.
     members:
@@ -5685,18 +5697,6 @@ teams:
         - gkbrk
         - ntninja
         - whereswaldon
-    privacy: closed
-  devrel:
-    description: IPFS Developer Relations
-    members:
-      maintainer:
-        - 2color
-        - mishmosh
-      member:
-        - autonome
-        - lidel
-        - mishmosh
-        - TheDiscordian
     privacy: closed
   JS Core Team:
     description: Members of the core team for JS repositories
