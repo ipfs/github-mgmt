@@ -5686,7 +5686,7 @@ teams:
         - ntninja
         - whereswaldon
     privacy: closed
- devrel:
+  devrel:
     description: IPFS Developer Relations
     members:
       maintainer:
