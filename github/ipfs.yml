@@ -5892,12 +5892,11 @@ teams:
       maintainer:
         - aschmahmann
         - BigLep
+        - darobin
         - lidel
-        - Stebalien
       member:
         - achingbrain
-        - marten-seemann
-        - petar
+        - Stebalien
     privacy: closed
   TestGround:
     members:
