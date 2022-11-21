@@ -5893,11 +5893,10 @@ teams:
         - aschmahmann
         - BigLep
         - lidel
-        - Stebalien
+        - darobin
       member:
         - achingbrain
-        - marten-seemann
-        - petar
+        - Stebalien
     privacy: closed
   TestGround:
     members:
