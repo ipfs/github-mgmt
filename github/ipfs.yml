@@ -5892,8 +5892,8 @@ teams:
       maintainer:
         - aschmahmann
         - BigLep
-        - lidel
         - darobin
+        - lidel
       member:
         - achingbrain
         - Stebalien
