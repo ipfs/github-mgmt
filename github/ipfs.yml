@@ -74,6 +74,7 @@ members:
     - dgrisham
     - dignifiedquire
     - dirkmc
+    - djmcquillan
     - doctorrobinson
     - dongtianyi
     - drbh
@@ -5920,6 +5921,7 @@ teams:
       member:
         - achingbrain
         - ajnavarro
+        - djmcquillan
         - guseggert
         - Jorropo
         - laurentsenta
