@@ -67,6 +67,7 @@ members:
     - daijiale
     - dankelleher
     - darkdh
+    - darobin
     - davidar
     - dborzov
     - dchoi27
@@ -3510,6 +3511,8 @@ repositories:
       push:
         - ipfs-gui-bot
         - web3-bot
+      triage:
+        - juliaxbow
     default_branch: main
     description: Creating standards and patterns for IPFS that are simple,
       accessible, reusable, and beautiful
@@ -3651,6 +3654,8 @@ repositories:
         - ipfs-gui-bot
         - ipfsbot
         - web3-bot
+      triage:
+        - juliaxbow
     default_branch: main
     description: A frontend for an IPFS node.
     files:
@@ -5892,12 +5897,11 @@ teams:
       maintainer:
         - aschmahmann
         - BigLep
+        - darobin
         - lidel
         - Stebalien
       member:
         - achingbrain
-        - marten-seemann
-        - petar
     privacy: closed
   TestGround:
     members:
