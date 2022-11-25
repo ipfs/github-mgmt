@@ -504,7 +504,7 @@ repositories:
         - IPFS Camp 2019 Trainers
     visibility: public
   choco-go-ipfs:
-    archived: false
+    archived: true
     default_branch: main
     description: Automation for publishing go-ipfs releases to Chocolatey
     files:
