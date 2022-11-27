@@ -1305,6 +1305,19 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-ds-badger3:
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+    default_branch: master
+    description: "Datastore implementation using Badger v3 as backend. "
+    visibility: public
   go-ds-bench:
     archived: true
     collaborators:
