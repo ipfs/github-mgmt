@@ -1315,6 +1315,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "Datastore implementation using Badger v3 as backend. "
     visibility: public
