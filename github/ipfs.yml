@@ -130,6 +130,7 @@ members:
     - jonnycrunch
     - Jorropo
     - jsoares
+    - juliaxbow
     - JulienPalard
     - JustMaier
     - kanej
@@ -218,7 +219,6 @@ members:
     - victorb
     - vmx
     - vojtechsimetka
-    - vrortvedt
     - vyzo
     - walkerlj0
     - wanderer
@@ -1522,6 +1522,19 @@ repositories:
     visibility: public
   go-ds-pebble:
     archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 0
+          restrict_dismissals: false
     collaborators:
       admin:
         - Kubuxu
@@ -2660,6 +2673,35 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-libipfs:
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: true
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+    collaborators:
+      admin:
+        - ajnavarro
+        - guseggert
+      push:
+        - web3-bot
+    default_branch: main
+    teams:
+      maintain:
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-libp2p-dns-router:
     archived: false
     collaborators:
@@ -3267,9 +3309,9 @@ repositories:
     collaborators:
       admin:
         - cwaring
-        - jdiogopeixoto
       push:
         - 2color
+        - CKMwrites
         - emilymvaughan
         - mishmosh
         - stan-pl
@@ -3760,6 +3802,7 @@ repositories:
     collaborators:
       admin:
         - olizilla
+        - whizzzkid
       push:
         - alvin-reyes
         - ipfs-gui-bot
@@ -5542,7 +5585,6 @@ teams:
         - terichadbourne
         - vasa-develop
         - vojtechsimetka
-        - vrortvedt
         - waynewyang
         - Wondertan
         - yrliou
@@ -5714,7 +5756,6 @@ teams:
         - terichadbourne
         - vasa-develop
         - vojtechsimetka
-        - vrortvedt
         - waynewyang
         - whyrusleeping
         - Wondertan
