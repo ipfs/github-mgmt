@@ -1043,8 +1043,6 @@ repositories:
         required_status_checks:
           strict: false
     collaborators:
-      admin:
-        - rvagg
       push:
         - web3-bot
     default_branch: master
@@ -1056,6 +1054,7 @@ repositories:
       admin:
         - admin
         - ipdx
+        - rvagg
         - w3dt-stewards
       maintain:
         - Maintainers
@@ -2746,8 +2745,6 @@ repositories:
   go-merkledag:
     archived: false
     collaborators:
-      admin:
-        - rvagg
       push:
         - web3-bot
     default_branch: master
@@ -2758,6 +2755,7 @@ repositories:
     teams:
       admin:
         - ipdx
+        - rvagg
         - w3dt-stewards
       maintain:
         - Maintainers
