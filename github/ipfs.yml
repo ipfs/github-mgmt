@@ -1054,6 +1054,7 @@ repositories:
       admin:
         - admin
         - ipdx
+        - rvagg
         - w3dt-stewards
       maintain:
         - Maintainers
@@ -2754,6 +2755,7 @@ repositories:
     teams:
       admin:
         - ipdx
+        - rvagg
         - w3dt-stewards
       maintain:
         - Maintainers
