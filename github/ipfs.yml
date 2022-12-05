@@ -1054,8 +1054,8 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
         - rvagg
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
@@ -2755,8 +2755,8 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
         - rvagg
+        - w3dt-stewards
       maintain:
         - Maintainers
       push:
