@@ -1043,6 +1043,8 @@ repositories:
         required_status_checks:
           strict: false
     collaborators:
+      admin:
+        - rvagg
       push:
         - web3-bot
     default_branch: master
@@ -2744,6 +2746,8 @@ repositories:
   go-merkledag:
     archived: false
     collaborators:
+      admin:
+        - rvagg
       push:
         - web3-bot
     default_branch: master
