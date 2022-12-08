@@ -5908,6 +5908,7 @@ teams:
         - momack2
         - olizilla
       member:
+        - 2color
         - achingbrain
         - adlrocha
         - AuHau
@@ -5924,7 +5925,6 @@ teams:
         - vasco-santos
         - vmx
         - yusefnapora
-        - 2color
     privacy: closed
   Repos - Python:
     description: python ipfs implementation
