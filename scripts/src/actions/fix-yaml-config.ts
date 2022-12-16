@@ -2,5 +2,15 @@ import 'reflect-metadata'
 import {addFileToAllRepos} from './shared/add-file-to-all-repos'
 import {format} from './shared/format'
 
-addFileToAllRepos('.github/workflows/stale.yml', '.github/workflows/stale.yml')
+const uninitialisedRepositoryNames = [
+  '2022.ipfs.camp',
+  'go-data-transfer-bus',
+  'lightning-storm'
+]
+
+addFileToAllRepos(
+  '.github/workflows/stale.yml', 
+  '.github/workflows/stale.yml',
+  (repository: Repository) => !uninitialisedRepositoryNames.includes(repository.name)
+)
 format()
