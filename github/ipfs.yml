@@ -274,9 +274,6 @@ repositories:
         - cwaring
     default_branch: main
     description: IPFS Camp 2022
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: private
   aegir-typedoc-theme:
     archived: false
@@ -1147,9 +1144,6 @@ repositories:
         - hannahhoward
     default_branch: main
     description: Simple event bus for data transfers
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: public
   go-datastore:
     archived: false
@@ -4818,9 +4812,6 @@ repositories:
         - hannahhoward
     default_branch: main
     description: Just a planning repo for project lightning storm for now
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: public
   local-offline-collab:
     archived: false
