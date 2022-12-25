@@ -5068,6 +5068,7 @@ repositories:
       admin:
         - lidel
       push:
+        - djmcquillan
         - ipfs-gui-bot
         - jamiew
         - juliaxbow
