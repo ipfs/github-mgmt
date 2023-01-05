@@ -4804,6 +4804,7 @@ repositories:
     teams:
       maintain:
         - Go Core Team
+        - w3dt-stewards
     visibility: public
   lightning-storm:
     archived: false
