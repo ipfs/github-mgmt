@@ -4794,7 +4794,7 @@ repositories:
           restrict_dismissals: false
     collaborators:
       admin:
-        - w3dt-stewards
+        - guseggert
       push:
         - web3-bot
     default_branch: main
@@ -4804,6 +4804,7 @@ repositories:
     teams:
       maintain:
         - Go Core Team
+        - w3dt-stewards
     visibility: public
   lightning-storm:
     archived: false
