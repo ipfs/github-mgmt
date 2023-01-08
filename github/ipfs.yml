@@ -2,6 +2,7 @@
 
 members:
   admin:
+    - andyschwab-admin
     - aschmahmann
     - autonome
     - BigLep
@@ -14,7 +15,6 @@ members:
     - mikeal
     - momack2
     - olizilla
-    - protocollabsit
     - Stebalien
     - whyrusleeping
   member:
@@ -182,7 +182,6 @@ members:
     - pepoospina
     - petar
     - pooja
-    - protocollabsit-readonly
     - Prtfw
     - ratoshniuk
     - raulk
@@ -4804,6 +4803,7 @@ repositories:
     teams:
       maintain:
         - Go Core Team
+        - ipdx
         - w3dt-stewards
     visibility: public
   lightning-storm:
