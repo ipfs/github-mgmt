@@ -6047,6 +6047,7 @@ teams:
         - achingbrain
         - ajnavarro
         - guseggert
+        - hacdias
         - Jorropo
         - laurentsenta
         - MarcoPolo
@@ -6054,7 +6055,6 @@ teams:
         - SgtPooki
         - whizzzkid
         - wilkyr31d
-        - hacdias
     privacy: closed
   website-deployers:
     description: We can deploy the websites
