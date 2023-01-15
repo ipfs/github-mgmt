@@ -2142,7 +2142,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-files:
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -2162,7 +2162,8 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: File interfaces and utils used in IPFS
+    description: An old files library, please migrate to
+      `github.com/ipfs/go-libipfs/files` instead.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
