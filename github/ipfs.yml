@@ -4802,6 +4802,9 @@ repositories:
   kuboreleaser:
     archived: false
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   lightning-storm:
     archived: false
@@ -5179,6 +5182,9 @@ repositories:
       admin:
         - hannahhoward
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   start-ipfs-daemon-action:
     archived: false
