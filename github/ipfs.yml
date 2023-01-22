@@ -394,7 +394,6 @@ repositories:
       - awesome-ipfs
       - awesome-list
       - awesome
-      - ipfs-gui
       - ipfs
     visibility: public
   bbloom:
@@ -2180,7 +2179,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-gateway:
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -3237,7 +3236,6 @@ repositories:
         - WG Web Browsers
     topics:
       - browsers
-      - ipfs-gui
       - ipfs
     visibility: public
   infra:
@@ -3862,6 +3860,31 @@ repositories:
     visibility: public
   ipld-explorer-components:
     archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+      rc/*:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - olizilla
@@ -4776,37 +4799,12 @@ repositories:
     topics:
       - ipfs
     visibility: public
-  libkubo:
+  kuboreleaser:
     archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        enforce_admins: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          pull_request_bypassers:
-            - MDQ6VXNlcjg3NzU4OA==
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-    collaborators:
-      admin:
-        - guseggert
-      push:
-        - web3-bot
     default_branch: main
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    teams:
-      maintain:
-        - Go Core Team
-        - ipdx
-        - w3dt-stewards
     visibility: public
   lightning-storm:
     archived: false
@@ -5103,7 +5101,7 @@ repositories:
       - ipfs
     visibility: public
   rainbow:
-    archived: false
+    archived: true
     default_branch: master
     description: "EXPERIMENT: A standalone ipfs gateway"
     files:
@@ -5177,6 +5175,16 @@ repositories:
         - Specs Stewards
       triage:
         - community
+    visibility: public
+  stargate:
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   start-ipfs-daemon-action:
     archived: false
@@ -5262,9 +5270,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - hacdias
         - raulk
       maintain:
-        - hacdias
         - nonsense
       push:
         - dirkmc
