@@ -78,6 +78,8 @@ jobs:
           echo "TF_WORKSPACE=${TF_WORKSPACE_OPT}" >> $GITHUB_ENV
         working-directory: terraform
       - name: Sync
+        env:
+          TF_LOG: debug
         run: |
           npm ci
           npm run build
