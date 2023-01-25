@@ -4801,6 +4801,9 @@ repositories:
     visibility: public
   kuboreleaser:
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     files:
       .github/workflows/stale.yml:
@@ -5181,6 +5184,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - web3-bot
     default_branch: main
     files:
       .github/workflows/stale.yml:
