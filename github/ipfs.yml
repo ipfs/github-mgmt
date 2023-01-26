@@ -3073,6 +3073,7 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+        - willscott
       push:
         - web3-bot
     default_branch: main
