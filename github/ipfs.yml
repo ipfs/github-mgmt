@@ -3183,6 +3183,9 @@ repositories:
         - achingbrain
     default_branch: main
     description: Run helia as a daemon process
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   helia-ipns:
     archived: false
@@ -3191,6 +3194,9 @@ repositories:
         - achingbrain
     default_branch: main
     description: An implementation of IPNS for Helia
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   helia-unixfs:
     archived: false
@@ -3199,6 +3205,9 @@ repositories:
         - achingbrain
     default_branch: main
     description: UnixFS commands for helia
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   helia:
     archived: false
