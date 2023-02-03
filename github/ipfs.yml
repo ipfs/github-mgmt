@@ -278,8 +278,6 @@ repositories:
   aegir-typedoc-theme:
     archived: false
     collaborators:
-      admin:
-        - hugomrdias
       push:
         - web3-bot
     default_branch: master
@@ -295,8 +293,6 @@ repositories:
   aegir:
     archived: false
     collaborators:
-      admin:
-        - hugomrdias
       push:
         - web3-bot
     default_branch: master
@@ -2715,7 +2711,6 @@ repositories:
           strict: true
     collaborators:
       admin:
-        - ajnavarro
         - guseggert
       push:
         - web3-bot
@@ -2724,6 +2719,9 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
+      admin:
+        - admin
+        - w3dt-stewards
       maintain:
         - Merge - Go
         - Repos - Go
@@ -3213,7 +3211,6 @@ repositories:
         - autonome
         - lidel
       push:
-        - hugomrdias
         - ipfs-gui-bot
         - web3-bot
     default_branch: master
@@ -3362,7 +3359,6 @@ repositories:
         - cwaring
       push:
         - 2color
-        - CKMwrites
         - emilymvaughan
         - mishmosh
         - stan-pl
@@ -3534,13 +3530,9 @@ repositories:
         - cwaring
         - johnnymatthews
       maintain:
-        - DannyS03
         - ElPaisano
         - hugomrdias
-        - jennijuju
         - TheDiscordian
-        - walkerlj0
-        - yusefnapora
       push:
         - 2color
         - gmasgras
@@ -3549,6 +3541,7 @@ repositories:
         - web3-bot
       triage:
         - thattommyhall
+        - walkerlj0
     default_branch: main
     description: 📚IPFS documentation platform
     files:
@@ -3766,13 +3759,12 @@ repositories:
           restrict_dismissals: false
     collaborators:
       push:
-        - djmcquillan
-        - hugomrdias
         - ipfs-gui-bot
         - ipfsbot
         - web3-bot
       triage:
         - juliaxbow
+        - djmcquillan
     default_branch: main
     description: A frontend for an IPFS node.
     files:
@@ -4459,8 +4451,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-      maintain:
-        - hugomrdias
       push:
         - web3-bot
     default_branch: master
@@ -4528,7 +4518,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-        - hugomrdias
       push:
         - web3-bot
     default_branch: master
@@ -5450,7 +5439,6 @@ teams:
         - johnnymatthews
       member:
         - TheDiscordian
-        - yusefnapora
     privacy: closed
   docs:
     description: We take care of tooling and processes for documentation
@@ -5522,7 +5510,6 @@ teams:
         - momack2
         - Stebalien
       member:
-        - ajnavarro
         - guseggert
         - Jorropo
     privacy: secret
@@ -5935,7 +5922,6 @@ teams:
         - adlrocha
         - alanshaw
         - anorth
-        - coryschwartz
         - dchoi27
         - dignifiedquire
         - dirkmc
@@ -5991,7 +5977,6 @@ teams:
         - dirkmc
         - Gozala
         - hacdias
-        - hugomrdias
         - ipfsbot
         - kumavis
         - magik6k
@@ -5999,7 +5984,6 @@ teams:
         - SgtPooki
         - vasco-santos
         - vmx
-        - yusefnapora
     privacy: closed
   Repos - Python:
     description: python ipfs implementation
@@ -6057,11 +6041,8 @@ teams:
         - BigLep
         - galargh
         - lidel
-        - Stebalien
-        - tinytb
       member:
         - achingbrain
-        - ajnavarro
         - guseggert
         - hacdias
         - Jorropo
@@ -6070,7 +6051,6 @@ teams:
         - marten-seemann
         - SgtPooki
         - whizzzkid
-        - wilkyr31d
     privacy: closed
   website-deployers:
     description: We can deploy the websites
