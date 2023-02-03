@@ -917,7 +917,7 @@ repositories:
         - w3dt-stewards
     visibility: private
   go-bitswap:
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -948,7 +948,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-block-format:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -1173,7 +1173,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-delegated-routing:
-    archived: false
+    archived: true
     branch_protection:
       main:
         allows_deletions: false
@@ -1193,7 +1193,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: Delegated routing, aka Reframe API, protocol implementation
+    description: See https://github.com/ipfs/go-libipfs/tree/main/routing/http instead.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -2715,12 +2715,14 @@ repositories:
       push:
         - web3-bot
     default_branch: main
+    description: A reference library for building IPFS applications and implementations.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
+        - ipdx
         - w3dt-stewards
       maintain:
         - Merge - Go
@@ -3173,6 +3175,30 @@ repositories:
       push:
         - Merge - Go
         - Repos - Go
+    visibility: public
+  helia-cli:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Run helia as a daemon process
+    visibility: public
+  helia-ipns:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: An implementation of IPNS for Helia
+    visibility: public
+  helia-unixfs:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: UnixFS commands for helia
     visibility: public
   helia:
     archived: false
@@ -5306,6 +5332,7 @@ teams:
         - marten-seemann
     privacy: closed
   Alumni:
+    create_default_maintainer: false
     privacy: closed
   CI:
     description: continous integration
