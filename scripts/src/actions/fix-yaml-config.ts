@@ -6,7 +6,8 @@ import {format} from './shared/format'
 const uninitialisedRepositoryNames = [
   '2022.ipfs.camp',
   'go-data-transfer-bus',
-  'lightning-storm'
+  'lightning-storm',
+  'helia-ipns'
 ]
 
 addFileToAllRepos(
