@@ -3648,8 +3648,6 @@ repositories:
   ipfs-gui:
     archived: false
     collaborators:
-      maintain:
-        - djmcquillan
       push:
         - ipfs-gui-bot
         - web3-bot
@@ -5094,7 +5092,6 @@ repositories:
       admin:
         - lidel
       push:
-        - djmcquillan
         - ipfs-gui-bot
         - jamiew
         - juliaxbow
