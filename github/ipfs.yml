@@ -5314,6 +5314,8 @@ teams:
         - Kubuxu
         - marten-seemann
     privacy: closed
+  Alumni:
+    privacy: closed
   CI:
     description: continous integration
     members:
