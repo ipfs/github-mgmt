@@ -434,6 +434,34 @@ repositories:
         - Repos - JavaScript
         - WG Infrastructure
     visibility: public
+  bifrost-gateway:
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+    collaborators:
+      admin:
+        - galargh
+        - hacdias
+        - lidel
+      push:
+        - gmasgras
+        - web3-bot
+    default_branch: main
+    description: HTTP2IPFS Gateway implementation used by
+      https://github.com/protocol/bifrost-infra
+    teams:
+      admin:
+        - admin
+      push:
+        - ipdx
+        - w3dt-stewards
+    visibility: public
   browser-design-guidelines:
     archived: false
     collaborators:
