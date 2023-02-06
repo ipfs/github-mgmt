@@ -452,9 +452,13 @@ repositories:
       push:
         - gmasgras
         - web3-bot
+        - willscott
     default_branch: main
     description: HTTP2IPFS Gateway implementation used by
       https://github.com/protocol/bifrost-infra
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
