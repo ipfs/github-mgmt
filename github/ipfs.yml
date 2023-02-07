@@ -3705,7 +3705,7 @@ repositories:
       - ipfs
     visibility: public
   ipfs-project.org:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
@@ -4044,7 +4044,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-core:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - alanshaw
@@ -4955,7 +4955,7 @@ repositories:
         - comms
     visibility: public
   notes:
-    archived: false
+    archived: true
     collaborators:
       push:
         - jsoares
@@ -5293,7 +5293,7 @@ repositories:
         - Repos - Go
     visibility: public
   team-mgmt:
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
