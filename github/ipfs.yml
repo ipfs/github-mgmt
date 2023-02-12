@@ -3825,7 +3825,6 @@ repositories:
         - ipfsbot
         - web3-bot
       triage:
-        - djmcquillan
         - juliaxbow
     default_branch: main
     description: A frontend for an IPFS node.
