@@ -3863,6 +3863,8 @@ repositories:
     archived: false
     collaborators:
       push:
+        - 2color
+        - TheDiscordian
         - web3-bot
     default_branch: master
     description: Peer-to-peer hypermedia protocol
@@ -5001,6 +5003,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - 2color
         - web3-bot
     default_branch: master
     description: IPFS Papers (not specs)
@@ -5167,6 +5170,7 @@ repositories:
       admin:
         - dchoi27
       push:
+        - 2color
         - web3-bot
     default_branch: master
     description: IPFS Project && Working Group Roadmaps Repo
@@ -5391,6 +5395,7 @@ teams:
       write privs.
     members:
       maintainer:
+        - 2color
         - autonome
         - mishmosh
         - TheDiscordian
