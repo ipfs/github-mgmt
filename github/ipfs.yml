@@ -3430,6 +3430,7 @@ repositories:
         - TheDiscordian
         - warpfork
         - web3-bot
+        - damedoteth
     default_branch: main
     description: IPFS Blog & News
     files:
