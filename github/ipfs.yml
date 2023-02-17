@@ -3424,13 +3424,13 @@ repositories:
         - cwaring
       push:
         - 2color
+        - damedoteth
         - emilymvaughan
         - mishmosh
         - stan-pl
         - TheDiscordian
         - warpfork
         - web3-bot
-        - damedoteth
     default_branch: main
     description: IPFS Blog & News
     files:
