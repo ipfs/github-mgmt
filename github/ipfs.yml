@@ -5001,7 +5001,7 @@ repositories:
       - npm
     visibility: public
   papers:
-    archived: false
+    archived: true
     collaborators:
       push:
         - 2color
