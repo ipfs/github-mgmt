@@ -3424,6 +3424,7 @@ repositories:
         - cwaring
       push:
         - 2color
+        - damedoteth
         - emilymvaughan
         - mishmosh
         - stan-pl
