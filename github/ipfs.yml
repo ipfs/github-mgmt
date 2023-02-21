@@ -451,6 +451,7 @@ repositories:
         - hacdias
         - lidel
       push:
+        - aarshkshah1992
         - gmasgras
         - web3-bot
         - willscott
@@ -852,6 +853,20 @@ repositories:
         - Go Core Team
         - Merge - Go
         - Repos - Go
+    visibility: public
+  gateway-conformance:
+    archived: false
+    collaborators:
+      admin:
+        - darobin
+        - lidel
+    default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - ipdx
     visibility: public
   gh-issue-form-test:
     archived: false
@@ -1805,12 +1820,12 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - macos (go 1.18.x)
             - macos (go 1.19.x)
-            - ubuntu (go 1.18.x)
+            - macos (go 1.20.x)
             - ubuntu (go 1.19.x)
-            - windows (go 1.18.x)
+            - ubuntu (go 1.20.x)
             - windows (go 1.19.x)
+            - windows (go 1.20.x)
           strict: true
     collaborators:
       admin:
@@ -2725,6 +2740,17 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-libipfs-rapide:
+    archived: false
+    collaborators:
+      admin:
+        - Jorropo
+    default_branch: main
+    description: A fork of go-libipfs with experimental RAPIDE client.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    visibility: public
   go-libipfs:
     archived: false
     branch_protection:
@@ -2758,6 +2784,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       maintain:
+        - kubo maintainers
         - Merge - Go
         - Repos - Go
     visibility: public
@@ -3681,6 +3708,19 @@ repositories:
     visibility: public
   ipfs-gui:
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       push:
         - ipfs-gui-bot
@@ -5591,6 +5631,7 @@ teams:
         - SgtPooki
       member:
         - hacdias
+        - whizzzkid
     parent_team_id: WG GUI/UX
     privacy: closed
   ipdx:
@@ -6093,6 +6134,7 @@ teams:
         - Stebalien
       member:
         - achingbrain
+        - yiannisbot
     privacy: closed
   TestGround:
     members:
@@ -6170,6 +6212,7 @@ teams:
         - ericronne
         - hacdias
         - SgtPooki
+        - whizzzkid
     privacy: closed
   WG Infrastructure:
     description: IPFS Infrastructure WG - Maintaining IPFS Infrastructure since 2014!
