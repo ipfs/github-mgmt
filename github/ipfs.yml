@@ -861,6 +861,9 @@ repositories:
         - darobin
         - lidel
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - ipdx
@@ -2744,6 +2747,9 @@ repositories:
         - Jorropo
     default_branch: main
     description: A fork of go-libipfs with experimental RAPIDE client.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   go-libipfs:
     archived: false
