@@ -9,6 +9,7 @@ import {GitHub} from '../src/github'
 import env from '../src/env'
 import {Resource} from '../src/resources/resource'
 import {RepositoryFile} from '../src/resources/repository-file'
+import {refresh} from '../src/refresh'
 
 test('sync', async () => {
   const yamlConfig = new config.Config('{}')
@@ -77,8 +78,10 @@ test('sync new repository file', async () => {
   const expectedYamlConfig = new config.Config(YAML.stringify(yamlSource))
 
   await sync(tfConfig, yamlConfig)
-
   yamlConfig.format()
+  expect(yamlConfig.toString().trim()).toEqual('{}')
 
+  await refresh(tfConfig, yamlConfig)
+  yamlConfig.format()
   expect(yamlConfig.toString()).toEqual(expectedYamlConfig.toString())
 })
