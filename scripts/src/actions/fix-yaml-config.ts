@@ -11,9 +11,8 @@ const uninitialisedRepositoryNames = [
 ]
 
 addFileToAllRepos(
+  '.github/workflows/stale.yml', 
   '.github/workflows/stale.yml',
-  '.github/workflows/stale.yml',
-  (repository: Repository) =>
-    !uninitialisedRepositoryNames.includes(repository.name)
+  (repository: Repository) => !uninitialisedRepositoryNames.includes(repository.name)
 )
 format()

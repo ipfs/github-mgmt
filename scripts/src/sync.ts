@@ -14,6 +14,7 @@ export async function sync(state: State, config: Config): Promise<void> {
   }
 
   await state.sync(resources)
+  await state.refresh()
 
   const syncedResources = state.getAllResources()
   config.sync(syncedResources)
