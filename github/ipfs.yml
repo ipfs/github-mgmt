@@ -3252,6 +3252,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     description: An implementation of IPNS for Helia
     visibility: public
@@ -3260,6 +3262,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     description: UnixFS commands for helia
     files:
