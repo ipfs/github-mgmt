@@ -809,9 +809,6 @@ repositories:
         - web3-bot
     default_branch: default
     description: An ESLint Shareable Config used by IPFS project
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -1779,9 +1776,9 @@ repositories:
         required_status_checks:
           contexts:
             - All
-            - macos (go 1.16.x)
-            - ubuntu (go 1.16.x)
-            - windows (go 1.16.x)
+            - macos (go 1.20.x)
+            - ubuntu (go 1.20.x)
+            - windows (go 1.20.x)
           strict: false
     collaborators:
       push:
@@ -3480,7 +3477,6 @@ repositories:
         - cwaring
       push:
         - 2color
-        - damedoteth
         - emilymvaughan
         - mishmosh
         - stan-pl
