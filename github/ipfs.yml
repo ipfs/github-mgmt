@@ -1940,6 +1940,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       maintain:
+        - kubo maintainers
         - Maintainers
       push:
         - Go Core Team
