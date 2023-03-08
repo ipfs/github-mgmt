@@ -4853,10 +4853,11 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - "ci/circleci: gobuild"
-            - "ci/circleci: golint"
-            - "ci/circleci: gotest"
-            - "ci/circleci: sharness"
+            - "Go Build"
+            - "Go Check"
+            - "Go Lint"
+            - "Go Test"
+            - "Sharness"
           strict: false
       release-*:
         allows_deletions: true
