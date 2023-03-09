@@ -809,9 +809,6 @@ repositories:
         - web3-bot
     default_branch: default
     description: An ESLint Shareable Config used by IPFS project
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -6183,6 +6180,7 @@ teams:
         - lidel
       member:
         - achingbrain
+        - guillaumemichel
         - guseggert
         - hacdias
         - Jorropo
