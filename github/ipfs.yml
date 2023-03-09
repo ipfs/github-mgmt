@@ -807,11 +807,8 @@ repositories:
         - hugomrdias
       push:
         - web3-bot
-    default_branch: default
+    default_branch: main
     description: An ESLint Shareable Config used by IPFS project
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
