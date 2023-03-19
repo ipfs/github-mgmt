@@ -4115,6 +4115,30 @@ repositories:
         - ipdx
         - w3dt-stewards
     visibility: public
+  js-blockstore-fs:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Blockstore implementation with file system backend
+    visibility: public
+  js-blockstore-idb:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Blockstore implementation with IndexedDB backend
+    visibility: public
+  js-blockstore-level:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Blockstore implementation with level(up|down) backend
+    visibility: public
   js-core:
     archived: true
     collaborators:
