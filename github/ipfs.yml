@@ -492,6 +492,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: A reference library for building IPFS applications and implementations.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -4765,6 +4768,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: TypeScript interfaces used by IPFS internals
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - ipdx
@@ -5271,6 +5277,9 @@ repositories:
         - darobin
         - web3-bot
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - ipdx
