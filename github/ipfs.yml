@@ -468,6 +468,40 @@ repositories:
         - ipdx
         - w3dt-stewards
     visibility: public
+  boxo:
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: true
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+    collaborators:
+      admin:
+        - guseggert
+      push:
+        - web3-bot
+    default_branch: main
+    description: A reference library for building IPFS applications and implementations.
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - kubo maintainers
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   browser-design-guidelines:
     archived: false
     collaborators:
@@ -996,7 +1030,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-block-format:
-    archived: true
+    archived: false
     collaborators:
       admin:
         - Stebalien
@@ -2187,7 +2221,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-files:
-    archived: true
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -2458,7 +2492,7 @@ repositories:
       admin:
         - lidel
       push:
-        - justincjohnson
+        - justindotpub
         - web3-bot
     default_branch: main
     description: IPFS Web Gateway _redirects file format parser
@@ -2743,21 +2777,6 @@ repositories:
     visibility: public
   go-libipfs-rapide:
     archived: false
-    branch_protection:
-      main:
-        allows_deletions: true
-        allows_force_pushes: false
-        enforce_admins: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: true
-          required_approving_review_count: 0
-          restrict_dismissals: false
-        required_status_checks:
-          strict: true
     collaborators:
       admin:
         - Jorropo
@@ -2774,43 +2793,6 @@ repositories:
         - ipdx
         - w3dt-stewards
       maintain:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
-  go-libipfs:
-    archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        enforce_admins: false
-        require_conversation_resolution: true
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: true
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: true
-    collaborators:
-      admin:
-        - guseggert
-      push:
-        - web3-bot
-    default_branch: main
-    description: A reference library for building IPFS applications and implementations.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - kubo maintainers
         - Merge - Go
         - Repos - Go
     visibility: public
@@ -4081,7 +4063,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-blockstore-core:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4116,7 +4098,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-blockstore-fs:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4124,7 +4106,7 @@ repositories:
     description: Blockstore implementation with file system backend
     visibility: public
   js-blockstore-idb:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4132,7 +4114,7 @@ repositories:
     description: Blockstore implementation with IndexedDB backend
     visibility: public
   js-blockstore-level:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4218,7 +4200,7 @@ repositories:
       - peer-to-peer
     visibility: public
   js-datastore-core:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4242,7 +4224,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-fs:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4266,7 +4248,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-idb:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4284,7 +4266,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-datastore-level:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4333,7 +4315,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-s3:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4490,25 +4472,6 @@ repositories:
       push:
         - JS Core Team
         - Repos - JavaScript
-    visibility: public
-  js-ipfs-interfaces:
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: TypeScript interfaces used by IPFS internals
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      push:
-        - JS Core Team
     visibility: public
   js-ipfs-merkle-dag:
     archived: false
@@ -4793,6 +4756,22 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+  js-stores:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    default_branch: main
+    description: TypeScript interfaces used by IPFS internals
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      push:
+        - JS Core Team
+    visibility: public
   js.ipfs.tech:
     archived: false
     branch_protection:
@@ -4863,7 +4842,6 @@ repositories:
         allows_force_pushes: false
         enforce_admins: false
         push_restrictions:
-          - MDQ6VXNlcjEwNDA3Mzg1
           - MDQ6VXNlcjEyNDMxNjQ=
           - MDQ6VXNlcjI0MzkxOTgz
           - MDQ6VXNlcjI3MzMyMjg=
@@ -4878,10 +4856,11 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - "ci/circleci: gobuild"
-            - "ci/circleci: golint"
-            - "ci/circleci: gotest"
-            - "ci/circleci: sharness"
+            - go-build
+            - go-check
+            - go-lint
+            - go-test
+            - sharness-test
           strict: false
       release-*:
         allows_deletions: true
@@ -4915,15 +4894,15 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - "ci/circleci: build"
-            - "ci/circleci: go-ipfs-api"
-            - "ci/circleci: go-ipfs-http-client"
-            - "ci/circleci: gobuild"
-            - "ci/circleci: golint"
-            - "ci/circleci: gotest"
-            - "ci/circleci: interop"
-            - "ci/circleci: ipfs-webui"
-            - "ci/circleci: sharness"
+            - go-build
+            - go-check
+            - go-ipfs-api
+            - go-ipfs-http-client
+            - go-lint
+            - go-test
+            - interop
+            - ipfs-webui
+            - sharness-test
           strict: true
     collaborators:
       push:
@@ -5284,6 +5263,18 @@ repositories:
       push:
         - community
         - WG Captains
+    visibility: public
+  spec-generator:
+    archived: false
+    collaborators:
+      push:
+        - darobin
+        - web3-bot
+    default_branch: main
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
     visibility: public
   specs:
     archived: false
