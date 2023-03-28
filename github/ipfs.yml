@@ -3251,6 +3251,9 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+    teams:
+      push:
+        - Repos - JavaScript
     default_branch: main
     description: Run helia as a daemon process
     files:
@@ -3264,6 +3267,9 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    teams:
+      push:
+        - Repos - JavaScript
     default_branch: main
     description: An implementation of IPNS for Helia
     visibility: public
@@ -3274,6 +3280,9 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    teams:
+      push:
+        - Repos - JavaScript
     default_branch: main
     description: UnixFS commands for helia
     files:
