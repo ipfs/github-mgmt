@@ -3257,6 +3257,9 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Repos - JavaScript
     visibility: public
   helia-ipns:
     archived: false
@@ -3267,6 +3270,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: An implementation of IPNS for Helia
+    teams:
+      push:
+        - Repos - JavaScript
     visibility: public
   helia-unixfs:
     archived: false
@@ -3280,6 +3286,9 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Repos - JavaScript
     visibility: public
   helia:
     archived: false
