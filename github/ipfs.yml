@@ -810,6 +810,7 @@ repositories:
       maintain:
         - amanda-agency-undone
         - D3AS8A
+        - damedoteth
         - emilymariahh
         - mishmosh
         - svvimming
@@ -3474,6 +3475,7 @@ repositories:
         - cwaring
       push:
         - 2color
+        - damedoteth
         - emilymvaughan
         - mishmosh
         - stan-pl
@@ -5600,6 +5602,7 @@ teams:
         - autonome
         - lidel
       member:
+        - damedoteth
         - mishmosh
         - TheDiscordian
     privacy: closed
