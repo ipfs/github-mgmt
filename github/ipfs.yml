@@ -487,8 +487,6 @@ repositories:
           strict: true
     collaborators:
       admin:
-        - guseggert
-      push:
         - web3-bot
     default_branch: main
     description: A reference library for building IPFS applications and implementations.
@@ -499,9 +497,9 @@ repositories:
       admin:
         - admin
         - ipdx
+        - kubo maintainers
         - w3dt-stewards
       maintain:
-        - kubo maintainers
         - Merge - Go
         - Repos - Go
     visibility: public
@@ -2798,6 +2796,7 @@ repositories:
         - w3dt-stewards
       maintain:
         - Merge - Go
+      push:
         - Repos - Go
     visibility: public
   go-libp2p-dns-router:
