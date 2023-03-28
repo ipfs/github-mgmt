@@ -3251,14 +3251,14 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-    teams:
-      push:
-        - Repos - JavaScript
     default_branch: main
     description: Run helia as a daemon process
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Repos - JavaScript
     visibility: public
   helia-ipns:
     archived: false
@@ -3267,11 +3267,11 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: main
+    description: An implementation of IPNS for Helia
     teams:
       push:
         - Repos - JavaScript
-    default_branch: main
-    description: An implementation of IPNS for Helia
     visibility: public
   helia-unixfs:
     archived: false
@@ -3280,14 +3280,14 @@ repositories:
         - achingbrain
       push:
         - web3-bot
-    teams:
-      push:
-        - Repos - JavaScript
     default_branch: main
     description: UnixFS commands for helia
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Repos - JavaScript
     visibility: public
   helia:
     archived: false
