@@ -492,6 +492,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: A reference library for building IPFS applications and implementations.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - admin
@@ -809,12 +812,12 @@ repositories:
       maintain:
         - amanda-agency-undone
         - D3AS8A
+        - damedoteth
         - emilymariahh
         - mishmosh
         - svvimming
         - tikagan
         - timelytree
-        - damedoteth
       push:
         - web3-bot
     default_branch: main
@@ -4767,6 +4770,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: TypeScript interfaces used by IPFS internals
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - ipdx
@@ -5273,6 +5279,9 @@ repositories:
         - darobin
         - web3-bot
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - ipdx
@@ -5585,9 +5594,9 @@ teams:
         - autonome
         - lidel
       member:
+        - damedoteth
         - mishmosh
         - TheDiscordian
-        - damedoteth
     privacy: closed
   docs-writers:
     description: Folks who actively write to the various docs projects across this org.
