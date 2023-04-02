@@ -66,6 +66,7 @@ members:
     - cwaring
     - cyborgshead
     - daijiale
+    - damedoteth
     - dankelleher
     - darkdh
     - darobin
@@ -456,8 +457,7 @@ repositories:
         - web3-bot
         - willscott
     default_branch: main
-    description: HTTP2IPFS Gateway implementation used by
-      https://github.com/protocol/bifrost-infra
+    description: A lightweight IPFS Gateway daemon backed by a remote data store.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -467,6 +467,10 @@ repositories:
       push:
         - ipdx
         - w3dt-stewards
+    topics:
+      - http
+      - ipfs-gateway
+      - ipfs
     visibility: public
   boxo:
     archived: false
@@ -2223,7 +2227,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-files:
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -5337,6 +5341,13 @@ repositories:
         - Specs Stewards
       triage:
         - community
+    topics:
+      - ipfs
+      - p2p
+      - protocol
+      - specifications
+      - specs
+      - standards
     visibility: public
   stargate:
     archived: false
