@@ -3648,9 +3648,9 @@ repositories:
           strict: false
     collaborators:
       admin:
+        - 2color
         - cwaring
         - johnnymatthews
-        - 2color
       maintain:
         - ElPaisano
         - hugomrdias
