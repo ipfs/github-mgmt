@@ -3648,6 +3648,7 @@ repositories:
           strict: false
     collaborators:
       admin:
+        - 2color
         - cwaring
         - johnnymatthews
       maintain:
@@ -3655,7 +3656,6 @@ repositories:
         - hugomrdias
         - TheDiscordian
       push:
-        - 2color
         - gmasgras
         - mishmosh
         - TMoMoreau
