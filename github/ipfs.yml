@@ -3650,12 +3650,12 @@ repositories:
       admin:
         - cwaring
         - johnnymatthews
+        - 2color
       maintain:
         - ElPaisano
         - hugomrdias
         - TheDiscordian
       push:
-        - 2color
         - gmasgras
         - mishmosh
         - TMoMoreau
