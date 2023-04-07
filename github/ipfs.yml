@@ -5797,6 +5797,15 @@ teams:
         - whizzzkid
     parent_team_id: WG GUI/UX
     privacy: closed
+  helia-dev:
+    description: Helia Developers and engineers
+    members:
+      maintainer:
+        - achingbrain
+      member:
+        - SgtPooki
+        - whizzzkid
+    privacy: closed
   ipdx:
     create_default_maintainer: false
     members:
