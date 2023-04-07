@@ -3253,11 +3253,6 @@ repositories:
     visibility: public
   helia-cli:
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
-        - helia-dev
-    default_branch: main
     branch_protection:
       main:
         allows_deletions: false
@@ -3273,6 +3268,11 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
+    collaborators:
+      admin:
+        - achingbrain
+        - helia-dev
+    default_branch: main
     description: Run helia as a daemon process
     files:
       .github/workflows/stale.yml:
@@ -3288,13 +3288,6 @@ repositories:
     visibility: public
   helia-ipns:
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
-        - helia-dev
-      push:
-        - web3-bot
-    default_branch: main
     branch_protection:
       main:
         allows_deletions: false
@@ -3310,6 +3303,13 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
+    collaborators:
+      admin:
+        - achingbrain
+        - helia-dev
+      push:
+        - web3-bot
+    default_branch: main
     description: An implementation of IPNS for Helia
     files:
       .github/workflows/stale.yml:
@@ -3327,13 +3327,6 @@ repositories:
     visibility: public
   helia-unixfs:
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
-        - helia-dev
-      push:
-        - web3-bot
-    default_branch: main
     branch_protection:
       main:
         allows_deletions: false
@@ -3349,6 +3342,13 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
+    collaborators:
+      admin:
+        - achingbrain
+        - helia-dev
+      push:
+        - web3-bot
+    default_branch: main
     description: UnixFS commands for helia
     files:
       .github/workflows/stale.yml:
@@ -3364,11 +3364,6 @@ repositories:
     visibility: public
   helia:
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
-        - helia-dev
-    default_branch: main
     branch_protection:
       main:
         allows_deletions: false
@@ -3384,6 +3379,11 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
+    collaborators:
+      admin:
+        - achingbrain
+        - helia-dev
+    default_branch: main
     description: An implementation of IPFS in JavaScript
     files:
       .github/workflows/stale.yml:
