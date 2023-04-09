@@ -3078,6 +3078,9 @@ repositories:
         - hannahhoward
     default_branch: main
     description: Extracted generic networking code from go-bitswap and go-graphsync
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   go-qringbuf:
     archived: false
