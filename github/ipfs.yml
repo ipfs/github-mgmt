@@ -441,7 +441,7 @@ repositories:
     branch_protection:
       main:
         allows_deletions: false
-        allows_force_pushes: false
+        allows_force_pushes: true
         enforce_admins: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -457,7 +457,8 @@ repositories:
         - web3-bot
         - willscott
     default_branch: main
-    description: A lightweight IPFS Gateway daemon backed by a remote data store.
+    description: "[EXPERIMENTAL] A lightweight IPFS Gateway daemon backed by a
+      remote data store."
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -489,6 +490,18 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
+      release:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: true
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - web3-bot
@@ -3058,6 +3071,14 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-protocolnetwork:
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    default_branch: main
+    description: Extracted generic networking code from go-bitswap and go-graphsync
+    visibility: public
   go-qringbuf:
     archived: false
     collaborators:
@@ -3306,6 +3327,7 @@ repositories:
         content: .github/workflows/stale.yml
     teams:
       admin:
+        - helia-dev
         - ipdx
         - w3dt-stewards
       push:
@@ -4926,6 +4948,7 @@ repositories:
           strict: true
     collaborators:
       push:
+        - dennis-tra
         - web3-bot
     default_branch: master
     description: An IPFS implementation in Go
@@ -4936,6 +4959,7 @@ repositories:
       admin:
         - admin
         - ipdx
+        - kubo maintainers
         - w3dt-stewards
       pull:
         - contributors
@@ -5708,6 +5732,15 @@ teams:
         - hacdias
         - whizzzkid
     parent_team_id: WG GUI/UX
+    privacy: closed
+  helia-dev:
+    description: Folks working on Helia
+    members:
+      maintainer:
+        - whizzzkid
+      member:
+        - achingbrain
+        - SgtPooki
     privacy: closed
   ipdx:
     create_default_maintainer: false
