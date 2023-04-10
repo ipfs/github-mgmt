@@ -3305,7 +3305,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-        - helia-dev
       push:
         - web3-bot
     default_branch: main
