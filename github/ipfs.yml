@@ -3078,6 +3078,9 @@ repositories:
         - hannahhoward
     default_branch: main
     description: Extracted generic networking code from go-bitswap and go-graphsync
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   go-qringbuf:
     archived: false
@@ -3274,6 +3277,21 @@ repositories:
     visibility: public
   helia-cli:
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - achingbrain
@@ -3282,12 +3300,32 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @ipfs/helia-dev
     teams:
+      admin:
+        - helia-dev
       push:
         - Repos - JavaScript
     visibility: public
   helia-ipns:
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - achingbrain
@@ -3295,12 +3333,37 @@ repositories:
         - web3-bot
     default_branch: main
     description: An implementation of IPNS for Helia
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @ipfs/helia-dev
     teams:
+      admin:
+        - helia-dev
+        - ipdx
+        - w3dt-stewards
       push:
         - Repos - JavaScript
     visibility: public
   helia-unixfs:
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - achingbrain
@@ -3311,12 +3374,32 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @ipfs/helia-dev
     teams:
+      admin:
+        - helia-dev
       push:
         - Repos - JavaScript
     visibility: public
   helia:
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - achingbrain
@@ -3325,6 +3408,9 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @ipfs/helia-dev
     teams:
       admin:
         - helia-dev
@@ -5734,13 +5820,13 @@ teams:
     parent_team_id: WG GUI/UX
     privacy: closed
   helia-dev:
-    description: Folks working on Helia
+    description: Helia Developers and engineers
     members:
       maintainer:
-        - whizzzkid
-      member:
         - achingbrain
+      member:
         - SgtPooki
+        - whizzzkid
     privacy: closed
   ipdx:
     create_default_maintainer: false
