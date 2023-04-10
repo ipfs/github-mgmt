@@ -3271,7 +3271,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-        - helia-dev
     default_branch: main
     description: Run helia as a daemon process
     files:
