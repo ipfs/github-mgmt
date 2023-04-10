@@ -3379,7 +3379,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-        - helia-dev
     default_branch: main
     description: An implementation of IPFS in JavaScript
     files:
