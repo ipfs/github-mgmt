@@ -6,6 +6,7 @@ members:
     - aschmahmann
     - autonome
     - BigLep
+    - cwaring
     - daviddias
     - galargh
     - hsanjuan
@@ -16,6 +17,7 @@ members:
     - momack2
     - olizilla
     - Stebalien
+    - vesahc
     - whyrusleeping
   member:
     - 1015bit
@@ -63,7 +65,6 @@ members:
     - codynhat
     - coryschwartz
     - cpacia
-    - cwaring
     - cyborgshead
     - daijiale
     - damedoteth
@@ -209,6 +210,7 @@ members:
     - steven004
     - stongo
     - sublimino
+    - tbenbow
     - teh-f00l
     - terichadbourne
     - thattommyhall
@@ -3300,9 +3302,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      CODEOWNERS:
-        content: |
-          * @ipfs/helia-dev
     teams:
       admin:
         - helia-dev
@@ -3311,21 +3310,6 @@ repositories:
     visibility: public
   helia-ipns:
     archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        enforce_admins: true
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: true
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: true
     collaborators:
       admin:
         - achingbrain
@@ -3333,12 +3317,6 @@ repositories:
         - web3-bot
     default_branch: main
     description: An implementation of IPNS for Helia
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-      CODEOWNERS:
-        content: |
-          * @ipfs/helia-dev
     teams:
       admin:
         - helia-dev
@@ -3349,21 +3327,6 @@ repositories:
     visibility: public
   helia-unixfs:
     archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        enforce_admins: true
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: true
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: true
     collaborators:
       admin:
         - achingbrain
@@ -3374,9 +3337,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      CODEOWNERS:
-        content: |
-          * @ipfs/helia-dev
     teams:
       admin:
         - helia-dev
@@ -3389,7 +3349,7 @@ repositories:
       main:
         allows_deletions: false
         allows_force_pushes: false
-        enforce_admins: true
+        enforce_admins: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -3959,6 +3919,8 @@ repositories:
   ipfs-website:
     archived: false
     collaborators:
+      admin:
+        - tbenbow
       push:
         - 2color
         - mishmosh
@@ -5697,6 +5659,7 @@ teams:
         - Robmat05
         - sericaia
         - SidHarder
+        - tbenbow
         - TheDiscordian
         - travisperson
         - tv42
@@ -5820,6 +5783,7 @@ teams:
     parent_team_id: WG GUI/UX
     privacy: closed
   helia-dev:
+    create_default_maintainer: false
     description: Helia Developers and engineers
     members:
       maintainer:
@@ -5841,6 +5805,7 @@ teams:
       maintainer:
         - aschmahmann
         - autonome
+        - cwaring
         - daviddias
         - hsanjuan
         - jacobheun
@@ -5879,7 +5844,6 @@ teams:
         - cmk
         - codynhat
         - cpacia
-        - cwaring
         - cyborgshead
         - daijiale
         - dankelleher
@@ -5967,13 +5931,13 @@ teams:
     members:
       maintainer:
         - autonome
+        - cwaring
         - daviddias
         - momack2
         - olizilla
       member:
         - alanshaw
         - angiemaguire
-        - cwaring
         - jamiejn
         - jimpick
         - parkan
@@ -6363,6 +6327,7 @@ teams:
     members:
       maintainer:
         - autonome
+        - cwaring
         - daviddias
         - jacobheun
         - lidel
@@ -6370,7 +6335,6 @@ teams:
       member:
         - achingbrain
         - andyschwab
-        - cwaring
         - ericronne
         - hugomrdias
         - johnnymatthews
@@ -6395,6 +6359,7 @@ teams:
     members:
       maintainer:
         - autonome
+        - cwaring
         - lidel
         - olizilla
       member:
@@ -6402,7 +6367,6 @@ teams:
         - akrych
         - alanshaw
         - andyschwab
-        - cwaring
         - ericronne
         - hacdias
         - SgtPooki
