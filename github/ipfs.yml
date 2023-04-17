@@ -5533,8 +5533,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      maintain:
-        - TestGround
     visibility: public
 teams:
   admin:
@@ -6292,16 +6290,6 @@ teams:
       member:
         - achingbrain
         - yiannisbot
-    privacy: closed
-  TestGround:
-    members:
-      maintainer:
-        - daviddias
-      member:
-        - hacdias
-        - jimpick
-        - nonsense
-        - raulk
     privacy: closed
   w3dt-stewards:
     members:
