@@ -443,7 +443,7 @@ repositories:
     branch_protection:
       main:
         allows_deletions: false
-        allows_force_pushes: true
+        allows_force_pushes: false
         enforce_admins: false
         require_conversation_resolution: false
         require_signed_commits: false
