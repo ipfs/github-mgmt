@@ -3308,6 +3308,22 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+  helia-dag-cbor:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Add/get IPLD blocks containing dag-cbor with your Helia node
+    visibility: public
+  helia-dag-json:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Add/get IPLD blocks containing dag-json with your Helia node
+    visibility: public
   helia-ipns:
     archived: false
     collaborators:
@@ -3324,6 +3340,22 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - JavaScript
+    visibility: public
+  helia-json:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Add/get IPLD blocks containing dag-json with your Helia node
+    visibility: public
+  helia-strings:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Add/get IPLD blocks containing strings with your Helia node
     visibility: public
   helia-unixfs:
     archived: false
@@ -3345,21 +3377,6 @@ repositories:
     visibility: public
   helia:
     archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        enforce_admins: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: true
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: true
     collaborators:
       admin:
         - achingbrain
@@ -3554,6 +3571,7 @@ repositories:
         - TheDiscordian
         - warpfork
         - web3-bot
+        - yiannisbot
     default_branch: main
     description: IPFS Blog & News
     files:
@@ -4958,7 +4976,6 @@ repositories:
         enforce_admins: true
         push_restrictions:
           - MDQ6VXNlcjEwMjcwMjI=
-          - MDQ6VXNlcjExOTY0NjU=
           - MDQ6VXNlcjEyNDMxNjQ=
           - MDQ6VXNlcjI0MzkxOTgz
           - MDQ6VXNlcjI3MzMyMjg=
