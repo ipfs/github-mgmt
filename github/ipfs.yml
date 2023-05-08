@@ -3318,6 +3318,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-dag-json:
     archived: false
@@ -3329,6 +3330,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-ipns:
     archived: false
@@ -3357,6 +3359,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-strings:
     archived: false
@@ -3368,6 +3371,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-unixfs:
     archived: false
