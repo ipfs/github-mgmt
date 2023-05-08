@@ -3315,6 +3315,10 @@ repositories:
         - achingbrain
     default_branch: main
     description: Add/get IPLD blocks containing dag-cbor with your Helia node
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-dag-json:
     archived: false
@@ -3323,6 +3327,10 @@ repositories:
         - achingbrain
     default_branch: main
     description: Add/get IPLD blocks containing dag-json with your Helia node
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-ipns:
     archived: false
@@ -3348,6 +3356,10 @@ repositories:
         - achingbrain
     default_branch: main
     description: Add/get IPLD blocks containing dag-json with your Helia node
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-strings:
     archived: false
@@ -3356,6 +3368,10 @@ repositories:
         - achingbrain
     default_branch: main
     description: Add/get IPLD blocks containing strings with your Helia node
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     visibility: public
   helia-unixfs:
     archived: false
