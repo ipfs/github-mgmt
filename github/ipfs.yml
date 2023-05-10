@@ -3757,6 +3757,7 @@ repositories:
         - ElPaisano
         - hugomrdias
         - TheDiscordian
+        - TorfinnOlsen
       push:
         - gmasgras
         - mishmosh
