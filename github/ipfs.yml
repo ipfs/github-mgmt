@@ -922,6 +922,7 @@ repositories:
     teams:
       admin:
         - ipdx
+        - w3dt-stewards
     visibility: public
   gh-issue-form-test:
     archived: false
