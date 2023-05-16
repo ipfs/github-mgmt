@@ -491,6 +491,15 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
+          contexts:
+            - All
+            - gateway-conformance
+            - macos (go 1.19.x)
+            - macos (go 1.20.x)
+            - ubuntu (go 1.19.x)
+            - ubuntu (go 1.20.x)
+            - windows (go 1.19.x)
+            - windows (go 1.20.x)
           strict: true
       release:
         allows_deletions: false
