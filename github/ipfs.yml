@@ -736,8 +736,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -865,8 +869,12 @@ repositories:
     default_branch: master
     description: "[ARCHIVED] Run just an ipfs dht node (Or many nodes at once!)"
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -886,8 +894,12 @@ repositories:
     default_branch: master
     description: Directory listing HTML for go-ipfs gateways
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -1333,8 +1345,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -1581,8 +1597,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -1684,8 +1704,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -1883,8 +1907,12 @@ repositories:
         - web3-bot
     default_branch: master
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -1935,8 +1963,12 @@ repositories:
     description: A wrapper for boltdb that implements jbenet/go-datastore's
       Datastore interface
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2517,8 +2549,12 @@ repositories:
     default_branch: master
     description: An implementation of a HAMT using ipld
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2708,8 +2744,12 @@ repositories:
         - web3-bot
     default_branch: master
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2778,8 +2818,12 @@ repositories:
     default_branch: master
     description: "[ARCHIVED] config is now part of go-ipfs repo"
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -2986,8 +3030,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -3012,8 +3060,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -3499,8 +3551,12 @@ repositories:
     default_branch: master
     description: Plugin of the Go IPFS Client for Ethereum Blockchain IPLD objects
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -3690,8 +3746,12 @@ repositories:
     default_branch: master
     description: A Jaeger plugin for IPFS
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -4076,8 +4136,12 @@ repositories:
     default_branch: master
     description: Unix util to poll an endpoint
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -4151,8 +4215,12 @@ repositories:
     default_branch: master
     description: static block store (very experimental)
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -4649,8 +4717,12 @@ repositories:
     default_branch: master
     description: Tools and systems for the IPFS community
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -4691,8 +4763,12 @@ repositories:
     default_branch: master
     description: datastore interface
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -5195,8 +5271,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -5610,8 +5690,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -5653,8 +5737,12 @@ repositories:
     default_branch: main
     description: Blockstore implementation with file system backend
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-blockstore-idb:
     advanced_security: false
@@ -5666,8 +5754,12 @@ repositories:
     default_branch: main
     description: Blockstore implementation with IndexedDB backend
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-blockstore-level:
     advanced_security: false
@@ -5679,8 +5771,12 @@ repositories:
     default_branch: main
     description: Blockstore implementation with level(up|down) backend
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-core:
     advanced_security: false
@@ -5701,8 +5797,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -5792,8 +5892,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -5821,8 +5925,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -5850,8 +5958,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -5873,8 +5985,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -5935,8 +6051,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -6090,8 +6210,12 @@ repositories:
     default_branch: master
     description: JavaScript Implementation of Block and BlockService
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -6116,8 +6240,12 @@ repositories:
     default_branch: master
     description: Creates an HTTP response from an IPFS Hash
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -6176,8 +6304,12 @@ repositories:
     default_branch: master
     description: Migration framework for versioning of JS IPFS Repo
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -6890,8 +7022,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -6947,8 +7083,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -7126,8 +7266,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   roadmap:
     advanced_security: false
@@ -7325,8 +7469,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -7349,8 +7497,12 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -8093,6 +8245,7 @@ teams:
     description: JavaScript IPFS team
     members:
       maintainer:
+        - achingbrain
         - alanshaw
         - daviddias
         - jacobheun
@@ -8103,7 +8256,6 @@ teams:
         - olizilla
       member:
         - 2color
-        - achingbrain
         - adlrocha
         - AuHau
         - dchoi27
