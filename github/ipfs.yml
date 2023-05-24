@@ -7575,10 +7575,10 @@ teams:
     privacy: closed
   Alumni:
     create_default_maintainer: false
-    privacy: closed
     members:
       member:
         - alain2sf
+    privacy: closed
   CI:
     description: continous integration
     members:
