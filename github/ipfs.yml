@@ -1164,7 +1164,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - alain2sf
         - darobin
         - lidel
     default_branch: main
@@ -7576,6 +7575,9 @@ teams:
     privacy: closed
   Alumni:
     create_default_maintainer: false
+    members:
+      member:
+        - alain2sf
     privacy: closed
   CI:
     description: continous integration
