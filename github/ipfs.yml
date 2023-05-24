@@ -33,6 +33,7 @@ members:
     - aknuds1
     - akru
     - akrych
+    - alain2sf
     - alanshaw
     - alekswn
     - AliabbasMerchant
@@ -7575,6 +7576,9 @@ teams:
   Alumni:
     create_default_maintainer: false
     privacy: closed
+    members:
+      member:
+        - alain2sf
   CI:
     description: continous integration
     members:
