@@ -33,7 +33,6 @@ members:
     - aknuds1
     - akru
     - akrych
-    - alain2sf
     - alanshaw
     - alekswn
     - AliabbasMerchant
@@ -1164,7 +1163,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - alain2sf
         - darobin
         - lidel
     default_branch: main
