@@ -534,6 +534,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        required_status_checks:
+          contexts:
+            - gateway-conformance
+          strict: true
     collaborators:
       admin:
         - galargh
@@ -555,8 +559,8 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_message: BLANK
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - admin
@@ -4488,7 +4492,7 @@ repositories:
     visibility: public
   helia-dag-cbor:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -4508,7 +4512,7 @@ repositories:
     visibility: public
   helia-dag-json:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -4554,7 +4558,7 @@ repositories:
     visibility: public
   helia-json:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
