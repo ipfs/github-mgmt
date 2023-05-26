@@ -3670,6 +3670,10 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
     visibility: public
   go-ipld-zcash:
     advanced_security: false
