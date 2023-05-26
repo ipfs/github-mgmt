@@ -2,7 +2,6 @@ import 'reflect-metadata'
 import {Repository} from '../resources/repository'
 import {addFileToAllRepos} from './shared/add-file-to-all-repos'
 import {format} from './shared/format'
-import {protectDefaultBranches} from './shared/protect-default-branches'
 import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
 
 function isInitialised(repository: Repository) {
@@ -18,7 +17,6 @@ function isPublic(repository: Repository) {
   return repository.visibility === 'public'
 }
 
-protectDefaultBranches()
 addFileToAllRepos(
   '.github/workflows/stale.yml',
   '.github/workflows/stale.yml',
