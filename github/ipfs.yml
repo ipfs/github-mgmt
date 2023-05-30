@@ -13,7 +13,6 @@ members:
     - jacobheun
     - jbenet
     - lidel
-    - mikeal
     - momack2
     - olizilla
     - Stebalien
@@ -5847,7 +5846,6 @@ repositories:
       admin:
         - carsonfarmer
         - Gozala
-        - mikeal
       push:
         - andrewxhill
         - asutula
@@ -6927,8 +6925,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -7599,7 +7595,6 @@ teams:
     members:
       maintainer:
         - autonome
-        - mikeal
         - momack2
       member:
         - jesseclay
@@ -7623,7 +7618,6 @@ teams:
         - BigLep
         - jacobheun
         - jbenet
-        - mikeal
         - momack2
         - olizilla
         - Stebalien
@@ -7838,7 +7832,6 @@ teams:
         - jacobheun
         - jbenet
         - lidel
-        - mikeal
         - momack2
         - olizilla
         - Stebalien
@@ -7978,7 +7971,6 @@ teams:
         - hsanjuan
         - jacobheun
         - lidel
-        - mikeal
         - olizilla
         - Stebalien
       member:
@@ -8089,7 +8081,6 @@ teams:
         - maparent
         - MarneeDear
         - MichaelMure
-        - mikeal
         - moeghashim
         - momack2
         - moul
@@ -8130,7 +8121,6 @@ teams:
     members:
       maintainer:
         - daviddias
-        - mikeal
       member:
         - alanshaw
         - ferristseng
@@ -8261,7 +8251,6 @@ teams:
         - jacobheun
         - jbenet
         - lidel
-        - mikeal
         - momack2
         - olizilla
       member:
