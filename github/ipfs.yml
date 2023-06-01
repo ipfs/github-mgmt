@@ -545,6 +545,7 @@ repositories:
       push:
         - aarshkshah1992
         - gmasgras
+        - guanzo
         - web3-bot
         - willscott
     default_branch: main
