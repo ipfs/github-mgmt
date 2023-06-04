@@ -4599,6 +4599,31 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  helia-routing-v1-http-api:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    default_branch: main
+    description: The Routing V1 HTTP API powered by Helia
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
+    visibility: public
   helia-strings:
     advanced_security: false
     allow_update_branch: true
@@ -5122,19 +5147,13 @@ repositories:
       admin:
         - 2color
         - cwaring
+        - ElPaisano
         - johnnymatthews
       maintain:
-        - ElPaisano
-        - hugomrdias
         - TheDiscordian
       push:
-        - gmasgras
         - mishmosh
-        - TMoMoreau
         - web3-bot
-      triage:
-        - thattommyhall
-        - walkerlj0
     default_branch: main
     description: 📚IPFS documentation platform
     files:
@@ -5148,15 +5167,12 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
       maintain:
         - Maintainers
       push:
         - CI
-        - community
-        - docs
+        - ipdx
+        - w3dt-stewards
     topics:
       - bounties
       - hacktoberfest
