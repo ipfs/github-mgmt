@@ -740,7 +740,34 @@ repositories:
     description: Automation for publishing go-ipfs releases to Chocolatey
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1371,7 +1398,34 @@ repositories:
     description: The golang implementation of the bitswap protocol
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1623,7 +1677,34 @@ repositories:
     default_branch: main
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1730,7 +1811,34 @@ repositories:
     description: See https://github.com/ipfs/go-libipfs/tree/main/routing/http instead.
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2041,7 +2149,23 @@ repositories:
     description: A distributed go-datastore implementation using Merkle-CRDTs.
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+          - package-ecosystem: gomod
+            directory: "/"
+            schedule:
+              interval: weekly
+              time: "11:00"
+            open-pull-requests-limit: 10
+            target-branch: dependency-upgrades
+            ignore:
+            - dependency-name: github.com/golang/protobuf
+              versions:
+              - 1.5.1
+            - dependency-name: github.com/ipfs/go-log/v2
+              versions:
+              - 2.1.2
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -3058,7 +3182,34 @@ repositories:
       `github.com/ipfs/go-libipfs/files` instead.
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3088,7 +3239,34 @@ repositories:
     description: Go implementation of the HTTP-to-IPFS gateway -- currently lives in go-ipfs
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3315,7 +3493,17 @@ repositories:
     default_branch: master
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+          - package-ecosystem: gomod
+            directory: "/"
+            schedule:
+              interval: daily
+              time: "11:00"
+            open-pull-requests-limit: 10
+            labels:
+              - "topic/dependencies"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -4488,11 +4676,40 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     description: Import/export car files from Helia
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4642,7 +4859,34 @@ repositories:
     description: The Routing V1 HTTP API powered by Helia
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4976,7 +5220,27 @@ repositories:
     description: IPFS Blog & News
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: >
+          # Please see the documentation for all configuration options:
+
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+
+          version: 2
+
+          updates:
+            - package-ecosystem: 'npm' # See documentation for possible values
+              directory: '/' # Location of package manifests
+              schedule:
+                interval: 'weekly'
+                day: 'monday'
+              commit-message:
+                prefix: 'chore'
+                include: 'scope'
+              assignees:
+                - 'zebateira'
+              labels:
+                - 'dependencies'
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5195,7 +5459,33 @@ repositories:
     description: 📚IPFS documentation platform
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: >
+          # Please see the documentation for all configuration options:
+
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+
+          version: 2
+
+          updates:
+            - package-ecosystem: 'npm' # See documentation for possible values
+              directory: '/' # Location of package manifests
+              schedule:
+                interval: 'weekly'
+                day: 'monday'
+              commit-message:
+                prefix: 'chore'
+                include: 'scope'
+              labels:
+                - 'dependencies'
+            - package-ecosystem: 'gomod'
+              directory: 'tools/http-api-docs/' # Location of go package manifests
+              schedule:
+                interval: 'monthly'
+                day: 'monday'
+              open-pull-requests-limit: 0 # Disable dependabot for go deps, we want them rock solid
+              ignore:
+                - dependency-name: "go-ipfs" # explicit ignore just in case, because this is handled by  .github/workflows/update-on-new-ipfs-tag.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5350,7 +5640,34 @@ repositories:
     default_branch: main
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5773,7 +6090,34 @@ repositories:
       interface-blockstore
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5880,7 +6224,34 @@ repositories:
     description: 🌟 Entry point for coordination of the JS Core working group members
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5976,7 +6347,34 @@ repositories:
       interface-datastore "
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6009,7 +6407,34 @@ repositories:
     description: Datastore implementation with file system backend
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6042,7 +6467,34 @@ repositories:
     description: Datastore implementation with IndexedDB backend.
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6069,7 +6521,34 @@ repositories:
     description: Datastore implementation with level(up/down) backend
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6135,7 +6614,34 @@ repositories:
     description: Datastore implementation with S3 backend
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6512,8 +7018,8 @@ repositories:
     visibility: public
   js-ipfs:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -6526,11 +7032,38 @@ repositories:
     description: IPFS implementation in JavaScript
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -6913,7 +7446,17 @@ repositories:
     description: An IPFS implementation in Go
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+          - package-ecosystem: gomod
+            directory: "/"
+            schedule:
+              interval: daily
+              time: "11:00"
+            open-pull-requests-limit: 10
+            labels:
+              - "topic/dependencies"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7106,7 +7649,34 @@ repositories:
     description: IPFS Collaborative Notebook for Research
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7169,7 +7739,34 @@ repositories:
     description: IPFS Papers (not specs)
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7317,7 +7914,15 @@ repositories:
     description: Checks which public gateways are online or not
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+          - package-ecosystem: npm
+            directory: "/"
+            schedule:
+              interval: daily
+              time: "10:00"
+            open-pull-requests-limit: 10
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7356,7 +7961,34 @@ repositories:
     description: "EXPERIMENT: A standalone ipfs gateway"
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7561,7 +8193,34 @@ repositories:
     description: "[deprecated] https://github.com/ipfs/libkubo/pull/1"
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7589,7 +8248,34 @@ repositories:
     description: IPFS Team Planning, Management & Coordination threads
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v3
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
