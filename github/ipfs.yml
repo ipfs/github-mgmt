@@ -2152,20 +2152,24 @@ repositories:
         content: |
           version: 2
           updates:
-          - package-ecosystem: gomod
-            directory: "/"
-            schedule:
-              interval: weekly
-              time: "11:00"
-            open-pull-requests-limit: 10
-            target-branch: dependency-upgrades
-            ignore:
-            - dependency-name: github.com/golang/protobuf
-              versions:
-              - 1.5.1
-            - dependency-name: github.com/ipfs/go-log/v2
-              versions:
-              - 2.1.2
+            - package-ecosystem: gomod
+              directory: "/"
+              schedule:
+                interval: weekly
+                time: "11:00"
+              open-pull-requests-limit: 10
+              target-branch: dependency-upgrades
+              ignore:
+              - dependency-name: github.com/golang/protobuf
+                versions:
+                - 1.5.1
+              - dependency-name: github.com/ipfs/go-log/v2
+                versions:
+                - 2.1.2            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -3496,14 +3500,18 @@ repositories:
         content: |
           version: 2
           updates:
-          - package-ecosystem: gomod
-            directory: "/"
-            schedule:
-              interval: daily
-              time: "11:00"
-            open-pull-requests-limit: 10
-            labels:
-              - "topic/dependencies"
+            - package-ecosystem: gomod
+              directory: "/"
+              schedule:
+                interval: daily
+                time: "11:00"
+              open-pull-requests-limit: 10
+              labels:
+                - "topic/dependencies"           
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5240,7 +5248,11 @@ repositories:
               assignees:
                 - 'zebateira'
               labels:
-                - 'dependencies'
+                - 'dependencies'            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5486,6 +5498,10 @@ repositories:
               open-pull-requests-limit: 0 # Disable dependabot for go deps, we want them rock solid
               ignore:
                 - dependency-name: "go-ipfs" # explicit ignore just in case, because this is handled by  .github/workflows/update-on-new-ipfs-tag.yml
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7449,14 +7465,18 @@ repositories:
         content: |
           version: 2
           updates:
-          - package-ecosystem: gomod
-            directory: "/"
-            schedule:
-              interval: daily
-              time: "11:00"
-            open-pull-requests-limit: 10
-            labels:
-              - "topic/dependencies"
+            - package-ecosystem: gomod
+              directory: "/"
+              schedule:
+                interval: daily
+                time: "11:00"
+              open-pull-requests-limit: 10
+              labels:
+                - "topic/dependencies"            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7917,12 +7937,16 @@ repositories:
         content: |
           version: 2
           updates:
-          - package-ecosystem: npm
-            directory: "/"
-            schedule:
-              interval: daily
-              time: "10:00"
-            open-pull-requests-limit: 10
+            - package-ecosystem: npm
+              directory: "/"
+              schedule:
+                interval: daily
+                time: "10:00"
+              open-pull-requests-limit: 10            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
