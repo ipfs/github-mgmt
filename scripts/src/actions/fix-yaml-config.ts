@@ -37,6 +37,8 @@ setPropertyInAllRepos(
 )
 doNotEnforceAdmins(
   (repository: Repository, rule: RepositoryBranchProtectionRule) =>
-    isInitialised(repository) && repository.default_branch !== undefined && globToRegex(rule.pattern).test(repository.default_branch)
+    isInitialised(repository) &&
+    repository.default_branch !== undefined &&
+    globToRegex(rule.pattern).test(repository.default_branch)
 )
 format()

@@ -1662,7 +1662,7 @@ repositories:
         allows_deletions: false
         allows_force_pushes: false
         blocks_creations: false
-        enforce_admins: true
+        enforce_admins: false
         lock_branch: false
         push_restrictions:
           - MDQ6VGVhbTMzNjQxMDI=
@@ -3195,7 +3195,7 @@ repositories:
         allows_deletions: false
         allows_force_pushes: false
         blocks_creations: false
-        enforce_admins: true
+        enforce_admins: false
         lock_branch: false
         push_restrictions:
           - MDQ6VGVhbTMzNjQxMDI=
@@ -4480,6 +4480,9 @@ repositories:
         - achingbrain
     default_branch: main
     description: Import/export car files from Helia
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4497,7 +4500,7 @@ repositories:
         allows_deletions: false
         allows_force_pushes: false
         blocks_creations: false
-        enforce_admins: true
+        enforce_admins: false
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -4627,6 +4630,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: The Routing V1 HTTP API powered by Helia
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
