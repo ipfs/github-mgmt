@@ -307,6 +307,8 @@ repositories:
     default_branch: master
     description: Aegir themes for TypeDoc.
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -987,6 +989,8 @@ repositories:
     default_branch: master
     description: dist.ipfs.io website and artifact build tools
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -1018,6 +1022,8 @@ repositories:
         - galargh
     default_branch: master
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -2034,6 +2040,8 @@ repositories:
     default_branch: master
     description: A distributed go-datastore implementation using Merkle-CRDTs.
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -3306,6 +3314,8 @@ repositories:
         - gmasgras
     default_branch: master
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -4965,6 +4975,8 @@ repositories:
     default_branch: main
     description: IPFS Blog & News
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5113,6 +5125,8 @@ repositories:
     description: "An unobtrusive and user-friendly desktop application for IPFS on
       Windows, Mac and Linux. "
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5180,6 +5194,8 @@ repositories:
     default_branch: main
     description: 📚IPFS documentation platform
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5494,6 +5510,8 @@ repositories:
     default_branch: main
     description: A frontend for an IPFS node.
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5657,6 +5675,8 @@ repositories:
     default_branch: master
     description: React components for https://explore.ipld.io and ipfs-webui
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5913,6 +5933,8 @@ repositories:
     default_branch: default
     description: Library for storing and replicating hash-linked data over the IPFS network.
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -6890,6 +6912,8 @@ repositories:
     default_branch: master
     description: An IPFS implementation in Go
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7110,6 +7134,8 @@ repositories:
     default_branch: master
     description: Install Kubo (go-ipfs) from NPM
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7218,6 +7244,8 @@ repositories:
     default_branch: main
     description: Standalone, vendor-agnostic Pinning Service API for IPFS ecosystem
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7288,6 +7316,8 @@ repositories:
     default_branch: master
     description: Checks which public gateways are online or not
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -7485,6 +7515,8 @@ repositories:
         - galargh
     default_branch: master
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
