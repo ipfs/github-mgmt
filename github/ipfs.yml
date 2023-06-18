@@ -7446,12 +7446,8 @@ repositories:
           contexts:
             - go-build
             - go-check
-            - go-ipfs-api
-            - go-ipfs-http-client
             - go-lint
             - go-test
-            - interop
-            - ipfs-webui
             - sharness-test
           strict: true
     collaborators:
