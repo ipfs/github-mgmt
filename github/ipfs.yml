@@ -1174,6 +1174,8 @@ repositories:
     default_branch: master
     description: Migrations for the filesystem repository of ipfs clients
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
