@@ -2549,7 +2549,7 @@ repositories:
   go-filestore:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -2572,7 +2572,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -2796,22 +2796,22 @@ repositories:
   go-ipfs-blockstore:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
       push:
         - web3-bot
     default_branch: master
-    description: This module provides a thin wrapper over a datastore and provides
-      caching strategies.
+    description: "[ARCHIVED] This module provides a thin wrapper over a datastore
+      and provides caching strategies."
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -2864,7 +2864,7 @@ repositories:
   go-ipfs-chunker:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -2879,7 +2879,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3424,7 +3424,7 @@ repositories:
   go-ipfs-posinfo:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -3438,7 +3438,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3530,7 +3530,7 @@ repositories:
   go-ipfs-provider:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     branch_protection:
       remove-ipfs-dep:
         allows_deletions: false
@@ -3553,7 +3553,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3638,7 +3638,7 @@ repositories:
   go-ipfs-routing:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -3652,7 +3652,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3938,7 +3938,7 @@ repositories:
   go-ipns:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -3950,7 +3950,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4222,8 +4222,8 @@ repositories:
     visibility: public
   go-namesys:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -4253,7 +4253,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4272,7 +4272,7 @@ repositories:
   go-path:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -4284,7 +4284,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4563,7 +4563,7 @@ repositories:
   go-verifcid:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -4576,7 +4576,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -5120,20 +5120,21 @@ repositories:
   interface-go-ipfs-core:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - magik6k
       push:
         - web3-bot
     default_branch: master
+    description: "[ARCHIVED] this interface is now part of boxo and kubo/client/rpc"
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
