@@ -243,6 +243,38 @@ members:
     - ZenGround0
     - zignig
 repositories:
+  .github:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    collaborators:
+      admin:
+        - whizzzkid
+    default_branch: main
+    description: Readme for https://github.com/ipfs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   2019.ipfs.camp:
     advanced_security: false
     allow_update_branch: false
@@ -1290,7 +1322,21 @@ repositories:
     default_branch: master
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+              - cron: '0 0 * * *'
+            workflow_dispatch:
+
+          permissions:
+            issues: write
+            pull-requests: write
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
       CODEOWNERS:
         content: |
           # The ipdx team is responsible for GitHub Management maintenance
@@ -1482,7 +1528,7 @@ repositories:
   go-blockservice:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1491,11 +1537,20 @@ repositories:
       storage seamlessly
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -2519,7 +2574,7 @@ repositories:
   go-fetcher:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hannahhoward
@@ -2529,11 +2584,20 @@ repositories:
     description: Handles IPLD prime graph data retrieval accross IPFS.
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -2568,7 +2632,16 @@ repositories:
     default_branch: master
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2807,7 +2880,16 @@ repositories:
       and provides caching strategies."
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2875,7 +2957,16 @@ repositories:
       being ingested to IPFS
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3032,7 +3123,7 @@ repositories:
   go-ipfs-ds-help:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -3042,11 +3133,20 @@ repositories:
     description: Utilities for parsing and creating datastore keys used by go-ipfs
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3096,7 +3196,7 @@ repositories:
   go-ipfs-exchange-interface:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -3106,11 +3206,20 @@ repositories:
     description: The IPFS Exchange interface
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3129,7 +3238,7 @@ repositories:
   go-ipfs-exchange-offline:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -3139,11 +3248,20 @@ repositories:
     description: An offline IPFS exchange implementation
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3327,7 +3445,7 @@ repositories:
   go-ipfs-keystore:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -3358,11 +3476,20 @@ repositories:
       storage for IPFS
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3381,7 +3508,7 @@ repositories:
   go-ipfs-pinner:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -3402,11 +3529,20 @@ repositories:
       Pinner for IPFS "
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3434,7 +3570,16 @@ repositories:
     description: Posinfo wraps offset information for ipfs filestore nodes
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3549,7 +3694,16 @@ repositories:
     default_branch: master
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3648,7 +3802,16 @@ repositories:
     description: go-ipfs-routing provides go-libp2p-routing implementations used in go-ipfs.
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3671,7 +3834,7 @@ repositories:
   go-ipfs-util:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - whyrusleeping
@@ -3681,11 +3844,20 @@ repositories:
     description: Common utilities used by go-ipfs and other related go packages
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3946,7 +4118,16 @@ repositories:
     description: Utilities for creating, parsing, and validating IPNS records
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4181,7 +4362,7 @@ repositories:
   go-mfs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -4201,11 +4382,20 @@ repositories:
     description: An in memory model of a mutable IPFS filesystem
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4249,7 +4439,16 @@ repositories:
       namespace in go-ipfs
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4280,7 +4479,16 @@ repositories:
     description: Utilities for dealing with ipfs paths
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4336,7 +4544,7 @@ repositories:
   go-pinning-service-http-client:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -4344,11 +4552,20 @@ repositories:
     description: An IPFS Pinning Service HTTP Client
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4498,7 +4715,7 @@ repositories:
   go-unixfs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -4506,11 +4723,20 @@ repositories:
     description: Implementation of a unix-like filesystem on top of an ipld merkledag
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4572,7 +4798,16 @@ repositories:
       merged into go-cid
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5130,7 +5365,16 @@ repositories:
     description: "[ARCHIVED] this interface is now part of boxo and kubo/client/rpc"
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
