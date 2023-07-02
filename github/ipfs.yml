@@ -1260,6 +1260,8 @@ repositories:
       admin:
         - darobin
         - lidel
+      push:
+        - web3-bot
     default_branch: main
     description: a vendor-agnostic gateway conformance test suite for implementers
       of IPFS Gateways to ensure compliance
