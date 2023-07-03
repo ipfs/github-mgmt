@@ -4969,6 +4969,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    teams:
+      admin:
+        - helia-dev
   helia-cli:
     advanced_security: false
     allow_update_branch: false
@@ -5031,6 +5034,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    teams:
+      admin:
+        - helia-dev
   helia-dag-json:
     advanced_security: false
     allow_update_branch: true
@@ -5051,6 +5057,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    teams:
+      admin:
+        - helia-dev
   helia-ipns:
     advanced_security: false
     allow_update_branch: true
@@ -5097,6 +5106,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    teams:
+      admin:
+        - helia-dev
   helia-routing-v1-http-api:
     advanced_security: false
     allow_update_branch: true
@@ -5149,6 +5161,7 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+        - helia-dev
       push:
         - Repos - JavaScript
     visibility: public
@@ -5172,6 +5185,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    teams:
+      admin:
+        - helia-dev
   helia-unixfs:
     advanced_security: false
     allow_update_branch: true
