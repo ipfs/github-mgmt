@@ -8595,7 +8595,7 @@ repositories:
   test-plans:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: master
     description: Testground test plans for IPFS
     files:
