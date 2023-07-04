@@ -8596,15 +8596,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hacdias
-        - raulk
-      maintain:
-        - nonsense
-      push:
-        - dirkmc
-        - web3-bot
     default_branch: master
     description: Testground test plans for IPFS
     files:
@@ -8617,10 +8608,6 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
     visibility: public
 teams:
   admin:
