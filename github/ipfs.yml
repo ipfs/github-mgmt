@@ -8843,13 +8843,12 @@ teams:
         - Jorropo
     privacy: secret
   gui-dev:
-    description: GUI Developers and engineers
+    description: GUI Developers and Engineers
     members:
       maintainer:
         - lidel
         - SgtPooki
       member:
-        - hacdias
         - whizzzkid
     parent_team_id: WG GUI/UX
     privacy: closed
