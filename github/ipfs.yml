@@ -658,7 +658,8 @@ repositories:
       admin:
         - web3-bot
     default_branch: main
-    description: A reference library for building IPFS applications and implementations.
+    description: A set of reference libraries for building IPFS applications and
+      implementations in GO.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -7771,7 +7772,10 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      maintain:
+        - laurentsenta
       push:
+        - hacdias
         - web3-bot
     default_branch: main
     files:
@@ -8192,7 +8196,6 @@ repositories:
         - lidel
       push:
         - ipfs-gui-bot
-        - jamiew
         - juliaxbow
         - web3-bot
     default_branch: master
@@ -8604,7 +8607,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -8846,6 +8849,7 @@ teams:
         - Jorropo
     privacy: secret
   gui-dev:
+    create_default_maintainer: false
     description: GUI Developers and Engineers
     members:
       maintainer:
