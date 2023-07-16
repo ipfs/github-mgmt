@@ -3427,7 +3427,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: Go-IPFS API implementation over HTTP API
+    description: "[archived] Legacy Kubo RPC client, use kubo/client/rpc instead."
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -8333,6 +8333,7 @@ repositories:
         - darobin
         - web3-bot
     default_branch: main
+    description: Static spec website generator used by https://specs.ipfs.tech
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -9204,7 +9205,6 @@ teams:
         - BigLep
         - lidel
       member:
-        - guseggert
         - hacdias
         - Jorropo
     privacy: closed
