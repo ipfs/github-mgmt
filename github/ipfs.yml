@@ -647,7 +647,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         require_conversation_resolution: false
-        require_signed_commits: true
+        require_signed_commits: false
         required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
@@ -6242,14 +6242,22 @@ repositories:
       master:
         allows_deletions: false
         allows_force_pushes: false
-        blocks_creations: false
+        blocks_creations: true
         enforce_admins: false
         lock_branch: false
+        push_restrictions:
+          - /ipfs-gui-bot
+          - /web3-bot
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
+          pull_request_bypassers:
+            - /ipfs-gui-bot
+            - /web3-bot
+            - MDQ6VXNlcjgxMzMzOTQ2
+            - U_kgDOBn5-CA
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
@@ -7597,6 +7605,8 @@ repositories:
     collaborators:
       push:
         - web3-bot
+      triage:
+        - ElPaisano
     default_branch: master
     description: The Website for the JavaScript implementation of the IPFS protocol
     files:
