@@ -937,6 +937,7 @@ repositories:
     collaborators:
       push:
         - ipfsbot
+        - web3-bot
     default_branch: master
     description: Directory listing HTML for go-ipfs gateways
     has_discussions: false
@@ -1411,6 +1412,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: The golang implementation of the bitswap protocol
     files:
@@ -1496,6 +1500,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: The go 'blockservice' implementation, combines local and remote
       storage seamlessly
@@ -1691,6 +1698,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - web3-bot
     default_branch: main
     files:
       .github/workflows/stale.yml:
@@ -1821,6 +1830,9 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: See https://github.com/ipfs/go-libipfs/tree/main/routing/http instead.
     files:
@@ -2053,6 +2065,8 @@ repositories:
     collaborators:
       admin:
         - magik6k
+      push:
+        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2104,6 +2118,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: A wrapper for boltdb that implements jbenet/go-datastore's
       Datastore interface
@@ -2526,6 +2543,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - web3-bot
     default_branch: main
     description: Handles IPLD prime graph data retrieval accross IPFS.
     files:
@@ -2572,6 +2591,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     files:
       .github/workflows/stale.yml:
@@ -2718,6 +2740,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: An implementation of a HAMT using ipld
     has_discussions: false
@@ -2809,6 +2834,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: "[ARCHIVED] This module provides a thin wrapper over a datastore
       and provides caching strategies."
@@ -2884,6 +2911,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: go-ipfs-chunkers provides Splitter implementations for data before
       being ingested to IPFS
@@ -2922,6 +2951,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2992,6 +3024,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "[ARCHIVED] config is now part of go-ipfs repo"
     has_discussions: false
@@ -3053,6 +3088,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: Utilities for parsing and creating datastore keys used by go-ipfs
     files:
@@ -3124,6 +3161,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: The IPFS Exchange interface
     files:
@@ -3164,6 +3203,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: An offline IPFS exchange implementation
     files:
@@ -3219,6 +3260,8 @@ repositories:
     collaborators:
       admin:
         - magik6k
+      push:
+        - web3-bot
     default_branch: master
     description: An old files library, please migrate to
       `github.com/ipfs/go-libipfs/files` instead.
@@ -3274,6 +3317,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Go implementation of the HTTP-to-IPFS gateway -- currently lives in go-ipfs
     files:
@@ -3385,6 +3431,7 @@ repositories:
         - ZenGround0
       push:
         - frrist
+        - web3-bot
     default_branch: master
     description: go-ipfs-keystore provides an interface and implementation of key
       storage for IPFS
@@ -3435,6 +3482,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "go-ipfs-pinner provides an interface and implementation of a
       Pinner for IPFS "
@@ -3475,6 +3525,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: Posinfo wraps offset information for ipfs filestore nodes
     files:
@@ -3598,6 +3650,8 @@ repositories:
     collaborators:
       admin:
         - Stebalien
+      push:
+        - web3-bot
     default_branch: master
     files:
       .github/workflows/stale.yml:
@@ -3703,6 +3757,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: go-ipfs-routing provides go-libp2p-routing implementations used in go-ipfs.
     files:
@@ -3743,6 +3799,8 @@ repositories:
     collaborators:
       admin:
         - whyrusleeping
+      push:
+        - web3-bot
     default_branch: master
     description: Common utilities used by go-ipfs and other related go packages
     files:
@@ -3849,6 +3907,7 @@ repositories:
         - whyrusleeping
       push:
         - dryajov
+        - web3-bot
     default_branch: master
     description: Plugin of the Go IPFS Client for Ethereum Blockchain IPLD objects
     has_discussions: false
@@ -4009,6 +4068,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Utilities for creating, parsing, and validating IPNS records
     files:
@@ -4052,6 +4114,7 @@ repositories:
     collaborators:
       push:
         - frrist
+        - web3-bot
     default_branch: master
     description: A Jaeger plugin for IPFS
     has_discussions: false
@@ -4264,6 +4327,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: An in memory model of a mutable IPFS filesystem
     files:
@@ -4317,6 +4383,9 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: go-namesys provides publish and resolution support for the /ipns/
       namespace in go-ipfs
@@ -4355,6 +4424,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Utilities for dealing with ipfs paths
     files:
@@ -4425,6 +4497,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: An IPFS Pinning Service HTTP Client
     files:
@@ -4458,6 +4533,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Unix util to poll an endpoint
     has_discussions: false
@@ -4534,6 +4612,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: static block store (very experimental)
     has_discussions: false
@@ -4587,6 +4668,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Implementation of a unix-like filesystem on top of an ipld merkledag
     files:
@@ -4658,6 +4742,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Temporary repo to provide cid security code prior to it getting
       merged into go-cid
@@ -5164,6 +5251,7 @@ repositories:
     collaborators:
       push:
         - locotorp
+        - web3-bot
     default_branch: master
     description: Tools and systems for the IPFS community
     has_discussions: false
@@ -5208,6 +5296,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     description: datastore interface
     has_discussions: false
@@ -5234,6 +5324,8 @@ repositories:
     collaborators:
       admin:
         - magik6k
+      push:
+        - web3-bot
     default_branch: master
     description: "[ARCHIVED] this interface is now part of boxo and kubo/client/rpc"
     files:
@@ -5269,8 +5361,11 @@ repositories:
     visibility: public
   interop:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Interoperability tests for IPFS Implementations (on-the-wire interop)
     files:
@@ -5279,7 +5374,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
@@ -6090,8 +6185,6 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           pull_request_bypassers:
-            - /ipfs-gui-bot
-            - /web3-bot
             - MDQ6VXNlcjgxMzMzOTQ2
             - U_kgDOBn5-CA
           require_code_owner_reviews: false
@@ -6213,6 +6306,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     description: Contains various implementations of the API contract described in
       interface-blockstore
@@ -6342,11 +6437,12 @@ repositories:
     collaborators:
       admin:
         - alanshaw
-        - jacobheun
       push:
         - dirkmc
+        - jacobheun
         - vasco-santos
         - vmx
+        - web3-bot
     default_branch: master
     description: 🌟 Entry point for coordination of the JS Core working group members
     files:
@@ -6466,6 +6562,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     description: "Contains various implementations of the API contract described in
       interface-datastore "
@@ -6525,6 +6623,8 @@ repositories:
       admin:
         - achingbrain
         - dignifiedquire
+      push:
+        - web3-bot
     default_branch: master
     description: Datastore implementation with file system backend
     files:
@@ -6583,6 +6683,8 @@ repositories:
       admin:
         - achingbrain
         - hugomrdias
+      push:
+        - web3-bot
     default_branch: master
     description: Datastore implementation with IndexedDB backend.
     files:
@@ -6635,6 +6737,8 @@ repositories:
       admin:
         - achingbrain
         - dignifiedquire
+      push:
+        - web3-bot
     default_branch: master
     description: Datastore implementation with level(up/down) backend
     files:
@@ -6726,6 +6830,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     description: Datastore implementation with S3 backend
     files:
@@ -6909,6 +7015,8 @@ repositories:
         - achingbrain
         - daviddias
         - dignifiedquire
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript Implementation of Block and BlockService
     has_discussions: false
@@ -6937,6 +7045,8 @@ repositories:
       admin:
         - achingbrain
         - vasco-santos
+      push:
+        - web3-bot
     default_branch: master
     description: Creates an HTTP response from an IPFS Hash
     has_discussions: false
@@ -6998,6 +7108,7 @@ repositories:
         - alanshaw
       push:
         - AuHau
+        - web3-bot
     default_branch: master
     description: Migration framework for versioning of JS IPFS Repo
     has_discussions: false
@@ -7132,6 +7243,7 @@ repositories:
         - hugomrdias
       push:
         - 2color
+        - web3-bot
     default_branch: master
     description: IPFS implementation in JavaScript
     files:
@@ -7739,6 +7851,7 @@ repositories:
     collaborators:
       push:
         - jsoares
+        - web3-bot
         - yiannisbot
     default_branch: master
     description: IPFS Collaborative Notebook for Research
@@ -7827,6 +7940,7 @@ repositories:
     collaborators:
       push:
         - 2color
+        - web3-bot
     default_branch: master
     description: IPFS Papers (not specs)
     files:
@@ -8278,6 +8392,9 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "[deprecated] https://github.com/ipfs/libkubo/pull/1"
     files:
@@ -8330,6 +8447,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IPFS Team Planning, Management & Coordination threads
     files:
@@ -8465,7 +8585,6 @@ teams:
         - aschmahmann
         - autonome
         - BigLep
-        - jacobheun
         - jbenet
         - momack2
         - olizilla
@@ -8500,6 +8619,7 @@ teams:
         - hosh
         - hugomrdias
         - ianopolous
+        - jacobheun
         - jesseclay
         - JGAntunes
         - jimpick
@@ -8678,7 +8798,6 @@ teams:
         - cwaring
         - daviddias
         - hsanjuan
-        - jacobheun
         - jbenet
         - lidel
         - momack2
@@ -8742,6 +8861,7 @@ teams:
         - hugomrdias
         - ianamunoz
         - ianopolous
+        - jacobheun
         - jamiejn
         - janjanovna
         - jdelgadopin
@@ -8818,7 +8938,6 @@ teams:
       maintainer:
         - autonome
         - hsanjuan
-        - jacobheun
         - lidel
         - olizilla
         - Stebalien
@@ -8832,6 +8951,7 @@ teams:
         - gorhgorh
         - Gozala
         - hugomrdias
+        - jacobheun
         - jimpick
         - joaosantos15
         - kk3wong
@@ -9015,7 +9135,6 @@ teams:
       maintainer:
         - aschmahmann
         - hsanjuan
-        - jacobheun
         - Stebalien
         - whyrusleeping
       member:
@@ -9023,6 +9142,7 @@ teams:
         - dirkmc
         - frrist
         - hannahhoward
+        - jacobheun
         - Jorropo
         - Kubuxu
         - magik6k
@@ -9043,7 +9163,6 @@ teams:
         - autonome
         - daviddias
         - hsanjuan
-        - jacobheun
         - jbenet
         - lidel
         - Stebalien
@@ -9067,6 +9186,7 @@ teams:
         - iand
         - ipfsbot
         - ischasny
+        - jacobheun
         - Jorropo
         - Kubuxu
         - magik6k
@@ -9095,7 +9215,6 @@ teams:
         - achingbrain
         - alanshaw
         - daviddias
-        - jacobheun
         - jbenet
         - lidel
         - momack2
@@ -9109,6 +9228,7 @@ teams:
         - Gozala
         - hacdias
         - ipfsbot
+        - jacobheun
         - kumavis
         - magik6k
         - rvagg
@@ -9182,7 +9302,6 @@ teams:
         - autonome
         - cwaring
         - daviddias
-        - jacobheun
         - lidel
         - olizilla
       member:
@@ -9190,6 +9309,7 @@ teams:
         - andyschwab
         - ericronne
         - hugomrdias
+        - jacobheun
         - johnnymatthews
         - raulk
     privacy: closed
@@ -9266,9 +9386,9 @@ teams:
     members:
       maintainer:
         - aschmahmann
-        - jacobheun
         - lidel
       member:
         - achingbrain
+        - jacobheun
         - SgtPooki
     privacy: closed
