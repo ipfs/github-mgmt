@@ -10,7 +10,6 @@ members:
     - daviddias
     - galargh
     - hsanjuan
-    - jacobheun
     - jbenet
     - lidel
     - momack2
@@ -120,6 +119,7 @@ members:
     - ianopolous
     - ipfsbot
     - ischasny
+    - jacobheun
     - jamiejn
     - janjanovna
     - jbenetsafer
@@ -2753,7 +2753,6 @@ repositories:
       push:
         - anorth
         - elijaharita
-        - kylehuntsman
         - vmx
         - web3-bot
     default_branch: main
@@ -8631,7 +8630,6 @@ teams:
         - aschmahmann
         - daviddias
         - hsanjuan
-        - jacobheun
         - jbenet
         - momack2
         - olizilla
@@ -9287,7 +9285,6 @@ teams:
         - ischasny
         - Jorropo
         - Kubuxu
-        - kylehuntsman
         - magik6k
         - marten-seemann
         - masih
