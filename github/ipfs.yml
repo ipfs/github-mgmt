@@ -5064,6 +5064,9 @@ repositories:
     description: A library that helps Helia consumers pin content via the
       https://ipfs.github.io/pinning-services-api-spec/. Initial design at
       https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
