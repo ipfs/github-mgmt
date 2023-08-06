@@ -5053,6 +5053,29 @@ repositories:
       admin:
         - helia-dev
     visibility: public
+  helia-remote-pinning:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - SgtPooki
+    default_branch: main
+    description: A library that helps Helia consumers pin content via the
+      https://ipfs.github.io/pinning-services-api-spec/. Initial design at
+      https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - helia
+      - ipfs
+      - typescript-library
+    visibility: public
   helia-routing-v1-http-api:
     advanced_security: false
     allow_update_branch: true
