@@ -561,7 +561,8 @@ repositories:
         required_linear_history: false
         required_status_checks:
           contexts:
-            - gateway-conformance
+            - gateway-conformance (GRAPH_BACKEND=false)
+            - gateway-conformance (GRAPH_BACKEND=true)
           strict: true
     collaborators:
       admin:
@@ -620,14 +621,13 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - All
             - gateway-conformance
-            - macos (go 1.19.x)
-            - macos (go 1.20.x)
-            - ubuntu (go 1.19.x)
-            - ubuntu (go 1.20.x)
-            - windows (go 1.19.x)
-            - windows (go 1.20.x)
+            - go-test / macos (go next)
+            - go-test / macos (go this)
+            - go-test / ubuntu (go next)
+            - go-test / ubuntu (go this)
+            - go-test / windows (go next)
+            - go-test / windows (go this)
           strict: true
       release:
         allows_deletions: false
@@ -1210,9 +1210,9 @@ repositories:
         allows_deletions: false
         allows_force_pushes: false
         blocks_creations: false
-        enforce_admins: false
+        enforce_admins: true
         lock_branch: false
-        require_conversation_resolution: false
+        require_conversation_resolution: true
         require_signed_commits: false
         required_linear_history: false
         required_pull_request_reviews:
@@ -2646,10 +2646,13 @@ repositories:
         required_linear_history: false
         required_status_checks:
           contexts:
-            - All
-            - macos (go 1.20.x)
-            - ubuntu (go 1.20.x)
-            - windows (go 1.20.x)
+            - go-check / All
+            - go-test / macos (go next)
+            - go-test / macos (go this)
+            - go-test / ubuntu (go next)
+            - go-test / ubuntu (go this)
+            - go-test / windows (go next)
+            - go-test / windows (go this)
           strict: false
     collaborators:
       push:
@@ -2699,12 +2702,13 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - macos (go 1.19.x)
-            - macos (go 1.20.x)
-            - ubuntu (go 1.19.x)
-            - ubuntu (go 1.20.x)
-            - windows (go 1.19.x)
-            - windows (go 1.20.x)
+            - go-check / All
+            - go-test / macos (go next)
+            - go-test / macos (go this)
+            - go-test / ubuntu (go next)
+            - go-test / ubuntu (go this)
+            - go-test / windows (go next)
+            - go-test / windows (go this)
           strict: true
     collaborators:
       admin:
@@ -5058,6 +5062,23 @@ repositories:
       admin:
         - helia-dev
     visibility: public
+  helia-mfs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: A mutable filesystem powered by Helia
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   helia-remote-pinning:
     advanced_security: false
     allow_update_branch: false
@@ -5079,6 +5100,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - helia-dev
     topics:
       - helia
       - ipfs
@@ -7631,6 +7655,7 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
+            - gateway-conformance
             - go-build
             - go-check
             - go-lint
@@ -7672,6 +7697,7 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
+            - gateway-conformance
             - go-build
             - go-check
             - go-lint
@@ -7931,7 +7957,7 @@ repositories:
       maintain:
         - Maintainers
     visibility: public
-  npm-go-ipfs:
+  npm-kubo:
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -7940,11 +7966,6 @@ repositories:
         - hugomrdias
     default_branch: master
     description: Install Kubo (go-ipfs) from NPM
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8554,6 +8575,23 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  uci:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    description: Automatically distribute GitHub Actions workflow across repositories.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
