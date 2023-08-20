@@ -20,10 +20,16 @@ function isPublic(repository: Repository) {
   return repository.visibility === 'public'
 }
 
+function isFork(repository: Repository) {
+  return [
+    'uci'
+  ].includes(repository.name)
+}
+
 addFileToAllRepos(
   '.github/workflows/stale.yml',
   '.github/workflows/stale.yml',
-  isInitialised
+  r => isInitialised(r) && !isFork(r)
 )
 setPropertyInAllRepos(
   'secret_scanning',
