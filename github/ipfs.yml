@@ -1478,6 +1478,8 @@ repositories:
       admin:
         - Stebalien
         - whyrusleeping
+      push:
+        - web3-bot
     default_branch: master
     files:
       .github/workflows/stale.yml:
