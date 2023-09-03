@@ -5093,6 +5093,8 @@ repositories:
     collaborators:
       admin:
         - SgtPooki
+      push:
+        - web3-bot
     default_branch: main
     description: A library that helps Helia consumers pin content via the
       https://ipfs.github.io/pinning-services-api-spec/. Initial design at
