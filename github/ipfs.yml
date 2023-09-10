@@ -4926,6 +4926,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+    topics:
+      - ipfs-helia
     visibility: public
   helia-cli:
     advanced_security: false
@@ -4968,6 +4970,8 @@ repositories:
         - helia-dev
       push:
         - Repos - JavaScript
+    topics:
+      - ipfs-helia
     visibility: public
   helia-dag-cbor:
     advanced_security: false
@@ -4991,6 +4995,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+    topics:
+      - ipfs-helia
     visibility: public
   helia-dag-json:
     advanced_security: false
@@ -5014,6 +5020,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+    topics:
+      - ipfs-helia
     visibility: public
   helia-ipns:
     advanced_security: false
@@ -5040,6 +5048,8 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - JavaScript
+    topics:
+      - ipfs-helia
     visibility: public
   helia-json:
     advanced_security: false
@@ -5063,6 +5073,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+    topics:
+      - ipfs-helia
     visibility: public
   helia-mfs:
     advanced_security: false
@@ -5085,6 +5097,8 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - ipfs-helia
     visibility: public
   helia-remote-pinning:
     advanced_security: false
@@ -5114,6 +5128,7 @@ repositories:
         - helia-dev
     topics:
       - helia
+      - ipfs-helia
       - ipfs
       - typescript-library
     visibility: public
@@ -5172,6 +5187,8 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - JavaScript
+    topics:
+      - ipfs-helia
     visibility: public
   helia-strings:
     advanced_security: false
@@ -5195,6 +5212,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+    topics:
+      - ipfs-helia
     visibility: public
   helia-unixfs:
     advanced_security: false
@@ -5222,6 +5241,8 @@ repositories:
         - helia-dev
       push:
         - Repos - JavaScript
+    topics:
+      - ipfs-helia
     visibility: public
   helia:
     advanced_security: false
@@ -5252,6 +5273,9 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - JavaScript
+    topics:
+      - ipfs-helia
+      - ipfs
     visibility: public
   in-web-browsers:
     advanced_security: false
@@ -5275,6 +5299,7 @@ repositories:
     collaborators:
       admin:
         - autonome
+        - darobin
         - lidel
       push:
         - ipfs-gui-bot
