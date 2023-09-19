@@ -2716,6 +2716,7 @@ repositories:
       admin:
         - dirkmc
         - hannahhoward
+        - rvagg
         - willscott
       maintain:
         - davidd8
