@@ -265,6 +265,7 @@ repositories:
     collaborators:
       admin:
         - whizzzkid
+        - 2color
     default_branch: main
     description: Readme for https://github.com/ipfs
     files:
@@ -879,6 +880,7 @@ repositories:
         - lidel
         - mishmosh
         - momack2
+        - 2color
       maintain:
         - realChainLife
     default_branch: master
