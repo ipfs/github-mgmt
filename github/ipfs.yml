@@ -264,6 +264,7 @@ repositories:
           restrict_dismissals: false
     collaborators:
       admin:
+        - 2color
         - whizzzkid
     default_branch: main
     description: Readme for https://github.com/ipfs
@@ -874,6 +875,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - autonome
         - ErinOCon
         - lidel
