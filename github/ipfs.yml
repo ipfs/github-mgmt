@@ -264,8 +264,8 @@ repositories:
           restrict_dismissals: false
     collaborators:
       admin:
-        - whizzzkid
         - 2color
+        - whizzzkid
     default_branch: main
     description: Readme for https://github.com/ipfs
     files:
@@ -875,12 +875,12 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - autonome
         - ErinOCon
         - lidel
         - mishmosh
         - momack2
-        - 2color
       maintain:
         - realChainLife
     default_branch: master
