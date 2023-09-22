@@ -8188,6 +8188,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      maintain:
+        - wemeetagain
       push:
         - web3-bot
     default_branch: master
