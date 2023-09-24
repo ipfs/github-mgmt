@@ -883,12 +883,9 @@ repositories:
         - momack2
       maintain:
         - realChainLife
-    default_branch: master
+    default_branch: main
     description: The IPFS Grant platform connects funding organizations with
       builders and researchers in the IPFS community.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7813,6 +7810,7 @@ repositories:
         - laurentsenta
       push:
         - hacdias
+        - Jorropo
         - web3-bot
     default_branch: main
     files:
