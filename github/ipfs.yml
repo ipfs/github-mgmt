@@ -450,16 +450,16 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - autonome
         - dignifiedquire
         - hacdias
         - lidel
-        - 2color
       push:
         - bmann
-        - meandavejustice
         - ipfs-gui-bot
         - koalalorenzo
+        - meandavejustice
         - parkan
         - victorb
     default_branch: master
@@ -888,6 +888,9 @@ repositories:
     default_branch: main
     description: The IPFS Grant platform connects funding organizations with
       builders and researchers in the IPFS community.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
