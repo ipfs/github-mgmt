@@ -454,8 +454,10 @@ repositories:
         - dignifiedquire
         - hacdias
         - lidel
-      push:
         - 2color
+      push:
+        - bmann
+        - meandavejustice
         - ipfs-gui-bot
         - koalalorenzo
         - parkan
