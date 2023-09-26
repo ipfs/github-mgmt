@@ -891,6 +891,7 @@ repositories:
       builders and researchers in the IPFS community.
     files:
       .github/workflows/stale.yml:
+        overwrite_on_create: true
         content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
