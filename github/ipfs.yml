@@ -8279,8 +8279,8 @@ repositories:
   rainbow:
     advanced_security: false
     allow_update_branch: false
-    archived: true
-    default_branch: master
+    archived: false
+    default_branch: main
     description: "EXPERIMENT: A standalone ipfs gateway"
     files:
       .github/workflows/stale.yml:
@@ -8319,6 +8319,16 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+      push:
+        - ipdx
+        - w3dt-stewards
+    topics:
+      - http
+      - ipfs-gateway
+      - ipfs
     visibility: public
   roadmap:
     advanced_security: false
