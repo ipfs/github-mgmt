@@ -8280,6 +8280,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: "EXPERIMENT: A standalone ipfs gateway"
     files:
