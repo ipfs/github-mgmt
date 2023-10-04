@@ -229,6 +229,7 @@ members:
     - warpfork
     - waynewyang
     - web3-bot
+    - wemeetagain
     - whereswaldon
     - whizzzkid
     - wilkyr31d
@@ -9386,6 +9387,7 @@ teams:
         - SgtPooki
         - vasco-santos
         - vmx
+        - wemeetagain
     privacy: closed
   Repos - Python:
     description: python ipfs implementation
