@@ -2076,11 +2076,14 @@ repositories:
     archived: false
     default_branch: master
     description: "Datastore implementation using Badger v4 as backend. "
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
@@ -5052,11 +5055,14 @@ repositories:
         - SgtPooki
         - whizzzkid
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
