@@ -5293,6 +5293,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - achingbrain
     default_branch: main
     description: An implementation of IPFS in JavaScript
@@ -7671,6 +7672,8 @@ repositories:
             - fleek/build
           strict: false
     collaborators:
+      admin:
+        - 2color
       triage:
         - ElPaisano
     default_branch: master
