@@ -5048,13 +5048,16 @@ repositories:
     visibility: public
   helia-docker:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
+      admin:
+        - whizzzkid
       push:
         - SgtPooki
         - whizzzkid
     default_branch: main
+    description: Run Helia NodeJS in a Docker Container.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -5065,6 +5068,13 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - helia-dev
+    topics:
+      - ipfs-helia
+      - docker
+      - helia-nodejs
     visibility: public
   helia-ipns:
     advanced_security: false
