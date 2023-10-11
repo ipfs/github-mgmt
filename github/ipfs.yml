@@ -5052,7 +5052,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - helia-dev 
+        - helia-dev
       push:
         - SgtPooki
         - whizzzkid
