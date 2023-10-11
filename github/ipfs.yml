@@ -5052,7 +5052,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - whizzzkid
+        - @ipfs/helia-dev 
       push:
         - SgtPooki
         - whizzzkid
