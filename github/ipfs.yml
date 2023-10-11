@@ -5072,9 +5072,9 @@ repositories:
       admin:
         - helia-dev
     topics:
-      - ipfs-helia
       - docker
       - helia-nodejs
+      - ipfs-helia
     visibility: public
   helia-ipns:
     advanced_security: false
