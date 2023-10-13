@@ -5051,8 +5051,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - helia-dev
       push:
         - SgtPooki
         - whizzzkid
