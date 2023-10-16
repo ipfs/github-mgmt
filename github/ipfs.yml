@@ -7684,6 +7684,10 @@ repositories:
         - ElPaisano
     default_branch: main
     description: The Website for the JavaScript implementation of the IPFS protocol
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8242,6 +8246,10 @@ repositories:
         - web3-bot
     default_branch: main
     description: Protocol Buffers for Node.js and the browser without eval
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
