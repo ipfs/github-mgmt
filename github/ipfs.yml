@@ -652,7 +652,7 @@ repositories:
         - web3-bot
     default_branch: main
     description: A set of reference libraries for building IPFS applications and
-      implementations in GO.
+      implementations in Go.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -672,6 +672,9 @@ repositories:
       maintain:
         - Merge - Go
         - Repos - Go
+    topics:
+      - go
+      - ipfs
     visibility: public
   browser-design-guidelines:
     advanced_security: false
@@ -7687,7 +7690,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8249,7 +8251,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
