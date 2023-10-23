@@ -861,6 +861,7 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+        - community
       push:
         - community
         - docs
