@@ -860,8 +860,8 @@ repositories:
         - ipdx
         - w3dt-stewards
       maintain:
-        - Maintainers
         - community
+        - Maintainers
       push:
         - community
         - docs
