@@ -860,9 +860,9 @@ repositories:
         - ipdx
         - w3dt-stewards
       maintain:
+        - community
         - Maintainers
       push:
-        - community
         - docs
         - Go Core Team
         - gui-dev
