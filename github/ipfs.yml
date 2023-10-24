@@ -863,7 +863,6 @@ repositories:
         - community
         - Maintainers
       push:
-        - community
         - docs
         - Go Core Team
         - gui-dev
