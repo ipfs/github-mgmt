@@ -464,7 +464,8 @@ repositories:
         - parkan
         - victorb
     default_branch: main
-    description: Useful resources for using IPFS and building things on top of it
+    description: Community list of awesome projects, apps, tools, and services
+      related to IPFS.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -5049,7 +5050,35 @@ repositories:
     topics:
       - ipfs-helia
     visibility: public
-  helia-docker:
+  helia-delegated-routing-v1-http-api:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    default_branch: main
+    description: The Routing V1 HTTP API powered by Helia
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - helia-dev
+        - ipdx
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
+    topics:
+      - ipfs-helia
+    visibility: public
+  helia-http-gateway:
     advanced_security: false
     allow_update_branch: true
     archived: false
@@ -5059,16 +5088,13 @@ repositories:
         - whizzzkid
     default_branch: main
     description: Run Helia NodeJS in a Docker Container.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - helia-dev
@@ -5186,64 +5212,6 @@ repositories:
       - ipfs
       - typescript-library
     visibility: public
-  helia-routing-v1-http-api:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: main
-    description: The Routing V1 HTTP API powered by Helia
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Repos - JavaScript
-    topics:
-      - ipfs-helia
-    visibility: public
   helia-strings:
     advanced_security: false
     allow_update_branch: true
@@ -5302,6 +5270,23 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: true
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       admin:
         - 2color
@@ -8349,7 +8334,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: "EXPERIMENT: A standalone ipfs gateway"
+    description: A specialized IPFS HTTP gateway
     files:
       .github/workflows/stale.yml:
         content: >
