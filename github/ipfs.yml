@@ -5061,6 +5061,10 @@ repositories:
         - web3-bot
     default_branch: main
     description: The Routing V1 HTTP API powered by Helia
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5088,6 +5092,10 @@ repositories:
         - whizzzkid
     default_branch: main
     description: Run Helia NodeJS in a Docker Container.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
