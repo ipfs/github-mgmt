@@ -5064,7 +5064,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5095,7 +5094,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7649,60 +7647,6 @@ repositories:
       push:
         - JS Core Team
     visibility: public
-  js.ipfs.tech:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          contexts:
-            - fleek-ci
-            - fleek/build
-          strict: false
-    collaborators:
-      admin:
-        - 2color
-      triage:
-        - ElPaisano
-    default_branch: main
-    description: The Website for the JavaScript implementation of the IPFS protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      push:
-        - CI
-        - docs
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
   kubo:
     advanced_security: false
     allow_update_branch: true
@@ -7783,6 +7727,7 @@ repositories:
         enforce_admins: true
         lock_branch: false
         push_restrictions:
+          - /hacdias
           - /Jorropo
           - MDQ6VXNlcjEyNDMxNjQ=
           - MDQ6VXNlcjI3MzMyMjg=
