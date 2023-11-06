@@ -5560,9 +5560,9 @@ repositories:
         required_linear_history: false
     collaborators:
       admin:
+        - 2color
         - cwaring
       push:
-        - 2color
         - damedoteth
         - emilymvaughan
         - mishmosh
