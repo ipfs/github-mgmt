@@ -5560,8 +5560,8 @@ repositories:
         required_linear_history: false
     collaborators:
       admin:
-        - cwaring
         - 2color
+        - cwaring
       push:
         - damedoteth
         - emilymvaughan
