@@ -5561,8 +5561,8 @@ repositories:
     collaborators:
       admin:
         - cwaring
-      push:
         - 2color
+      push:
         - damedoteth
         - emilymvaughan
         - mishmosh
