@@ -129,7 +129,6 @@ members:
     - jimpick
     - jkarni
     - joaosantos15
-    - johnnymatthews
     - JonKrone
     - jonnycrunch
     - Jorropo
@@ -417,6 +416,29 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+    visibility: public
+  areweinterplanetaryyet.org:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vesahc
+      push:
+        - marshall
+    default_branch: main
+    description: is IPFS actually InterPlanetary yet?
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - admin
+        - ipdx
     visibility: public
   artwork:
     advanced_security: false
@@ -1031,6 +1053,8 @@ repositories:
             - sign-macos
           strict: true
     collaborators:
+      admin:
+        - lidel
       push:
         - ipfs-gui-bot
     default_branch: master
@@ -5739,6 +5763,8 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
+      admin:
+        - lidel
       push:
         - ipfs-gui-bot
     default_branch: main
@@ -5803,7 +5829,6 @@ repositories:
     collaborators:
       admin:
         - cwaring
-        - johnnymatthews
       maintain:
         - TheDiscordian
       push:
@@ -7683,11 +7708,6 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
-        push_restrictions:
-          - MDQ6VXNlcjEyNDMxNjQ=
-          - MDQ6VXNlcjI0MzkxOTgz
-          - MDQ6VXNlcjI3MzMyMjg=
-          - MDQ6VXNlcjMxMDM5Mw==
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -7750,6 +7770,8 @@ repositories:
             - sharness-test
           strict: true
     collaborators:
+      admin:
+        - lidel
       push:
         - dennis-tra
     default_branch: master
@@ -8142,8 +8164,6 @@ repositories:
         - lidel
       push:
         - Gozala
-      triage:
-        - johnnymatthews
     default_branch: main
     description: Standalone, vendor-agnostic Pinning Service API for IPFS ecosystem
     files:
@@ -8791,7 +8811,6 @@ teams:
         - jesseclay
         - JGAntunes
         - jimpick
-        - johnnymatthews
         - JonKrone
         - jonnycrunch
         - jsoares
@@ -8851,8 +8870,6 @@ teams:
   docs-writers:
     description: Folks who actively write to the various docs projects across this org.
     members:
-      maintainer:
-        - johnnymatthews
       member:
         - TheDiscordian
     privacy: closed
@@ -8865,7 +8882,6 @@ teams:
       member:
         - achingbrain
         - ericronne
-        - johnnymatthews
         - magik6k
     privacy: closed
   github-mgmt stewards:
@@ -9294,8 +9310,6 @@ teams:
       maintainer:
         - BigLep
         - hsanjuan
-      member:
-        - johnnymatthews
     privacy: closed
   Merge - Go:
     description: Merge permissions to Go repos
@@ -9479,7 +9493,6 @@ teams:
         - ericronne
         - hugomrdias
         - jacobheun
-        - johnnymatthews
         - raulk
     privacy: closed
   WG Captains:
