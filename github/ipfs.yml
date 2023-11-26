@@ -898,6 +898,23 @@ repositories:
       triage:
         - contributors
     visibility: public
+  dapps-wg:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    description: IPFS DApps Working Group
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   devgrants:
     advanced_security: false
     allow_update_branch: false
@@ -2102,6 +2119,18 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          strict: false
     default_branch: master
     description: "Datastore implementation using Badger v4 as backend. "
     files:
@@ -6162,9 +6191,9 @@ repositories:
           strict: true
     collaborators:
       admin:
+        - 2color
         - tbenbow
       push:
-        - 2color
         - mishmosh
     default_branch: main
     description: Official IPFS Project website
@@ -6273,8 +6302,9 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      push:
+      admin:
         - 2color
+      push:
         - TheDiscordian
     default_branch: master
     description: Peer-to-peer hypermedia protocol
@@ -7413,11 +7443,11 @@ repositories:
     archived: true
     collaborators:
       admin:
+        - 2color
         - achingbrain
         - alanshaw
         - hugomrdias
       push:
-        - 2color
         - web3-bot
     default_branch: master
     description: IPFS implementation in JavaScript
@@ -8061,8 +8091,9 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      push:
+      admin:
         - 2color
+      push:
         - web3-bot
     default_branch: master
     description: IPFS Papers (not specs)
@@ -8362,9 +8393,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - dchoi27
-      push:
         - 2color
+        - dchoi27
     default_branch: master
     description: IPFS Project && Working Group Roadmaps Repo
     files:
@@ -9467,6 +9497,7 @@ teams:
         - galargh
         - lidel
       member:
+        - 2color
         - achingbrain
         - guillaumemichel
         - guseggert
