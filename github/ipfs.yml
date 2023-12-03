@@ -6374,41 +6374,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: true
-        enforce_admins: false
-        lock_branch: false
-        push_restrictions:
-          - /ipfs-gui-bot
-          - /web3-bot
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          pull_request_bypassers:
-            - MDQ6VXNlcjgxMzMzOTQ2
-            - U_kgDOBn5-CA
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-      rc/*:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
     collaborators:
       admin:
         - olizilla
@@ -7187,11 +7152,8 @@ repositories:
         - achingbrain
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     description: JavaScript implementation of Bitswap 'data exchange' protocol used by IPFS
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8440,6 +8402,34 @@ repositories:
         - community
         - WG Captains
     visibility: public
+  sharness:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+    default_branch: master
+    description: Shell library to test your Unix tools like Git does
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - ipdx
+        - w3dt-stewards
+    visibility: public
   spec-generator:
     advanced_security: false
     allow_update_branch: false
@@ -8769,6 +8759,7 @@ teams:
     members:
       member:
         - alain2sf
+        - thattommyhall
     privacy: closed
   CI:
     description: continous integration
@@ -8961,7 +8952,6 @@ teams:
       member:
         - guseggert
         - petar
-        - thattommyhall
     privacy: closed
   go-ipfs-priv:
     members:
@@ -9408,7 +9398,6 @@ teams:
         - raulk
         - ribasushi
         - rvagg
-        - thattommyhall
         - travisperson
         - vyzo
         - warpfork
@@ -9567,7 +9556,6 @@ teams:
         - olizilla
       member:
         - stongo
-        - thattommyhall
     privacy: closed
   WG IPFS Cluster:
     description: People that collaborate or is involved in IPFS Cluster
