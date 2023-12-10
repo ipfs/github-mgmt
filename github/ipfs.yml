@@ -231,7 +231,6 @@ members:
     - wemeetagain
     - whereswaldon
     - whizzzkid
-    - wilkyr31d
     - willscott
     - Wondertan
     - yangwao
@@ -5682,7 +5681,6 @@ repositories:
         - 2color
         - mishmosh
         - TheDiscordian
-        - wilkyr31d
       push:
         - quickhatche
     default_branch: main
