@@ -2463,6 +2463,7 @@ repositories:
         - Kubuxu
         - raulk
       push:
+        - Go Core Team
         - web3-bot
     default_branch: master
     description: A datastore implementation backed by
