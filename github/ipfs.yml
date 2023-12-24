@@ -488,8 +488,8 @@ repositories:
         - parkan
         - victorb
     default_branch: main
-    description: Community list of awesome projects, apps, tools, and services
-      related to IPFS.
+    description: Community list of awesome projects, apps, tools, pinning services
+      and more related to IPFS.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
