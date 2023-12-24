@@ -488,8 +488,8 @@ repositories:
         - parkan
         - victorb
     default_branch: main
-    description: Community list of awesome projects, apps, tools, and services
-      related to IPFS.
+    description: Community list of awesome projects, apps, tools, pinning services
+      and more related to IPFS.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -2469,7 +2469,6 @@ repositories:
         - Kubuxu
         - raulk
       push:
-        - Go Core Team
         - web3-bot
     default_branch: master
     description: A datastore implementation backed by
