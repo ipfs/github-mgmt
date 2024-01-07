@@ -908,7 +908,7 @@ repositories:
       admin:
         - 2color
     default_branch: main
-    description: IPFS DApps Working Group
+    description: "Notes from the IPFS DApps Working Group "
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -7534,7 +7534,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
