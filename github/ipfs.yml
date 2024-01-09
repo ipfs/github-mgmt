@@ -4962,8 +4962,8 @@ repositories:
     visibility: public
   helia-car:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -4973,38 +4973,11 @@ repositories:
     description: Import/export car files from Helia
     files:
       .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -5060,8 +5033,8 @@ repositories:
     visibility: public
   helia-dag-cbor:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -5073,7 +5046,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -5085,8 +5058,8 @@ repositories:
     visibility: public
   helia-dag-json:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -5098,7 +5071,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -5169,8 +5142,8 @@ repositories:
     visibility: public
   helia-ipns:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -5197,8 +5170,8 @@ repositories:
     visibility: public
   helia-json:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -5210,7 +5183,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -5223,7 +5196,7 @@ repositories:
   helia-mfs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -5237,7 +5210,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -5303,8 +5276,8 @@ repositories:
     visibility: public
   helia-unixfs:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -5318,7 +5291,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
