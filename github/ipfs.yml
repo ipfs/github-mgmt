@@ -422,6 +422,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - vesahc
       push:
         - marshall
@@ -8716,6 +8717,28 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  web3-fetch:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - SgtPooki
+      maintain:
+        - 2color
+    default_branch: main
+    description: web3 fetch of IPFS content with Helia under the hood
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - helia-dev
     visibility: public
   working-groups:
     advanced_security: false
