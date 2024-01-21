@@ -163,7 +163,6 @@ members:
     - MarneeDear
     - marten-seemann
     - masih
-    - mastercyb
     - mcollina
     - MichaelMure
     - mildred
@@ -5337,7 +5336,7 @@ repositories:
       CODEOWNERS:
         content: |
           * @ipfs/helia-dev
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -7751,21 +7750,7 @@ repositories:
     description: An IPFS implementation in Go
     files:
       .github/dependabot.yml:
-        content: |
-          version: 2
-          updates:
-            - package-ecosystem: gomod
-              directory: "/"
-              schedule:
-                interval: daily
-                time: "11:00"
-              open-pull-requests-limit: 10
-              labels:
-                - "topic/dependencies"            
-            - package-ecosystem: "github-actions"
-              directory: "/"
-              schedule:
-                interval: "weekly"
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -8718,32 +8703,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  web3-fetch:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - SgtPooki
-      maintain:
-        - 2color
-    default_branch: main
-    description: web3 fetch of IPFS content with Helia under the hood
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-        overwrite_on_create: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - helia-dev
-    visibility: public
   working-groups:
     advanced_security: false
     allow_update_branch: false
@@ -9121,7 +9080,6 @@ teams:
         - moeghashim
         - moul
         - neogeweb3
-        - NukeManDan
         - obo20
         - parkan
         - pepoospina
@@ -9189,7 +9147,6 @@ teams:
         - jimpick
         - joaosantos15
         - kk3wong
-        - NukeManDan
         - obo20
         - raulk
         - stefanhans
@@ -9288,7 +9245,6 @@ teams:
         - momack2
         - moul
         - neogeweb3
-        - NukeManDan
         - obo20
         - olizilla
         - parkan
