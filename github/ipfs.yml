@@ -870,6 +870,9 @@ repositories:
     default_branch: main
     description: A repository with information and documents about the
       Communications Working Group.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
