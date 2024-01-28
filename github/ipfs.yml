@@ -860,6 +860,24 @@ repositories:
       push:
         - Go Core Team
     visibility: public
+  communications:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - damedoteth
+    default_branch: main
+    description: A repository with information and documents about the
+      Communications Working Group.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   community:
     advanced_security: false
     allow_update_branch: false
