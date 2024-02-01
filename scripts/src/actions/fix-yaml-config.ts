@@ -16,6 +16,10 @@ function isInitialised(repository: Repository) {
   ].includes(repository.name)
 }
 
+function isHelia(repository: Repository) {
+  return repository.name.startsWith('helia')
+}
+
 function isPublic(repository: Repository) {
   return repository.visibility === 'public'
 }
@@ -31,6 +35,13 @@ addFileToAllRepos(
   '.github/workflows/stale.yml',
   r => isInitialised(r) && !isFork(r)
 )
+
+addFileToAllRepos(
+  '.github/pull_request_template.md',
+  '.github/helia_pull_request_template.md',
+  r => isInitialised(r) && isHelia(r)
+)
+
 setPropertyInAllRepos(
   'secret_scanning',
   true,
