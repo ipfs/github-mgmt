@@ -5005,6 +5005,8 @@ repositories:
     default_branch: main
     description: Run helia as a daemon process
     files:
+      .github/pull_request_template.md:
+        content: .github/helia_pull_request_template.md
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5084,6 +5086,8 @@ repositories:
     default_branch: main
     description: The Routing V1 HTTP API powered by Helia
     files:
+      .github/pull_request_template.md:
+        content: .github/helia_pull_request_template.md
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5114,6 +5118,8 @@ repositories:
     default_branch: main
     description: Run Helia NodeJS in a Docker Container.
     files:
+      .github/pull_request_template.md:
+        content: .github/helia_pull_request_template.md
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5222,6 +5228,8 @@ repositories:
       https://ipfs.github.io/pinning-services-api-spec/. Initial design at
       https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c
     files:
+      .github/pull_request_template.md:
+        content: .github/helia_pull_request_template.md
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5250,6 +5258,8 @@ repositories:
     default_branch: main
     description: Add/get IPLD blocks containing strings with your Helia node
     files:
+      .github/pull_request_template.md:
+        content: .github/helia_pull_request_template.md
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -5322,6 +5332,8 @@ repositories:
     default_branch: main
     description: An implementation of IPFS in JavaScript
     files:
+      .github/pull_request_template.md:
+        content: .github/helia_pull_request_template.md
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
       CODEOWNERS:
@@ -7313,6 +7325,9 @@ repositories:
     default_branch: main
     description: JavaScript implementation of IPFS' unixfs (a Unix FileSystem
       representation on top of a MerkleDAG)
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
