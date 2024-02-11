@@ -7071,6 +7071,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: JavaScript implementation of hash array mapped tries for use in sharding
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8417,11 +8420,14 @@ repositories:
         - web3-bot
     default_branch: main
     description: A Delegated Routing V1 server and client for all your routing needs.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
@@ -8575,6 +8581,9 @@ repositories:
         - mishmosh
     default_branch: main
     description: IPFS Steering WG
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
