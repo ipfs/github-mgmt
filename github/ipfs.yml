@@ -5221,8 +5221,6 @@ repositories:
     collaborators:
       admin:
         - SgtPooki
-      push:
-        - web3-bot
     default_branch: main
     description: A library that helps Helia consumers pin content via the
       https://ipfs.github.io/pinning-services-api-spec/. Initial design at
@@ -5237,8 +5235,8 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_message: BLANK
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - helia-dev
@@ -7071,11 +7069,8 @@ repositories:
         - achingbrain
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     description: JavaScript implementation of hash array mapped tries for use in sharding
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8413,6 +8408,31 @@ repositories:
         - ipdx
         - w3dt-stewards
     visibility: public
+  someguy:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    description: A Delegated Routing V1 server and client for all your routing needs.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+    topics:
+      - ipfs
+      - p2p
+    visibility: public
   spec-generator:
     advanced_security: false
     allow_update_branch: false
@@ -8544,6 +8564,24 @@ repositories:
         - w3dt-stewards
     topics:
       - ipdx
+    visibility: public
+  steering-wg:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - darobin
+        - mishmosh
+    default_branch: main
+    description: IPFS Steering WG
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   tar-utils:
     advanced_security: false
