@@ -9,15 +9,6 @@ members:
     - lidel
     - Stebalien
   member:
-    - BigLep
-    - cwaring
-    - daviddias
-    - hsanjuan
-    - jbenet
-    - momack2
-    - olizilla
-    - vesahc
-    - whyrusleeping
     - 1015bit
     - 2color
     - Aaron1011
@@ -50,6 +41,7 @@ members:
     - avras
     - b5
     - balupton
+    - BigLep
     - bigs
     - bjoyce3
     - blackforestboi
@@ -64,6 +56,7 @@ members:
     - codynhat
     - coryschwartz
     - cpacia
+    - cwaring
     - cyborgshead
     - daijiale
     - damedoteth
@@ -71,6 +64,7 @@ members:
     - darkdh
     - darobin
     - davidar
+    - daviddias
     - dborzov
     - dchoi27
     - deltazxm
@@ -113,6 +107,7 @@ members:
     - harlantwood
     - hinshun
     - hosh
+    - hsanjuan
     - hugomrdias
     - ianamunoz
     - iand
@@ -122,6 +117,7 @@ members:
     - jacobheun
     - jamiejn
     - janjanovna
+    - jbenet
     - jbenetsafer
     - jdelgadopin
     - jesseclay
@@ -169,6 +165,7 @@ members:
     - mishmosh
     - miyazono
     - moeghashim
+    - momack2
     - moul
     - Mr0grog
     - neogeweb3
@@ -180,6 +177,7 @@ members:
     - NukeManDan
     - nunofmn
     - obo20
+    - olizilla
     - parkan
     - pepoospina
     - petar
@@ -218,6 +216,7 @@ members:
     - tv42
     - vasa-develop
     - vasco-santos
+    - vesahc
     - victorb
     - vmx
     - vojtechsimetka
@@ -230,6 +229,7 @@ members:
     - wemeetagain
     - whereswaldon
     - whizzzkid
+    - whyrusleeping
     - willscott
     - Wondertan
     - yangwao
@@ -7071,6 +7071,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: JavaScript implementation of hash array mapped tries for use in sharding
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8417,11 +8420,14 @@ repositories:
         - web3-bot
     default_branch: main
     description: A Delegated Routing V1 server and client for all your routing needs.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
@@ -8575,6 +8581,9 @@ repositories:
         - mishmosh
     default_branch: main
     description: IPFS Steering WG
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
