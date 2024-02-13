@@ -8971,8 +8971,8 @@ teams:
       # That said, since most of these people are also "org owners" ("members.admin" above), 
       # they can still make changes in the UI.
       member:
-        - aschmahmann
         - achingbrain
+        - aschmahmann
         - lidel
         - willscott
     privacy: closed
