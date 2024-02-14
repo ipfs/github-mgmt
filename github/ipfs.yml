@@ -6174,8 +6174,7 @@ repositories:
           strict: true
     collaborators:
       admin:
-        - 2color
-        - tbenbow
+        - cwaring
       push:
         - mishmosh
     default_branch: main
@@ -8202,25 +8201,8 @@ repositories:
         - ipfs-gui-bot
         - juliaxbow
         - web3-bot
-    default_branch: master
+    default_branch: main
     description: Checks which public gateways are online or not
-    files:
-      .github/dependabot.yml:
-        content: |
-          version: 2
-          updates:
-            - package-ecosystem: npm
-              directory: "/"
-              schedule:
-                interval: daily
-                time: "10:00"
-              open-pull-requests-limit: 10            
-            - package-ecosystem: "github-actions"
-              directory: "/"
-              schedule:
-                interval: "weekly"
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
