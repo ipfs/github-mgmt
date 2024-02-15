@@ -5,7 +5,7 @@ members:
   # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
   # These permissions are very broad, and thus, the list of people is intentionally minimal. 
   # Permissions are distributed across 3-4 separate organizations.
-  # One can request additional permissions for specific repos using ipld/github-mgmt.
+  # One can request additional permissions for specific repos using ipfs/github-mgmt.
   admin:
     - andyschwab-admin
     - aschmahmann
