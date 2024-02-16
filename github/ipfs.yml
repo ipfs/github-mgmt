@@ -27,10 +27,6 @@ members:
     # 2. @veshac also has history and ties with sysadmining with PL Inc and some of the projects that have spun out (Sodal, Sead).
     - vesahc
   member:
-    - aschmahmann
-    - autonome
-    - lidel
-    - Stebalien
     - 1015bit
     - 2color
     - Aaron1011
@@ -59,7 +55,9 @@ members:
     - arajasek
     - arcalinea
     - arsstone
+    - aschmahmann
     - AuHau
+    - autonome
     - avras
     - b5
     - balupton
@@ -166,6 +164,7 @@ members:
     - kylehuntsman
     - laurentsenta
     - leshokunin
+    - lidel
     - listenaddress
     - litzenberger
     - locotorp
@@ -224,6 +223,7 @@ members:
     - ShishKabab
     - SidHarder
     - smihaylov
+    - Stebalien
     - stefanhans
     - steven004
     - stongo
