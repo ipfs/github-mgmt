@@ -1,7 +1,5 @@
 # yaml-language-server: $schema=.schema.json
 
-# This org leans hard into managing github permissions and settings with ipfs/github-mgmt.
-# One can request additional permissions for specific repos using ipfs/github-mgmt.
 members:
   # Admin permissions map to "org owner" permissions listed in 
   # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
