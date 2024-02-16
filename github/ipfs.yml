@@ -8,7 +8,7 @@ members:
   # These permissions are very broad, and thus, the list of people is intentionally minimal.
   # Day-to-day administrating is done by those in the "github-mgmt Stewards" team (see team below).  
   # "github-mgmt Stewards" team can still escalate into org owner permissions if/when needed.  
-  # This minimal owner set plus supporting rationale was documened and discussed in https://github.com/ipfs/ipfs/issues/511.
+  # This minimal owner set plus supporting rationale was documented and discussed in https://github.com/ipfs/ipfs/issues/511.
   admin:
     # Why @andyschwab-admin?
     # 1. leader of [Sodal](https://sodal.io/)
