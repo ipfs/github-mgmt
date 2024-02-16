@@ -1,20 +1,36 @@
 # yaml-language-server: $schema=.schema.json
 
+# This org leans hard into managing github permissions and settings with ipfs/github-mgmt.
+# One can request additional permissions for specific repos using ipfs/github-mgmt.
 members:
   # Admin permissions map to "org owner" permissions listed in 
   # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
-  # These permissions are very broad, and thus, the list of people is intentionally minimal. 
-  # Permissions are distributed across 3-4 separate organizations.
-  # One can request additional permissions for specific repos using ipfs/github-mgmt.
+  # These permissions are very broad, and thus, the list of people is intentionally minimal.
+  # Day-to-day administrating is done by those in the "github-mgmt Stewards" team (see team below).  
+  # "github-mgmt Stewards" team can still escalate into org owner permissions if/when needed.  
+  # This minimal owner set plus supporting rationale was documened and discussed in https://github.com/ipfs/ipfs/issues/511.
   admin:
+    # Why @andyschwab-admin?
+    # 1. leader of [Sodal](https://sodal.io/)
+    # 2. has close access to [sead](https://www.sead.ai/), which is charged with sysadmin for critical systems within the wider Protocol Labs Network
+    # 3. general long-standing sysadmin for these organizations with his past roles at PL Inc
+    # 4. This isn't andyschwab's day-to-day GitHub account
     - andyschwab-admin
-    - aschmahmann
-    - autonome
+    # Why @galargh?
+    # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
+    # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
-    - lidel
-    - Stebalien
+    # Why @vesahc?
+    # 1. THIS IS TEMPORARY: please remove by 2024-03-31 if not sooner.
+    #    Escalation of permissions needed while moving Fleek accounts for various ipfs repos: 
+    #    https://github.com/ipfs/github-mgmt/pull/189#issuecomment-1939238972
+    # 2. @veshac also has history and ties with sysadmining with PL Inc and some of the projects that have spun out (Sodal, Sead).
     - vesahc
   member:
+    - aschmahmann
+    - autonome
+    - lidel
+    - Stebalien
     - 1015bit
     - 2color
     - Aaron1011
@@ -8943,22 +8959,46 @@ teams:
         - magik6k
     privacy: closed
   github-mgmt stewards:
-    # NOTE: created to capture users with push+ access to github-mgmt repository
-    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    description: Users that are effectively org admins
+    # Notes: 
+    # 1. These members have push+ access to the github-mgmt repository (in addition to the ipdx team and the org owners listed in "members.admin" above).
+    # 2. This team also has the org-level "moderator" and "security manager" role.
+    #    This is configured through the GitHub UI, not in GitHub management.
+    #    (Org-level role documentation: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)
+    # 3. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
+    # 4. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
+    #    as part of the effort to reduce org owners in https://github.com/ipfs/ipfs/issues/511
+    description: Users that are effectively org owners/admins
     members:
       # WARN: membership here should be treated as cautiously as having an "org owner" role,
       # since one can escalate their privileges accordingly.
       # ATTN: members are expected to:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
-      # Intentionally don't have any "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
-      # That said, since most of these people are also "org owners" ("members.admin" above), 
-      # they can still make changes in the UI.
+      # INFO: Intentionally don't have any "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
+      # INFO: There are others who could certainly qualify to be members of this team.  
+      # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
+      # and reducing risk by not having too many with the escalation path that this role affords.
       member:
-        - achingbrain
+        # Why @aschmahmann?
+        # 1. Long-time and still very active contributor to important repos like kubo and specs
+        # 2. Director of IP Shipyard, which is an organization receiving significant grant funding for IPFS development and maintenance.
+        # 3. Leader of multiple public IPFS working groups (dapps, implementers)
         - aschmahmann
+        # Why @lidel?
+        # 1. ipfs specs champion, past and present
+        # 2. Key technical leader on IP Shipyard
+        # 3. Owner of IPFS implementers working group, active in others (browsers, ecosystem, dapps).
         - lidel
+        # Why @mishmosh?
+        # 1. Director of the being-stood-up-in-2024 IPFS Foundation
+        - mishmosh
+        # Why @stebalien?
+        # 1. Not involved in the IPFS day-to-day currently, but has a lot of historical knowledge.  Provides an informed outside perspective.
+        # 2. Familiar with github-mgmt responsibilities in other orgs.
+        - stebalien
+        # Why @willscott?
+        # 1. Active maintainer in and around IPFS projects for multiple years now.
+        # 2. Active and experienced with github-mgmt in other organizations (e.g., ipld).
         - willscott
     privacy: closed
   Go Core Team:
