@@ -295,6 +295,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   2019.ipfs.camp:
     advanced_security: false
@@ -324,6 +327,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - gui-dev
         - WG GUI/UX
@@ -347,6 +352,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: private
   aegir-typedoc-theme:
     advanced_security: false
@@ -370,6 +378,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   aegir:
     advanced_security: false
@@ -397,6 +407,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     topics:
@@ -433,6 +445,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   areweinterplanetaryyet.org:
     advanced_security: false
@@ -459,6 +473,7 @@ repositories:
     teams:
       pull:
         - admin
+        - github-mgmt stewards
         - ipdx
     visibility: public
   artwork:
@@ -487,6 +502,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   awesome-ipfs:
     advanced_security: false
@@ -526,6 +543,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - CI
         - gui-dev
@@ -561,6 +580,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
     visibility: public
@@ -589,6 +610,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
         - WG Infrastructure
@@ -640,6 +663,8 @@ repositories:
     teams:
       admin:
         - admin
+      pull:
+        - github-mgmt stewards
       push:
         - ipdx
         - w3dt-stewards
@@ -716,6 +741,8 @@ repositories:
       maintain:
         - Merge - Go
         - Repos - Go
+      pull:
+        - github-mgmt stewards
     topics:
       - go
       - ipfs
@@ -749,6 +776,8 @@ repositories:
         - WG Web Browsers
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     topics:
       - design-pa
       - design
@@ -795,6 +824,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - comms
         - community
@@ -852,6 +883,8 @@ repositories:
         - admin
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   ci-helpers:
     advanced_security: false
@@ -876,6 +909,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
     visibility: public
@@ -899,6 +934,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   community:
     advanced_security: false
@@ -927,6 +965,8 @@ repositories:
       maintain:
         - community
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - docs
         - Go Core Team
@@ -959,6 +999,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   devgrants:
     advanced_security: false
@@ -971,9 +1014,10 @@ repositories:
         - ErinOCon
         - lidel
         - mishmosh
-        - momack2
       maintain:
         - realChainLife
+      push:
+        - momack2
     default_branch: main
     description: The IPFS Grant platform connects funding organizations with
       builders and researchers in the IPFS community.
@@ -993,6 +1037,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - community
         - contributors
@@ -1020,6 +1066,8 @@ repositories:
         - admin
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
     visibility: public
@@ -1047,6 +1095,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - gui-dev
         - Merge - Go
@@ -1082,6 +1132,7 @@ repositories:
         - Maintainers
       pull:
         - contributors
+        - github-mgmt stewards
     topics:
       - decentralized
       - distributed
@@ -1141,6 +1192,8 @@ repositories:
       maintain:
         - gui-dev
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1170,6 +1223,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - ipdx
     visibility: public
@@ -1219,6 +1274,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - website-deployers
+      pull:
+        - github-mgmt stewards
     topics:
       - decentralized
       - dweb
@@ -1251,6 +1308,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     visibility: public
@@ -1291,6 +1350,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1343,6 +1404,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-api
       - ipfs-gateway
@@ -1368,6 +1431,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
@@ -1458,6 +1523,8 @@ repositories:
         - admin
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -1495,6 +1562,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: private
   go-bitswap:
     advanced_security: false
@@ -1561,6 +1630,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -1593,6 +1664,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1633,6 +1706,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1678,6 +1753,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -1727,6 +1804,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1762,6 +1841,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1792,6 +1873,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
     visibility: private
   go-dagwriter:
     advanced_security: false
@@ -1846,6 +1928,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1867,6 +1951,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-datastore:
     advanced_security: false
@@ -1906,6 +1993,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -1978,6 +2067,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -2010,6 +2101,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2043,6 +2136,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -2085,6 +2180,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -2126,6 +2223,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -2159,6 +2258,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-ds-badger4:
     advanced_security: false
@@ -2188,6 +2290,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-ds-bench:
     advanced_security: false
@@ -2212,6 +2317,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2244,6 +2351,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-ds-bolt:
     advanced_security: false
@@ -2269,6 +2378,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2341,6 +2452,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2376,6 +2489,8 @@ repositories:
         - Go Core Team
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-ds-flatfs:
     advanced_security: false
@@ -2416,6 +2531,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2449,6 +2566,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2480,6 +2599,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2527,6 +2648,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-ds-redis:
     advanced_security: false
@@ -2554,6 +2677,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2599,6 +2724,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2632,6 +2759,7 @@ repositories:
         - w3dt-stewards
       pull:
         - CI
+        - github-mgmt stewards
         - Go Core Team
       push:
         - Merge - Go
@@ -2662,6 +2790,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2701,6 +2831,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2752,6 +2884,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -2802,6 +2936,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2867,6 +3003,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2891,6 +3029,8 @@ repositories:
     teams:
       admin:
         - admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-ipfs-api:
     advanced_security: false
@@ -2930,6 +3070,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -2958,6 +3100,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3002,6 +3146,8 @@ repositories:
       maintain:
         - kubo maintainers
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3035,6 +3181,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3078,6 +3226,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3103,6 +3253,8 @@ repositories:
         - admin
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3151,6 +3303,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3179,6 +3333,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3212,6 +3368,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3254,6 +3412,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3286,6 +3446,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -3327,6 +3489,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3369,6 +3533,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3414,6 +3580,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3472,6 +3640,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3504,6 +3674,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3567,6 +3739,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3620,6 +3794,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -3661,6 +3837,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3694,6 +3872,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3738,6 +3918,8 @@ repositories:
     teams:
       admin:
         - go-ipfs-priv
+      pull:
+        - github-mgmt stewards
     visibility: private
   go-ipfs-provider:
     advanced_security: false
@@ -3785,6 +3967,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3832,6 +4016,7 @@ repositories:
     teams:
       pull:
         - admin
+        - github-mgmt stewards
         - ipdx
         - w3dt-stewards
     visibility: public
@@ -3855,6 +4040,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-ipfs-routing:
     advanced_security: false
@@ -3893,6 +4081,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3935,6 +4125,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3966,6 +4158,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -3994,6 +4188,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4030,6 +4226,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4071,6 +4269,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4102,6 +4302,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4133,6 +4335,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4165,6 +4369,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4205,6 +4411,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4235,6 +4443,8 @@ repositories:
         - admin
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4266,6 +4476,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Merge - Go
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -4291,6 +4503,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-log:
     advanced_security: false
@@ -4318,6 +4532,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4350,6 +4566,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4380,6 +4598,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4413,6 +4633,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4464,6 +4686,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4521,6 +4745,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4561,6 +4787,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4594,6 +4822,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4631,6 +4861,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4656,6 +4888,8 @@ repositories:
         - admin
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4679,6 +4913,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-qringbuf:
     advanced_security: false
@@ -4709,6 +4946,7 @@ repositories:
       maintain:
         - Maintainers
       pull:
+        - github-mgmt stewards
         - Merge - Go
         - Repos - Go
       push:
@@ -4735,6 +4973,8 @@ repositories:
         - admin
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4766,6 +5006,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4805,6 +5047,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4839,6 +5083,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4880,6 +5126,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -4910,6 +5158,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   gs-priv:
     advanced_security: false
@@ -4936,6 +5186,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
+        - github-mgmt stewards
         - Go Core Team
         - ipdx
         - w3dt-stewards
@@ -4966,6 +5217,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -4994,6 +5247,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-helia
     visibility: public
@@ -5038,6 +5293,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     topics:
@@ -5065,6 +5322,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-helia
     visibility: public
@@ -5090,6 +5349,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-helia
     visibility: public
@@ -5121,6 +5382,8 @@ repositories:
         - helia-dev
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     topics:
@@ -5151,6 +5414,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
     topics:
       - docker
       - helia-nodejs
@@ -5179,6 +5444,8 @@ repositories:
         - helia-dev
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     topics:
@@ -5206,6 +5473,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-helia
     visibility: public
@@ -5230,6 +5499,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-helia
     visibility: public
@@ -5259,6 +5531,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
     topics:
       - helia
       - ipfs-helia
@@ -5289,6 +5563,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-helia
     visibility: public
@@ -5316,6 +5592,8 @@ repositories:
     teams:
       admin:
         - helia-dev
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     topics:
@@ -5368,6 +5646,8 @@ repositories:
         - helia-dev
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     topics:
@@ -5423,6 +5703,7 @@ repositories:
         - Maintainers
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
         - WG Web Browsers
@@ -5455,6 +5736,8 @@ repositories:
         - WG Infrastructure
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   integrations:
     advanced_security: false
@@ -5474,6 +5757,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-datastore:
     advanced_security: false
@@ -5500,6 +5786,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     visibility: public
@@ -5540,6 +5828,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -5571,6 +5861,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -5663,6 +5955,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - website-deployers
     topics:
@@ -5695,6 +5989,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   ipfs-companion:
     advanced_security: false
@@ -5732,11 +6029,11 @@ repositories:
     collaborators:
       admin:
         - lidel
-        - olizilla
       maintain:
         - meandavejustice
       push:
         - ipfs-gui-bot
+        - olizilla
     default_branch: main
     description: Browser extension that simplifies access to IPFS resources on the web
     files:
@@ -5754,6 +6051,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
+        - github-mgmt stewards
         - WG GUI/UX
       push:
         - gui-dev
@@ -5814,6 +6112,7 @@ repositories:
         - w3dt-stewards
       pull:
         - admin
+        - github-mgmt stewards
       push:
         - gui-dev
         - WG GUI/UX
@@ -5906,6 +6205,8 @@ repositories:
     teams:
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - CI
         - ipdx
@@ -5954,6 +6255,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -5982,6 +6285,8 @@ repositories:
         - admin
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -6032,6 +6337,8 @@ repositories:
         - WG GUI/UX
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-gui
       - ipfs
@@ -6086,6 +6393,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   ipfs-repository-template:
     advanced_security: false
@@ -6121,6 +6430,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   ipfs-update:
     advanced_security: false
@@ -6160,6 +6471,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Merge - Go
@@ -6209,6 +6522,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - website-deployers
+      pull:
+        - github-mgmt stewards
     topics:
       - decentralized
       - dweb
@@ -6261,6 +6576,8 @@ repositories:
         - admin
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - gui-dev
         - WG GUI/UX
@@ -6292,6 +6609,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   ipfs:
     advanced_security: false
@@ -6323,6 +6643,7 @@ repositories:
         - Maintainers
       pull:
         - contributors
+        - github-mgmt stewards
       triage:
         - community
     topics:
@@ -6362,6 +6683,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -6398,6 +6721,7 @@ repositories:
         - w3dt-stewards
       pull:
         - admin
+        - github-mgmt stewards
       push:
         - gui-dev
         - WG GUI/UX
@@ -6431,6 +6755,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -6461,6 +6787,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - Repos - JavaScript
@@ -6518,6 +6846,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-blockstore-datastore-adapter:
     advanced_security: false
@@ -6544,6 +6874,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-blockstore-fs:
     advanced_security: false
@@ -6561,6 +6893,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-blockstore-idb:
     advanced_security: false
@@ -6578,6 +6913,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-blockstore-level:
     advanced_security: false
@@ -6595,6 +6933,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-core:
     advanced_security: false
@@ -6654,6 +6995,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
     visibility: public
@@ -6708,6 +7051,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
+        - github-mgmt stewards
         - JS Core Team
         - Maintainers
       push:
@@ -6777,6 +7121,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -6837,6 +7183,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -6894,6 +7242,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-datastore-level:
     advanced_security: false
@@ -6951,6 +7301,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -6984,6 +7336,7 @@ repositories:
       maintain:
         - Maintainers
       pull:
+        - github-mgmt stewards
         - Go Core Team
       push:
         - JS Core Team
@@ -7044,6 +7397,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7074,6 +7429,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7106,6 +7463,7 @@ repositories:
       pull:
         - admin
         - CI
+        - github-mgmt stewards
         - JS Core Team
         - Repos - JavaScript
     visibility: public
@@ -7135,6 +7493,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7167,6 +7527,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
         - JS Core Team
@@ -7199,6 +7561,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7230,6 +7594,7 @@ repositories:
         - Maintainers
       pull:
         - admin
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7261,6 +7626,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7292,6 +7659,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     visibility: public
@@ -7323,6 +7692,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7358,6 +7729,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7391,6 +7764,7 @@ repositories:
         - Maintainers
       pull:
         - admin
+        - github-mgmt stewards
         - WG Web Browsers
       push:
         - JS Core Team
@@ -7456,6 +7830,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7502,6 +7878,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7539,6 +7917,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - admin
         - JS Core Team
@@ -7598,6 +7978,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - Maintainers
         - Merge - Go
@@ -7631,6 +8012,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -7660,6 +8043,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - JS Core Team
     visibility: public
@@ -7787,6 +8172,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - Maintainers
         - Merge - Go
@@ -7816,6 +8202,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   lightning-storm:
     advanced_security: false
@@ -7833,6 +8222,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   local-offline-collab:
     advanced_security: false
@@ -7861,6 +8253,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   metrics:
     advanced_security: false
@@ -7884,6 +8278,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   mobile-design-guidelines:
     advanced_security: false
@@ -7910,6 +8306,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs
       - mobile
@@ -7943,6 +8341,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - comms
     visibility: public
@@ -8001,6 +8401,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   npm-kubo:
     advanced_security: false
@@ -8027,6 +8429,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
+        - github-mgmt stewards
         - Go Core Team
         - JS Core Team
     topics:
@@ -8085,6 +8488,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   pinbot-irc:
     advanced_security: false
@@ -8112,6 +8517,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Go Core Team
     visibility: public
@@ -8161,6 +8568,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
+        - github-mgmt stewards
         - wg-pinning-services
       push:
         - Go Core Team
@@ -8201,6 +8609,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     visibility: public
@@ -8238,6 +8648,7 @@ repositories:
       pull:
         - CI
         - comms
+        - github-mgmt stewards
         - JS Core Team
         - Repos - JavaScript
         - WG Web Browsers
@@ -8323,6 +8734,8 @@ repositories:
     teams:
       admin:
         - admin
+      pull:
+        - github-mgmt stewards
       push:
         - ipdx
         - w3dt-stewards
@@ -8380,6 +8793,7 @@ repositories:
         - Maintainers
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - community
         - WG Captains
@@ -8412,6 +8826,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
+        - github-mgmt stewards
         - ipdx
         - w3dt-stewards
     visibility: public
@@ -8439,6 +8854,8 @@ repositories:
         - admin
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs
       - p2p
@@ -8466,6 +8883,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   specs:
     advanced_security: false
@@ -8511,6 +8930,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - docs
         - JS Core Team
@@ -8547,6 +8968,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   start-ipfs-daemon-action:
     advanced_security: false
@@ -8572,6 +8996,8 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - ipdx
     visibility: public
@@ -8595,6 +9021,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   tar-utils:
     advanced_security: false
@@ -8664,6 +9093,8 @@ repositories:
         - admin
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Merge - Go
         - Repos - Go
@@ -8721,6 +9152,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - community
         - docs
@@ -8750,6 +9183,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   uci:
     advanced_security: false
@@ -8767,6 +9203,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   working-groups:
     advanced_security: false
@@ -8786,26 +9225,29 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
 teams:
   admin:
     description: Admin Access to all repos, for CI etc
     members:
       maintainer:
-        - aschmahmann
-        - daviddias
-        - hsanjuan
-        - jbenet
-        - momack2
-        - olizilla
         - Stebalien
-        - whyrusleeping
       member:
         - achingbrain
         - alanshaw
         - arajasek
+        - aschmahmann
+        - daviddias
+        - hsanjuan
+        - jbenet
         - Kubuxu
         - marten-seemann
+        - momack2
+        - olizilla
+        - whyrusleeping
     privacy: closed
   Alumni:
     members:
@@ -8823,12 +9265,11 @@ teams:
   comms:
     description: Communications
     members:
-      maintainer:
-        - autonome
-        - momack2
       member:
+        - autonome
         - jesseclay
         - mishmosh
+        - momack2
     privacy: closed
   community:
     description: Community managers, community engineers, and other people that need
@@ -8836,21 +9277,13 @@ teams:
     members:
       maintainer:
         - 2color
-        - autonome
         - mishmosh
         - TheDiscordian
+      member:
+        - autonome
     privacy: closed
   contributors:
     members:
-      maintainer:
-        - aschmahmann
-        - autonome
-        - BigLep
-        - jbenet
-        - momack2
-        - olizilla
-        - Stebalien
-        - whyrusleeping
       member:
         - achingbrain
         - AdamStone
@@ -8858,7 +9291,10 @@ teams:
         - akrych
         - alanshaw
         - angiemaguire
+        - aschmahmann
+        - autonome
         - b5
+        - BigLep
         - bigs
         - BrendanBenshoof
         - cleichner
@@ -8881,6 +9317,7 @@ teams:
         - hugomrdias
         - ianopolous
         - jacobheun
+        - jbenet
         - jesseclay
         - JGAntunes
         - jimpick
@@ -8899,16 +9336,19 @@ teams:
         - mildred
         - mishmosh
         - miyazono
+        - momack2
         - Mr0grog
         - NeoTeo
         - nicola
         - nunofmn
+        - olizilla
         - parkan
         - petar
         - richardschneider
         - Robmat05
         - sericaia
         - SidHarder
+        - Stebalien
         - tbenbow
         - TheDiscordian
         - travisperson
@@ -8916,6 +9356,7 @@ teams:
         - vasco-santos
         - wanderer
         - warpfork
+        - whyrusleeping
         - Wondertan
         - yangwao
         - yiannisbot
@@ -8932,10 +9373,10 @@ teams:
     members:
       maintainer:
         - 2color
-        - autonome
-        - lidel
       member:
+        - autonome
         - damedoteth
+        - lidel
         - mishmosh
         - TheDiscordian
     privacy: closed
@@ -8950,10 +9391,10 @@ teams:
     members:
       maintainer:
         - cwaring
-        - lidel
       member:
         - achingbrain
         - ericronne
+        - lidel
         - magik6k
     privacy: closed
   github-mgmt stewards:
@@ -8965,6 +9406,7 @@ teams:
     # 3. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 4. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/ipfs/ipfs/issues/511
+    create_default_maintainer: false
     description: Users that are effectively org owners/admins
     members:
       # WARN: membership here should be treated as cautiously as having an "org owner" role,
@@ -9003,10 +9445,10 @@ teams:
     description: Members of the core team for Go repositories
     members:
       maintainer:
-        - aschmahmann
         - Kubuxu
         - Stebalien
       member:
+        - aschmahmann
         - dirkmc
         - gammazero
         - guseggert
@@ -9020,34 +9462,32 @@ teams:
   go-ipfs release:
     description: Who may cut a release of go-ipfs
     members:
-      maintainer:
+      member:
         - aschmahmann
+        - guseggert
         - lidel
         - olizilla
-        - Stebalien
-      member:
-        - guseggert
         - petar
+        - Stebalien
     privacy: closed
   go-ipfs-priv:
     members:
-      maintainer:
+      member:
         - aschmahmann
         - BigLep
+        - guseggert
+        - Jorropo
         - lidel
         - momack2
         - Stebalien
-      member:
-        - guseggert
-        - Jorropo
     privacy: secret
   gui-dev:
     description: GUI Developers and Engineers
     members:
       maintainer:
-        - lidel
         - SgtPooki
       member:
+        - lidel
         - whizzzkid
     privacy: closed
   helia-dev:
@@ -9069,17 +9509,6 @@ teams:
   IPFS Camp 2019 Attendees:
     members:
       maintainer:
-        - aschmahmann
-        - autonome
-        - cwaring
-        - daviddias
-        - hsanjuan
-        - jbenet
-        - lidel
-        - momack2
-        - olizilla
-        - Stebalien
-        - whyrusleeping
         - yunigraham
       member:
         - 1015bit
@@ -9096,7 +9525,9 @@ teams:
         - apronkin
         - AquiGorka
         - arsstone
+        - aschmahmann
         - AuHau
+        - autonome
         - avras
         - b5
         - balupton
@@ -9108,10 +9539,12 @@ teams:
         - cmk
         - codynhat
         - cpacia
+        - cwaring
         - cyborgshead
         - daijiale
         - dankelleher
         - darkdh
+        - daviddias
         - dborzov
         - deltazxm
         - dignifiedquire
@@ -9134,12 +9567,14 @@ teams:
         - hannahhoward
         - hareeshnagaraj
         - hinshun
+        - hsanjuan
         - hugomrdias
         - ianamunoz
         - ianopolous
         - jacobheun
         - jamiejn
         - janjanovna
+        - jbenet
         - jdelgadopin
         - jimpick
         - jkarni
@@ -9152,6 +9587,7 @@ teams:
         - koalalorenzo
         - Kubuxu
         - leshokunin
+        - lidel
         - listenaddress
         - ma82
         - mafintosh
@@ -9161,9 +9597,11 @@ teams:
         - MarneeDear
         - MichaelMure
         - moeghashim
+        - momack2
         - moul
         - neogeweb3
         - obo20
+        - olizilla
         - parkan
         - pepoospina
         - pooja
@@ -9178,6 +9616,7 @@ teams:
         - Schwartz10
         - ShishKabab
         - smihaylov
+        - Stebalien
         - stefanhans
         - steven004
         - teh-f00l
@@ -9185,6 +9624,7 @@ teams:
         - vasa-develop
         - vojtechsimetka
         - waynewyang
+        - whyrusleeping
         - Wondertan
         - yrliou
         - zeckli
@@ -9192,17 +9632,16 @@ teams:
   IPFS Camp 2019 Org Team:
     description: Organizers & Content DRIs
     members:
-      maintainer:
-        - autonome
-        - cwaring
-        - daviddias
-        - momack2
-        - olizilla
       member:
         - alanshaw
         - angiemaguire
+        - autonome
+        - cwaring
+        - daviddias
         - jamiejn
         - jimpick
+        - momack2
+        - olizilla
         - parkan
     privacy: closed
   IPFS Camp 2019 Trainers:
@@ -9210,10 +9649,6 @@ teams:
     members:
       maintainer:
         - autonome
-        - hsanjuan
-        - lidel
-        - olizilla
-        - Stebalien
       member:
         - achingbrain
         - alanshaw
@@ -9223,19 +9658,21 @@ teams:
         - carsonfarmer
         - gorhgorh
         - Gozala
+        - hsanjuan
         - hugomrdias
         - jacobheun
         - jimpick
         - joaosantos15
         - kk3wong
+        - lidel
         - obo20
+        - olizilla
         - raulk
+        - Stebalien
         - stefanhans
     privacy: closed
   IPFS Camp 2019:
     members:
-      maintainer:
-        - daviddias
       member:
         - 1015bit
         - abn
@@ -9270,6 +9707,7 @@ teams:
         - daijiale
         - dankelleher
         - darkdh
+        - daviddias
         - dborzov
         - deltazxm
         - dignifiedquire
@@ -9358,10 +9796,9 @@ teams:
   IPFS HTTP Client Maintainers:
     description: The group of folks who maintain the IPFS HTTP Client Libraries
     members:
-      maintainer:
-        - daviddias
       member:
         - alanshaw
+        - daviddias
         - ferristseng
         - gkbrk
         - ntninja
@@ -9381,34 +9818,30 @@ teams:
   kubo maintainers:
     description: Kubo Maintainers
     members:
-      maintainer:
+      member:
         - aschmahmann
         - BigLep
-        - lidel
-      member:
         - hacdias
         - Jorropo
+        - lidel
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
     members:
-      maintainer:
+      member:
         - BigLep
         - hsanjuan
     privacy: closed
   Merge - Go:
     description: Merge permissions to Go repos
     members:
-      maintainer:
-        - aschmahmann
-        - hsanjuan
-        - Stebalien
-        - whyrusleeping
       member:
         - alanshaw
+        - aschmahmann
         - dirkmc
         - frrist
         - hannahhoward
+        - hsanjuan
         - jacobheun
         - Jorropo
         - Kubuxu
@@ -9417,22 +9850,17 @@ teams:
         - masih
         - raulk
         - ribasushi
+        - Stebalien
         - vyzo
         - warpfork
+        - whyrusleeping
         - willscott
     privacy: closed
   Repos - Go:
     description: Golang Repos
     members:
       maintainer:
-        - aschmahmann
-        - autonome
-        - daviddias
-        - hsanjuan
-        - jbenet
-        - lidel
         - Stebalien
-        - whyrusleeping
       member:
         - 2color
         - aarshkshah1992
@@ -9440,6 +9868,9 @@ teams:
         - adlrocha
         - alanshaw
         - anorth
+        - aschmahmann
+        - autonome
+        - daviddias
         - dchoi27
         - dignifiedquire
         - dirkmc
@@ -9449,12 +9880,15 @@ teams:
         - guseggert
         - hacdias
         - hannahhoward
+        - hsanjuan
         - iand
         - ipfsbot
         - ischasny
         - jacobheun
+        - jbenet
         - Jorropo
         - Kubuxu
+        - lidel
         - magik6k
         - marten-seemann
         - masih
@@ -9465,6 +9899,7 @@ teams:
         - travisperson
         - vyzo
         - warpfork
+        - whyrusleeping
         - willscott
     privacy: closed
   Repos - Java:
@@ -9480,10 +9915,6 @@ teams:
         - achingbrain
         - alanshaw
         - daviddias
-        - jbenet
-        - lidel
-        - momack2
-        - olizilla
       member:
         - 2color
         - adlrocha
@@ -9494,8 +9925,12 @@ teams:
         - hacdias
         - ipfsbot
         - jacobheun
+        - jbenet
         - kumavis
+        - lidel
         - magik6k
+        - momack2
+        - olizilla
         - rvagg
         - SgtPooki
         - vasco-santos
@@ -9533,30 +9968,30 @@ teams:
     description: IPFS Specifications Stewards
     members:
       maintainer:
-        - aschmahmann
-        - BigLep
         - darobin
-        - lidel
-        - Stebalien
       member:
         - achingbrain
+        - aschmahmann
+        - BigLep
+        - lidel
+        - Stebalien
         - yiannisbot
     privacy: closed
   w3dt-stewards:
     members:
       maintainer:
-        - aschmahmann
         - BigLep
         - galargh
-        - lidel
       member:
         - 2color
         - achingbrain
+        - aschmahmann
         - guillaumemichel
         - guseggert
         - hacdias
         - Jorropo
         - laurentsenta
+        - lidel
         - MarcoPolo
         - marten-seemann
         - SgtPooki
@@ -9565,40 +10000,37 @@ teams:
   website-deployers:
     description: We can deploy the websites
     members:
-      maintainer:
-        - autonome
-        - cwaring
-        - daviddias
-        - lidel
-        - olizilla
       member:
         - achingbrain
         - andyschwab
+        - autonome
+        - cwaring
+        - daviddias
         - ericronne
         - hugomrdias
         - jacobheun
+        - lidel
+        - olizilla
         - raulk
     privacy: closed
   WG Captains:
     description: Captains of the various working groups
     members:
       maintainer:
-        - autonome
-        - daviddias
         - momack2
-        - olizilla
-        - Stebalien
       member:
         - alanshaw
+        - autonome
+        - daviddias
+        - olizilla
         - raulk
+        - Stebalien
     privacy: closed
   WG GUI/UX:
     description: "The GUI/UX Team - Making IPFS GUIs simple, accessible, reusable
       and beautiful. "
     members:
       maintainer:
-        - autonome
-        - cwaring
         - lidel
         - olizilla
       member:
@@ -9606,6 +10038,8 @@ teams:
         - akrych
         - alanshaw
         - andyschwab
+        - autonome
+        - cwaring
         - ericronne
         - hacdias
         - SgtPooki
@@ -9616,9 +10050,9 @@ teams:
     members:
       maintainer:
         - gmasgras
+      member:
         - hsanjuan
         - olizilla
-      member:
         - stongo
     privacy: closed
   WG IPFS Cluster:
@@ -9630,19 +10064,18 @@ teams:
   WG Project:
     description: Project Working Group
     members:
-      maintainer:
+      member:
         - daviddias
         - momack2
-      member:
         - parkan
     privacy: closed
   WG Web Browsers:
     description: Geting IPFS in a browser next to you
     members:
       maintainer:
-        - autonome
         - lidel
       member:
+        - autonome
         - Gozala
         - hugomrdias
     privacy: closed
@@ -9650,10 +10083,10 @@ teams:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
     members:
       maintainer:
-        - aschmahmann
         - lidel
       member:
         - achingbrain
+        - aschmahmann
         - jacobheun
         - SgtPooki
     privacy: closed
