@@ -12,7 +12,7 @@ terraform {
     }
   }
 
-  required_version = "~> 1.1.4"
+  required_version = "~> 1.2.9"
 }
 
 provider "aws" {}
@@ -27,11 +27,21 @@ resource "aws_s3_bucket" "this" {
 
   tags = {
     Name = "GitHub Management"
-    Url  = "https://github.com/protocol/github-mgmt-template"
+    Url  = "https://github.com/pl-strflt/github-mgmt-template"
+  }
+}
+
+resource "aws_s3_bucket_ownership_controls" "this" {
+  bucket = aws_s3_bucket.this.id
+
+  rule {
+    object_ownership = "BucketOwnerPreferred"
   }
 }
 
 resource "aws_s3_bucket_acl" "this" {
+  depends_on = [ aws_s3_bucket_ownership_controls.this ]
+
   bucket = aws_s3_bucket.this.id
   acl    = "private"
 }
@@ -48,7 +58,7 @@ resource "aws_dynamodb_table" "this" {
 
   tags = {
     Name = "GitHub Management"
-    Url  = "https://github.com/protocol/github-mgmt-template"
+    Url  = "https://github.com/pl-strflt/github-mgmt-template"
   }
 }
 
@@ -57,7 +67,7 @@ resource "aws_iam_user" "ro" {
 
   tags = {
     Name = "GitHub Management"
-    Url  = "https://github.com/protocol/github-mgmt-template"
+    Url  = "https://github.com/pl-strflt/github-mgmt-template"
   }
 }
 
@@ -66,7 +76,7 @@ resource "aws_iam_user" "rw" {
 
   tags = {
     Name = "GitHub Management"
-    Url  = "https://github.com/protocol/github-mgmt-template"
+    Url  = "https://github.com/pl-strflt/github-mgmt-template"
   }
 }
 
