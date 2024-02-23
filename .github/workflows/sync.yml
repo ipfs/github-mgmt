@@ -24,7 +24,7 @@ jobs:
         shell: bash
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Discover workspaces
         id: workspaces
         env:
@@ -63,7 +63,7 @@ jobs:
         shell: bash
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup terraform
         uses: hashicorp/setup-terraform@633666f66e0061ca3b725c73b2ec20cd13a8fdd1 # v2.0.3
         with:
@@ -76,6 +76,10 @@ jobs:
         run: |
           terraform workspace select "${TF_WORKSPACE_OPT}" || terraform workspace new "${TF_WORKSPACE_OPT}"
           echo "TF_WORKSPACE=${TF_WORKSPACE_OPT}" >> $GITHUB_ENV
+        working-directory: terraform
+      - name: Pull terraform state
+        run: |
+          terraform show -json > $TF_WORKSPACE.tfstate.json
         working-directory: terraform
       - name: Sync
         run: |
@@ -109,7 +113,7 @@ jobs:
           installation_id: ${{ secrets[format('RW_GITHUB_APP_INSTALLATION_ID_{0}', github.repository_owner)] || secrets.RW_GITHUB_APP_INSTALLATION_ID }}
           private_key: ${{ secrets.RW_GITHUB_APP_PEM_FILE }}
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ steps.token.outputs.token }}
       - uses: ./.github/actions/git-config-user
