@@ -6,6 +6,10 @@ import {doNotEnforceAdmins} from './do-not-enforce-admins'
 import {addFileToAllRepos} from './shared/add-file-to-all-repos'
 import {format} from './shared/format'
 import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
+import {toggleArchivedRepos} from './shared/toggle-archived-repos'
+import {describeAccessChanges} from './shared/describe-access-changes'
+
+import * as core from '@actions/core'
 
 function isInitialised(repository: Repository) {
   return ![
@@ -30,32 +34,50 @@ function isFork(repository: Repository) {
   ].includes(repository.name)
 }
 
-addFileToAllRepos(
-  '.github/workflows/stale.yml',
-  '.github/workflows/stale.yml',
-  r => isInitialised(r) && !isFork(r)
-)
+async function run() {
+  await addFileToAllRepos(
+    '.github/workflows/stale.yml',
+    '.github/workflows/stale.yml',
+    r => isInitialised(r) && !isFork(r)
+  )
+  
+  await addFileToAllRepos(
+    '.github/pull_request_template.md',
+    '.github/helia_pull_request_template.md',
+    r => isInitialised(r) && isHelia(r)
+  )
+  
+  await setPropertyInAllRepos(
+    'secret_scanning',
+    true,
+    r => isInitialised(r) && isPublic(r)
+  )
+  await setPropertyInAllRepos(
+    'secret_scanning_push_protection',
+    true,
+    r => isInitialised(r) && isPublic(r)
+  )
+  await doNotEnforceAdmins(
+    (repository: Repository, rule: RepositoryBranchProtectionRule) =>
+      isInitialised(repository) &&
+      repository.default_branch !== undefined &&
+      globToRegex(rule.pattern).test(repository.default_branch)
+  )
+  await toggleArchivedRepos()
+  const accessChangesDescription = await describeAccessChanges()
+  core.setOutput(
+    'comment',
+    `The following access changes will be introduced as a result of applying the plan:
 
-addFileToAllRepos(
-  '.github/pull_request_template.md',
-  '.github/helia_pull_request_template.md',
-  r => isInitialised(r) && isHelia(r)
-)
+<details><summary>Access Changes</summary>
 
-setPropertyInAllRepos(
-  'secret_scanning',
-  true,
-  r => isInitialised(r) && isPublic(r)
-)
-setPropertyInAllRepos(
-  'secret_scanning_push_protection',
-  true,
-  r => isInitialised(r) && isPublic(r)
-)
-doNotEnforceAdmins(
-  (repository: Repository, rule: RepositoryBranchProtectionRule) =>
-    isInitialised(repository) &&
-    repository.default_branch !== undefined &&
-    globToRegex(rule.pattern).test(repository.default_branch)
-)
-format()
+\`\`\`
+${accessChangesDescription}
+\`\`\`
+
+</details>`
+  )
+  await format()
+}
+
+run()
