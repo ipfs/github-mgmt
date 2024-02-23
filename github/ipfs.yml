@@ -836,56 +836,7 @@ repositories:
         - IPFS Camp 2019 Trainers
     visibility: public
   choco-go-ipfs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: main
-    description: Automation for publishing go-ipfs releases to Chocolatey
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
   ci-helpers:
     advanced_security: false
     allow_update_branch: false
@@ -1044,66 +995,9 @@ repositories:
         - contributors
     visibility: public
   dht-node:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - aschmahmann
-      push:
-        - raulk
-    default_branch: master
-    description: "[ARCHIVED] Run just an ipfs dht node (Or many nodes at once!)"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-    visibility: public
   dir-index-html:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - ipfsbot
-        - web3-bot
-    default_branch: master
-    description: Directory listing HTML for go-ipfs gateways
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - gui-dev
-        - Merge - Go
-        - Repos - Go
-        - Repos - JavaScript
-        - WG GUI/UX
-    visibility: public
   distributed-wikipedia-mirror:
     advanced_security: false
     allow_update_branch: false
@@ -1566,76 +1460,7 @@ repositories:
         - github-mgmt stewards
     visibility: private
   go-bitswap:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        push_restrictions:
-          - ipfs/merge-go
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The golang implementation of the bitswap protocol
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-block-format:
     advanced_security: false
     allow_update_branch: false
@@ -1672,47 +1497,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-blockservice:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The go 'blockservice' implementation, combines local and remote
-      storage seamlessly
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-bs-sqlite3:
     advanced_security: false
     allow_update_branch: false
@@ -1876,65 +1661,7 @@ repositories:
         - github-mgmt stewards
     visibility: private
   go-dagwriter:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hannahhoward
-      push:
-        - web3-bot
-    default_branch: main
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-data-transfer-bus:
     advanced_security: false
     allow_update_branch: false
@@ -2001,78 +1728,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-delegated-routing:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    description: See https://github.com/ipfs/go-libipfs/tree/main/routing/http instead.
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-detect-race:
     advanced_security: false
     allow_update_branch: false
@@ -2295,35 +1951,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   go-ds-bench:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - magik6k
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ds-bitcask:
     advanced_security: false
     allow_update_branch: false
@@ -2355,36 +1983,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   go-ds-bolt:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A wrapper for boltdb that implements jbenet/go-datastore's
-      Datastore interface
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ds-crdt:
     advanced_security: false
     allow_update_branch: false
@@ -2798,98 +2397,9 @@ repositories:
         - Repos - Go
     visibility: public
   go-fetcher:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hannahhoward
-      push:
-        - web3-bot
-    default_branch: main
-    description: Handles IPLD prime graph data retrieval accross IPFS.
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-filestore:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        push_restrictions:
-          - ipfs/merge-go
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-fs-lock:
     advanced_security: false
     allow_update_branch: false
@@ -3011,72 +2521,9 @@ repositories:
         - Repos - Go
     visibility: public
   go-hamt-ipld:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: An implementation of a HAMT using ipld
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      pull:
-        - github-mgmt stewards
-    visibility: public
   go-ipfs-api:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_status_checks:
-          strict: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The go interface to ipfs's HTTP API
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-archived:
     advanced_security: false
     allow_update_branch: false
@@ -3108,51 +2555,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-blockstore:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
-      push:
-        - web3-bot
-    default_branch: master
-    description: "[ARCHIVED] This module provides a thin wrapper over a datastore
-      and provides caching strategies."
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - kubo maintainers
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-blocksutil:
     advanced_security: false
     allow_update_branch: false
@@ -3189,77 +2592,9 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-chunker:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
-      push:
-        - web3-bot
-    default_branch: master
-    description: go-ipfs-chunkers provides Splitter implementations for data before
-      being ingested to IPFS
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-cmdkit:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-cmds:
     advanced_security: false
     allow_update_branch: false
@@ -3311,35 +2646,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-config:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: "[ARCHIVED] config is now part of go-ipfs repo"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-delay:
     advanced_security: false
     allow_update_branch: false
@@ -3376,49 +2683,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-ds-help:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
-      push:
-        - web3-bot
-    default_branch: master
-    description: Utilities for parsing and creating datastore keys used by go-ipfs
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-example-plugin:
     advanced_security: false
     allow_update_branch: true
@@ -3453,397 +2718,21 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-exchange-interface:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
-      push:
-        - web3-bot
-    default_branch: master
-    description: The IPFS Exchange interface
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-exchange-offline:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
-      push:
-        - web3-bot
-    default_branch: master
-    description: An offline IPFS exchange implementation
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-files:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-    collaborators:
-      admin:
-        - magik6k
-      push:
-        - web3-bot
-    default_branch: master
-    description: An old files library, please migrate to
-      `github.com/ipfs/go-libipfs/files` instead.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-gateway:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Go implementation of the HTTP-to-IPFS gateway -- currently lives in go-ipfs
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-http-client:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - magik6k
-      push:
-        - web3-bot
-    default_branch: master
-    description: "[archived] Legacy Kubo RPC client, use kubo/client/rpc instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-keystore:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: false
-    collaborators:
-      admin:
-        - hsanjuan
-        - Kubuxu
-        - ZenGround0
-      push:
-        - frrist
-        - web3-bot
-    default_branch: master
-    description: go-ipfs-keystore provides an interface and implementation of key
-      storage for IPFS
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-pinner:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        push_restrictions:
-          - ipfs/merge-go
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: "go-ipfs-pinner provides an interface and implementation of a
-      Pinner for IPFS "
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-posinfo:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
-      push:
-        - web3-bot
-    default_branch: master
-    description: Posinfo wraps offset information for ipfs filestore nodes
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-pq:
     advanced_security: false
     allow_update_branch: false
@@ -3922,58 +2811,7 @@ repositories:
         - github-mgmt stewards
     visibility: private
   go-ipfs-provider:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      remove-ipfs-dep:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-    collaborators:
-      admin:
-        - Stebalien
-      push:
-        - web3-bot
-    default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-redirects-file:
     advanced_security: false
     allow_update_branch: true
@@ -4045,93 +2883,9 @@ repositories:
         - github-mgmt stewards
     visibility: public
   go-ipfs-routing:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
-      push:
-        - web3-bot
-    default_branch: master
-    description: go-ipfs-routing provides go-libp2p-routing implementations used in go-ipfs.
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipfs-util:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - whyrusleeping
-      push:
-        - web3-bot
-    default_branch: master
-    description: Common utilities used by go-ipfs and other related go packages
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-ipld-cbor:
     advanced_security: false
     allow_update_branch: false
@@ -4201,48 +2955,7 @@ repositories:
       - ipld
     visibility: public
   go-ipld-eth:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - whyrusleeping
-      push:
-        - dryajov
-        - web3-bot
-    default_branch: master
-    description: Plugin of the Go IPFS Client for Ethereum Blockchain IPLD objects
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    topics:
-      - blockchain
-      - eth
-      - ethereum
-      - golang
-      - ipfs
-      - ipld-eth
-      - ipld
-      - plugin
-      - storage
-    visibility: public
   go-ipld-format:
     advanced_security: false
     allow_update_branch: false
@@ -4377,79 +3090,9 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipns:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Utilities for creating, parsing, and validating IPNS records
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    topics:
-      - ipfs
-      - ipns
-    visibility: public
   go-jaeger-plugin:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - frrist
-        - web3-bot
-    default_branch: master
-    description: A Jaeger plugin for IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-libipfs-rapide:
     advanced_security: false
     allow_update_branch: false
@@ -4640,160 +3283,11 @@ repositories:
         - Repos - Go
     visibility: public
   go-mfs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        push_restrictions:
-          - ipfs/merge-go
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: An in memory model of a mutable IPFS filesystem
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-namesys:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: go-namesys provides publish and resolution support for the /ipns/
-      namespace in go-ipfs
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-path:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Utilities for dealing with ipfs paths
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-peertaskqueue:
     advanced_security: false
     allow_update_branch: false
@@ -4830,70 +3324,9 @@ repositories:
         - Repos - Go
     visibility: public
   go-pinning-service-http-client:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: An IPFS Pinning Service HTTP Client
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-poll-endpoint:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Unix util to poll an endpoint
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-protocolnetwork:
     advanced_security: false
     allow_update_branch: false
@@ -4953,33 +3386,7 @@ repositories:
         - Go Core Team
     visibility: public
   go-sbs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: static block store (very experimental)
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-todocounter:
     advanced_security: false
     allow_update_branch: false
@@ -5013,47 +3420,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-unixfs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Implementation of a unix-like filesystem on top of an ipld merkledag
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   go-unixfsnode:
     advanced_security: false
     allow_update_branch: false
@@ -5091,48 +3458,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-verifcid:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Temporary repo to provide cid security code prior to it getting
-      merged into go-cid
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   gomod:
     advanced_security: false
     allow_update_branch: false
@@ -5224,34 +3550,7 @@ repositories:
         - Repos - Go
     visibility: public
   helia-car:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: main
-    description: Import/export car files from Helia
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-helia
-    visibility: public
   helia-cli:
     advanced_security: false
     allow_update_branch: false
@@ -5301,59 +3600,9 @@ repositories:
       - ipfs-helia
     visibility: public
   helia-dag-cbor:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-    default_branch: main
-    description: Add/get IPLD blocks containing dag-cbor with your Helia node
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-helia
-    visibility: public
   helia-dag-json:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-    default_branch: main
-    description: Add/get IPLD blocks containing dag-json with your Helia node
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-helia
-    visibility: public
   helia-delegated-routing-v1-http-api:
     advanced_security: false
     allow_update_branch: true
@@ -5422,89 +3671,11 @@ repositories:
       - ipfs-helia
     visibility: public
   helia-ipns:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: main
-    description: An implementation of IPNS for Helia
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - JavaScript
-    topics:
-      - ipfs-helia
-    visibility: public
   helia-json:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-    default_branch: main
-    description: Add/get IPLD blocks containing dag-json with your Helia node
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-helia
-    visibility: public
   helia-mfs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: main
-    description: A mutable filesystem powered by Helia
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-helia
-    visibility: public
   helia-remote-pinning:
     advanced_security: false
     allow_update_branch: false
@@ -5569,36 +3740,7 @@ repositories:
       - ipfs-helia
     visibility: public
   helia-unixfs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: main
-    description: UnixFS commands for helia
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - helia-dev
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - JavaScript
-    topics:
-      - ipfs-helia
-    visibility: public
   helia:
     advanced_security: false
     allow_update_branch: true
@@ -5712,33 +3854,7 @@ repositories:
       - ipfs
     visibility: public
   infra:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - locotorp
-        - web3-bot
-    default_branch: master
-    description: Tools and systems for the IPFS community
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-        - WG Infrastructure
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
   integrations:
     advanced_security: false
     allow_update_branch: false
@@ -5762,113 +3878,11 @@ repositories:
         - github-mgmt stewards
     visibility: public
   interface-datastore:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: datastore interface
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - JavaScript
-    visibility: public
   interface-go-ipfs-core:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - magik6k
-      push:
-        - web3-bot
-    default_branch: master
-    description: "[ARCHIVED] this interface is now part of boxo and kubo/client/rpc"
-    files:
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   interop:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Interoperability tests for IPFS Implementations (on-the-wire interop)
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Merge - Go
-        - Repos - Go
-        - Repos - JavaScript
-    visibility: public
   ipfs-blog:
     advanced_security: false
     allow_update_branch: true
@@ -6344,58 +4358,7 @@ repositories:
       - ipfs
     visibility: public
   ipfs-project.org:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - andyschwab
-        - guseggert
-    default_branch: main
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
   ipfs-repository-template:
     advanced_security: false
     allow_update_branch: false
@@ -6794,61 +4757,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-blockstore-core:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: Contains various implementations of the API contract described in
-      interface-blockstore
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
   js-blockstore-datastore-adapter:
     advanced_security: false
     allow_update_branch: false
@@ -6878,128 +4787,13 @@ repositories:
         - github-mgmt stewards
     visibility: public
   js-blockstore-fs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-    default_branch: main
-    description: Blockstore implementation with file system backend
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
   js-blockstore-idb:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-    default_branch: main
-    description: Blockstore implementation with IndexedDB backend
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
   js-blockstore-level:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-    default_branch: main
-    description: Blockstore implementation with level(up|down) backend
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
   js-core:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - alanshaw
-      push:
-        - dirkmc
-        - jacobheun
-        - vasco-santos
-        - vmx
-        - web3-bot
-    default_branch: master
-    description: 🌟 Entry point for coordination of the JS Core working group members
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-    visibility: public
   js-dag-service:
     advanced_security: false
     allow_update_branch: false
@@ -7066,247 +4860,13 @@ repositories:
       - peer-to-peer
     visibility: public
   js-datastore-core:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: "Contains various implementations of the API contract described in
-      interface-datastore "
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
   js-datastore-fs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-        - dignifiedquire
-      push:
-        - web3-bot
-    default_branch: master
-    description: Datastore implementation with file system backend
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
   js-datastore-idb:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-        - hugomrdias
-      push:
-        - web3-bot
-    default_branch: master
-    description: Datastore implementation with IndexedDB backend.
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
   js-datastore-level:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-        - dignifiedquire
-      push:
-        - web3-bot
-    default_branch: master
-    description: Datastore implementation with level(up/down) backend
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
   js-datastore-pubsub:
     advanced_security: false
     allow_update_branch: false
@@ -7343,66 +4903,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-datastore-s3:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: master
-    description: Datastore implementation with S3 backend
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
   js-fs-pull-blob-store:
     advanced_security: false
     allow_update_branch: false
@@ -7535,70 +5036,9 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-block-service:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-        - daviddias
-        - dignifiedquire
-      push:
-        - web3-bot
-    default_branch: master
-    description: JavaScript Implementation of Block and BlockService
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
   js-ipfs-http-response:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-        - vasco-santos
-      push:
-        - web3-bot
-    default_branch: master
-    description: Creates an HTTP response from an IPFS Hash
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - admin
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
   js-ipfs-merkle-dag:
     advanced_security: false
     allow_update_branch: false
@@ -7633,37 +5073,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-ipfs-repo-migrations:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - alanshaw
-      push:
-        - AuHau
-        - web3-bot
-    default_branch: master
-    description: Migration framework for versioning of JS IPFS Repo
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - CI
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - JavaScript
-    visibility: public
   js-ipfs-repo:
     advanced_security: false
     allow_update_branch: true
@@ -7773,83 +5183,7 @@ repositories:
       - ipfs
     visibility: public
   js-ipfs:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - 2color
-        - achingbrain
-        - alanshaw
-        - hugomrdias
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS implementation in JavaScript
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-        - WG Infrastructure
-      triage:
-        - Go Core Team
-    topics:
-      - decentralized
-      - distributed
-      - immutable
-      - ipfs
-      - ipld
-      - javascript
-      - js-ipfs
-      - libp2p
-      - p2p
-      - peer-to-peer
-    visibility: public
   js-ipfsd-ctl:
     advanced_security: false
     allow_update_branch: false
@@ -8347,63 +5681,7 @@ repositories:
         - comms
     visibility: public
   notes:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - jsoares
-        - web3-bot
-        - yiannisbot
-    default_branch: master
-    description: IPFS Collaborative Notebook for Research
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: true
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
   npm-kubo:
     advanced_security: false
     allow_update_branch: false
@@ -8437,60 +5715,7 @@ repositories:
       - npm
     visibility: public
   papers:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - 2color
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Papers (not specs)
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
   pinbot-irc:
     advanced_security: false
     allow_update_branch: false
@@ -9026,167 +6251,11 @@ repositories:
         - github-mgmt stewards
     visibility: public
   tar-utils:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: true
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: "[deprecated] https://github.com/ipfs/libkubo/pull/1"
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - Merge - Go
-        - Repos - Go
-    visibility: public
   team-mgmt:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Team Planning, Management & Coordination threads
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v3
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - community
-        - docs
-        - Go Core Team
-        - gui-dev
-        - JS Core Team
-        - WG Captains
-        - WG GUI/UX
-        - WG Project
-        - WG Web Browsers
-      triage:
-        - contributors
-    visibility: public
   test-plans:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: master
-    description: Testground test plans for IPFS
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
   uci:
     advanced_security: false
     allow_update_branch: false
