@@ -4521,7 +4521,7 @@ repositories:
       triage:
         - juliaxbow
     default_branch: main
-    description: A frontend for an IPFS node.
+    description: A frontend for an IPFS Kubo node.
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
