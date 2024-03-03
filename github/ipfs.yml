@@ -3711,6 +3711,10 @@ repositories:
       - typescript-library
     visibility: public
   helia-strings:
+    archived: true
+  helia-unixfs:
+    archived: true
+  helia-verified-fetch:
     advanced_security: false
     allow_update_branch: true
     archived: false
@@ -3718,12 +3722,7 @@ repositories:
       admin:
         - achingbrain
     default_branch: main
-    description: Add/get IPLD blocks containing strings with your Helia node
-    files:
-      .github/pull_request_template.md:
-        content: .github/helia_pull_request_template.md
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+    description: A fetch-like API for obtaining verified & trustless IPFS CIDs on the web
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3734,13 +3733,13 @@ repositories:
     teams:
       admin:
         - helia-dev
+        - ipdx
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
-    topics:
-      - ipfs-helia
+      push:
+        - Repos - JavaScript
     visibility: public
-  helia-unixfs:
-    archived: true
   helia:
     advanced_security: false
     allow_update_branch: true
@@ -3764,7 +3763,6 @@ repositories:
           strict: false
     collaborators:
       admin:
-        - 2color
         - achingbrain
     default_branch: main
     description: An implementation of IPFS in JavaScript
