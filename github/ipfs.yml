@@ -6410,6 +6410,11 @@ teams:
         # Why @mishmosh?
         # 1. Director of the being-stood-up-in-2024 IPFS Foundation
         - mishmosh
+        # Why @stebalien?
+        # 1. Not involved in the IPFS day-to-day currently, but has a lot of historical knowledge.  Provides an informed outside perspective.
+        # 2. Familiar with github-mgmt responsibilities in other orgs.
+        # KEEP: For the reasons above
+        - stebalien
         # Why @willscott?
         # 1. Active maintainer in and around IPFS projects for multiple years now.
         # 2. Active and experienced with github-mgmt in other organizations (e.g., ipld).
