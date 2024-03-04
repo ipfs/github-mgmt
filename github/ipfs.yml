@@ -3723,6 +3723,11 @@ repositories:
         - achingbrain
     default_branch: main
     description: A fetch-like API for obtaining verified & trustless IPFS CIDs on the web
+    files:
+      .github/pull_request_template.md:
+        content: .github/helia_pull_request_template.md
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
