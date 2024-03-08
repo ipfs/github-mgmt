@@ -515,7 +515,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - CI
         - gui-dev
     topics:
       - awesome-ipfs
@@ -798,11 +797,8 @@ repositories:
       push:
         - comms
         - community
-        - IPFS Camp 2019 Org Team
       triage:
         - docs
-        - IPFS Camp 2019 Attendees
-        - IPFS Camp 2019 Trainers
     visibility: public
   choco-go-ipfs:
     archived: true
@@ -2029,7 +2025,6 @@ repositories:
       admin:
         - admin
       maintain:
-        - CI
         - Go Core Team
         - ipdx
         - w3dt-stewards
@@ -2300,7 +2295,6 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - CI
         - github-mgmt stewards
         - Go Core Team
       push:
@@ -4138,7 +4132,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - CI
         - ipdx
         - w3dt-stewards
     topics:
@@ -4868,7 +4861,6 @@ repositories:
         - w3dt-stewards
       pull:
         - admin
-        - CI
         - github-mgmt stewards
         - JS Core Team
         - Repos - JavaScript
@@ -5762,7 +5754,6 @@ repositories:
         - gui-dev
         - Maintainers
       pull:
-        - CI
         - comms
         - github-mgmt stewards
         - JS Core Team
@@ -6268,9 +6259,6 @@ teams:
         - whereswaldon
         - zeckli
     privacy: closed
-  CI:
-    description: continous integration
-    privacy: closed
   comms:
     description: Communications
     members:
@@ -6340,14 +6328,6 @@ teams:
         - whyrusleeping
         - Wondertan
         - yiannisbot
-    privacy: closed
-  devgrants:
-    privacy: secret
-  devrel:
-    description: IPFS Developer Relations
-    privacy: closed
-  docs-writers:
-    description: Folks who actively write to the various docs projects across this org.
     privacy: closed
   docs:
     description: We take care of tooling and processes for documentation
@@ -6421,9 +6401,6 @@ teams:
         - ribasushi
         - warpfork
     privacy: closed
-  go-ipfs release:
-    description: Who may cut a release of go-ipfs
-    privacy: closed
   go-ipfs-priv:
     members:
       member:
@@ -6456,225 +6433,6 @@ teams:
       maintainer:
         - galargh
         - laurentsenta
-    privacy: closed
-  IPFS Camp 2019 Attendees:
-    members:
-      maintainer:
-        - yunigraham
-      member:
-        - achingbrain
-        - aeddi
-        - aknuds1
-        - alanshaw
-        - andrewxhill
-        - anorth
-        - AquiGorka
-        - aschmahmann
-        - AuHau
-        - autonome
-        - avras
-        - b5
-        - bigs
-        - bjoyce3
-        - blackforestboi
-        - carsonfarmer
-        - cesarosum
-        - codynhat
-        - cpacia
-        - cwaring
-        - daijiale
-        - daviddias
-        - doctorrobinson
-        - drbh
-        - ec1oud
-        - enricomarino
-        - glouvigny
-        - gnunicorn
-        - gorhgorh
-        - Gozala
-        - gpestana
-        - gregdhill
-        - hannahhoward
-        - hareeshnagaraj
-        - hinshun
-        - hsanjuan
-        - hugomrdias
-        - ianamunoz
-        - ianopolous
-        - jacobheun
-        - janjanovna
-        - jbenet
-        - jdelgadopin
-        - jimpick
-        - jkarni
-        - joaosantos15
-        - jonnycrunch
-        - JustMaier
-        - kanej
-        - kk3wong
-        - koalalorenzo
-        - Kubuxu
-        - leshokunin
-        - lidel
-        - listenaddress
-        - mafintosh
-        - magnshen
-        - maparent
-        - MarneeDear
-        - MichaelMure
-        - momack2
-        - moul
-        - obo20
-        - olizilla
-        - parkan
-        - pepoospina
-        - Prtfw
-        - raulk
-        - requilence
-        - rittme
-        - rklaehn
-        - roignpar
-        - romaric-juniet
-        - Schwartz10
-        - Stebalien
-        - stefanhans
-        - steven004
-        - terichadbourne
-        - vasa-develop
-        - vojtechsimetka
-        - waynewyang
-        - Wondertan
-        - yrliou
-    privacy: closed
-  IPFS Camp 2019 Org Team:
-    description: Organizers & Content DRIs
-    members:
-      member:
-        - alanshaw
-        - autonome
-        - cwaring
-        - daviddias
-        - jimpick
-        - momack2
-        - olizilla
-        - parkan
-    privacy: closed
-  IPFS Camp 2019 Trainers:
-    description: The Core & Elective Course Trainers
-    members:
-      maintainer:
-        - autonome
-      member:
-        - achingbrain
-        - alanshaw
-        - andrewxhill
-        - b5
-        - carsonfarmer
-        - gorhgorh
-        - Gozala
-        - hsanjuan
-        - hugomrdias
-        - jacobheun
-        - jimpick
-        - joaosantos15
-        - kk3wong
-        - lidel
-        - obo20
-        - olizilla
-        - raulk
-        - Stebalien
-        - stefanhans
-    privacy: closed
-  IPFS Camp 2019:
-    members:
-      member:
-        - achingbrain
-        - aeddi
-        - aknuds1
-        - alanshaw
-        - andrewxhill
-        - anorth
-        - AquiGorka
-        - aschmahmann
-        - AuHau
-        - autonome
-        - avras
-        - b5
-        - bigs
-        - bjoyce3
-        - blackforestboi
-        - carsonfarmer
-        - cesarosum
-        - codynhat
-        - cpacia
-        - cwaring
-        - daijiale
-        - daviddias
-        - doctorrobinson
-        - drbh
-        - ec1oud
-        - enricomarino
-        - glouvigny
-        - gnunicorn
-        - gorhgorh
-        - Gozala
-        - gpestana
-        - gregdhill
-        - hannahhoward
-        - hareeshnagaraj
-        - hinshun
-        - hsanjuan
-        - hugomrdias
-        - ianamunoz
-        - ianopolous
-        - jacobheun
-        - janjanovna
-        - jbenet
-        - jdelgadopin
-        - jimpick
-        - jkarni
-        - joaosantos15
-        - jonnycrunch
-        - JustMaier
-        - kanej
-        - kk3wong
-        - koalalorenzo
-        - Kubuxu
-        - leshokunin
-        - lidel
-        - listenaddress
-        - mafintosh
-        - magnshen
-        - maparent
-        - MarneeDear
-        - MichaelMure
-        - momack2
-        - moul
-        - obo20
-        - olizilla
-        - parkan
-        - pepoospina
-        - Prtfw
-        - raulk
-        - requilence
-        - rittme
-        - rklaehn
-        - roignpar
-        - romaric-juniet
-        - Schwartz10
-        - Stebalien
-        - stefanhans
-        - steven004
-        - terichadbourne
-        - vasa-develop
-        - vojtechsimetka
-        - waynewyang
-        - Wondertan
-        - yrliou
-        - yunigraham
-    privacy: closed
-  IPFS HTTP Client Maintainers:
-    description: The group of folks who maintain the IPFS HTTP Client Libraries
     privacy: closed
   JS Core Team:
     description: Members of the core team for JS repositories
@@ -6772,9 +6530,6 @@ teams:
         - whyrusleeping
         - willscott
     privacy: closed
-  Repos - Java:
-    description: Java Java Java
-    privacy: closed
   Repos - JavaScript:
     description: JavaScript IPFS team
     members:
@@ -6797,15 +6552,6 @@ teams:
         - vasco-santos
         - vmx
         - wemeetagain
-    privacy: closed
-  Repos - Python:
-    description: python ipfs implementation
-    privacy: closed
-  Repos - Rust:
-    privacy: closed
-  Repos - Scala:
-    privacy: closed
-  Repos - Swift:
     privacy: closed
   Specs Stewards:
     description: IPFS Specifications Stewards
