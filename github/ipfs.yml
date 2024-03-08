@@ -336,23 +336,6 @@ repositories:
       - conference
       - ipfs
     visibility: public
-  2022.ipfs.camp:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    default_branch: main
-    description: IPFS Camp 2022
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: private
   aegir-typedoc-theme:
     advanced_security: false
     allow_update_branch: false
@@ -5367,7 +5350,7 @@ repositories:
         allows_deletions: false
         allows_force_pushes: false
         blocks_creations: false
-        enforce_admins: true
+        enforce_admins: false
         lock_branch: false
         push_restrictions:
           - /aschmahmann
@@ -6603,6 +6586,92 @@ teams:
         - stefanhans
     privacy: closed
   IPFS Camp 2019:
+    members:
+      member:
+        - achingbrain
+        - aeddi
+        - aknuds1
+        - alanshaw
+        - andrewxhill
+        - anorth
+        - AquiGorka
+        - aschmahmann
+        - AuHau
+        - autonome
+        - avras
+        - b5
+        - bigs
+        - bjoyce3
+        - blackforestboi
+        - carsonfarmer
+        - cesarosum
+        - codynhat
+        - cpacia
+        - cwaring
+        - daijiale
+        - daviddias
+        - doctorrobinson
+        - drbh
+        - ec1oud
+        - enricomarino
+        - glouvigny
+        - gnunicorn
+        - gorhgorh
+        - Gozala
+        - gpestana
+        - gregdhill
+        - hannahhoward
+        - hareeshnagaraj
+        - hinshun
+        - hsanjuan
+        - hugomrdias
+        - ianamunoz
+        - ianopolous
+        - jacobheun
+        - janjanovna
+        - jbenet
+        - jdelgadopin
+        - jimpick
+        - jkarni
+        - joaosantos15
+        - jonnycrunch
+        - JustMaier
+        - kanej
+        - kk3wong
+        - koalalorenzo
+        - Kubuxu
+        - leshokunin
+        - lidel
+        - listenaddress
+        - mafintosh
+        - magnshen
+        - maparent
+        - MarneeDear
+        - MichaelMure
+        - momack2
+        - moul
+        - obo20
+        - olizilla
+        - parkan
+        - pepoospina
+        - Prtfw
+        - raulk
+        - requilence
+        - rittme
+        - rklaehn
+        - roignpar
+        - romaric-juniet
+        - Schwartz10
+        - Stebalien
+        - stefanhans
+        - steven004
+        - terichadbourne
+        - vasa-develop
+        - vojtechsimetka
+        - waynewyang
+        - Wondertan
+        - yrliou
+        - yunigraham
     privacy: closed
   IPFS HTTP Client Maintainers:
     description: The group of folks who maintain the IPFS HTTP Client Libraries
