@@ -340,9 +340,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cwaring
     default_branch: main
     description: IPFS Camp 2022
     has_discussions: false
@@ -423,9 +420,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - davidar
     default_branch: master
     description: Coordinating writing apps on top of ipfs, and their concerns.
     files:
@@ -454,10 +448,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - 2color
         - vesahc
-      push:
-        - marshall
     default_branch: main
     description: is IPFS actually InterPlanetary yet?
     files:
@@ -480,9 +471,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - flyingzumwalt
     default_branch: master
     description: Open-licensed IPFS-related artwork
     files:
@@ -513,7 +501,6 @@ repositories:
       admin:
         - 2color
         - autonome
-        - dignifiedquire
         - hacdias
         - lidel
       push:
@@ -521,7 +508,6 @@ repositories:
         - ipfs-gui-bot
         - koalalorenzo
         - meandavejustice
-        - parkan
         - victorb
     default_branch: main
     description: Community list of awesome projects, apps, tools, pinning services
@@ -1062,8 +1048,6 @@ repositories:
     collaborators:
       admin:
         - lidel
-      push:
-        - ipfs-gui-bot
     default_branch: master
     description: Legacy dist.ipfs.tech website and artifact build tools
     files:
@@ -1143,11 +1127,9 @@ repositories:
       maintain:
         - amanda-agency-undone
         - D3AS8A
-        - damedoteth
         - emilymariahh
         - mishmosh
         - svvimming
-        - tikagan
         - timelytree
     default_branch: main
     description: Interactive showcase of projects and products built using IPFS, the
@@ -1429,17 +1411,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aschmahmann
-        - daviddias
         - dirkmc
-        - Kubuxu
-        - magik6k
         - Stebalien
-        - vyzo
-        - whyrusleeping
-      push:
-        - adlrocha
-        - yiannisbot
     default_branch: master
     description: Private fork of go-bitswap for security changes
     files:
@@ -1468,7 +1441,6 @@ repositories:
     collaborators:
       admin:
         - Stebalien
-        - whyrusleeping
       push:
         - web3-bot
     default_branch: master
@@ -1637,9 +1609,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     default_branch: master
     description: A prototype of a diskbased datastore looks up DAG data by selector
     files:
@@ -1666,9 +1635,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     default_branch: main
     description: Simple event bus for data transfers
     has_discussions: false
@@ -1734,8 +1700,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - hsanjuan
       push:
         - web3-bot
     default_branch: master
@@ -1957,8 +1921,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - magik6k
       push:
         - web3-bot
     default_branch: master
@@ -2142,8 +2104,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - whyrusleeping
       push:
         - web3-bot
     default_branch: master
@@ -2368,9 +2328,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - magik6k
     default_branch: master
     description: Experimental Swift / Openstack Object Storage datastore
     files:
@@ -2492,8 +2449,6 @@ repositories:
         - davidd8
       push:
         - anorth
-        - elijaharita
-        - vmx
         - web3-bot
     default_branch: main
     description: Initial Implementation Of GraphSync Wire Protocol
@@ -2561,8 +2516,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - hsanjuan
       push:
         - web3-bot
     default_branch: master
@@ -2652,8 +2605,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - hsanjuan
       push:
         - web3-bot
     default_branch: master
@@ -2738,8 +2689,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - hsanjuan
       push:
         - web3-bot
     default_branch: master
@@ -2775,8 +2724,6 @@ repositories:
     collaborators:
       admin:
         - galargh
-      pull:
-        - gmasgras
     default_branch: master
     files:
       .github/dependabot.yml:
@@ -2862,9 +2809,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - petar
     default_branch: master
     description: This repo provides definitions of regression statistics produced by
       IPFS testground experiments
@@ -3059,9 +3003,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - arcalinea
     default_branch: master
     description: An implementation of the zcash block and transaction datastructures
       for ipld
@@ -3463,9 +3404,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - Kubuxu
     default_branch: master
     description: Tips, tricks and scripts for gomod
     files:
@@ -3522,8 +3460,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - Kubuxu
       push:
         - web3-bot
     default_branch: master
@@ -3823,8 +3759,6 @@ repositories:
         - autonome
         - darobin
         - lidel
-      push:
-        - ipfs-gui-bot
     default_branch: master
     description: Tracking the endeavor towards getting web browsers to natively
       support IPFS and content-addressing
@@ -3988,7 +3922,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - 2color
         - mishmosh
         - TheDiscordian
       push:
@@ -4049,7 +3982,6 @@ repositories:
       maintain:
         - meandavejustice
       push:
-        - ipfs-gui-bot
         - olizilla
     default_branch: main
     description: Browser extension that simplifies access to IPFS resources on the web
@@ -4106,8 +4038,6 @@ repositories:
     collaborators:
       admin:
         - lidel
-      push:
-        - ipfs-gui-bot
     default_branch: main
     description: "An unobtrusive and user-friendly desktop application for IPFS on
       Windows, Mac and Linux. "
@@ -4327,11 +4257,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - ipfs-gui-bot
-      triage:
-        - juliaxbow
     default_branch: main
     description: Creating standards and patterns for IPFS that are simple,
       accessible, reusable, and beautiful
@@ -4520,7 +4445,6 @@ repositories:
     collaborators:
       push:
         - ipfs-gui-bot
-        - ipfsbot
       triage:
         - juliaxbow
     default_branch: main
@@ -4827,8 +4751,6 @@ repositories:
         - Gozala
       push:
         - andrewxhill
-        - asutula
-        - sanderpick
     default_branch: default
     description: Library for storing and replicating hash-linked data over the IPFS network.
     files:
@@ -4911,9 +4833,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - dignifiedquire
     default_branch: master
     description: pull-blob-store implementation for the filesystem in node.js
     files:
@@ -4975,9 +4894,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - dignifiedquire
     default_branch: master
     description: IndexedDB implementation for interface-pull-blob-store
     files:
@@ -5046,10 +4962,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - daviddias
-        - dignifiedquire
     default_branch: master
     description: "[DEPRECATED]"
     files:
@@ -5118,9 +5030,7 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-        - daviddias
       push:
-        - ipfsbot
         - web3-bot
     default_branch: main
     description: JavaScript implementation of IPFS' unixfs (a Unix FileSystem
@@ -5657,7 +5567,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - eminence
         - moyid
     default_branch: master
     description: Prepare and store the IPFS Newsletter
@@ -5689,9 +5598,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      triage:
-        - hugomrdias
     default_branch: master
     description: Install Kubo (go-ipfs) from NPM
     files:
@@ -5850,7 +5756,6 @@ repositories:
       admin:
         - lidel
       push:
-        - ipfs-gui-bot
         - juliaxbow
         - web3-bot
     default_branch: main
@@ -6181,8 +6086,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - hannahhoward
       push:
         - web3-bot
     default_branch: main
@@ -6236,7 +6139,6 @@ repositories:
     collaborators:
       admin:
         - darobin
-        - mishmosh
     default_branch: main
     description: IPFS Steering WG
     files:
@@ -6324,15 +6226,67 @@ teams:
   Alumni:
     members:
       member:
+        - 1015bit
+        - Aaron1011
+        - abn
+        - AdamStone
+        - akru
+        - akrych
         - alain2sf
+        - alekswn
+        - AliabbasMerchant
+        - amstocker
+        - apronkin
+        - arcalinea
+        - arsstone
+        - bmcorser
+        - BrendanBenshoof
+        - cleichner
+        - cmk
+        - dankelleher
+        - darkdh
+        - davidar
+        - dborzov
+        - deltazxm
+        - dongtianyi
+        - DrCatman
+        - dryajov
+        - emerick
+        - fbaiodias
+        - ferristseng
+        - gavinmcdermott
+        - gkbrk
+        - guillemcordoba
+        - harlantwood
+        - hosh
+        - ipfsbot
+        - jamiejn
+        - jbenetsafer
+        - JulienPalard
+        - kinu
+        - krl
+        - litzenberger
+        - locotorp
+        - ma82
+        - MAkcanca
+        - marcooliveira
+        - mildred
+        - moeghashim
+        - NeoTeo
+        - nginnever
+        - nunofmn
+        - ratoshniuk
+        - seeni-dev
+        - sericaia
+        - smihaylov
+        - sublimino
+        - teh-f00l
         - thattommyhall
+        - whereswaldon
+        - zeckli
     privacy: closed
   CI:
     description: continous integration
-    members:
-      member:
-        - ipfsbot
-        - locotorp
     privacy: closed
   comms:
     description: Communications
@@ -6358,105 +6312,59 @@ teams:
     members:
       member:
         - achingbrain
-        - AdamStone
         - adlrocha
-        - akrych
         - alanshaw
-        - angiemaguire
         - aschmahmann
         - autonome
         - b5
         - BigLep
         - bigs
-        - BrendanBenshoof
-        - cleichner
         - coryschwartz
         - dchoi27
         - dignifiedquire
         - dirkmc
-        - dryajov
         - dylanPowers
         - ericronne
-        - fbaiodias
-        - flyingzumwalt
-        - gavinmcdermott
         - gpestana
-        - haadcode
         - hacdias
         - hannahhoward
-        - harlantwood
-        - hosh
         - hugomrdias
         - ianopolous
         - jacobheun
         - jbenet
         - jesseclay
-        - JGAntunes
         - jimpick
-        - JonKrone
         - jonnycrunch
-        - jsoares
         - keks
-        - krl
-        - litzenberger
         - Luzifer
         - magik6k
-        - marcooliveira
         - marten-seemann
-        - mcollina
         - MichaelMure
-        - mildred
         - mishmosh
         - miyazono
         - momack2
         - Mr0grog
-        - NeoTeo
-        - nicola
-        - nunofmn
         - olizilla
         - parkan
         - petar
         - richardschneider
-        - Robmat05
-        - sericaia
-        - SidHarder
         - Stebalien
-        - tbenbow
         - TheDiscordian
-        - travisperson
         - tv42
         - vasco-santos
         - wanderer
         - warpfork
         - whyrusleeping
         - Wondertan
-        - yangwao
         - yiannisbot
-        - yunigraham
-        - yusefnapora
     privacy: closed
   devgrants:
-    members:
-      maintainer:
-        - parkan
     privacy: secret
   devrel:
     description: IPFS Developer Relations
-    members:
-      maintainer:
-        - 2color
-      member:
-        - autonome
-        - damedoteth
-        - lidel
-        - mishmosh
-        - TheDiscordian
     privacy: closed
   docs-writers:
     description: Folks who actively write to the various docs projects across this org.
-    members:
-      member:
-        - TheDiscordian
     privacy: closed
   docs:
     description: We take care of tooling and processes for documentation
@@ -6465,9 +6373,7 @@ teams:
         - cwaring
       member:
         - achingbrain
-        - ericronne
         - lidel
-        - magik6k
     privacy: closed
   github-mgmt stewards:
     # Notes: 
@@ -6507,6 +6413,7 @@ teams:
         # Why @stebalien?
         # 1. Not involved in the IPFS day-to-day currently, but has a lot of historical knowledge.  Provides an informed outside perspective.
         # 2. Familiar with github-mgmt responsibilities in other orgs.
+        # KEEP: For the reasons above
         - stebalien
         # Why @willscott?
         # 1. Active maintainer in and around IPFS projects for multiple years now.
@@ -6533,24 +6440,13 @@ teams:
     privacy: closed
   go-ipfs release:
     description: Who may cut a release of go-ipfs
-    members:
-      member:
-        - aschmahmann
-        - guseggert
-        - lidel
-        - olizilla
-        - petar
-        - Stebalien
     privacy: closed
   go-ipfs-priv:
     members:
       member:
         - aschmahmann
         - BigLep
-        - guseggert
         - Jorropo
-        - lidel
-        - momack2
         - Stebalien
     privacy: secret
   gui-dev:
@@ -6583,59 +6479,38 @@ teams:
       maintainer:
         - yunigraham
       member:
-        - 1015bit
-        - abn
         - achingbrain
         - aeddi
         - aknuds1
-        - akru
         - alanshaw
-        - alekswn
         - andrewxhill
-        - angiemaguire
         - anorth
-        - apronkin
         - AquiGorka
-        - arsstone
         - aschmahmann
         - AuHau
         - autonome
         - avras
         - b5
-        - balupton
         - bigs
         - bjoyce3
         - blackforestboi
         - carsonfarmer
         - cesarosum
-        - cmk
         - codynhat
         - cpacia
         - cwaring
-        - cyborgshead
         - daijiale
-        - dankelleher
-        - darkdh
         - daviddias
-        - dborzov
-        - deltazxm
-        - dignifiedquire
         - doctorrobinson
-        - dongtianyi
         - drbh
-        - DrCatman
         - ec1oud
-        - emerick
         - enricomarino
-        - eshon
-        - gfanton
         - glouvigny
         - gnunicorn
         - gorhgorh
         - Gozala
         - gpestana
         - gregdhill
-        - guillemcordoba
         - hannahhoward
         - hareeshnagaraj
         - hinshun
@@ -6644,7 +6519,6 @@ teams:
         - ianamunoz
         - ianopolous
         - jacobheun
-        - jamiejn
         - janjanovna
         - jbenet
         - jdelgadopin
@@ -6654,31 +6528,24 @@ teams:
         - jonnycrunch
         - JustMaier
         - kanej
-        - kinu
         - kk3wong
         - koalalorenzo
         - Kubuxu
         - leshokunin
         - lidel
         - listenaddress
-        - ma82
         - mafintosh
         - magnshen
-        - MAkcanca
         - maparent
         - MarneeDear
         - MichaelMure
-        - moeghashim
         - momack2
         - moul
-        - neogeweb3
         - obo20
         - olizilla
         - parkan
         - pepoospina
-        - pooja
         - Prtfw
-        - ratoshniuk
         - raulk
         - requilence
         - rittme
@@ -6686,31 +6553,24 @@ teams:
         - roignpar
         - romaric-juniet
         - Schwartz10
-        - ShishKabab
-        - smihaylov
         - Stebalien
         - stefanhans
         - steven004
-        - teh-f00l
         - terichadbourne
         - vasa-develop
         - vojtechsimetka
         - waynewyang
-        - whyrusleeping
         - Wondertan
         - yrliou
-        - zeckli
     privacy: closed
   IPFS Camp 2019 Org Team:
     description: Organizers & Content DRIs
     members:
       member:
         - alanshaw
-        - angiemaguire
         - autonome
         - cwaring
         - daviddias
-        - jamiejn
         - jimpick
         - momack2
         - olizilla
@@ -6726,7 +6586,6 @@ teams:
         - alanshaw
         - andrewxhill
         - b5
-        - balupton
         - carsonfarmer
         - gorhgorh
         - Gozala
@@ -6744,137 +6603,9 @@ teams:
         - stefanhans
     privacy: closed
   IPFS Camp 2019:
-    members:
-      member:
-        - 1015bit
-        - abn
-        - achingbrain
-        - aeddi
-        - aknuds1
-        - akru
-        - alanshaw
-        - alekswn
-        - andrewxhill
-        - angiemaguire
-        - anorth
-        - apronkin
-        - AquiGorka
-        - arsstone
-        - aschmahmann
-        - AuHau
-        - autonome
-        - avras
-        - b5
-        - balupton
-        - bigs
-        - bjoyce3
-        - blackforestboi
-        - carsonfarmer
-        - cesarosum
-        - cmk
-        - codynhat
-        - cpacia
-        - cwaring
-        - cyborgshead
-        - daijiale
-        - dankelleher
-        - darkdh
-        - daviddias
-        - dborzov
-        - deltazxm
-        - dignifiedquire
-        - doctorrobinson
-        - dongtianyi
-        - drbh
-        - DrCatman
-        - ec1oud
-        - emerick
-        - enricomarino
-        - eshon
-        - gfanton
-        - glouvigny
-        - gnunicorn
-        - gorhgorh
-        - Gozala
-        - gpestana
-        - gregdhill
-        - guillemcordoba
-        - hannahhoward
-        - hareeshnagaraj
-        - hinshun
-        - hsanjuan
-        - hugomrdias
-        - ianamunoz
-        - ianopolous
-        - jacobheun
-        - jamiejn
-        - janjanovna
-        - jbenet
-        - jdelgadopin
-        - jimpick
-        - jkarni
-        - joaosantos15
-        - jonnycrunch
-        - JustMaier
-        - kanej
-        - kinu
-        - kk3wong
-        - koalalorenzo
-        - Kubuxu
-        - leshokunin
-        - lidel
-        - listenaddress
-        - ma82
-        - mafintosh
-        - magnshen
-        - MAkcanca
-        - maparent
-        - MarneeDear
-        - MichaelMure
-        - moeghashim
-        - momack2
-        - moul
-        - neogeweb3
-        - obo20
-        - olizilla
-        - parkan
-        - pepoospina
-        - pooja
-        - Prtfw
-        - ratoshniuk
-        - raulk
-        - requilence
-        - rittme
-        - rklaehn
-        - roignpar
-        - romaric-juniet
-        - Schwartz10
-        - ShishKabab
-        - smihaylov
-        - Stebalien
-        - stefanhans
-        - steven004
-        - teh-f00l
-        - terichadbourne
-        - vasa-develop
-        - vojtechsimetka
-        - waynewyang
-        - whyrusleeping
-        - Wondertan
-        - yrliou
-        - yunigraham
-        - zeckli
     privacy: closed
   IPFS HTTP Client Maintainers:
     description: The group of folks who maintain the IPFS HTTP Client Libraries
-    members:
-      member:
-        - alanshaw
-        - daviddias
-        - ferristseng
-        - gkbrk
-        - ntninja
-        - whereswaldon
     privacy: closed
   JS Core Team:
     description: Members of the core team for JS repositories
@@ -6943,7 +6674,6 @@ teams:
         - aschmahmann
         - autonome
         - daviddias
-        - dchoi27
         - dignifiedquire
         - dirkmc
         - frrist
@@ -6954,7 +6684,6 @@ teams:
         - hannahhoward
         - hsanjuan
         - iand
-        - ipfsbot
         - ischasny
         - jacobheun
         - jbenet
@@ -6976,9 +6705,6 @@ teams:
     privacy: closed
   Repos - Java:
     description: Java Java Java
-    members:
-      member:
-        - ianopolous
     privacy: closed
   Repos - JavaScript:
     description: JavaScript IPFS team
@@ -6989,18 +6715,12 @@ teams:
         - daviddias
       member:
         - 2color
-        - adlrocha
         - AuHau
-        - dchoi27
         - dirkmc
         - Gozala
         - hacdias
-        - ipfsbot
         - jacobheun
-        - jbenet
-        - kumavis
         - lidel
-        - magik6k
         - momack2
         - olizilla
         - rvagg
@@ -7011,30 +6731,12 @@ teams:
     privacy: closed
   Repos - Python:
     description: python ipfs implementation
-    members:
-      member:
-        - AliabbasMerchant
-        - ntninja
-        - seeni-dev
     privacy: closed
   Repos - Rust:
-    members:
-      maintainer:
-        - vmx
-      member:
-        - dignifiedquire
     privacy: closed
   Repos - Scala:
-    members:
-      maintainer:
-        - magik6k
-      member:
-        - cboddy
     privacy: closed
   Repos - Swift:
-    members:
-      member:
-        - NeoTeo
     privacy: closed
   Specs Stewards:
     description: IPFS Specifications Stewards
@@ -7077,13 +6779,9 @@ teams:
         - andyschwab
         - autonome
         - cwaring
-        - daviddias
         - ericronne
-        - hugomrdias
-        - jacobheun
         - lidel
         - olizilla
-        - raulk
     privacy: closed
   WG Captains:
     description: Captains of the various working groups
@@ -7107,7 +6805,6 @@ teams:
         - olizilla
       member:
         - 2color
-        - akrych
         - alanshaw
         - andyschwab
         - autonome
@@ -7120,12 +6817,9 @@ teams:
   WG Infrastructure:
     description: IPFS Infrastructure WG - Maintaining IPFS Infrastructure since 2014!
     members:
-      maintainer:
-        - gmasgras
       member:
         - hsanjuan
         - olizilla
-        - stongo
     privacy: closed
   WG IPFS Cluster:
     description: People that collaborate or is involved in IPFS Cluster
@@ -7139,7 +6833,6 @@ teams:
       member:
         - daviddias
         - momack2
-        - parkan
     privacy: closed
   WG Web Browsers:
     description: Geting IPFS in a browser next to you
