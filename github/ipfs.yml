@@ -767,9 +767,6 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
-        push_restrictions:
-          - ipfs/ipfs-camp-2019-org-team
-          - ipfs/ipfs-camp-2019-trainers
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
