@@ -1458,6 +1458,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
@@ -1636,6 +1637,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
@@ -1750,6 +1752,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
@@ -2040,6 +2043,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
@@ -2744,6 +2748,8 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
+        push_restrictions:
+          - /web3-bot
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4309,6 +4315,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
@@ -5942,7 +5949,8 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: A Delegated Routing V1 server and client for all your routing needs.
+    description: A Delegated Routing V1 server and client for all your HTTP/IPFS
+      routing needs.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
