@@ -1797,6 +1797,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
@@ -2234,6 +2235,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
@@ -4155,6 +4157,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
+          - /web3-bot
           - ipfs/merge-go
         require_conversation_resolution: false
         require_signed_commits: false
