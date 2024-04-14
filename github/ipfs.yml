@@ -18,12 +18,6 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
-    # Why @vesahc?
-    # 1. THIS IS TEMPORARY: please remove by 2024-03-31 if not sooner.
-    #    Escalation of permissions needed while moving Fleek accounts for various ipfs repos: 
-    #    https://github.com/ipfs/github-mgmt/pull/189#issuecomment-1939238972
-    # 2. @veshac also has history and ties with sysadmining with PL Inc and some of the projects that have spun out (Sodal, Sead).
-    - vesahc
   member:
     - 1015bit
     - 2color
