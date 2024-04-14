@@ -664,7 +664,6 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - gateway-conformance
             - go-test / macos (go next)
             - go-test / macos (go this)
             - go-test / ubuntu (go next)
