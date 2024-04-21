@@ -427,7 +427,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      push:
         - vesahc
     default_branch: main
     description: is IPFS actually InterPlanetary yet?
@@ -6587,7 +6587,6 @@ teams:
         - laurentsenta
         - lidel
         - MarcoPolo
-        - marten-seemann
         - SgtPooki
         - whizzzkid
     privacy: closed
