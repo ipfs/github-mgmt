@@ -5938,6 +5938,9 @@ repositories:
         - SgtPooki
     default_branch: main
     description: Experimental IPFS Gateway implemented in Service Worker
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
