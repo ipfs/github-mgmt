@@ -18,6 +18,9 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    # Why @lidel
+    # Need admin to finish https://github.com/ipfs-shipyard/helia-service-worker-gateway/issues/80
+    - lidel
   member:
     - 1015bit
     - 2color
@@ -157,7 +160,6 @@ members:
     - kylehuntsman
     - laurentsenta
     - leshokunin
-    - lidel
     - listenaddress
     - litzenberger
     - locotorp
