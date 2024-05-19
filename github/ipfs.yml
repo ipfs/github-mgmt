@@ -49,7 +49,6 @@ members:
     - arsstone
     - aschmahmann
     - AuHau
-    - autonome
     - avras
     - b5
     - balupton
@@ -480,7 +479,6 @@ repositories:
     collaborators:
       admin:
         - 2color
-        - autonome
         - hacdias
         - lidel
       push:
@@ -716,8 +714,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - autonome
       maintain:
         - jkosem
     default_branch: master
@@ -919,7 +915,6 @@ repositories:
     collaborators:
       admin:
         - 2color
-        - autonome
         - ErinOCon
         - lidel
         - mishmosh
@@ -3734,7 +3729,6 @@ repositories:
           restrict_dismissals: false
     collaborators:
       admin:
-        - autonome
         - darobin
         - lidel
     default_branch: master
@@ -5511,9 +5505,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - autonome
     default_branch: master
     description: Making IPFS work for mobile
     files:
@@ -6340,7 +6331,6 @@ teams:
     description: Communications
     members:
       member:
-        - autonome
         - jesseclay
         - mishmosh
         - momack2
@@ -6353,8 +6343,6 @@ teams:
         - 2color
         - mishmosh
         - TheDiscordian
-      member:
-        - autonome
     privacy: closed
   contributors:
     members:
@@ -6363,7 +6351,6 @@ teams:
         - adlrocha
         - alanshaw
         - aschmahmann
-        - autonome
         - b5
         - BigLep
         - bigs
@@ -6411,9 +6398,9 @@ teams:
     members:
       maintainer:
         - cwaring
-        - lidel
       member:
         - achingbrain
+        - lidel
     privacy: closed
   github-mgmt stewards:
     # Notes: 
@@ -6436,14 +6423,13 @@ teams:
       # INFO: There are others who could certainly qualify to be members of this team.  
       # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
       # and reducing risk by not having too many with the escalation path that this role affords.
-      maintainer:
-        - lidel
       member:
         # Why @aschmahmann?
         # 1. Long-time and still very active contributor to important repos like kubo and specs
         # 2. Director of IP Shipyard, which is an organization receiving significant grant funding for IPFS development and maintenance.
         # 3. Leader of multiple public IPFS working groups (dapps, implementers)
         - aschmahmann
+        - lidel
         # Why @mishmosh?
         # 1. Director of the being-stood-up-in-2024 IPFS Foundation
         - mishmosh
@@ -6487,9 +6473,9 @@ teams:
     description: GUI Developers and Engineers
     members:
       maintainer:
-        - lidel
         - SgtPooki
       member:
+        - lidel
         - whizzzkid
     privacy: closed
   helia-dev:
@@ -6522,13 +6508,12 @@ teams:
   kubo maintainers:
     description: Kubo Maintainers
     members:
-      maintainer:
-        - lidel
       member:
         - aschmahmann
         - BigLep
         - hacdias
         - Jorropo
+        - lidel
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
@@ -6565,7 +6550,6 @@ teams:
     description: Golang Repos
     members:
       maintainer:
-        - lidel
         - Stebalien
       member:
         - 2color
@@ -6575,7 +6559,6 @@ teams:
         - alanshaw
         - anorth
         - aschmahmann
-        - autonome
         - daviddias
         - dignifiedquire
         - dirkmc
@@ -6592,6 +6575,7 @@ teams:
         - jbenet
         - Jorropo
         - Kubuxu
+        - lidel
         - magik6k
         - marten-seemann
         - masih
@@ -6612,7 +6596,6 @@ teams:
         - achingbrain
         - alanshaw
         - daviddias
-        - lidel
       member:
         - 2color
         - AuHau
@@ -6620,6 +6603,7 @@ teams:
         - Gozala
         - hacdias
         - jacobheun
+        - lidel
         - momack2
         - olizilla
         - rvagg
@@ -6633,11 +6617,11 @@ teams:
     members:
       maintainer:
         - darobin
-        - lidel
       member:
         - achingbrain
         - aschmahmann
         - BigLep
+        - lidel
         - Stebalien
         - yiannisbot
     privacy: closed
@@ -6646,7 +6630,6 @@ teams:
       maintainer:
         - BigLep
         - galargh
-        - lidel
       member:
         - 2color
         - achingbrain
@@ -6656,6 +6639,7 @@ teams:
         - hacdias
         - Jorropo
         - laurentsenta
+        - lidel
         - MarcoPolo
         - SgtPooki
         - whizzzkid
@@ -6663,14 +6647,12 @@ teams:
   website-deployers:
     description: We can deploy the websites
     members:
-      maintainer:
-        - lidel
       member:
         - achingbrain
         - andyschwab
-        - autonome
         - cwaring
         - ericronne
+        - lidel
         - olizilla
     privacy: closed
   WG Captains:
@@ -6680,7 +6662,6 @@ teams:
         - momack2
       member:
         - alanshaw
-        - autonome
         - daviddias
         - olizilla
         - raulk
@@ -6697,7 +6678,6 @@ teams:
         - 2color
         - alanshaw
         - andyschwab
-        - autonome
         - cwaring
         - ericronne
         - hacdias
@@ -6730,7 +6710,6 @@ teams:
       maintainer:
         - lidel
       member:
-        - autonome
         - Gozala
         - hugomrdias
     privacy: closed
