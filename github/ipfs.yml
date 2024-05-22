@@ -5836,6 +5836,7 @@ repositories:
     teams:
       admin:
         - admin
+        - lidel
       pull:
         - github-mgmt stewards
       push:
