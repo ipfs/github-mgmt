@@ -5836,7 +5836,9 @@ repositories:
     teams:
       admin:
         - admin
-        - lidel
+        - ipdx
+        - kubo maintainers
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
       push:
@@ -6029,6 +6031,7 @@ repositories:
       admin:
         - admin
         - ipdx
+        - kubo maintainers
         - w3dt-stewards
       pull:
         - github-mgmt stewards
