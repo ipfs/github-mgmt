@@ -18,6 +18,9 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    # Why @lidel
+    # Need admin to enable trial-run of codeclimate in selected repositories
+    - lidel
   member:
     - 1015bit
     - 2color
@@ -156,7 +159,6 @@ members:
     - kylehuntsman
     - laurentsenta
     - leshokunin
-    - lidel
     - listenaddress
     - litzenberger
     - locotorp
