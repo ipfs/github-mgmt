@@ -5841,9 +5841,6 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
-      push:
-        - ipdx
-        - w3dt-stewards
     topics:
       - http
       - ipfs-gateway
