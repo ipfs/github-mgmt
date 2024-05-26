@@ -3017,7 +3017,7 @@ repositories:
       admin:
         - Jorropo
     default_branch: main
-    description: A fork of go-libipfs with experimental RAPIDE client.
+    description: "[EXPERIMENTAL] A fork of ipfs/boxo with experimental RAPIDE client."
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -5784,7 +5784,6 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - gateway-conformance
             - go-check / All
             - go-test / macos (go next)
             - go-test / macos (go this)
@@ -5946,6 +5945,7 @@ repositories:
         required_linear_history: false
     collaborators:
       admin:
+        - 2color
         - aschmahmann
         - lidel
         - MarcoPolo
@@ -6401,9 +6401,9 @@ teams:
     members:
       maintainer:
         - cwaring
+        - lidel
       member:
         - achingbrain
-        - lidel
     privacy: closed
   github-mgmt stewards:
     # Notes: 
@@ -6426,13 +6426,14 @@ teams:
       # INFO: There are others who could certainly qualify to be members of this team.  
       # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
       # and reducing risk by not having too many with the escalation path that this role affords.
+      maintainer:
+        - lidel
       member:
         # Why @aschmahmann?
         # 1. Long-time and still very active contributor to important repos like kubo and specs
         # 2. Director of IP Shipyard, which is an organization receiving significant grant funding for IPFS development and maintenance.
         # 3. Leader of multiple public IPFS working groups (dapps, implementers)
         - aschmahmann
-        - lidel
         # Why @mishmosh?
         # 1. Director of the being-stood-up-in-2024 IPFS Foundation
         - mishmosh
@@ -6476,9 +6477,9 @@ teams:
     description: GUI Developers and Engineers
     members:
       maintainer:
+        - lidel
         - SgtPooki
       member:
-        - lidel
         - whizzzkid
     privacy: closed
   helia-dev:
@@ -6511,12 +6512,13 @@ teams:
   kubo maintainers:
     description: Kubo Maintainers
     members:
+      maintainer:
+        - lidel
       member:
         - aschmahmann
         - BigLep
         - hacdias
         - Jorropo
-        - lidel
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
@@ -6553,6 +6555,7 @@ teams:
     description: Golang Repos
     members:
       maintainer:
+        - lidel
         - Stebalien
       member:
         - 2color
@@ -6578,7 +6581,6 @@ teams:
         - jbenet
         - Jorropo
         - Kubuxu
-        - lidel
         - magik6k
         - marten-seemann
         - masih
@@ -6599,6 +6601,7 @@ teams:
         - achingbrain
         - alanshaw
         - daviddias
+        - lidel
       member:
         - 2color
         - AuHau
@@ -6606,7 +6609,6 @@ teams:
         - Gozala
         - hacdias
         - jacobheun
-        - lidel
         - momack2
         - olizilla
         - rvagg
@@ -6620,11 +6622,11 @@ teams:
     members:
       maintainer:
         - darobin
+        - lidel
       member:
         - achingbrain
         - aschmahmann
         - BigLep
-        - lidel
         - Stebalien
         - yiannisbot
     privacy: closed
@@ -6633,6 +6635,7 @@ teams:
       maintainer:
         - BigLep
         - galargh
+        - lidel
       member:
         - 2color
         - achingbrain
@@ -6642,7 +6645,6 @@ teams:
         - hacdias
         - Jorropo
         - laurentsenta
-        - lidel
         - MarcoPolo
         - SgtPooki
         - whizzzkid
@@ -6650,12 +6652,13 @@ teams:
   website-deployers:
     description: We can deploy the websites
     members:
+      maintainer:
+        - lidel
       member:
         - achingbrain
         - andyschwab
         - cwaring
         - ericronne
-        - lidel
         - olizilla
     privacy: closed
   WG Captains:
