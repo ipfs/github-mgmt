@@ -5332,7 +5332,6 @@ repositories:
         push_restrictions:
           - /aschmahmann
           - /hsanjuan
-          - /Jorropo
           - /Stebalien
           - /whyrusleeping
         require_conversation_resolution: false
@@ -6517,7 +6516,6 @@ teams:
       member:
         - aschmahmann
         - BigLep
-        - hacdias
         - Jorropo
     privacy: closed
   Maintainers:
