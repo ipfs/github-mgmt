@@ -188,6 +188,7 @@ members:
     - nginnever
     - nicola
     - nonsense
+    - ns4plabs
     - ntninja
     - nuke-web3
     - nunofmn
@@ -6639,12 +6640,11 @@ teams:
         - achingbrain
         - aschmahmann
         - guillaumemichel
-        - guseggert
         - Jorropo
         - laurentsenta
         - MarcoPolo
+        - ns4plabs
         - SgtPooki
-        - whizzzkid
     privacy: closed
   website-deployers:
     description: We can deploy the websites
