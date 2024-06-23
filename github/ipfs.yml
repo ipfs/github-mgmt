@@ -188,7 +188,6 @@ members:
     - nginnever
     - nicola
     - nonsense
-    - ns4plabs
     - ntninja
     - nuke-web3
     - nunofmn
@@ -581,63 +580,6 @@ repositories:
       push:
         - Repos - JavaScript
         - WG Infrastructure
-    visibility: public
-  bifrost-gateway:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_status_checks:
-          contexts:
-            - gateway-conformance (GRAPH_BACKEND=false)
-            - gateway-conformance (GRAPH_BACKEND=true)
-          strict: true
-    collaborators:
-      admin:
-        - galargh
-        - hacdias
-        - lidel
-      push:
-        - aarshkshah1992
-        - AmeanAsad
-        - gmasgras
-        - guanzo
-        - web3-bot
-        - willscott
-    default_branch: main
-    description: "[EXPERIMENTAL] A lightweight IPFS Gateway daemon backed by a
-      remote data store."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: BLANK
-    squash_merge_commit_title: PR_TITLE
-    teams:
-      admin:
-        - admin
-      pull:
-        - github-mgmt stewards
-      push:
-        - ipdx
-        - w3dt-stewards
-    topics:
-      - http
-      - ipfs-gateway
-      - ipfs
     visibility: public
   boxo:
     advanced_security: false
@@ -3918,6 +3860,22 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+  ipfs-camp-2024:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   ipfs-companion:
     advanced_security: false
     allow_update_branch: true
@@ -6010,6 +5968,26 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 0
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - go-check / All
+            - go-test / ubuntu (go this)
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -6644,7 +6622,6 @@ teams:
         - Jorropo
         - laurentsenta
         - MarcoPolo
-        - ns4plabs
         - SgtPooki
     privacy: closed
   website-deployers:
