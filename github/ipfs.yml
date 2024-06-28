@@ -3248,9 +3248,6 @@ repositories:
     archived: true
   go-test:
     advanced_security: false
-    allow_merge_commit: true
-    allow_rebase_merge: true
-    allow_squash_merge: true
     allow_update_branch: false
     archived: false
     branch_protection:
@@ -3277,11 +3274,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
     description: ":test_tube: Testing utilty library"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3921,6 +3914,9 @@ repositories:
     collaborators:
       admin:
         - 2color
+      push:
+        - mishmosh
+        - yunigraham
     default_branch: master
     files:
       .github/workflows/stale.yml:
@@ -4092,6 +4088,7 @@ repositories:
       admin:
         - cwaring
       maintain:
+        - bumblefudge
         - TheDiscordian
       push:
         - mishmosh
@@ -5966,7 +5963,7 @@ repositories:
         - MarcoPolo
         - SgtPooki
     default_branch: main
-    description: Experimental IPFS Gateway implemented in Service Worker
+    description: "[WIP EXPERIMENT] IPFS Gateway implemented in Service Worker"
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -6675,6 +6672,7 @@ teams:
         - 2color
         - achingbrain
         - aschmahmann
+        - gammazero
         - guillaumemichel
         - Jorropo
         - laurentsenta
