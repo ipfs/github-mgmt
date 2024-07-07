@@ -4061,7 +4061,7 @@ repositories:
     visibility: public
   ipfs-docs:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       main:
