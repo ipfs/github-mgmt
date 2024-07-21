@@ -3275,6 +3275,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: ":test_tube: Testing utilty library"
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3709,6 +3712,9 @@ repositories:
         - darobin
     default_branch: main
     description: The site for the implementation fund
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
