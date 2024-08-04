@@ -4109,6 +4109,7 @@ repositories:
           strict: false
     collaborators:
       admin:
+        - 2color
         - cwaring
       maintain:
         - bumblefudge
@@ -6144,6 +6145,8 @@ repositories:
     collaborators:
       push:
         - vmx
+      triage:
+        - bumblefudge
     default_branch: main
     description: Technical specifications for the IPFS protocol stack
     files:
