@@ -6527,7 +6527,6 @@ teams:
     members:
       member:
         - aschmahmann
-        - BigLep
         - Jorropo
         - Stebalien
     privacy: secret
@@ -6574,7 +6573,6 @@ teams:
         - lidel
       member:
         - aschmahmann
-        - BigLep
         - gammazero
         - Jorropo
     privacy: closed
@@ -6582,7 +6580,6 @@ teams:
     description: People with Maintainer access to all repositories
     members:
       member:
-        - BigLep
         - hsanjuan
     privacy: closed
   Merge - Go:
@@ -6684,14 +6681,12 @@ teams:
       member:
         - achingbrain
         - aschmahmann
-        - BigLep
         - Stebalien
         - yiannisbot
     privacy: closed
   w3dt-stewards:
     members:
       maintainer:
-        - BigLep
         - galargh
         - lidel
       member:
