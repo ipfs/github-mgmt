@@ -6528,7 +6528,6 @@ teams:
       member:
         - aschmahmann
         - Jorropo
-        - lidel
         - Stebalien
     privacy: secret
   gui-dev:
