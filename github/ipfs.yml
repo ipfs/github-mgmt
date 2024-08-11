@@ -991,7 +991,7 @@ repositories:
     visibility: public
   download-ipfs-distribution-action:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -1318,32 +1318,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-bitswap-priv:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - dirkmc
-        - Stebalien
-    default_branch: master
-    description: Private fork of go-bitswap for security changes
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: private
+    archived: true
   go-bitswap:
     archived: true
   go-block-format:
@@ -2634,45 +2609,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ipfs-priv:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - galargh
-    default_branch: master
-    files:
-      .github/dependabot.yml:
-        content: |
-          version: 2
-          updates:
-            - package-ecosystem: gomod
-              directory: "/"
-              schedule:
-                interval: daily
-                time: "11:00"
-              open-pull-requests-limit: 10
-              labels:
-                - "topic/dependencies"           
-            - package-ecosystem: "github-actions"
-              directory: "/"
-              schedule:
-                interval: "weekly"
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - go-ipfs-priv
-      pull:
-        - github-mgmt stewards
-    visibility: private
+    archived: true
   go-ipfs-provider:
     archived: true
   go-ipfs-redirects-file:
@@ -3394,35 +3331,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   gs-priv:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-      pull:
-        - jennijuju
-        - ribasushi
-        - rvagg
-    default_branch: main
-    description: private version of go-graphsync
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-        - Go Core Team
-        - ipdx
-        - w3dt-stewards
-    visibility: private
+    archived: true
   hang-fds:
     advanced_security: false
     allow_update_branch: false
@@ -6145,8 +6054,6 @@ repositories:
     collaborators:
       push:
         - vmx
-      triage:
-        - bumblefudge
     default_branch: main
     description: Technical specifications for the IPFS protocol stack
     files:
