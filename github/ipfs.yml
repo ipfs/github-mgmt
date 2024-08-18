@@ -3861,6 +3861,31 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  ipfs-check:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+      push:
+        - web3-bot
+    default_branch: main
+    description: A tool for checking the accessibility of your data by IPFS peers
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+        - kubo maintainers
+    topics:
+      - ipfs
+    visibility: public
   ipfs-companion:
     advanced_security: false
     allow_update_branch: true
