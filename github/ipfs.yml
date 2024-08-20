@@ -3481,9 +3481,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - SgtPooki
     default_branch: main
     description: A library that helps Helia consumers pin content via the
       https://ipfs.github.io/pinning-services-api-spec/. Initial design at
@@ -3503,8 +3500,8 @@ repositories:
     teams:
       admin:
         - helia-dev
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
     topics:
       - helia
       - ipfs-helia
