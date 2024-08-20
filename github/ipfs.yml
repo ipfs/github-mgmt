@@ -6607,6 +6607,19 @@ teams:
         - vmx
         - wemeetagain
     privacy: closed
+  shipyard:
+    description: Members of Interplanetary Shipyard who work with or on IPFS
+    members:
+      maintainer:
+        - aschmahmann
+        - lidel
+      member:
+        - 2color
+        - achingbrain
+        - gammazero
+        - guillaumemichel
+        - MarcoPolo
+        - SgtPooki
   Specs Stewards:
     description: IPFS Specifications Stewards
     members:
