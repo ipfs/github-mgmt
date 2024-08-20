@@ -641,15 +641,13 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - admin
         - ipdx
         - kubo maintainers
-        - w3dt-stewards
       maintain:
+        - shipyard
+      push:
         - Merge - Go
         - Repos - Go
-      pull:
-        - github-mgmt stewards
     topics:
       - go
       - ipfs
