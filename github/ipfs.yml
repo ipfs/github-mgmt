@@ -5887,13 +5887,6 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
-    collaborators:
-      admin:
-        - 2color
-        - aschmahmann
-        - lidel
-        - MarcoPolo
-        - SgtPooki
     default_branch: main
     description: "[WIP EXPERIMENT] IPFS Gateway implemented in Service Worker"
     files:
@@ -5907,9 +5900,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
-        - github-mgmt stewards
+      admin:
         - helia-dev
+        - shipyard
     topics:
       - helia
       - ipfs-gateway
