@@ -3597,9 +3597,8 @@ repositories:
       admin:
         - helia-dev
         - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
       push:
         - Repos - JavaScript
     topics:
