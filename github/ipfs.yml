@@ -5256,9 +5256,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - /aschmahmann
-          - /gmasgras
-          - /thattommyhall
+          - ipfs/kubo-maintainers
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5269,8 +5267,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - /aschmahmann
-          - /gmasgras
+          - ipfs/kubo-maintainers
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5280,6 +5277,8 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
+        push_restrictions:
+          - ipfs/kubo-maintainers
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5303,11 +5302,6 @@ repositories:
         blocks_creations: false
         enforce_admins: true
         lock_branch: false
-        push_restrictions:
-          - /aschmahmann
-          - /hsanjuan
-          - /Stebalien
-          - /whyrusleeping
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5317,12 +5311,6 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
-        push_restrictions:
-          - /aschmahmann
-          - /hacdias
-          - /Jorropo
-          - /Stebalien
-          - /whyrusleeping
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5340,11 +5328,6 @@ repositories:
             - go-test
             - sharness-test
           strict: true
-    collaborators:
-      admin:
-        - lidel
-      push:
-        - dennis-tra
     default_branch: master
     description: An IPFS implementation in Go
     files:
@@ -5361,15 +5344,12 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - admin
-        - ipdx
         - kubo maintainers
-        - w3dt-stewards
+      maintain:
+        - shipyard
       pull:
         - contributors
-        - github-mgmt stewards
       push:
-        - Maintainers
         - Merge - Go
         - Repos - Go
     topics:
