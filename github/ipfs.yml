@@ -3416,8 +3416,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - achingbrain
       push:
         - web3-bot
     default_branch: main
@@ -3438,9 +3436,8 @@ repositories:
       admin:
         - helia-dev
         - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
       push:
         - Repos - JavaScript
     topics:
