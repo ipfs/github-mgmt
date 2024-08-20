@@ -3383,9 +3383,6 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
-    collaborators:
-      admin:
-        - achingbrain
     default_branch: main
     description: Run helia as a daemon process
     files:
@@ -3403,8 +3400,8 @@ repositories:
     teams:
       admin:
         - helia-dev
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
       push:
         - Repos - JavaScript
     topics:
