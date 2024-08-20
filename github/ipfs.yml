@@ -6489,7 +6489,6 @@ teams:
       member:
         - aschmahmann
         - gammazero
-        - Jorropo
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
