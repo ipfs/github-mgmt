@@ -3453,10 +3453,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      admin:
-        - SgtPooki
-        - whizzzkid
     default_branch: main
     description: Run Helia NodeJS in a Docker Container.
     files:
@@ -3474,8 +3470,8 @@ repositories:
     teams:
       admin:
         - helia-dev
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
     topics:
       - docker
       - helia-nodejs
