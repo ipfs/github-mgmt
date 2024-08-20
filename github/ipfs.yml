@@ -5997,12 +5997,10 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - admin
         - ipdx
         - kubo maintainers
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
     topics:
       - ipfs
       - p2p
