@@ -5766,10 +5766,9 @@ repositories:
             - go-test / windows (go this)
           strict: true
     collaborators:
-      admin:
-        - ns4plabs
-      push:
+      pull:
         - ipshipyard-deploy
+      push:
         - web3-bot
     default_branch: main
     description: A specialized IPFS HTTP gateway
