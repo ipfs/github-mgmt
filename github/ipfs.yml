@@ -959,7 +959,8 @@ repositories:
       admin:
         - lidel
     default_branch: master
-    description: Legacy dist.ipfs.tech website and artifact build tools
+    description: Legacy dist.ipfs.tech website and artifact build tools. Currently
+      only used for notarizing builds of Kubo and IPFS Cluster.
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
