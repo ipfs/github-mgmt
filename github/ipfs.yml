@@ -280,7 +280,7 @@ repositories:
       admin:
         - 2color
         - lidel
-        - whizzzkid
+        - mishmosh
     default_branch: main
     description: Readme for https://github.com/ipfs
     files:
