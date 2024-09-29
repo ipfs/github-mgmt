@@ -4537,7 +4537,6 @@ repositories:
     collaborators:
       admin:
         - olizilla
-        - whizzzkid
       push:
         - alvin-reyes
         - ipfs-gui-bot
