@@ -641,15 +641,13 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - admin
         - ipdx
         - kubo maintainers
-        - w3dt-stewards
       maintain:
+        - shipyard
+      push:
         - Merge - Go
         - Repos - Go
-      pull:
-        - github-mgmt stewards
     topics:
       - go
       - ipfs
@@ -3386,9 +3384,6 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
-    collaborators:
-      admin:
-        - achingbrain
     default_branch: main
     description: Run helia as a daemon process
     files:
@@ -3406,8 +3401,8 @@ repositories:
     teams:
       admin:
         - helia-dev
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
       push:
         - Repos - JavaScript
     topics:
@@ -3422,8 +3417,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - achingbrain
       push:
         - web3-bot
     default_branch: main
@@ -3444,9 +3437,8 @@ repositories:
       admin:
         - helia-dev
         - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
       push:
         - Repos - JavaScript
     topics:
@@ -3456,10 +3448,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      admin:
-        - SgtPooki
-        - whizzzkid
     default_branch: main
     description: Run Helia NodeJS in a Docker Container.
     files:
@@ -3477,8 +3465,8 @@ repositories:
     teams:
       admin:
         - helia-dev
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
     topics:
       - docker
       - helia-nodejs
@@ -3494,9 +3482,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - SgtPooki
     default_branch: main
     description: A library that helps Helia consumers pin content via the
       https://ipfs.github.io/pinning-services-api-spec/. Initial design at
@@ -3516,8 +3501,8 @@ repositories:
     teams:
       admin:
         - helia-dev
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
     topics:
       - helia
       - ipfs-helia
@@ -3553,9 +3538,8 @@ repositories:
       admin:
         - helia-dev
         - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
       push:
         - Repos - JavaScript
     visibility: public
@@ -3604,9 +3588,8 @@ repositories:
       admin:
         - helia-dev
         - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
       push:
         - Repos - JavaScript
     topics:
@@ -5256,9 +5239,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - /aschmahmann
-          - /gmasgras
-          - /thattommyhall
+          - ipfs/kubo-maintainers
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5269,8 +5250,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - /aschmahmann
-          - /gmasgras
+          - ipfs/kubo-maintainers
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5280,6 +5260,8 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
+        push_restrictions:
+          - ipfs/kubo-maintainers
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5303,11 +5285,6 @@ repositories:
         blocks_creations: false
         enforce_admins: true
         lock_branch: false
-        push_restrictions:
-          - /aschmahmann
-          - /hsanjuan
-          - /Stebalien
-          - /whyrusleeping
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5317,12 +5294,6 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
-        push_restrictions:
-          - /aschmahmann
-          - /hacdias
-          - /Jorropo
-          - /Stebalien
-          - /whyrusleeping
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5340,11 +5311,6 @@ repositories:
             - go-test
             - sharness-test
           strict: true
-    collaborators:
-      admin:
-        - lidel
-      push:
-        - dennis-tra
     default_branch: master
     description: An IPFS implementation in Go
     files:
@@ -5361,15 +5327,12 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - admin
-        - ipdx
         - kubo maintainers
-        - w3dt-stewards
+      maintain:
+        - shipyard
       pull:
         - contributors
-        - github-mgmt stewards
       push:
-        - Maintainers
         - Merge - Go
         - Repos - Go
     topics:
@@ -5811,12 +5774,10 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - admin
         - ipdx
         - kubo maintainers
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
     topics:
       - http
       - ipfs-gateway
@@ -5918,13 +5879,6 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
-    collaborators:
-      admin:
-        - 2color
-        - aschmahmann
-        - lidel
-        - MarcoPolo
-        - SgtPooki
     default_branch: main
     description: "[WIP EXPERIMENT] IPFS Gateway implemented in Service Worker"
     files:
@@ -5938,9 +5892,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
-        - github-mgmt stewards
+      admin:
         - helia-dev
+        - shipyard
     topics:
       - helia
       - ipfs-gateway
@@ -6023,12 +5977,10 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - admin
         - ipdx
         - kubo maintainers
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
+      maintain:
+        - shipyard
     topics:
       - ipfs
       - p2p
@@ -6486,7 +6438,6 @@ teams:
       member:
         - 2color
         - SgtPooki
-        - whizzzkid
     privacy: closed
   ipdx:
     members:
@@ -6513,7 +6464,6 @@ teams:
       member:
         - aschmahmann
         - gammazero
-        - Jorropo
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
@@ -6611,6 +6561,19 @@ teams:
         - vmx
         - wemeetagain
     privacy: closed
+  shipyard:
+    description: Members of Interplanetary Shipyard who work with or on IPFS
+    members:
+      maintainer:
+        - aschmahmann
+        - lidel
+      member:
+        - 2color
+        - achingbrain
+        - gammazero
+        - guillaumemichel
+        - MarcoPolo
+        - SgtPooki
   Specs Stewards:
     description: IPFS Specifications Stewards
     members:
