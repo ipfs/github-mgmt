@@ -6034,6 +6034,8 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
+      maintain:
+        - bumblefudge
       push:
         - vmx
     default_branch: main
