@@ -2638,8 +2638,9 @@ repositories:
       admin:
         - lidel
       push:
-        - justindotpub
         - web3-bot
+      triage:
+        - justindotpub
     default_branch: main
     description: IPFS Web Gateway _redirects file format parser
     files:
@@ -2653,11 +2654,12 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: PR_TITLE
     teams:
+      maintain:
+        - ipdx
+        - w3dt-stewards
       pull:
         - admin
         - github-mgmt stewards
-        - ipdx
-        - w3dt-stewards
     visibility: public
   go-ipfs-regression:
     advanced_security: false
@@ -5676,11 +5678,8 @@ repositories:
         required_status_checks:
           contexts:
             - go-check / All
-            - go-test / macos (go next)
             - go-test / macos (go this)
-            - go-test / ubuntu (go next)
             - go-test / ubuntu (go this)
-            - go-test / windows (go next)
             - go-test / windows (go this)
           strict: true
     collaborators:
@@ -5835,7 +5834,7 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
     default_branch: main
-    description: "[WIP EXPERIMENT] IPFS Gateway implemented in Service Worker"
+    description: IPFS Gateway implemented in Service Worker
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
