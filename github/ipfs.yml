@@ -5728,7 +5728,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ipdx
         - kubo maintainers
       maintain:
         - shipyard
