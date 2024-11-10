@@ -641,7 +641,6 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - ipdx
         - kubo maintainers
       maintain:
         - shipyard
@@ -3438,7 +3437,6 @@ repositories:
     teams:
       admin:
         - helia-dev
-        - ipdx
       maintain:
         - shipyard
       push:
@@ -3539,7 +3537,6 @@ repositories:
     teams:
       admin:
         - helia-dev
-        - ipdx
       maintain:
         - shipyard
       push:
@@ -3589,7 +3586,6 @@ repositories:
     teams:
       admin:
         - helia-dev
-        - ipdx
       maintain:
         - shipyard
       push:
@@ -5930,7 +5926,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ipdx
         - kubo maintainers
       maintain:
         - shipyard
@@ -6493,6 +6488,7 @@ teams:
         - wemeetagain
     privacy: closed
   shipyard:
+    create_default_maintainer: false
     description: Members of Interplanetary Shipyard who work with or on IPFS
     members:
       maintainer:
@@ -6505,6 +6501,7 @@ teams:
         - guillaumemichel
         - MarcoPolo
         - SgtPooki
+    privacy: secret
   Specs Stewards:
     description: IPFS Specifications Stewards
     members:
