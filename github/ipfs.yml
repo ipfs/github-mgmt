@@ -3228,7 +3228,7 @@ repositories:
         - ipdx
         - kubo maintainers
       maintain:
-        - shipyard        
+        - shipyard
         - w3dt-stewards
       pull:
         - github-mgmt stewards
@@ -3871,7 +3871,7 @@ repositories:
         - admin
         - kubo maintainers
       maintain:
-        - shipyard        
+        - shipyard
     topics:
       - ipfs
     visibility: public
