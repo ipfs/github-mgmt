@@ -6501,6 +6501,7 @@ teams:
         - guillaumemichel
         - MarcoPolo
         - SgtPooki
+        - hsanjuan
     privacy: secret
   Specs Stewards:
     description: IPFS Specifications Stewards
