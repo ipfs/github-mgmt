@@ -3227,6 +3227,8 @@ repositories:
         - admin
         - ipdx
         - kubo maintainers
+      maintain:
+        - shipyard        
         - w3dt-stewards
       pull:
         - github-mgmt stewards
@@ -3868,6 +3870,8 @@ repositories:
       admin:
         - admin
         - kubo maintainers
+      maintain:
+        - shipyard        
     topics:
       - ipfs
     visibility: public
@@ -6390,6 +6394,7 @@ teams:
       member:
         - aschmahmann
         - gammazero
+        - hsanjuan
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
