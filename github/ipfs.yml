@@ -6499,9 +6499,9 @@ teams:
         - achingbrain
         - gammazero
         - guillaumemichel
+        - hsanjuan
         - MarcoPolo
         - SgtPooki
-        - hsanjuan
     privacy: secret
   Specs Stewards:
     description: IPFS Specifications Stewards
