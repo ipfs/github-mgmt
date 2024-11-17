@@ -5811,18 +5811,13 @@ repositories:
           strict: true
       production:
         allows_deletions: false
-        allows_force_pushes: false
+        allows_force_pushes: true
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
       staging:
         allows_deletions: false
         allows_force_pushes: true
@@ -5832,6 +5827,11 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      admin:
+        - SgtPooki
+      push:
+        - web3-bot
     default_branch: main
     description: IPFS Gateway implemented in Service Worker
     files:
