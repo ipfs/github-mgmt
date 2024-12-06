@@ -222,6 +222,7 @@ members:
     - steven004
     - stongo
     - sublimino
+    - sukunrt
     - tbenbow
     - teh-f00l
     - terichadbourne
@@ -6507,6 +6508,7 @@ teams:
         - hsanjuan
         - MarcoPolo
         - SgtPooki
+        - sukunrt
     privacy: secret
   Specs Stewards:
     description: IPFS Specifications Stewards
