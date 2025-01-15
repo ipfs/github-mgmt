@@ -6380,6 +6380,7 @@ teams:
         - aschmahmann
         - gammazero
         - hsanjuan
+        - guillaumemichel
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
