@@ -6379,8 +6379,8 @@ teams:
       member:
         - aschmahmann
         - gammazero
-        - hsanjuan
         - guillaumemichel
+        - hsanjuan
     privacy: closed
   Maintainers:
     description: People with Maintainer access to all repositories
