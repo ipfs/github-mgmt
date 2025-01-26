@@ -4521,6 +4521,9 @@ repositories:
         - 2color
     default_branch: main
     description: inspect and create IPNS records from the browser
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
