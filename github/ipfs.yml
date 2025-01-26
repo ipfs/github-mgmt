@@ -4027,7 +4027,7 @@ repositories:
             - /lidel
             - /mishmosh
           require_code_owner_reviews: false
-          required_approving_review_count: 1
+          required_approving_review_count: 0
           restrict_dismissals: true
         required_status_checks:
           contexts:
@@ -4511,6 +4511,23 @@ repositories:
     topics:
       - ipfs-gui
       - ipfs
+    visibility: public
+  ipns-inspector:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    description: inspect and create IPNS records from the browser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   iptb-plugins:
     advanced_security: false
