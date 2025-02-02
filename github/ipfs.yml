@@ -3949,6 +3949,24 @@ repositories:
       - protocol
       - webextension
     visibility: public
+  ipfs-deploy-action:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    description: "Generate CIDs and deploy static sites to IPFS using CAR files and
+      pinning services "
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   ipfs-desktop:
     advanced_security: false
     allow_update_branch: true
@@ -5317,32 +5335,6 @@ repositories:
         - Repos - Go
     topics:
       - ipfs
-    visibility: public
-  kuboreleaser:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      maintain:
-        - laurentsenta
-      push:
-        - hacdias
-        - Jorropo
-        - web3-bot
-    default_branch: main
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
     visibility: public
   lightning-storm:
     advanced_security: false
