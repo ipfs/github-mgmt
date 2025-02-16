@@ -4533,30 +4533,6 @@ repositories:
       - ipfs-gui
       - ipfs
     visibility: public
-  ipns-inspector:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-    default_branch: main
-    description: inspect and create IPNS records from the browser
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    topics:
-      - debug
-      - ipfs
-      - ipns
-    visibility: public
   iptb-plugins:
     advanced_security: false
     allow_update_branch: false
