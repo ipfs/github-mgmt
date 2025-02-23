@@ -988,6 +988,23 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  dnslink-action:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    description: "GitHub Action to automate setting DNSLink record "
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   download-ipfs-distribution-action:
     advanced_security: false
     allow_update_branch: true
@@ -3957,8 +3974,8 @@ repositories:
       admin:
         - 2color
     default_branch: main
-    description: "Generate CIDs and deploy static sites to IPFS using CAR files and
-      pinning services "
+    description: "GitHub Action to generate CIDs and deploy static sites to IPFS
+      using CAR files and pinning services "
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -4258,7 +4275,8 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: An updater tool for Kubo IPFS binary
+    description: "[DEPRECATED] legacy updater tool for Kubo IPFS binary. Please
+      migrate to something else."
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
