@@ -1821,6 +1821,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - shipyard
       pull:
         - github-mgmt stewards
     visibility: public
