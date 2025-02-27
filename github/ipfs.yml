@@ -3318,7 +3318,6 @@ repositories:
         - kubo maintainers
       maintain:
         - shipyard
-        - shipyard
         - w3dt-stewards
       pull:
         - github-mgmt stewards
