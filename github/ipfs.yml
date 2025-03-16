@@ -858,7 +858,7 @@ repositories:
     collaborators:
       admin:
         - 2color
-        - ErinOCon
+        - FF-FOIT
         - lidel
         - mishmosh
       maintain:
@@ -3628,6 +3628,8 @@ repositories:
     collaborators:
       admin:
         - darobin
+      maintain:
+        - bumblefudge
     default_branch: main
     description: The site for the implementation fund
     files:
@@ -3993,6 +3995,17 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - actions
+      - cid
+      - deploy
+      - github
+      - ipfs-cluster
+      - ipfs
+      - kubo
+      - pinata
+      - storacha
+      - upload
     visibility: public
   ipfs-desktop:
     advanced_security: false
