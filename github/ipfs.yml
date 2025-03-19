@@ -1831,33 +1831,7 @@ repositories:
   go-ds-bench:
     archived: true
   go-ds-bitcask:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Experimental datastore implementation using Bitcask
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
+    archived: true
   go-ds-bolt:
     archived: true
   go-ds-crdt:
