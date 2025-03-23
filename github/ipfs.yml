@@ -2339,7 +2339,7 @@ repositories:
     archived: true
   go-ipfs-exchange-offline:
     archived: true
-  go-ip
+  go-ip:
     archived: true
   go-ipfs-gateway:
     archived: true
