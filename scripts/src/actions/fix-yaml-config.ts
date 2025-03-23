@@ -36,17 +36,11 @@ function isFork(repository: Repository) {
 
 async function run() {
   await addFileToAllRepos(
-    '.github/workflows/stale.yml',
-    '.github/workflows/stale.yml',
-    r => isInitialised(r) && !isFork(r)
-  )
-  
-  await addFileToAllRepos(
     '.github/pull_request_template.md',
     '.github/helia_pull_request_template.md',
     r => isInitialised(r) && isHelia(r)
   )
-  
+
   await setPropertyInAllRepos(
     'secret_scanning',
     true,
