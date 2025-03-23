@@ -1709,7 +1709,7 @@ repositories:
                 - 1.5.1
               - dependency-name: github.com/ipfs/go-log/v2
                 versions:
-                - 2.1.2
+                - 2.1.2            
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -2338,6 +2338,8 @@ repositories:
   go-ipfs-exchange-interface:
     archived: true
   go-ipfs-exchange-offline:
+    archived: true
+  go-ipfs-files:
     archived: true
   go-ipfs-gateway:
     archived: true
@@ -3454,7 +3456,7 @@ repositories:
               assignees:
                 - 'zebateira'
               labels:
-                - 'dependencies'
+                - 'dependencies'            
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
