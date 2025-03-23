@@ -2159,6 +2159,8 @@ repositories:
     visibility: public
   go-hamt-ipld:
     archived: true
+  go-ip:
+    archived: true
   go-ipfs-api:
     archived: true
   go-ipfs-archived:
@@ -2338,8 +2340,6 @@ repositories:
   go-ipfs-exchange-interface:
     archived: true
   go-ipfs-exchange-offline:
-    archived: true
-  go-ip:
     archived: true
   go-ipfs-gateway:
     archived: true
