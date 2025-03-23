@@ -1190,21 +1190,6 @@ repositories:
           strict: true
     default_branch: master
     files:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-              - cron: '0 0 * * *'
-            workflow_dispatch:
-
-          permissions:
-            issues: write
-            pull-requests: write
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
       CODEOWNERS:
         content: |
           # The ipdx team is responsible for GitHub Management maintenance
@@ -5271,35 +5256,6 @@ repositories:
         - web3-bot
     default_branch: main
     description: A specialized IPFS HTTP gateway
-    files:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v9
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5327,28 +5283,6 @@ repositories:
         - dchoi27
     default_branch: master
     description: IPFS Project && Working Group Roadmaps Repo
-    files:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-              - cron: '0 0 * * *'
-
-          permissions:
-            issues: write
-            pull-requests: write
-
-          jobs:
-            stale:
-              runs-on: ubuntu-latest
-              steps:
-                - uses: actions/stale@v8
-                  with:
-                    stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will be closed in 5 days.'
-                    days-before-stale: 30
-                    days-before-close: 5
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
