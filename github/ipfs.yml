@@ -2339,8 +2339,6 @@ repositories:
     archived: true
   go-ipfs-exchange-offline:
     archived: true
-  go-ip:
-    archived: true
   go-ipfs-gateway:
     archived: true
   go-ipfs-http-client:
