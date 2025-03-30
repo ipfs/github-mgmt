@@ -3630,8 +3630,9 @@ repositories:
       admin:
         - 2color
     default_branch: main
-    description: "GitHub Action to generate CIDs and deploy static sites to IPFS
-      using CAR files and pinning services "
+    description: Official IPFS GitHub Action for deploying static sites (or builds)
+      to IPFS nodes/pinning services with CAR files, and addressing site builds
+      with CIDs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3641,6 +3642,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     topics:
       - actions
+      - car-file
       - cid
       - deploy
       - github
@@ -3702,9 +3704,12 @@ repositories:
       - ipfs-desktop
       - ipfs-gui
       - ipfs
+      - ipns
       - menubar
       - p2p
+      - pinning
       - protocol
+      - unixfs
     visibility: public
   ipfs-docs:
     advanced_security: false
