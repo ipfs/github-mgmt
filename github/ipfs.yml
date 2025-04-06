@@ -930,23 +930,6 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
-  dnslink-action:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-    default_branch: main
-    description: "GitHub Action to automate setting DNSLink record "
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
   download-ipfs-distribution-action:
     advanced_security: false
     allow_update_branch: true
@@ -3621,37 +3604,6 @@ repositories:
       - p2p
       - protocol
       - webextension
-    visibility: public
-  ipfs-deploy-action:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-    default_branch: main
-    description: Official IPFS GitHub Action for deploying static sites (or builds)
-      to IPFS nodes/pinning services with CAR files, and addressing site builds
-      with CIDs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    topics:
-      - actions
-      - car-file
-      - cid
-      - deploy
-      - github
-      - ipfs-cluster
-      - ipfs
-      - kubo
-      - pinata
-      - storacha
-      - upload
     visibility: public
   ipfs-desktop:
     advanced_security: false
