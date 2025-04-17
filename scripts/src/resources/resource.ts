@@ -1,15 +1,15 @@
 import {instanceToPlain} from 'class-transformer'
-import {Id, StateSchema} from '../terraform/schema'
-import {Path, ConfigSchema} from '../yaml/schema'
-import {Member} from './member'
-import {Repository} from './repository'
-import {RepositoryBranchProtectionRule} from './repository-branch-protection-rule'
-import {RepositoryCollaborator} from './repository-collaborator'
-import {RepositoryFile} from './repository-file'
-import {RepositoryLabel} from './repository-label'
-import {RepositoryTeam} from './repository-team'
-import {Team} from './team'
-import {TeamMember} from './team-member'
+import {Id, StateSchema} from '../terraform/schema.js'
+import {Path, ConfigSchema} from '../yaml/schema.js'
+import {Member} from './member.js'
+import {Repository} from './repository.js'
+import {RepositoryBranchProtectionRule} from './repository-branch-protection-rule.js'
+import {RepositoryCollaborator} from './repository-collaborator.js'
+import {RepositoryFile} from './repository-file.js'
+import {RepositoryLabel} from './repository-label.js'
+import {RepositoryTeam} from './repository-team.js'
+import {Team} from './team.js'
+import {TeamMember} from './team-member.js'
 
 export interface Resource {
   // returns YAML config path under which the resource can be found
@@ -21,6 +21,7 @@ export interface Resource {
 }
 
 export interface ResourceConstructor<T extends Resource> {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   new (...args: any[]): T
   // extracts all resources of specific type from the given YAML config
   FromConfig(config: ConfigSchema): T[]
@@ -48,7 +49,7 @@ export const ResourceConstructors: ResourceConstructor<Resource>[] = [
 
 export function resourceToPlain<T extends Resource>(
   resource: T | undefined
-): string | Record<string, any> | undefined {
+): string | Record<string, unknown> | undefined {
   if (resource !== undefined) {
     if (resource instanceof String) {
       return resource.toString()

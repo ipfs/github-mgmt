@@ -1,12 +1,21 @@
-import {Config} from '../../yaml/config'
-import {Repository, Visibility} from '../../resources/repository'
-import {RepositoryBranchProtectionRule} from '../../resources/repository-branch-protection-rule'
+import {Config} from '../../yaml/config.js'
+import {Repository, Visibility} from '../../resources/repository.js'
+import {RepositoryBranchProtectionRule} from '../../resources/repository-branch-protection-rule.js'
 
-export async function protectDefaultBranches(
-  includePrivate: boolean = false
+export async function runProtectDefaultBranches(
+  includePrivate = false
 ): Promise<void> {
   const config = Config.FromPath()
 
+  await protectDefaultBranches(config, includePrivate)
+
+  config.save()
+}
+
+export async function protectDefaultBranches(
+  config: Config,
+  includePrivate = false
+): Promise<void> {
   const repositories = config.getResources(Repository).filter(r => !r.archived)
 
   for (const repository of repositories) {
@@ -23,6 +32,4 @@ export async function protectDefaultBranches(
       }
     }
   }
-
-  config.save()
 }

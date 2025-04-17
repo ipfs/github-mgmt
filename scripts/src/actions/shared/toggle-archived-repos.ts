@@ -1,11 +1,20 @@
-import {Config} from '../../yaml/config'
-import {Repository} from '../../resources/repository'
-import {State} from '../../terraform/state'
+import {Config} from '../../yaml/config.js'
+import {Repository} from '../../resources/repository.js'
+import {State} from '../../terraform/state.js'
 
-export async function toggleArchivedRepos(): Promise<void> {
+export async function runToggleArchivedRepos(): Promise<void> {
   const state = await State.New()
   const config = Config.FromPath()
 
+  await toggleArchivedRepos(state, config)
+
+  config.save()
+}
+
+export async function toggleArchivedRepos(
+  state: State,
+  config: Config
+): Promise<void> {
   const resources = state.getAllResources()
   const stateRepositories = state.getResources(Repository)
   const configRepositories = config.getResources(Repository)
@@ -21,11 +30,12 @@ export async function toggleArchivedRepos(): Promise<void> {
         r => r.name === configRepository.name
       )
       if (stateRepository !== undefined && stateRepository.archived) {
+        stateRepository.archived = false
         config.addResource(stateRepository)
         for (const resource of resources) {
           if (
             'repository' in resource &&
-            (resource as any).repository === stateRepository.name
+            resource.repository === stateRepository.name
           ) {
             config.addResource(resource)
           }
@@ -33,6 +43,4 @@ export async function toggleArchivedRepos(): Promise<void> {
       }
     }
   }
-
-  config.save()
 }

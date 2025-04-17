@@ -1,9 +1,9 @@
-import {Config} from '../yaml/config'
-import {RepositoryBranchProtectionRule} from '../resources/repository-branch-protection-rule'
-import {Repository} from '../resources/repository'
+import {Config} from '../yaml/config.js'
+import {RepositoryBranchProtectionRule} from '../resources/repository-branch-protection-rule.js'
+import {Repository} from '../resources/repository.js'
 import * as core from '@actions/core'
 
-export async function doNotEnforceAdmins(
+export async function runDoNotEnforceAdmins(
   repositoryAndRuleFilter: (
     repository: Repository,
     branchProtectionRule: RepositoryBranchProtectionRule
@@ -11,6 +11,17 @@ export async function doNotEnforceAdmins(
 ): Promise<void> {
   const config = Config.FromPath()
 
+  doNotEnforceAdmins(config, repositoryAndRuleFilter)
+  
+  config.save()
+}
+
+export async function doNotEnforceAdmins(
+  repositoryAndRuleFilter: (
+    repository: Repository,
+    branchProtectionRule: RepositoryBranchProtectionRule
+  ) => boolean = () => true
+): Promise<void> {
   const repositories = config.getResources(Repository).filter(r => !r.archived)
   const rules = config
     .getResources(RepositoryBranchProtectionRule)

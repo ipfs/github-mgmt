@@ -1,8 +1,8 @@
-import {GitHub} from '../github'
+import {GitHub} from '../github.js'
 import {context} from '@actions/github'
 import * as core from '@actions/core'
 
-async function findShaForPlan() {
+async function findShaForPlan(): Promise<string> {
   const github = await GitHub.getGitHub()
 
   if (context.eventName !== 'push') {
@@ -12,7 +12,8 @@ async function findShaForPlan() {
   const pulls = await github.client.paginate(
     github.client.search.issuesAndPullRequests,
     {
-      q: `repository:${context.repo.owner}/${context.repo.repo} ${context.sha} type:pr is:merged`
+      q: `repository:${context.repo.owner}/${context.repo.repo} ${context.sha} type:pr is:merged`,
+      advanced_search: 'true'
     }
   )
 
@@ -36,6 +37,9 @@ async function findShaForPlan() {
   return commits[commits.length - 1].sha
 }
 
-findShaForPlan().then(sha => {
+async function run(): Promise<void> {
+  const sha = await findShaForPlan()
   core.setOutput('result', sha)
-})
+}
+
+run()
