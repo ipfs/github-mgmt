@@ -1,13 +1,13 @@
 import 'reflect-metadata'
-import {Repository} from '../resources/repository'
-import {RepositoryBranchProtectionRule} from '../resources/repository-branch-protection-rule'
-import {globToRegex} from '../utils'
-import {doNotEnforceAdmins} from './do-not-enforce-admins'
-import {addFileToAllRepos} from './shared/add-file-to-all-repos'
-import {format} from './shared/format'
-import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
-import {toggleArchivedRepos} from './shared/toggle-archived-repos'
-import {describeAccessChanges} from './shared/describe-access-changes'
+import {Repository} from '../resources/repository.js'
+import {RepositoryBranchProtectionRule} from '../resources/repository-branch-protection-rule.js'
+import {globToRegex} from '../utils.js'
+import {runDoNotEnforceAdmins} from './do-not-enforce-admins.js'
+import {runAddFileToAllRepos} from './shared/add-file-to-all-repos.js'
+import {runFormat} from './shared/format.js'
+import {runSetPropertyInAllRepos} from './shared/set-property-in-all-repos.js'
+import {runToggleArchivedRepos} from './shared/toggle-archived-repos.js'
+import {runDescribeAccessChanges} from './shared/describe-access-changes.js'
 
 import * as core from '@actions/core'
 
@@ -35,30 +35,30 @@ function isFork(repository: Repository) {
 }
 
 async function run() {
-  await addFileToAllRepos(
+  await runAddFileToAllRepos(
     '.github/pull_request_template.md',
     '.github/helia_pull_request_template.md',
     r => isInitialised(r) && isHelia(r)
   )
 
-  await setPropertyInAllRepos(
+  await runSetPropertyInAllRepos(
     'secret_scanning',
     true,
     r => isInitialised(r) && isPublic(r)
   )
-  await setPropertyInAllRepos(
+  await runSetPropertyInAllRepos(
     'secret_scanning_push_protection',
     true,
     r => isInitialised(r) && isPublic(r)
   )
-  await doNotEnforceAdmins(
+  await runDoNotEnforceAdmins(
     (repository: Repository, rule: RepositoryBranchProtectionRule) =>
       isInitialised(repository) &&
       repository.default_branch !== undefined &&
       globToRegex(rule.pattern).test(repository.default_branch)
   )
-  await toggleArchivedRepos()
-  const accessChangesDescription = await describeAccessChanges()
+  await runToggleArchivedRepos()
+  const accessChangesDescription = await runDescribeAccessChanges()
   core.setOutput(
     'comment',
     `The following access changes will be introduced as a result of applying the plan:
@@ -71,7 +71,7 @@ ${accessChangesDescription}
 
 </details>`
   )
-  await format()
+  await runFormat()
 }
 
 run()
