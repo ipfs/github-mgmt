@@ -1,7 +1,7 @@
-import {GitHub} from '../github'
-import {Id, StateSchema} from '../terraform/schema'
-import {Path, ConfigSchema} from '../yaml/schema'
-import {Resource} from './resource'
+import {GitHub} from '../github.js'
+import {Id, StateSchema} from '../terraform/schema.js'
+import {Path, ConfigSchema} from '../yaml/schema.js'
+import {Resource} from './resource.js'
 
 export enum Permission {
   Admin = 'admin',
@@ -12,7 +12,7 @@ export enum Permission {
 }
 
 export class RepositoryCollaborator extends String implements Resource {
-  static StateType: string = 'github_repository_collaborator'
+  static StateType = 'github_repository_collaborator' as const
   static async FromGitHub(
     _collaborators: RepositoryCollaborator[]
   ): Promise<[Id, RepositoryCollaborator][]> {
@@ -21,11 +21,14 @@ export class RepositoryCollaborator extends String implements Resource {
     const collaborators = await github.listRepositoryCollaborators()
     const result: [Id, RepositoryCollaborator][] = []
     for (const invitation of invitations) {
+      if (invitation.invitee === null) {
+        throw new Error(`Invitation ${invitation.id} has no invitee`)
+      }
       result.push([
-        `${invitation.repository.name}:${invitation.invitee!.login}`,
+        `${invitation.repository.name}:${invitation.invitee.login}`,
         new RepositoryCollaborator(
           invitation.repository.name,
-          invitation.invitee!.login,
+          invitation.invitee.login,
           invitation.permissions as Permission
         )
       ])
@@ -71,7 +74,7 @@ export class RepositoryCollaborator extends String implements Resource {
             new RepositoryCollaborator(
               resource.values.repository,
               resource.values.username,
-              resource.values.permission
+              resource.values.permission as Permission
             )
           )
         }

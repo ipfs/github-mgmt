@@ -93,7 +93,7 @@ jobs:
           git fetch origin "pull/${NUMBER}/head"
           rm -rf github && git checkout "${SHA}" -- github
       - name: Setup terraform
-        uses: hashicorp/setup-terraform@633666f66e0061ca3b725c73b2ec20cd13a8fdd1 # v2.0.3
+        uses: hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd # v3.1.2
         with:
           terraform_version: 1.2.9
           terraform_wrapper: false
@@ -117,7 +117,7 @@ jobs:
       # NOTE(galargh, 2024-02-15): This will only work if GitHub as Code is used for a single organization
       - name: Comment on pull request
         if: github.event_name == 'pull_request_target' && steps.fix.outputs.comment
-        uses: marocchino/sticky-pull-request-comment@fcf6fe9e4a0409cd9316a5011435be0f3327f1e1 # v2.3.1
+        uses: marocchino/sticky-pull-request-comment@67d0dec7b07ed060a405f9b2a64b8ab319fdd7db # v2.9.2
         with:
           header: fix
           number: ${{ github.event.pull_request.number }}
@@ -135,10 +135,11 @@ jobs:
     steps:
       - name: Generate app token
         id: token
-        uses: tibdex/github-app-token@b62528385c34dbc9f38e5f4225ac829252d1ea92 # v1.8.0
+        uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
         with:
           app_id: ${{ secrets.RW_GITHUB_APP_ID }}
-          installation_id: ${{ secrets[format('RW_GITHUB_APP_INSTALLATION_ID_{0}', github.repository_owner)] || secrets.RW_GITHUB_APP_INSTALLATION_ID }}
+          installation_retrieval_mode: id
+          installation_retrieval_payload: ${{ secrets[format('RW_GITHUB_APP_INSTALLATION_ID_{0}', github.repository_owner)] || secrets.RW_GITHUB_APP_INSTALLATION_ID }}
           private_key: ${{ secrets.RW_GITHUB_APP_PEM_FILE }}
       - name: Checkout
         uses: actions/checkout@v4

@@ -1,28 +1,107 @@
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
-
 import * as core from '@actions/core'
 import {Octokit as Core} from '@octokit/core'
-import {Octokit} from '@octokit/rest'
+import {Octokit as Client} from '@octokit/rest'
 import {retry} from '@octokit/plugin-retry'
 import {throttling} from '@octokit/plugin-throttling'
-import {createAppAuth} from '@octokit/auth-app'
-import env from './env'
-import {GetResponseDataTypeFromEndpointMethod} from '@octokit/types' // eslint-disable-line import/no-unresolved
+import env from './env.js'
+import type {GetResponseDataTypeFromEndpointMethod} from '@octokit/types'
+import {Locals} from './terraform/locals.js'
 
-const Client = Octokit.plugin(retry, throttling)
-const Endpoints = new Octokit()
+type Endpoints = InstanceType<typeof Client>
+
 type Members = GetResponseDataTypeFromEndpointMethod<
-  typeof Endpoints.orgs.getMembershipForUser
+  Endpoints['orgs']['getMembershipForUser']
 >[]
 type Repositories = GetResponseDataTypeFromEndpointMethod<
-  typeof Endpoints.repos.listForOrg
+  Endpoints['repos']['listForOrg']
 >
-type Teams = GetResponseDataTypeFromEndpointMethod<typeof Endpoints.teams.list>
+type Teams = GetResponseDataTypeFromEndpointMethod<Endpoints['teams']['list']>
+type RepositoryCollaborators = {
+  repository: Repositories[number]
+  collaborator: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['repos']['listCollaborators']
+  >[number]
+}[]
+type TeamMembers = {
+  team: Teams[number]
+  member: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['teams']['listMembersInOrg']
+  >[number]
+  membership: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['teams']['getMembershipForUserInOrg']
+  >
+}[]
+type TeamRepositories = {
+  team: Teams[number]
+  repository: Repositories[number]
+}[]
+type RepositoryBranchProtectionRules = {
+  repository: Repositories[number]
+  branchProtectionRule: {
+    pattern: string
+  }
+}[]
+type RepositoryFile = {
+  path: string
+  url: string
+  ref: string
+}
+type Invitations = GetResponseDataTypeFromEndpointMethod<
+  Endpoints['orgs']['listPendingInvitations']
+>
+type RepositoryInvitations = GetResponseDataTypeFromEndpointMethod<
+  Endpoints['repos']['listInvitations']
+>
+type TeamInvitations = {
+  team: Teams[number]
+  invitation: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['teams']['listPendingInvitationsInOrg']
+  >[number]
+}[]
+type RepositoryLabels = {
+  repository: Repositories[number]
+  label: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['issues']['listLabelsForRepo']
+  >[number]
+}[]
+type RepositoryActivities = {
+  repository: Repositories[number]
+  activity: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['repos']['listActivities']
+  >[number]
+}[]
+type RepositoryIssues = {
+  repository: Repositories[number]
+  issue: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['issues']['listForRepo']
+  >[number]
+}[]
+type RepositoryPullRequestReviewComments = {
+  repository: Repositories[number]
+  comment: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['pulls']['listReviewCommentsForRepo']
+  >[number]
+}[]
+type RepositoryIssueComments = {
+  repository: Repositories[number]
+  comment: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['issues']['listCommentsForRepo']
+  >[number]
+}[]
+type RepositoryCommitComments = {
+  repository: Repositories[number]
+  comment: GetResponseDataTypeFromEndpointMethod<
+    Endpoints['repos']['listCommitCommentsForRepo']
+  >[number]
+}[]
 
 export class GitHub {
   static github: GitHub
   static async getGitHub(): Promise<GitHub> {
     if (GitHub.github === undefined) {
+      // NOTE: We import these dynamically so that they can be mocked
+      const {createAppAuth} = await import('@octokit/auth-app')
+      const {Octokit} = await import('@octokit/rest')
       const auth = createAppAuth({
         appId: env.GITHUB_APP_ID,
         privateKey: env.GITHUB_APP_PEM_FILE
@@ -31,68 +110,76 @@ export class GitHub {
         type: 'installation',
         installationId: env.GITHUB_APP_INSTALLATION_ID
       })
-      GitHub.github = new GitHub(installationAuth.token)
+      const client = new (Octokit.plugin(retry, throttling))({
+        auth: installationAuth.token,
+        throttle: {
+          onRateLimit: (
+            retryAfter: number,
+            options: {method: string; url: string},
+            octokit: Core,
+            retryCount: number
+          ): boolean => {
+            core.warning(
+              `Request quota exhausted for request ${options.method} ${options.url}`
+            )
+
+            if (retryCount === 0) {
+              // only retries once
+              core.info(`Retrying after ${retryAfter} seconds!`)
+              return true
+            }
+
+            return false
+          },
+          onSecondaryRateLimit: (
+            retryAfter: number,
+            options: {method: string; url: string},
+            octokit: Core,
+            retryCount: number
+          ): boolean => {
+            core.warning(
+              `SecondaryRateLimit detected for request ${options.method} ${options.url}`
+            )
+
+            if (retryCount === 0) {
+              // only retries once
+              core.info(`Retrying after ${retryAfter} seconds!`)
+              return true
+            }
+
+            return false
+          }
+        }
+      })
+      GitHub.github = new GitHub(client)
     }
     return GitHub.github
   }
 
-  client: InstanceType<typeof Client>
+  client: Client
 
-  private constructor(token: string) {
-    this.client = new Client({
-      auth: token,
-      throttle: {
-        onRateLimit: (
-          retryAfter: number,
-          options: {method: string; url: string},
-          octokit: Core,
-          retryCount: number
-        ) => {
-          core.warning(
-            `Request quota exhausted for request ${options.method} ${options.url}`
-          )
-
-          if (retryCount === 0) {
-            // only retries once
-            core.info(`Retrying after ${retryAfter} seconds!`)
-            return true
-          }
-        },
-        onSecondaryRateLimit: (
-          retryAfter: number,
-          options: {method: string; url: string},
-          octokit: Core,
-          retryCount: number
-        ) => {
-          core.warning(
-            `SecondaryRateLimit detected for request ${options.method} ${options.url}`
-          )
-
-          if (retryCount === 0) {
-            // only retries once
-            core.info(`Retrying after ${retryAfter} seconds!`)
-            return true
-          }
-        }
-      }
-    })
+  private constructor(client: Client) {
+    this.client = client
   }
 
   private members?: Members
-  async listMembers() {
+  async listMembers(): Promise<Members> {
     if (!this.members) {
       core.info('Listing members...')
       const members = await this.client.paginate(this.client.orgs.listMembers, {
         org: env.GITHUB_ORG
       })
+      const locals = Locals.getLocals()
       const memberships = await Promise.all(
-        members.map(
-          async member =>
-            await this.client.orgs.getMembershipForUser({
-              org: env.GITHUB_ORG,
-              username: member.login
-            })
-        )
+        members
+          .filter(m => !locals.ignore.users.includes(m.login))
+          .map(
+            async member =>
+              await this.client.orgs.getMembershipForUser({
+                org: env.GITHUB_ORG,
+                username: member.login
+              })
+          )
       )
       this.members = memberships.map(m => m.data)
     }
@@ -100,31 +187,39 @@ export class GitHub {
   }
 
   private repositories?: Repositories
-  async listRepositories() {
+  async listRepositories(): Promise<Repositories> {
     if (!this.repositories) {
       core.info('Listing repositories...')
-      this.repositories = await this.client.paginate(
+      const repositories = await this.client.paginate(
         this.client.repos.listForOrg,
         {
           org: env.GITHUB_ORG
         }
       )
+      const locals = Locals.getLocals()
+      this.repositories = repositories.filter(r => {
+        return !locals.ignore.repositories.includes(r.name)
+      })
     }
     return this.repositories
   }
 
   private teams?: Teams
-  async listTeams() {
+  async listTeams(): Promise<Teams> {
     if (!this.teams) {
       core.info('Listing teams...')
-      this.teams = await this.client.paginate(this.client.teams.list, {
+      const teams = await this.client.paginate(this.client.teams.list, {
         org: env.GITHUB_ORG
+      })
+      const locals = Locals.getLocals()
+      this.teams = teams.filter(t => {
+        return !locals.ignore.teams.includes(t.name)
       })
     }
     return this.teams
   }
 
-  async listRepositoryCollaborators() {
+  async listRepositoryCollaborators(): Promise<RepositoryCollaborators> {
     const repositoryCollaborators = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {
@@ -133,14 +228,17 @@ export class GitHub {
         this.client.repos.listCollaborators,
         {owner: env.GITHUB_ORG, repo: repository.name, affiliation: 'direct'}
       )
+      const locals = Locals.getLocals()
       repositoryCollaborators.push(
-        ...collaborators.map(collaborator => ({repository, collaborator}))
+        ...collaborators
+          .filter(c => !locals.ignore.users.includes(c.login))
+          .map(collaborator => ({repository, collaborator}))
       )
     }
     return repositoryCollaborators
   }
 
-  async listRepositoryBranchProtectionRules() {
+  async listRepositoryBranchProtectionRules(): Promise<RepositoryBranchProtectionRules> {
     // https://github.com/octokit/graphql.js/issues/61
     const repositoryBranchProtectionRules = []
     const repositories = await this.listRepositories()
@@ -171,7 +269,7 @@ export class GitHub {
     return repositoryBranchProtectionRules
   }
 
-  async listTeamMembers() {
+  async listTeamMembers(): Promise<TeamMembers> {
     const teamMembers = []
     const teams = await this.listTeams()
     for (const team of teams) {
@@ -180,17 +278,22 @@ export class GitHub {
         this.client.teams.listMembersInOrg,
         {org: env.GITHUB_ORG, team_slug: team.slug}
       )
+      const locals = Locals.getLocals()
       const memberships = await Promise.all(
-        members.map(async member => {
-          const membership = (
-            await this.client.teams.getMembershipForUserInOrg({
-              org: env.GITHUB_ORG,
-              team_slug: team.slug,
-              username: member.login
-            })
-          ).data
-          return {member, membership}
-        })
+        members
+          .filter(m => {
+            return !locals.ignore.users.includes(m.login)
+          })
+          .map(async member => {
+            const membership = (
+              await this.client.teams.getMembershipForUserInOrg({
+                org: env.GITHUB_ORG,
+                team_slug: team.slug,
+                username: member.login
+              })
+            ).data
+            return {member, membership}
+          })
       )
       teamMembers.push(
         ...memberships.map(({member, membership}) => ({
@@ -203,7 +306,7 @@ export class GitHub {
     return teamMembers
   }
 
-  async listTeamRepositories() {
+  async listTeamRepositories(): Promise<TeamRepositories> {
     const teamRepositories = []
     const teams = await this.listTeams()
     for (const team of teams) {
@@ -212,15 +315,25 @@ export class GitHub {
         this.client.teams.listReposInOrg,
         {org: env.GITHUB_ORG, team_slug: team.slug}
       )
+      const locals = Locals.getLocals()
       teamRepositories.push(
-        ...repositories.map(repository => ({team, repository}))
+        ...repositories
+          .filter(r => !locals.ignore.repositories.includes(r.name))
+          .map(repository => ({team, repository}))
       )
     }
     return teamRepositories
   }
 
-  async getRepositoryFile(repository: string, path: string) {
+  async getRepositoryFile(
+    repository: string,
+    path: string
+  ): Promise<RepositoryFile | undefined> {
     core.info(`Checking if ${repository}/${path} exists...`)
+    const locals = Locals.getLocals()
+    if (locals.ignore.repositories.includes(repository)) {
+      return undefined
+    }
     try {
       const repo = (
         await this.client.repos.get({
@@ -253,7 +366,7 @@ export class GitHub {
     }
   }
 
-  async listInvitations() {
+  async listInvitations(): Promise<Invitations> {
     core.info('Listing invitations...')
     const invitations = await this.client.paginate(
       this.client.orgs.listPendingInvitations,
@@ -261,12 +374,13 @@ export class GitHub {
         org: env.GITHUB_ORG
       }
     )
-    return invitations.filter(
-      i => i.failed_at === null || i.failed_at === undefined
-    )
+    const locals = Locals.getLocals()
+    return invitations
+      .filter(i => i.failed_at === null || i.failed_at === undefined)
+      .filter(i => i.login === null || !locals.ignore.users.includes(i.login))
   }
 
-  async listRepositoryInvitations() {
+  async listRepositoryInvitations(): Promise<RepositoryInvitations> {
     const repositoryInvitations = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {
@@ -278,17 +392,21 @@ export class GitHub {
           repo: repository.name
         }
       )
+      const locals = Locals.getLocals()
       repositoryInvitations.push(
-        ...invitations.filter(
-          i => i.expired === false || i.expired === undefined
-        )
+        ...invitations
+          .filter(i => i.expired === false || i.expired === undefined)
+          .filter(
+            i =>
+              i.invitee === null ||
+              !locals.ignore.users.includes(i.invitee.login)
+          )
       )
     }
     return repositoryInvitations
   }
 
-  async listTeamInvitations() {
-    this.client.orgs.listInvitationTeams
+  async listTeamInvitations(): Promise<TeamInvitations> {
     const teamInvitations = []
     const teams = await this.listTeams()
     for (const team of teams) {
@@ -300,16 +418,20 @@ export class GitHub {
           team_slug: team.slug
         }
       )
+      const locals = Locals.getLocals()
       teamInvitations.push(
         ...invitations
           .filter(i => i.failed_at === null || i.failed_at === undefined)
+          .filter(
+            i => i.login === null || !locals.ignore.users.includes(i.login)
+          )
           .map(invitation => ({team, invitation}))
       )
     }
     return teamInvitations
   }
 
-  async listRepositoryLabels() {
+  async listRepositoryLabels(): Promise<RepositoryLabels> {
     const repositoryLabels = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {
@@ -323,7 +445,7 @@ export class GitHub {
     return repositoryLabels
   }
 
-  async listRepositoryActivities(since: Date) {
+  async listRepositoryActivities(since: Date): Promise<RepositoryActivities> {
     const repositoryActivities = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {
@@ -349,7 +471,7 @@ export class GitHub {
     return repositoryActivities
   }
 
-  async listRepositoryIssues(since: Date) {
+  async listRepositoryIssues(since: Date): Promise<RepositoryIssues> {
     const issues = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {
@@ -381,7 +503,9 @@ export class GitHub {
     return issues
   }
 
-  async listRepositoryPullRequestReviewComments(since: Date) {
+  async listRepositoryPullRequestReviewComments(
+    since: Date
+  ): Promise<RepositoryPullRequestReviewComments> {
     const pullRequestComments = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {
@@ -407,7 +531,9 @@ export class GitHub {
     return pullRequestComments
   }
 
-  async listRepositoryIssueComments(since: Date) {
+  async listRepositoryIssueComments(
+    since: Date
+  ): Promise<RepositoryIssueComments> {
     const issueComments = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {
@@ -438,7 +564,9 @@ export class GitHub {
     return issueComments
   }
 
-  async listRepositoryCommitComments(since: Date) {
+  async listRepositoryCommitComments(
+    since: Date
+  ): Promise<RepositoryCommitComments> {
     const commitComments = []
     const repositories = await this.listRepositories()
     for (const repository of repositories) {

@@ -1,20 +1,18 @@
 import * as YAML from 'yaml'
-import {ConfigSchema, pathToYAML} from './schema'
+import {ConfigSchema, pathToYAML} from './schema.js'
 import {
   Resource,
   ResourceConstructor,
   ResourceConstructors,
   resourceToPlain
-} from '../resources/resource'
-import {diff} from 'deep-diff'
-import env from '../env'
+} from '../resources/resource.js'
+import diff from 'deep-diff'
+import env from '../env.js'
 import * as fs from 'fs'
-import {jsonEquals, yamlify} from '../utils'
+import {jsonEquals, yamlify} from '../utils.js'
 
 export class Config {
-  static FromPath(
-    path: string = `${env.GITHUB_DIR}/${env.GITHUB_ORG}.yml`
-  ): Config {
+  static FromPath(path = `${env.GITHUB_DIR}/${env.GITHUB_ORG}.yml`): Config {
     const source = fs.readFileSync(path, 'utf8')
     return new Config(source)
   }
@@ -48,8 +46,9 @@ export class Config {
         },
         Pair(_, node, path) {
           const resourcePath = [...path, node]
-            .filter((p: any) => YAML.isPair(p))
-            .map((p: any) => p.key.toString())
+            .filter(p => YAML.isPair(p))
+            .map(p => (p as YAML.Pair<unknown, unknown>).key)
+            .map(k => String(k))
             .join('.')
           if (!resourcePaths.includes(resourcePath)) {
             const isEmpty = node.value === null || node.value === undefined
@@ -91,7 +90,7 @@ export class Config {
     })
   }
 
-  save(path: string = `${env.GITHUB_DIR}/${env.GITHUB_ORG}.yml`): void {
+  save(path = `${env.GITHUB_DIR}/${env.GITHUB_ORG}.yml`): void {
     this.format()
     fs.writeFileSync(path, this.toString())
   }
@@ -129,7 +128,7 @@ export class Config {
   // updates the resource if it already exists, otherwise adds it
   addResource<T extends Resource>(
     resource: T,
-    canDeleteProperties: boolean = false
+    canDeleteProperties = false
   ): void {
     const oldResource = this.findResource(resource)
     const path = resource.getSchemaPath(this.get())
@@ -147,10 +146,12 @@ export class Config {
           pathToYAML([...path, ...(d.path || [])]),
           yamlify(d.rhs)
         )
-        delete (this._document.getIn([...path, ...(d.path || [])], true) as any)
-          .comment
-        delete (this._document.getIn([...path, ...(d.path || [])], true) as any)
-          .commentBefore
+        const node = this._document.getIn(
+          [...path, ...(d.path || [])],
+          true
+        ) as {comment?: string; commentBefore?: string}
+        delete node.comment
+        delete node.commentBefore
       } else if (d.kind === 'D' && canDeleteProperties) {
         this._document.deleteIn(pathToYAML([...path, ...(d.path || [])]))
       } else if (d.kind === 'A') {
@@ -164,18 +165,12 @@ export class Config {
             pathToYAML([...path, ...(d.path || []), d.index]),
             yamlify(d.item.rhs)
           )
-          delete (
-            this._document.getIn(
-              [...path, ...(d.path || []), d.index],
-              true
-            ) as any
-          ).comment
-          delete (
-            this._document.getIn(
-              [...path, ...(d.path || []), d.index],
-              true
-            ) as any
-          ).commentBefore
+          const node = this._document.getIn(
+            [...path, ...(d.path || []), d.index],
+            true
+          ) as {comment?: string; commentBefore?: string}
+          delete node.comment
+          delete node.commentBefore
         } else if (d.item.kind === 'D') {
           this._document.setIn(
             pathToYAML([...path, ...(d.path || []), d.index]),

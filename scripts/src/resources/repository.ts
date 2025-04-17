@@ -1,8 +1,8 @@
 import {Exclude, Expose, plainToClassFromExist, Type} from 'class-transformer'
-import {GitHub} from '../github'
-import {Id, StateSchema} from '../terraform/schema'
-import {Path, ConfigSchema} from '../yaml/schema'
-import {Resource} from './resource'
+import {GitHub} from '../github.js'
+import {Id, StateSchema} from '../terraform/schema.js'
+import {Path, ConfigSchema} from '../yaml/schema.js'
+import {Resource} from './resource.js'
 
 @Exclude()
 class PageSource {
@@ -29,7 +29,7 @@ export enum Visibility {
 
 @Exclude()
 export class Repository implements Resource {
-  static StateType: string = 'github_repository'
+  static StateType = 'github_repository' as const
   static async FromGitHub(
     _repositories: Repository[]
   ): Promise<[Id, Repository][]> {

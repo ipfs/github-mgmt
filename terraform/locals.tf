@@ -4,6 +4,11 @@ locals {
   advanced_security = false
   config            = yamldecode(file("${path.module}/../github/${local.organization}.yml"))
   state             = jsondecode(file("${path.module}/${local.organization}.tfstate.json"))
+  ignore = {
+    "repositories" = []
+    "teams" = []
+    "users" = []
+  }
   sources = {
     "config" = {
       "github_membership" = {
@@ -127,19 +132,19 @@ locals {
         "this" = {
           for item in flatten([
             for repository, config in lookup(local.config, "repositories", {}) : [
-              for label, config in lookup(config, "labels", {}) : merge(config, {
+              for name, config in lookup(config, "labels", {}) : merge(config, {
                 repository = repository
-                label      = label
+                name       = name
               })
             ]
-          ]) : lower("${item.repository}:${item.label}") => item
+          ]) : lower("${item.repository}:${item.name}") => item
         }
       }
     }
-    "state" = {
+    "state" = lookup({
       for mode, item in {
-        for item in local.state.values.root_module.resources : item.mode => item...
-        } : mode => {
+        for item in try(local.state.values.root_module.resources, []) : item.mode => item...
+      } : mode => {
         for type, item in {
           for item in item : item.type => item...
           } : type => {
@@ -152,7 +157,7 @@ locals {
           }
         }
       }
-    }.managed
+    }, "managed", {})
   }
   resources = {
     "github_membership" = {

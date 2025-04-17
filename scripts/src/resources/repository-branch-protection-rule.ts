@@ -1,9 +1,9 @@
 import {Exclude, Expose, plainToClassFromExist, Type} from 'class-transformer'
-import {GitHub} from '../github'
-import {Id, StateSchema} from '../terraform/schema'
-import {Path, ConfigSchema} from '../yaml/schema'
-import {Repository} from './repository'
-import {Resource} from './resource'
+import {GitHub} from '../github.js'
+import {Id, StateSchema} from '../terraform/schema.js'
+import {Path, ConfigSchema} from '../yaml/schema.js'
+import {Repository} from './repository.js'
+import {Resource} from './resource.js'
 
 @Exclude()
 class RequiredPullRequestReviews {
@@ -23,7 +23,7 @@ class RequiredStatusChecks {
 
 @Exclude()
 export class RepositoryBranchProtectionRule implements Resource {
-  static StateType = 'github_branch_protection'
+  static StateType = 'github_branch_protection' as const
   static async FromGitHub(
     _rules: RepositoryBranchProtectionRule[]
   ): Promise<[Id, RepositoryBranchProtectionRule][]> {
@@ -49,12 +49,9 @@ export class RepositoryBranchProtectionRule implements Resource {
           resource.type === RepositoryBranchProtectionRule.StateType &&
           resource.mode === 'managed'
         ) {
-          const repositoryIndex = resource.index.split(':')[0]
+          const repositoryIndex: string = resource.index.split(':')[0]
           const repository = state.values.root_module.resources.find(
-            (r: any) =>
-              r.type === Repository.StateType &&
-              resource.mode === 'managed' &&
-              r.index === repositoryIndex
+            r => resource.mode === 'managed' && r.index === repositoryIndex
           )
           const required_pull_request_reviews =
             resource.values.required_pull_request_reviews?.at(0)
@@ -63,7 +60,10 @@ export class RepositoryBranchProtectionRule implements Resource {
           rules.push(
             plainToClassFromExist(
               new RepositoryBranchProtectionRule(
-                repository?.values?.name || repositoryIndex,
+                repository !== undefined &&
+                repository.type === Repository.StateType
+                  ? repository.values.name
+                  : repositoryIndex,
                 resource.values.pattern
               ),
               {

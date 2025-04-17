@@ -1,17 +1,16 @@
-import {Id, StateSchema} from './schema'
+import {Id, StateSchema} from './schema.js'
 import {
   Resource,
   ResourceConstructors,
   ResourceConstructor
-} from '../resources/resource'
-import env from '../env'
+} from '../resources/resource.js'
+import env from '../env.js'
 import * as cli from '@actions/exec'
 import * as fs from 'fs'
 import * as core from '@actions/core'
-import * as HCL from 'hcl2-parser'
-import * as thisModule from './state'
+import HCL from 'hcl2-parser'
 
-export async function loadState() {
+export async function loadState(): Promise<string> {
   let source = ''
   if (env.TF_EXEC === 'true') {
     core.info('Loading state from Terraform state file')
@@ -32,22 +31,35 @@ export async function loadState() {
   return source
 }
 
+type HCLObject = {
+  resource?: {
+    [key: string]: {
+      this?: {
+        lifecycle?: {
+          ignore_changes?: string[]
+        }[]
+      }[]
+    }
+  }
+}[]
+
 export class State {
-  static async New() {
-    return new State(await thisModule.loadState())
+  static async New(): Promise<State> {
+    const state = await import('./state.js')
+    return new State(await state.loadState())
   }
 
   private _ignoredProperties: Record<string, string[]> = {}
-  private _ignoredTypes: string[] = []
-  private _state?: StateSchema
+  private _state: StateSchema
 
-  private updateIgnoredPropertiesFrom(path: string) {
+  private updateIgnoredPropertiesFrom(path: string): void {
     if (fs.existsSync(path)) {
-      const hcl = HCL.parseToObject(fs.readFileSync(path))?.at(0)
-      for (const [name, resource] of Object.entries(hcl?.resource ?? {}) as [
-        string,
-        any
-      ][]) {
+      const hcl: HCLObject | undefined = HCL.parseToObject(
+        fs.readFileSync(path)
+      )
+      for (const [name, resource] of Object.entries(
+        hcl?.at(0)?.resource ?? {}
+      )) {
         const properties = resource?.this
           ?.at(0)
           ?.lifecycle?.at(0)?.ignore_changes
@@ -60,35 +72,23 @@ export class State {
     }
   }
 
-  private updateIgnoredTypesFrom(path: string) {
-    if (fs.existsSync(path)) {
-      const hcl = HCL.parseToObject(fs.readFileSync(path))?.at(0)
-      const types = hcl?.locals?.at(0)?.resource_types
-      if (types !== undefined) {
-        this._ignoredTypes = ResourceConstructors.map(c => c.StateType).filter(
-          t => !types.includes(t)
-        )
-      }
-    }
-  }
-
-  private setState(source: string) {
-    const state = JSON.parse(source, (_k, v) => v ?? undefined)
+  private getState(source: string): StateSchema {
+    const state: StateSchema = JSON.parse(source, (_k, v) => v ?? undefined)
     if (state.values?.root_module?.resources !== undefined) {
       state.values.root_module.resources = state.values.root_module.resources
-        .filter((r: any) => r.mode === 'managed')
-        // .filter((r: any) => !this._ignoredTypes.includes(r.type))
-        .map((r: any) => {
+        .filter(r => r.mode === 'managed')
+        // .filter(r => !this._ignoredTypes.includes(r.type))
+        .map(r => {
           // TODO: remove nested values
           r.values = Object.fromEntries(
             Object.entries(r.values).filter(
               ([k, _v]) => !this._ignoredProperties[r.type]?.includes(k)
             )
-          )
+          ) as typeof r.values
           return r
         })
     }
-    this._state = state
+    return state
   }
 
   constructor(source: string) {
@@ -96,16 +96,15 @@ export class State {
     this.updateIgnoredPropertiesFrom(
       `${env.TF_WORKING_DIR}/resources_override.tf`
     )
-    this.updateIgnoredTypesFrom(`${env.TF_WORKING_DIR}/locals.tf`)
-    this.updateIgnoredTypesFrom(`${env.TF_WORKING_DIR}/locals_override.tf`)
-    this.setState(source)
+    this._state = this.getState(source)
   }
 
-  async reset() {
-    this.setState(await thisModule.loadState())
+  async reset(): Promise<void> {
+    const state = await import('./state.js')
+    this._state = this.getState(await state.loadState())
   }
 
-  async refresh() {
+  async refresh(): Promise<void> {
     if (env.TF_EXEC === 'true') {
       await cli.exec(
         `terraform apply -refresh-only -auto-approve -lock=${env.TF_LOCK}`,
@@ -131,11 +130,9 @@ export class State {
     resourceClass: ResourceConstructor<T>
   ): string[] {
     if (ResourceConstructors.includes(resourceClass)) {
-      return (
-        this._state?.values?.root_module?.resources
-          .filter((r: any) => r.type === resourceClass.StateType)
-          .map((r: any) => r.address) || []
-      )
+      return (this._state?.values?.root_module?.resources ?? [])
+        .filter(r => r.type === resourceClass.StateType)
+        .map(r => r.address)
     } else {
       throw new Error(`${resourceClass.name} is not supported`)
     }
@@ -158,17 +155,18 @@ export class State {
     }
   }
 
-  isIgnored<T extends Resource>(
+  async isIgnored<T extends Resource>(
     resourceClass: ResourceConstructor<T>
-  ): boolean {
-    return this._ignoredTypes.includes(resourceClass.StateType)
+  ): Promise<boolean> {
+    const {Locals} = await import('./locals.js')
+    return !Locals.getLocals().resource_types.includes(resourceClass.StateType)
   }
 
-  async addResource(id: Id, resource: Resource) {
+  async addResource(id: Id, resource: Resource): Promise<void> {
     await this.addResourceAt(id, resource.getStateAddress().toLowerCase())
   }
 
-  async addResourceAt(id: Id, address: string) {
+  async addResourceAt(id: Id, address: string): Promise<void> {
     if (env.TF_EXEC === 'true') {
       await cli.exec(
         `terraform import -lock=${env.TF_LOCK} "${address.replaceAll(
@@ -181,11 +179,11 @@ export class State {
     }
   }
 
-  async removeResource(resource: Resource) {
+  async removeResource(resource: Resource): Promise<void> {
     await this.removeResourceAt(resource.getStateAddress().toLowerCase())
   }
 
-  async removeResourceAt(address: string) {
+  async removeResourceAt(address: string): Promise<void> {
     if (env.TF_EXEC === 'true') {
       await cli.exec(
         `terraform state rm -lock=${env.TF_LOCK} "${address.replaceAll(
@@ -198,7 +196,7 @@ export class State {
     }
   }
 
-  async sync(resources: [Id, Resource][]) {
+  async sync(resources: [Id, Resource][]): Promise<void> {
     const addresses = this.getAllAddresses()
     for (const address of addresses) {
       if (

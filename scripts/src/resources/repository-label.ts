@@ -1,12 +1,12 @@
 import {Exclude, Expose, plainToClassFromExist} from 'class-transformer'
-import {Path, ConfigSchema} from '../yaml/schema'
-import {Resource} from './resource'
-import {GitHub} from '../github'
-import {Id, StateSchema} from '../terraform/schema'
+import {Path, ConfigSchema} from '../yaml/schema.js'
+import {Resource} from './resource.js'
+import {GitHub} from '../github.js'
+import {Id, StateSchema} from '../terraform/schema.js'
 
 @Exclude()
 export class RepositoryLabel implements Resource {
-  static StateType: string = 'github_issue_label'
+  static StateType = 'github_issue_label' as const
   static async FromGitHub(
     _labels: RepositoryLabel[]
   ): Promise<[Id, RepositoryLabel][]> {

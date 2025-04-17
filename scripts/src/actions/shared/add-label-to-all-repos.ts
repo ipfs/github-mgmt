@@ -1,16 +1,28 @@
-import {Config} from '../../yaml/config'
-import {Repository} from '../../resources/repository'
-import {RepositoryLabel} from '../../resources/repository-label'
+import {Config} from '../../yaml/config.js'
+import {Repository} from '../../resources/repository.js'
+import {RepositoryLabel} from '../../resources/repository-label.js'
 import * as core from '@actions/core'
 
+export async function runAddLabelToAllRepos(
+  name: string,
+  color: string | undefined = undefined,
+  description: string | undefined = undefined,
+  repositoryFilter: (repository: Repository) => boolean = (): boolean => true
+): Promise<void> {
+  const config = Config.FromPath()
+
+  await addLabelToAllRepos(config, name, color, description, repositoryFilter)
+
+  config.save()
+}
+
 export async function addLabelToAllRepos(
+  config: Config,
   name: string,
   color: string | undefined = undefined,
   description: string | undefined = undefined,
   repositoryFilter: (repository: Repository) => boolean = () => true
 ): Promise<void> {
-  const config = Config.FromPath()
-
   const repositories = config
     .getResources(Repository)
     .filter(r => !r.archived)
@@ -26,6 +38,4 @@ export async function addLabelToAllRepos(
       config.addResource(label)
     }
   }
-
-  config.save()
 }

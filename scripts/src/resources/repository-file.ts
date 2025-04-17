@@ -1,9 +1,9 @@
 import {Exclude, Expose, plainToClassFromExist} from 'class-transformer'
-import {Path, ConfigSchema} from '../yaml/schema'
-import {Resource} from './resource'
-import {GitHub} from '../github'
-import {Id, StateSchema} from '../terraform/schema'
-import env from '../env'
+import {Path, ConfigSchema} from '../yaml/schema.js'
+import {Resource} from './resource.js'
+import {GitHub} from '../github.js'
+import {Id, StateSchema} from '../terraform/schema.js'
+import env from '../env.js'
 import * as fs from 'fs'
 import * as path from 'path'
 
@@ -32,7 +32,7 @@ export function findFileByContent(
 
 @Exclude()
 export class RepositoryFile implements Resource {
-  static StateType: string = 'github_repository_file'
+  static StateType = 'github_repository_file' as const
   static async FromGitHub(
     files: RepositoryFile[]
   ): Promise<[Id, RepositoryFile][]> {
