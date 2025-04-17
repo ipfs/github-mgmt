@@ -17,6 +17,7 @@ export async function runDoNotEnforceAdmins(
 }
 
 export async function doNotEnforceAdmins(
+  config: Config,
   repositoryAndRuleFilter: (
     repository: Repository,
     branchProtectionRule: RepositoryBranchProtectionRule
@@ -43,6 +44,4 @@ export async function doNotEnforceAdmins(
     rule.enforce_admins = false
     config.addResource(rule)
   }
-
-  config.save()
 }
