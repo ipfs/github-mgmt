@@ -471,8 +471,7 @@ repositories:
         - meandavejustice
         - victorb
     default_branch: main
-    description: Community list of awesome projects, apps, tools, pinning services
-      and more related to IPFS.
+    description: Community list of awesome projects, apps, tools, pinning services and more related to IPFS.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -599,8 +598,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: A set of reference libraries for building IPFS applications and
-      implementations in Go.
+    description: A set of reference libraries for building IPFS applications and implementations in Go.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -628,8 +626,7 @@ repositories:
       maintain:
         - jkosem
     default_branch: master
-    description: Guidelines and recommendations for browser vendor design and
-      implementation of IPFS
+    description: Guidelines and recommendations for browser vendor design and implementation of IPFS
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -671,8 +668,7 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
     default_branch: master
-    description: 🏕 IPFS Camp is a 3 day hacker retreat designed for the builders of
-      the Distributed Web.
+    description: 🏕 IPFS Camp is a 3 day hacker retreat designed for the builders of the Distributed Web.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -729,8 +725,7 @@ repositories:
       admin:
         - damedoteth
     default_branch: main
-    description: A repository with information and documents about the
-      Communications Working Group.
+    description: A repository with information and documents about the Communications Working Group.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -816,8 +811,7 @@ repositories:
       push:
         - momack2
     default_branch: main
-    description: The IPFS Grant platform connects funding organizations with
-      builders and researchers in the IPFS community.
+    description: The IPFS Grant platform connects funding organizations with builders and researchers in the IPFS community.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -903,8 +897,7 @@ repositories:
       admin:
         - lidel
     default_branch: master
-    description: Legacy dist.ipfs.tech website and artifact build tools. Currently
-      only used for notarizing builds of Kubo and IPFS Cluster.
+    description: Legacy dist.ipfs.tech website and artifact build tools. Currently only used for notarizing builds of Kubo and IPFS Cluster.
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -983,8 +976,7 @@ repositories:
         - svvimming
         - timelytree
     default_branch: main
-    description: Interactive showcase of projects and products built using IPFS, the
-      InterPlanetary File System.
+    description: Interactive showcase of projects and products built using IPFS, the InterPlanetary File System.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1106,9 +1098,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: a vendor-agnostic gateway conformance test suite for implementers
-      of IPFS Gateways to ensure compliance
-      with  https://specs.ipfs.tech/http-gateways/
+    description: a vendor-agnostic gateway conformance test suite for implementers of IPFS Gateways to ensure compliance with  https://specs.ipfs.tech/http-gateways/
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1768,8 +1758,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: A datastore implementation using sharded directories and flat files
-      to store data
+    description: A datastore implementation using sharded directories and flat files to store data
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1877,8 +1866,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: A datastore implementation backed by
-      https://github.com/cockroachdb/pebble (experimental)
+    description: A datastore implementation backed by https://github.com/cockroachdb/pebble (experimental)
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1977,8 +1965,7 @@ repositories:
         - n0izn0iz
         - web3-bot
     default_branch: master
-    description: An implementation of ipfs/go-datastore that can be backed by any
-      SQL database.
+    description: An implementation of ipfs/go-datastore that can be backed by any SQL database.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2418,8 +2405,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: This repo provides definitions of regression statistics produced by
-      IPFS testground experiments
+    description: This repo provides definitions of regression statistics produced by IPFS testground experiments
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2569,8 +2555,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: A translation layer between go-ipld-prime nodes and go-ipld-format
-      legacy interface
+    description: A translation layer between go-ipld-prime nodes and go-ipld-format legacy interface
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2594,8 +2579,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: An implementation of the zcash block and transaction datastructures
-      for ipld
+    description: An implementation of the zcash block and transaction datastructures for ipld
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2979,8 +2963,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: An ADL IPLD prime node that wraps go-codec-dagpb's implementation
-      of protobuf to enable pathing
+    description: An ADL IPLD prime node that wraps go-codec-dagpb's implementation of protobuf to enable pathing
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3169,9 +3152,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: main
-    description: A library that helps Helia consumers pin content via the
-      https://ipfs.github.io/pinning-services-api-spec/. Initial design at
-      https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c
+    description: A library that helps Helia consumers pin content via the https://ipfs.github.io/pinning-services-api-spec/. Initial design at https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c
     files:
       .github/pull_request_template.md:
         content: .github/helia_pull_request_template.md
@@ -3317,8 +3298,7 @@ repositories:
         - darobin
         - lidel
     default_branch: master
-    description: Tracking the endeavor towards getting web browsers to natively
-      support IPFS and content-addressing
+    description: Tracking the endeavor towards getting web browsers to natively support IPFS and content-addressing
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3422,8 +3402,7 @@ repositories:
         content: >
           # Please see the documentation for all configuration options:
 
-          #
-          https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
           version: 2
@@ -3477,8 +3456,7 @@ repositories:
       push:
         - quickhatche
     default_branch: main
-    description: Conference content and other resources for IPFS Camp 2022 in
-      Lisbon, Portugal
+    description: Conference content and other resources for IPFS Camp 2022 in Lisbon, Portugal
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3629,8 +3607,7 @@ repositories:
       admin:
         - lidel
     default_branch: main
-    description: "An unobtrusive and user-friendly desktop application for IPFS on
-      Windows, Mac and Linux. "
+    description: "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3707,8 +3684,7 @@ repositories:
         content: >
           # Please see the documentation for all configuration options:
 
-          #
-          https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
           version: 2
@@ -3804,8 +3780,7 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     default_branch: main
-    description: Creating standards and patterns for IPFS that are simple,
-      accessible, reusable, and beautiful
+    description: Creating standards and patterns for IPFS that are simple, accessible, reusable, and beautiful
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3845,8 +3820,7 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
     default_branch: main
-    description: This is an empty repository template that includes issue templates
-      and license.
+    description: This is an empty repository template that includes issue templates and license.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3885,8 +3859,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: "[DEPRECATED] legacy updater tool for Kubo IPFS binary. Please
-      migrate to something else."
+    description: "[DEPRECATED] legacy updater tool for Kubo IPFS binary. Please migrate to something else."
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4523,8 +4496,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: JavaScript implementation of IPFS' unixfs (a Unix FileSystem
-      representation on top of a MerkleDAG)
+    description: JavaScript implementation of IPFS' unixfs (a Unix FileSystem representation on top of a MerkleDAG)
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5365,8 +5337,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: A Delegated Routing V1 server and client for all your HTTP/IPFS
-      routing needs.
+    description: A Delegated Routing V1 server and client for all your HTTP/IPFS routing needs.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5650,8 +5621,7 @@ teams:
         - momack2
     privacy: closed
   community:
-    description: Community managers, community engineers, and other people that need
-      write privs.
+    description: Community managers, community engineers, and other people that need write privs.
     members:
       maintainer:
         - 2color
@@ -5965,8 +5935,7 @@ teams:
         - SgtPooki
     privacy: closed
   web3-bot:
-    description: This team allows giving @web3-bot special permissions in places
-      where only teams are accepted
+    description: This team allows giving @web3-bot special permissions in places where only teams are accepted
     members:
       maintainer:
         - web3-bot
@@ -5996,8 +5965,7 @@ teams:
         - Stebalien
     privacy: closed
   WG GUI/UX:
-    description: "The GUI/UX Team - Making IPFS GUIs simple, accessible, reusable
-      and beautiful. "
+    description: "The GUI/UX Team - Making IPFS GUIs simple, accessible, reusable and beautiful. "
     members:
       maintainer:
         - lidel
