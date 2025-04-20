@@ -228,7 +228,7 @@ members:
     - terichadbourne
     - thattommyhall
     - TheDiscordian
-    - tinytb
+    - TinyTb
     - travisperson
     - tv42
     - vasa-develop
@@ -3422,7 +3422,8 @@ repositories:
         content: >
           # Please see the documentation for all configuration options:
 
-          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+          #
+          https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
           version: 2
@@ -3706,7 +3707,8 @@ repositories:
         content: >
           # Please see the documentation for all configuration options:
 
-          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+          #
+          https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
           version: 2
@@ -5723,7 +5725,6 @@ teams:
     # 3. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 4. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/ipfs/ipfs/issues/511
-    create_default_maintainer: false
     description: Users that are effectively org owners/admins
     members:
       # WARN: membership here should be treated as cautiously as having an "org owner" role,
@@ -5746,11 +5747,7 @@ teams:
         # Why @mishmosh?
         # 1. Director of the being-stood-up-in-2024 IPFS Foundation
         - mishmosh
-        # Why @stebalien?
-        # 1. Not involved in the IPFS day-to-day currently, but has a lot of historical knowledge.  Provides an informed outside perspective.
-        # 2. Familiar with github-mgmt responsibilities in other orgs.
-        # KEEP: For the reasons above
-        - stebalien
+        - Stebalien
         # Why @willscott?
         # 1. Active maintainer in and around IPFS projects for multiple years now.
         # 2. Active and experienced with github-mgmt in other organizations (e.g., ipld).
@@ -5924,7 +5921,6 @@ teams:
         - wemeetagain
     privacy: closed
   shipyard:
-    create_default_maintainer: false
     description: Members of Interplanetary Shipyard who work with or on IPFS
     members:
       maintainer:
