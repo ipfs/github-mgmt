@@ -1,4 +1,4 @@
-name: Close and mark stale issue
+name: Close Stale Issues
 
 on:
   schedule:
@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   stale:
-    uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
+    uses: ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1
