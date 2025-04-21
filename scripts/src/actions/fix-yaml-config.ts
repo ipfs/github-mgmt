@@ -1,4 +1,5 @@
 import 'reflect-metadata'
+import {Permission} from '../resources/repository-collaborator.js'
 import {Repository} from '../resources/repository.js'
 import {RepositoryBranchProtectionRule} from '../resources/repository-branch-protection-rule.js'
 import {globToRegex} from '../utils.js'
