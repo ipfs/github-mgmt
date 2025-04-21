@@ -282,6 +282,8 @@ repositories:
         - 2color
         - lidel
         - mishmosh
+      push:
+        - web3-bot
     default_branch: main
     description: Readme for https://github.com/ipfs
     has_discussions: false
@@ -304,6 +306,8 @@ repositories:
         - cwaring
         - lidel
         - olizilla
+      push:
+        - web3-bot
     default_branch: master
     description: IPFS Camp 2019 Website
     has_discussions: false
@@ -333,6 +337,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Aegir themes for TypeDoc.
     files:
@@ -391,6 +398,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Coordinating writing apps on top of ipfs, and their concerns.
     has_discussions: false
@@ -417,6 +427,7 @@ repositories:
     collaborators:
       push:
         - vesahc
+        - web3-bot
     default_branch: main
     description: is IPFS actually InterPlanetary yet?
     has_discussions: false
@@ -436,6 +447,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Open-licensed IPFS-related artwork
     has_discussions: false
@@ -470,6 +484,7 @@ repositories:
         - koalalorenzo
         - meandavejustice
         - victorb
+        - web3-bot
     default_branch: main
     description: Community list of awesome projects, apps, tools, pinning services and more related to IPFS.
     has_discussions: false
@@ -531,6 +546,8 @@ repositories:
     collaborators:
       admin:
         - alanshaw
+      push:
+        - web3-bot
     default_branch: master
     description: Benchmarking for IPFS
     has_discussions: false
@@ -625,6 +642,8 @@ repositories:
     collaborators:
       maintain:
         - jkosem
+      push:
+        - web3-bot
     default_branch: master
     description: Guidelines and recommendations for browser vendor design and implementation of IPFS
     has_discussions: false
@@ -667,6 +686,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: 🏕 IPFS Camp is a 3 day hacker retreat designed for the builders of the Distributed Web.
     has_discussions: false
@@ -696,6 +718,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Helper scripts for C.I.
     has_discussions: false
@@ -724,6 +749,8 @@ repositories:
     collaborators:
       admin:
         - damedoteth
+      push:
+        - web3-bot
     default_branch: main
     description: A repository with information and documents about the Communications Working Group.
     has_discussions: false
@@ -742,6 +769,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      push:
+        - web3-bot
       triage:
         - leshokunin
     default_branch: master
@@ -783,6 +812,8 @@ repositories:
     collaborators:
       admin:
         - 2color
+      push:
+        - web3-bot
     default_branch: main
     description: "Notes from the IPFS DApps Working Group "
     has_discussions: true
@@ -810,6 +841,7 @@ repositories:
         - realChainLife
       push:
         - momack2
+        - web3-bot
     default_branch: main
     description: The IPFS Grant platform connects funding organizations with builders and researchers in the IPFS community.
     has_discussions: false
@@ -842,6 +874,8 @@ repositories:
     collaborators:
       admin:
         - lidel
+      push:
+        - web3-bot
     default_branch: main
     description: Putting Wikipedia Snapshots on IPFS
     has_discussions: false
@@ -896,6 +930,8 @@ repositories:
     collaborators:
       admin:
         - lidel
+      push:
+        - web3-bot
     default_branch: master
     description: Legacy dist.ipfs.tech website and artifact build tools. Currently only used for notarizing builds of Kubo and IPFS Cluster.
     files:
@@ -930,6 +966,8 @@ repositories:
     collaborators:
       admin:
         - galargh
+      push:
+        - web3-bot
     default_branch: master
     files:
       .github/dependabot.yml:
@@ -975,6 +1013,8 @@ repositories:
         - mishmosh
         - svvimming
         - timelytree
+      push:
+        - web3-bot
     default_branch: main
     description: Interactive showcase of projects and products built using IPFS, the InterPlanetary File System.
     has_discussions: false
@@ -1005,6 +1045,8 @@ repositories:
     collaborators:
       admin:
         - hugomrdias
+      push:
+        - web3-bot
     default_branch: main
     description: An ESLint Shareable Config used by IPFS project
     has_discussions: false
@@ -1042,6 +1084,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Migrations for the filesystem repository of ipfs clients
     files:
@@ -1122,6 +1167,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1161,6 +1209,9 @@ repositories:
           contexts:
             - Comment
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     files:
       CODEOWNERS:
@@ -1381,6 +1432,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: A prototype of a diskbased datastore looks up DAG data by selector
     has_discussions: false
@@ -1404,6 +1458,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: Simple event bus for data transfers
     has_discussions: false
@@ -1615,6 +1672,9 @@ repositories:
         required_linear_history: false
         required_status_checks:
           strict: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "Datastore implementation using Badger v4 as backend. "
     has_discussions: false
@@ -1662,6 +1722,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     description: A distributed go-datastore implementation using Merkle-CRDTs.
     files:
@@ -1989,6 +2051,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Experimental Swift / Openstack Object Storage datastore
     has_discussions: false
@@ -2135,6 +2200,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: archived/master
     description: Archived branches of go-ipfs
     has_discussions: false
@@ -2404,6 +2472,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: This repo provides definitions of regression statistics produced by IPFS testground experiments
     has_discussions: false
@@ -2455,6 +2526,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: ":globe_with_meridians: Bring Ethereum to IPFS :globe_with_meridians:"
     has_discussions: false
@@ -2578,6 +2652,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: An implementation of the zcash block and transaction datastructures for ipld
     has_discussions: false
@@ -2612,6 +2689,8 @@ repositories:
     collaborators:
       admin:
         - Jorropo
+      push:
+        - web3-bot
     default_branch: main
     description: "[EXPERIMENTAL] A fork of ipfs/boxo with experimental RAPIDE client."
     has_discussions: false
@@ -2637,6 +2716,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Under construction /!\
     has_discussions: false
@@ -2825,6 +2907,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - web3-bot
     default_branch: main
     description: Extracted generic networking code from go-bitswap and go-graphsync
     has_discussions: false
@@ -2990,6 +3074,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Tips, tricks and scripts for gomod
     has_discussions: false
@@ -3060,6 +3147,9 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: Run helia as a daemon process
     files:
@@ -3119,6 +3209,9 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: Run Helia NodeJS in a Docker Container.
     files:
@@ -3151,6 +3244,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: A library that helps Helia consumers pin content via the https://ipfs.github.io/pinning-services-api-spec/. Initial design at https://pl-strflt.notion.site/create-interface-API-example-for-helia-remote-pinning-library-71011845a7b9476cb95ab425bb54455c
     files:
@@ -3185,6 +3281,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     description: A fetch-like API for obtaining verified & trustless IPFS CIDs on the web
     files:
@@ -3229,6 +3327,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     description: An implementation of IPFS in TypeScript
     files:
@@ -3264,6 +3364,8 @@ repositories:
         - darobin
       maintain:
         - bumblefudge
+      push:
+        - web3-bot
     default_branch: main
     description: The site for the implementation fund
     has_discussions: false
@@ -3297,6 +3399,8 @@ repositories:
       admin:
         - darobin
         - lidel
+      push:
+        - web3-bot
     default_branch: master
     description: Tracking the endeavor towards getting web browsers to natively support IPFS and content-addressing
     has_discussions: false
@@ -3333,6 +3437,8 @@ repositories:
     collaborators:
       maintain:
         - markg85
+      push:
+        - web3-bot
     default_branch: main
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3394,6 +3500,7 @@ repositories:
         - stan-pl
         - TheDiscordian
         - warpfork
+        - web3-bot
         - yiannisbot
     default_branch: main
     description: IPFS Blog & News
@@ -3455,6 +3562,7 @@ repositories:
         - TheDiscordian
       push:
         - quickhatche
+        - web3-bot
     default_branch: main
     description: Conference content and other resources for IPFS Camp 2022 in Lisbon, Portugal
     has_discussions: false
@@ -3477,6 +3585,7 @@ repositories:
         - 2color
       push:
         - mishmosh
+        - web3-bot
         - yunigraham
     default_branch: master
     has_discussions: false
@@ -3554,6 +3663,7 @@ repositories:
         - meandavejustice
       push:
         - olizilla
+        - web3-bot
     default_branch: main
     description: Browser extension that simplifies access to IPFS resources on the web
     has_discussions: false
@@ -3606,6 +3716,8 @@ repositories:
     collaborators:
       admin:
         - lidel
+      push:
+        - web3-bot
     default_branch: main
     description: "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
     files:
@@ -3677,6 +3789,7 @@ repositories:
         - TheDiscordian
       push:
         - mishmosh
+        - web3-bot
     default_branch: main
     description: 📚IPFS documentation platform
     files:
@@ -3779,6 +3892,9 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: Creating standards and patterns for IPFS that are simple, accessible, reusable, and beautiful
     has_discussions: false
@@ -3819,6 +3935,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: This is an empty repository template that includes issue templates and license.
     has_discussions: false
@@ -3907,6 +4026,7 @@ repositories:
         - cwaring
       push:
         - mishmosh
+        - web3-bot
     default_branch: main
     description: Official IPFS Project website
     has_discussions: false
@@ -3954,6 +4074,7 @@ repositories:
     collaborators:
       push:
         - ipfs-gui-bot
+        - web3-bot
       triage:
         - juliaxbow
     default_branch: main
@@ -3994,6 +4115,8 @@ repositories:
     collaborators:
       admin:
         - 2color
+      push:
+        - web3-bot
     default_branch: main
     description: IPFS shortlinks
     has_discussions: false
@@ -4017,6 +4140,7 @@ repositories:
         - darobin
       push:
         - TheDiscordian
+        - web3-bot
     default_branch: master
     description: Peer-to-peer hypermedia protocol
     has_discussions: true
@@ -4238,6 +4362,7 @@ repositories:
         - Gozala
       push:
         - andrewxhill
+        - web3-bot
     default_branch: default
     description: Library for storing and replicating hash-linked data over the IPFS network.
     files:
@@ -4315,6 +4440,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: pull-blob-store implementation for the filesystem in node.js
     has_discussions: false
@@ -4369,6 +4497,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IndexedDB implementation for interface-pull-blob-store
     has_discussions: false
@@ -4431,6 +4562,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "[DEPRECATED]"
     has_discussions: false
@@ -4687,6 +4821,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Leveldb implementation of interface-pull-blob-store
     has_discussions: false
@@ -4820,6 +4957,9 @@ repositories:
             - go-test
             - sharness-test
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: An IPFS implementation in Go
     files:
@@ -4852,6 +4992,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - web3-bot
     default_branch: main
     description: Just a planning repo for project lightning storm for now
     has_discussions: false
@@ -4874,6 +5016,7 @@ repositories:
         - momack2
       push:
         - terichadbourne
+        - web3-bot
     default_branch: master
     description: Local Offline Collaboration Special Interest Group
     has_discussions: false
@@ -4896,6 +5039,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Regularly collect and publish metrics about the IPFS ecosystem
     has_discussions: false
@@ -4918,6 +5064,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Making IPFS work for mobile
     has_discussions: false
@@ -4948,6 +5097,7 @@ repositories:
     collaborators:
       push:
         - moyid
+        - web3-bot
     default_branch: master
     description: Prepare and store the IPFS Newsletter
     has_discussions: false
@@ -4975,6 +5125,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Install Kubo (go-ipfs) from NPM
     has_discussions: false
@@ -5054,6 +5207,7 @@ repositories:
         - lidel
       push:
         - Gozala
+        - web3-bot
     default_branch: main
     description: Standalone, vendor-agnostic Pinning Service API for IPFS ecosystem
     files:
@@ -5212,6 +5366,8 @@ repositories:
       admin:
         - 2color
         - dchoi27
+      push:
+        - web3-bot
     default_branch: master
     description: IPFS Project && Working Group Roadmaps Repo
     has_discussions: false
@@ -5294,6 +5450,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Shell library to test your Unix tools like Git does
     has_discussions: false
@@ -5361,6 +5520,7 @@ repositories:
     collaborators:
       push:
         - darobin
+        - web3-bot
     default_branch: main
     description: Static spec website generator used by https://specs.ipfs.tech
     has_discussions: false
@@ -5404,6 +5564,7 @@ repositories:
         - bumblefudge
       push:
         - vmx
+        - web3-bot
     default_branch: main
     description: Technical specifications for the IPFS protocol stack
     has_discussions: false
@@ -5445,6 +5606,8 @@ repositories:
     collaborators:
       admin:
         - galargh
+      push:
+        - web3-bot
     default_branch: master
     files:
       .github/dependabot.yml:
@@ -5472,6 +5635,8 @@ repositories:
     collaborators:
       admin:
         - darobin
+      push:
+        - web3-bot
     default_branch: main
     description: IPFS Steering WG
     has_discussions: false
@@ -5518,6 +5683,8 @@ repositories:
     collaborators:
       admin:
         - damedoteth
+      push:
+        - web3-bot
     default_branch: main
     has_discussions: false
     merge_commit_message: PR_TITLE
