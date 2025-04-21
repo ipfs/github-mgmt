@@ -5,6 +5,7 @@ import {globToRegex} from '../utils.js'
 import {runDoNotEnforceAdmins} from './do-not-enforce-admins.js'
 import {runAddFileToAllRepos} from './shared/add-file-to-all-repos.js'
 import {runFormat} from './shared/format.js'
+import {runAddCollaboratorToAllRepos} from './shared/add-collaborator-to-all-repos.js'
 import {runSetPropertyInAllRepos} from './shared/set-property-in-all-repos.js'
 import {runToggleArchivedRepos} from './shared/toggle-archived-repos.js'
 import {runDescribeAccessChanges} from './shared/describe-access-changes.js'
@@ -56,6 +57,10 @@ async function run() {
       isInitialised(repository) &&
       repository.default_branch !== undefined &&
       globToRegex(rule.pattern).test(repository.default_branch)
+  )
+  await runAddCollaboratorToAllRepos(
+    'web3-bot',
+    Permission.Push
   )
   await runToggleArchivedRepos()
   const accessChangesDescription = await runDescribeAccessChanges()
