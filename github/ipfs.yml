@@ -3495,6 +3495,7 @@ repositories:
         - cwaring
       push:
         - damedoteth
+        - darobin
         - emilymvaughan
         - mishmosh
         - stan-pl
@@ -3502,7 +3503,6 @@ repositories:
         - warpfork
         - web3-bot
         - yiannisbot
-        - darobin
     default_branch: main
     description: IPFS Blog & News
     files:
