@@ -4117,6 +4117,7 @@ repositories:
       admin:
         - 2color
       push:
+        - bumblefudge
         - web3-bot
     default_branch: main
     description: IPFS shortlinks
