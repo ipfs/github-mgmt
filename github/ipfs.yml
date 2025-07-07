@@ -24,7 +24,7 @@ members:
     # 3. Has previously had org owner permissions in this organization
     # 4. Has been in practice handling issues requiring org owner permissions since the cleanup here in 2023
     - lidel
-    
+
   member:
     - 1015bit
     - 2color
@@ -46,8 +46,8 @@ members:
     - amstocker
     - andrew
     - andrewxhill
-    - andyschwab
     - andyschwab-admin
+    - andyschwab
     - angiemaguire
     - anorth
     - apronkin
