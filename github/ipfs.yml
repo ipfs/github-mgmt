@@ -21,6 +21,9 @@ members:
     # Why @lidel
     # Need admin to enable trial-run of codeclimate in selected repositories
     - lidel
+    # Why @mishmosh?
+    # to fix payment info for ipfs org
+    - mishmosh
   member:
     - 1015bit
     - 2color
