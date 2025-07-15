@@ -8,19 +8,23 @@ members:
   # "github-mgmt Stewards" team can still escalate into org owner permissions if/when needed.
   # This minimal owner set plus supporting rationale was documented and discussed in https://github.com/ipfs/ipfs/issues/511.
   admin:
-    # Why @andyschwab-admin?
-    # 1. leader of [Sodal](https://sodal.io/)
-    # 2. has close access to [sead](https://www.sead.ai/), which is charged with sysadmin for critical systems within the wider Protocol Labs Network
-    # 3. general long-standing sysadmin for these organizations with his past roles at PL Inc
-    # 4. This isn't andyschwab's day-to-day GitHub account
-    - andyschwab-admin
+    # Why @aschmahmann?
+    # 1. co-founder of [Shipyard](https://ipshipyard.com/) which maintains the most widely used repositories in this organization
+    # 2. Has been a long-time contributor to IPFS and its ecosystem (2018)
+    # 3. Has previously had org owner permissions in this organization
+    # 4. Operates in a different time zone from other org owners, which helps with coverage
+    - aschmahmann
     # Why @galargh?
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
     # Why @lidel
-    # Need admin to enable trial-run of codeclimate in selected repositories
+    # 1. Works with [Shipyard](https://ipshipyard.com/) which maintains the most widely used repositories in this organization
+    # 2. Has been a long-time contributor to IPFS and its ecosystem (2015)
+    # 3. Has previously had org owner permissions in this organization
+    # 4. Has been in practice handling issues requiring org owner permissions since the cleanup here in 2023
     - lidel
+
   member:
     - 1015bit
     - 2color
@@ -42,6 +46,7 @@ members:
     - amstocker
     - andrew
     - andrewxhill
+    - andyschwab-admin
     - andyschwab
     - angiemaguire
     - anorth
@@ -50,7 +55,6 @@ members:
     - arajasek
     - arcalinea
     - arsstone
-    - aschmahmann
     - AuHau
     - avras
     - b5
