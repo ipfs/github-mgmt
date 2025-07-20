@@ -5707,12 +5707,12 @@ teams:
     description: Admin Access to all repos, for CI etc
     members:
       maintainer:
+        - aschmahmann
         - Stebalien
       member:
         - achingbrain
         - alanshaw
         - arajasek
-        - aschmahmann
         - daviddias
         - hsanjuan
         - jbenet
@@ -5802,11 +5802,12 @@ teams:
     privacy: closed
   contributors:
     members:
+      maintainer:
+        - aschmahmann
       member:
         - achingbrain
         - adlrocha
         - alanshaw
-        - aschmahmann
         - b5
         - BigLep
         - bigs
@@ -5879,13 +5880,13 @@ teams:
       # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
       # and reducing risk by not having too many with the escalation path that this role affords.
       maintainer:
+        - aschmahmann
         - lidel
       member:
         # Why @aschmahmann?
         # 1. Long-time and still very active contributor to important repos like kubo and specs
         # 2. Director of IP Shipyard, which is an organization receiving significant grant funding for IPFS development and maintenance.
         # 3. Leader of multiple public IPFS working groups (dapps, implementers)
-        - aschmahmann
         # Why @mishmosh?
         # 1. Director of the being-stood-up-in-2024 IPFS Foundation
         - mishmosh
@@ -5899,10 +5900,10 @@ teams:
     description: Members of the core team for Go repositories
     members:
       maintainer:
+        - aschmahmann
         - Kubuxu
         - Stebalien
       member:
-        - aschmahmann
         - dirkmc
         - gammazero
         - guseggert
@@ -5915,8 +5916,9 @@ teams:
     privacy: closed
   go-ipfs-priv:
     members:
-      member:
+      maintainer:
         - aschmahmann
+      member:
         - Jorropo
         - Stebalien
     privacy: secret
@@ -5959,9 +5961,9 @@ teams:
     description: Kubo Maintainers
     members:
       maintainer:
+        - aschmahmann
         - lidel
       member:
-        - aschmahmann
         - gammazero
         - guillaumemichel
         - hsanjuan
@@ -5975,9 +5977,10 @@ teams:
   Merge - Go:
     description: Merge permissions to Go repos
     members:
+      maintainer:
+        - aschmahmann
       member:
         - alanshaw
-        - aschmahmann
         - dirkmc
         - frrist
         - hannahhoward
@@ -6000,6 +6003,7 @@ teams:
     description: Golang Repos
     members:
       maintainer:
+        - aschmahmann
         - lidel
         - Stebalien
       member:
@@ -6009,7 +6013,6 @@ teams:
         - adlrocha
         - alanshaw
         - anorth
-        - aschmahmann
         - daviddias
         - dignifiedquire
         - dirkmc
@@ -6082,23 +6085,23 @@ teams:
     description: IPFS Specifications Stewards
     members:
       maintainer:
+        - aschmahmann
         - darobin
         - lidel
       member:
         - achingbrain
-        - aschmahmann
         - Stebalien
         - yiannisbot
     privacy: closed
   w3dt-stewards:
     members:
       maintainer:
+        - aschmahmann
         - galargh
         - lidel
       member:
         - 2color
         - achingbrain
-        - aschmahmann
         - gammazero
         - guillaumemichel
         - Jorropo
@@ -6184,10 +6187,10 @@ teams:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
     members:
       maintainer:
+        - aschmahmann
         - lidel
       member:
         - achingbrain
-        - aschmahmann
         - jacobheun
         - SgtPooki
     privacy: closed
