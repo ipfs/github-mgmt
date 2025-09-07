@@ -3482,7 +3482,7 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - build-and-deploy
+            - build
           strict: true
       staging:
         allows_deletions: false
@@ -3698,6 +3698,37 @@ repositories:
       - p2p
       - protocol
       - webextension
+    visibility: public
+  ipfs-deploy-action:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+      push:
+        - web3-bot
+    default_branch: main
+    description: Official IPFS GitHub Action for deploying static sites (or builds) to IPFS nodes/pinning services with CAR files, and addressing site builds with CIDs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - actions
+      - car-file
+      - cid
+      - deploy
+      - github
+      - ipfs-cluster
+      - ipfs
+      - kubo
+      - pinata
+      - storacha
+      - upload
     visibility: public
   ipfs-desktop:
     advanced_security: false
@@ -3926,6 +3957,25 @@ repositories:
     visibility: public
   ipfs-project.org:
     archived: true
+  ipfs-quicklaunch:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+      push:
+        - web3-bot
+    default_branch: main
+    description: IPFS app launcher browser extension with local pet names, version management, and smart CID discovery
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   ipfs-repository-template:
     advanced_security: false
     allow_update_branch: false
@@ -4243,6 +4293,29 @@ repositories:
     topics:
       - ipfs-gui
       - ipfs
+    visibility: public
+  ipns-inspector:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+      push:
+        - web3-bot
+    default_branch: main
+    description: inspect and create IPNS records from the browser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    topics:
+      - debug
+      - ipfs
+      - ipns
     visibility: public
   iptb-plugins:
     advanced_security: false
