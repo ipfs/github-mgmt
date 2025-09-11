@@ -1584,6 +1584,49 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-dsqueue:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        push_restrictions:
+          - /web3-bot
+          - ipfs/merge-go
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    description: Buffered FIFO interface to datastore
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - Go Core Team
+        - Merge - Go
+        - Repos - Go
+    visibility: public
   go-ds-badger:
     advanced_security: false
     allow_update_branch: false
