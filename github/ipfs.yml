@@ -2080,6 +2080,23 @@ repositories:
         - Merge - Go
         - Repos - Go
     visibility: public
+  go-dsqueue:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - gammazero
+    default_branch: main
+    description: Buffered FIFO interface to datastore
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-fetcher:
     archived: true
   go-filestore:
