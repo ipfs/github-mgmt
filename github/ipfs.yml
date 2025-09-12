@@ -2087,6 +2087,8 @@ repositories:
     collaborators:
       admin:
         - gammazero
+      push:
+        - web3-bot
     default_branch: main
     description: Buffered FIFO interface to datastore
     has_discussions: false
