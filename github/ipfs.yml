@@ -2098,6 +2098,10 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - Go Core Team
+        - shipyard
     visibility: public
   go-fetcher:
     archived: true
@@ -3378,6 +3382,33 @@ repositories:
       - ipfs-helia
       - ipfs
     visibility: public
+  i18n:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - lidel
+      push:
+        - web3-bot
+    default_branch: main
+    description: IPFS Translation Project
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - github-mgmt stewards
+    topics:
+      - i18n
+      - ipfs-gui
+      - ipfs
+      - translation
+    visibility: public
   implementations-grants:
     advanced_security: false
     allow_update_branch: false
@@ -4246,6 +4277,25 @@ repositories:
       - p2p
       - paper
       - protocol
+    visibility: public
+  ipfsio-about:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   ipget:
     advanced_security: false
