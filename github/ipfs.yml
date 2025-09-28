@@ -3856,7 +3856,6 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           dismissal_restrictions:
-            - /2color
             - /lidel
             - /mishmosh
           require_code_owner_reviews: false
@@ -3864,7 +3863,7 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           contexts:
-            - Fleek - docs-ipfs-tech
+            - build
           strict: false
     collaborators:
       admin:
@@ -3877,7 +3876,7 @@ repositories:
         - mishmosh
         - web3-bot
     default_branch: main
-    description: 📚IPFS documentation platform
+    description: 📚IPFS documentation website
     files:
       .github/dependabot.yml:
         content: >
