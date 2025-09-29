@@ -6245,11 +6245,11 @@ teams:
         - achingbrain
         - gammazero
         - guillaumemichel
+        - hsanjuan
         - Jorropo
         - laurentsenta
         - MarcoPolo
         - SgtPooki
-        - hsanjuan
     privacy: closed
   web3-bot:
     description: This team allows giving @web3-bot special permissions in places where only teams are accepted
