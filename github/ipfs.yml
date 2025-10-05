@@ -6068,8 +6068,8 @@ teams:
     members:
       maintainer:
         - lidel
-        - SgtPooki
       member:
+        - SgtPooki
         - whizzzkid
     privacy: closed
   helia-dev:
