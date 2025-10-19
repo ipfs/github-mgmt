@@ -4842,7 +4842,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     description: Control an IPFS daemon (go-ipfs or js-ipfs) using JavaScript!
     has_discussions: false
     merge_commit_message: PR_TITLE
