@@ -2685,7 +2685,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
       pull:
         - github-mgmt stewards
       push:
