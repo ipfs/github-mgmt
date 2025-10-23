@@ -6108,14 +6108,10 @@ teams:
         - aschmahmann
         - lidel
       member:
-        - 2color
         - achingbrain
         - gammazero
         - guillaumemichel
         - hsanjuan
-        - MarcoPolo
-        - SgtPooki
-        - sukunrt
     privacy: secret
   Specs Stewards:
     description: IPFS Specifications Stewards
