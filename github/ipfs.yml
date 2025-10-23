@@ -627,7 +627,6 @@ repositories:
       maintain:
         - shipyard
       push:
-        - Merge - Go
         - Repos - Go
     topics:
       - go
@@ -950,7 +949,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   download-ipfs-distribution-action:
@@ -1101,7 +1099,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   gateway-conformance:
@@ -1252,7 +1249,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-bitswap-priv:
@@ -1287,7 +1283,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-blockservice:
@@ -1333,7 +1328,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-cid:
@@ -1382,7 +1376,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     topics:
       - cid
@@ -1416,7 +1409,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-dag-store:
@@ -1505,7 +1497,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-delegated-routing:
@@ -1537,7 +1528,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-dnslink:
@@ -1568,7 +1558,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-badger:
@@ -1610,7 +1599,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-badger2:
@@ -1758,7 +1746,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
         - WG IPFS Cluster
     visibility: public
@@ -1830,7 +1817,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-leveldb:
@@ -1860,7 +1846,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-measure:
@@ -1890,7 +1875,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-pebble:
@@ -1961,7 +1945,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-s3:
@@ -2006,7 +1989,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-sql:
@@ -2035,7 +2017,6 @@ repositories:
         - github-mgmt stewards
         - Go Core Team
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ds-swift:
@@ -2064,7 +2045,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-dsqueue:
@@ -2141,7 +2121,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-graphsync:
@@ -2203,7 +2182,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-hamt-ipld:
@@ -2237,7 +2215,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipfs-blockstore:
@@ -2269,7 +2246,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipfs-chunker:
@@ -2320,7 +2296,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipfs-config:
@@ -2352,7 +2327,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipfs-ds-help:
@@ -2384,7 +2358,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipfs-exchange-interface:
@@ -2430,7 +2403,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipfs-priv:
@@ -2533,7 +2505,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipld-eth-import:
@@ -2562,7 +2533,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     topics:
       - ethereum
@@ -2600,7 +2570,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipld-git:
@@ -2630,7 +2599,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipld-legacy:
@@ -2659,7 +2627,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipld-zcash:
@@ -2689,7 +2656,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-ipns:
@@ -2719,8 +2685,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Merge - Go
       pull:
         - github-mgmt stewards
       push:
@@ -2778,7 +2742,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-merkledag:
@@ -2809,7 +2772,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-metrics-interface:
@@ -2838,7 +2800,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-metrics-prometheus:
@@ -2869,7 +2830,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-mfs:
@@ -2907,7 +2867,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-pinning-service-http-client:
@@ -2963,7 +2922,6 @@ repositories:
         - Maintainers
       pull:
         - github-mgmt stewards
-        - Merge - Go
         - Repos - Go
       push:
         - Go Core Team
@@ -3044,7 +3002,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-unixfs:
@@ -3078,7 +3035,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   go-verifcid:
@@ -3134,7 +3090,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   helia-car:
@@ -3899,7 +3854,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   ipfs-gui:
@@ -4026,7 +3980,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Core Team
-        - Merge - Go
         - Repos - Go
     visibility: public
   ipfs-website:
@@ -4242,7 +4195,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   ipld-explorer-components:
@@ -4308,7 +4260,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Merge - Go
         - Repos - Go
     visibility: public
   iptb:
@@ -4852,7 +4803,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Maintainers
-        - Merge - Go
         - Repos - Go
     topics:
       - http-client
@@ -5023,7 +4973,6 @@ repositories:
       pull:
         - contributors
       push:
-        - Merge - Go
         - Repos - Go
     topics:
       - ipfs
@@ -5626,7 +5575,6 @@ repositories:
       push:
         - docs
         - JS Core Team
-        - Merge - Go
         - Repos - Go
         - Specs Stewards
       triage:
@@ -6008,31 +5956,6 @@ teams:
     members:
       member:
         - hsanjuan
-    privacy: closed
-  Merge - Go:
-    description: Merge permissions to Go repos
-    members:
-      maintainer:
-        - aschmahmann
-      member:
-        - alanshaw
-        - dirkmc
-        - frrist
-        - hannahhoward
-        - hsanjuan
-        - jacobheun
-        - Jorropo
-        - Kubuxu
-        - magik6k
-        - marten-seemann
-        - masih
-        - raulk
-        - ribasushi
-        - Stebalien
-        - vyzo
-        - warpfork
-        - whyrusleeping
-        - willscott
     privacy: closed
   Repos - Go:
     description: Golang Repos
