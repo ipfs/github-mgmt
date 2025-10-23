@@ -323,7 +323,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -357,7 +357,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     visibility: public
@@ -381,7 +381,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -416,7 +416,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -465,7 +465,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -496,7 +496,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -529,7 +529,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -558,7 +558,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -654,7 +654,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
         - WG Web Browsers
       maintain:
         - Maintainers
@@ -699,7 +699,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -732,7 +732,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -784,7 +784,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - community
         - Maintainers
@@ -848,7 +848,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -883,7 +883,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -942,7 +942,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - gui-dev
         - Maintainers
@@ -976,7 +976,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     topics:
@@ -1018,7 +1018,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - website-deployers
       pull:
@@ -1051,7 +1051,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1094,7 +1094,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1145,7 +1145,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     topics:
@@ -1172,7 +1172,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     visibility: public
@@ -1248,7 +1248,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -1280,7 +1280,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1327,7 +1327,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1375,7 +1375,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1409,7 +1409,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1438,7 +1438,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - contributors
         - github-mgmt stewards
@@ -1498,7 +1498,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1530,7 +1530,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1562,7 +1562,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1604,7 +1604,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1751,7 +1751,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1786,7 +1786,7 @@ repositories:
       maintain:
         - Go Core Team
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     visibility: public
@@ -1823,7 +1823,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1853,7 +1853,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1883,7 +1883,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1930,7 +1930,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     visibility: public
@@ -1954,7 +1954,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -1999,7 +1999,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2030,7 +2030,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
         - Go Core Team
@@ -2057,7 +2057,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2134,7 +2134,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2196,7 +2196,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2230,7 +2230,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2262,7 +2262,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2313,7 +2313,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2345,7 +2345,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2378,7 +2378,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2423,7 +2423,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2477,7 +2477,7 @@ repositories:
     teams:
       maintain:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - admin
         - github-mgmt stewards
@@ -2526,7 +2526,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2556,7 +2556,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2593,7 +2593,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2623,7 +2623,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2654,7 +2654,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -2682,7 +2682,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2718,7 +2718,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Merge - Go
       pull:
@@ -2745,7 +2745,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2771,7 +2771,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2802,7 +2802,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2831,7 +2831,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2863,7 +2863,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2900,7 +2900,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -2958,7 +2958,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -3013,7 +3013,6 @@ repositories:
         - kubo maintainers
       maintain:
         - shipyard
-        - w3dt-stewards
       pull:
         - github-mgmt stewards
     topics:
@@ -3039,7 +3038,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -3072,7 +3071,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -3103,7 +3102,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -3129,7 +3128,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -3455,7 +3454,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - gui-dev
         - Maintainers
@@ -3580,7 +3579,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -3711,7 +3710,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
         - WG GUI/UX
@@ -3768,7 +3767,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - admin
         - github-mgmt stewards
@@ -3869,7 +3868,7 @@ repositories:
         - github-mgmt stewards
       push:
         - ipdx
-        - w3dt-stewards
+        - shipyard
     topics:
       - bounties
       - hacktoberfest
@@ -3896,7 +3895,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -3939,7 +3938,7 @@ repositories:
         - admin
         - gui-dev
         - ipdx
-        - w3dt-stewards
+        - shipyard
         - WG GUI/UX
       maintain:
         - Maintainers
@@ -3981,7 +3980,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4020,7 +4019,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4069,7 +4068,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - website-deployers
       pull:
@@ -4123,7 +4122,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -4179,7 +4178,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4237,7 +4236,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4272,7 +4271,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - admin
         - github-mgmt stewards
@@ -4303,7 +4302,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4332,7 +4331,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4364,7 +4363,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     visibility: public
@@ -4422,7 +4421,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
         - JS Core Team
@@ -4468,7 +4467,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4500,7 +4499,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4530,7 +4529,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - admin
         - github-mgmt stewards
@@ -4557,7 +4556,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4588,7 +4587,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4622,7 +4621,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4655,7 +4654,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4686,7 +4685,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4716,7 +4715,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4753,7 +4752,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4789,7 +4788,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4847,7 +4846,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - contributors
         - github-mgmt stewards
@@ -4881,7 +4880,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -4911,7 +4910,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -5073,7 +5072,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5098,7 +5097,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5123,7 +5122,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5155,7 +5154,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5185,7 +5184,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
         - Go Core Team
@@ -5216,7 +5215,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5267,7 +5266,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
         - wg-pinning-services
@@ -5304,7 +5303,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5335,7 +5334,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - gui-dev
         - Maintainers
@@ -5422,7 +5421,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5507,7 +5506,7 @@ repositories:
       pull:
         - github-mgmt stewards
         - ipdx
-        - w3dt-stewards
+        - shipyard
     visibility: public
   someguy:
     advanced_security: false
@@ -5574,7 +5573,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     visibility: public
@@ -5619,7 +5618,7 @@ repositories:
       admin:
         - admin
         - ipdx
-        - w3dt-stewards
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -5663,7 +5662,7 @@ repositories:
     teams:
       admin:
         - ipdx
-        - w3dt-stewards
+        - shipyard
       pull:
         - github-mgmt stewards
     topics:
@@ -6124,23 +6123,6 @@ teams:
         - achingbrain
         - Stebalien
         - yiannisbot
-    privacy: closed
-  w3dt-stewards:
-    members:
-      maintainer:
-        - aschmahmann
-        - galargh
-        - lidel
-      member:
-        - 2color
-        - achingbrain
-        - gammazero
-        - guillaumemichel
-        - hsanjuan
-        - Jorropo
-        - laurentsenta
-        - MarcoPolo
-        - SgtPooki
     privacy: closed
   web3-bot:
     description: This team allows giving @web3-bot special permissions in places where only teams are accepted
