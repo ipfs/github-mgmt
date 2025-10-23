@@ -283,8 +283,6 @@ repositories:
           restrict_dismissals: false
     collaborators:
       admin:
-        - 2color
-        - lidel
         - mishmosh
       push:
         - web3-bot
@@ -478,10 +476,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - 2color
-        - hacdias
-        - lidel
       push:
         - bmann
         - ipfs-gui-bot
@@ -814,8 +808,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - 2color
       push:
         - web3-bot
     default_branch: main
@@ -837,9 +829,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - 2color
         - FF-FOIT
-        - lidel
         - mishmosh
       maintain:
         - realChainLife
@@ -1007,9 +997,6 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
     collaborators:
-      admin:
-        - 2color
-        - orvn
       maintain:
         - amanda-agency-undone
         - D3AS8A
@@ -3544,9 +3531,6 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
     collaborators:
-      admin:
-        - 2color
-        - cwaring
       push:
         - damedoteth
         - darobin
@@ -3636,8 +3620,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - 2color
       push:
         - mishmosh
         - web3-bot
@@ -3656,8 +3638,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - 2color
       push:
         - web3-bot
     default_branch: main
@@ -3749,37 +3729,6 @@ repositories:
       - protocol
       - webextension
     visibility: public
-  ipfs-deploy-action:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-      push:
-        - web3-bot
-    default_branch: main
-    description: Official IPFS GitHub Action for deploying static sites (or builds) to IPFS nodes/pinning services with CAR files, and addressing site builds with CIDs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    topics:
-      - actions
-      - car-file
-      - cid
-      - deploy
-      - github
-      - ipfs-cluster
-      - ipfs
-      - kubo
-      - pinata
-      - storacha
-      - upload
-    visibility: public
   ipfs-desktop:
     advanced_security: false
     allow_update_branch: true
@@ -3866,12 +3815,8 @@ repositories:
             - build
           strict: false
     collaborators:
-      admin:
-        - 2color
-        - cwaring
       maintain:
         - bumblefudge
-        - TheDiscordian
       push:
         - mishmosh
         - web3-bot
@@ -4006,25 +3951,6 @@ repositories:
     visibility: public
   ipfs-project.org:
     archived: true
-  ipfs-quicklaunch:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-      push:
-        - web3-bot
-    default_branch: main
-    description: IPFS app launcher browser extension with local pet names, version management, and smart CID discovery
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
   ipfs-repository-template:
     advanced_security: false
     allow_update_branch: false
@@ -4217,8 +4143,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - 2color
       push:
         - web3-bot
     default_branch: main
@@ -4239,9 +4163,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - 2color
-        - darobin
       push:
         - TheDiscordian
         - web3-bot
@@ -4361,29 +4282,6 @@ repositories:
     topics:
       - ipfs-gui
       - ipfs
-    visibility: public
-  ipns-inspector:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-      push:
-        - web3-bot
-    default_branch: main
-    description: inspect and create IPNS records from the browser
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    topics:
-      - debug
-      - ipfs
-      - ipns
     visibility: public
   iptb-plugins:
     advanced_security: false
@@ -5509,9 +5407,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - 2color
-        - dchoi27
       push:
         - web3-bot
     default_branch: master
