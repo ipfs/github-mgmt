@@ -324,8 +324,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -382,8 +380,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -417,8 +413,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -466,8 +460,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -497,8 +489,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -530,8 +520,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -559,8 +547,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -654,8 +640,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -698,8 +682,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -731,8 +713,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -785,7 +765,6 @@ repositories:
         - shipyard
       maintain:
         - community
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -843,8 +822,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -877,8 +854,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -937,7 +912,6 @@ repositories:
         - shipyard
       maintain:
         - gui-dev
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1043,8 +1017,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1086,8 +1058,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1270,8 +1240,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1316,8 +1284,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1363,8 +1329,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1396,8 +1360,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1483,8 +1445,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1514,8 +1474,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1545,8 +1503,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1586,8 +1542,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1732,8 +1686,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1803,8 +1755,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1832,8 +1782,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1861,8 +1809,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1931,8 +1877,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1975,8 +1919,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2031,8 +1973,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2107,8 +2047,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2168,8 +2106,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2201,8 +2137,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2232,8 +2166,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2282,8 +2214,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2313,8 +2243,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2345,8 +2273,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2389,8 +2315,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2491,8 +2415,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2520,8 +2442,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2556,8 +2476,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2585,8 +2503,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2642,8 +2558,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2702,8 +2616,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -2728,8 +2640,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2758,8 +2668,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2786,8 +2694,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2817,8 +2723,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2853,8 +2757,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2910,8 +2812,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
         - Repos - Go
@@ -2989,8 +2889,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3021,8 +2919,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3051,8 +2947,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -3077,8 +2971,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3404,7 +3296,6 @@ repositories:
         - shipyard
       maintain:
         - gui-dev
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3807,8 +3698,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3884,8 +3773,6 @@ repositories:
         - ipdx
         - shipyard
         - WG GUI/UX
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -3925,8 +3812,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -3964,8 +3849,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4122,8 +4005,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       triage:
@@ -4179,8 +4060,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4244,8 +4123,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4272,8 +4149,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4365,7 +4240,6 @@ repositories:
       pull:
         - github-mgmt stewards
         - JS Core Team
-        - Maintainers
       push:
         - Repos - JavaScript
     topics:
@@ -4408,8 +4282,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
         - Go Core Team
@@ -4440,8 +4312,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4497,8 +4367,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4528,8 +4396,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4562,8 +4428,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4595,8 +4459,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4626,8 +4488,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4656,8 +4516,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - admin
         - github-mgmt stewards
@@ -4692,8 +4550,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4728,8 +4584,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4789,7 +4643,6 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - Maintainers
         - Repos - Go
     topics:
       - http-client
@@ -4818,8 +4671,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5007,8 +4858,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -5032,8 +4881,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -5057,8 +4904,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -5089,8 +4934,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5150,8 +4993,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5238,8 +5079,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5271,7 +5110,6 @@ repositories:
         - shipyard
       maintain:
         - gui-dev
-        - Maintainers
       pull:
         - comms
         - github-mgmt stewards
@@ -5355,8 +5193,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5549,8 +5385,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5930,12 +5764,6 @@ teams:
       member:
         - gammazero
         - guillaumemichel
-        - hsanjuan
-    privacy: closed
-  Maintainers:
-    description: People with Maintainer access to all repositories
-    members:
-      member:
         - hsanjuan
     privacy: closed
   Repos - Go:
