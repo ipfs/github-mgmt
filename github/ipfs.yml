@@ -5400,8 +5400,6 @@ repositories:
             - check
           strict: true
     collaborators:
-      admin:
-        - SgtPooki
       push:
         - web3-bot
     default_branch: main
@@ -5779,7 +5777,6 @@ teams:
     description: Community managers, community engineers, and other people that need write privs.
     members:
       maintainer:
-        - 2color
         - mishmosh
         - TheDiscordian
     privacy: closed
@@ -5788,6 +5785,7 @@ teams:
       maintainer:
         - aschmahmann
       member:
+        - 2color
         - achingbrain
         - adlrocha
         - alanshaw
@@ -5813,6 +5811,7 @@ teams:
         - keks
         - Luzifer
         - magik6k
+        - MarcoPolo
         - marten-seemann
         - MichaelMure
         - mishmosh
@@ -5823,7 +5822,9 @@ teams:
         - parkan
         - petar
         - richardschneider
+        - SgtPooki
         - Stebalien
+        - sukunrt
         - TheDiscordian
         - tv42
         - vasco-santos
@@ -5911,7 +5912,6 @@ teams:
       maintainer:
         - lidel
       member:
-        - SgtPooki
         - whizzzkid
     privacy: closed
   helia-dev:
@@ -5919,9 +5919,6 @@ teams:
     members:
       maintainer:
         - achingbrain
-      member:
-        - 2color
-        - SgtPooki
     privacy: closed
   ipdx:
     members:
@@ -5965,7 +5962,6 @@ teams:
         - lidel
         - Stebalien
       member:
-        - 2color
         - aarshkshah1992
         - achingbrain
         - adlrocha
@@ -6009,7 +6005,6 @@ teams:
         - daviddias
         - lidel
       member:
-        - 2color
         - AuHau
         - dirkmc
         - Gozala
@@ -6018,7 +6013,6 @@ teams:
         - momack2
         - olizilla
         - rvagg
-        - SgtPooki
         - vasco-santos
         - vmx
         - wemeetagain
@@ -6084,12 +6078,10 @@ teams:
         - lidel
         - olizilla
       member:
-        - 2color
         - alanshaw
         - andyschwab
         - cwaring
         - ericronne
-        - SgtPooki
         - whizzzkid
     privacy: closed
   WG Infrastructure:
@@ -6130,5 +6122,4 @@ teams:
       member:
         - achingbrain
         - jacobheun
-        - SgtPooki
     privacy: closed
