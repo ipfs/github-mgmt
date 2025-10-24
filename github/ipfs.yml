@@ -979,8 +979,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - website-deployers
       pull:
         - github-mgmt stewards
     topics:
@@ -3412,8 +3410,6 @@ repositories:
         - shipyard
       pull:
         - github-mgmt stewards
-      push:
-        - website-deployers
     topics:
       - decentralization
       - dweb
@@ -3886,8 +3882,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - website-deployers
       pull:
         - github-mgmt stewards
     topics:
@@ -5817,16 +5811,6 @@ teams:
     members:
       maintainer:
         - web3-bot
-    privacy: closed
-  website-deployers:
-    description: We can deploy the websites
-    members:
-      maintainer:
-        - lidel
-      member:
-        - achingbrain
-        - cwaring
-        - olizilla
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
