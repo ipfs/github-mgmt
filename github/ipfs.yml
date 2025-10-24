@@ -5696,14 +5696,6 @@ teams:
         - hacdias
         - hannahhoward
     privacy: closed
-  go-ipfs-priv:
-    members:
-      maintainer:
-        - aschmahmann
-      member:
-        - Jorropo
-        - Stebalien
-    privacy: secret
   gui-dev:
     description: GUI Developers and Engineers
     members:
