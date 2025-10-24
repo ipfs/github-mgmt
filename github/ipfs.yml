@@ -774,7 +774,6 @@ repositories:
         - JS Core Team
         - WG Captains
         - WG GUI/UX
-        - WG IPFS Cluster
     visibility: public
   dapps-wg:
     advanced_security: false
@@ -1691,7 +1690,6 @@ repositories:
       push:
         - Go Core Team
         - Repos - Go
-        - WG IPFS Cluster
     visibility: public
   go-ds-dynamodb:
     advanced_security: false
@@ -5869,12 +5867,6 @@ teams:
       member:
         - hsanjuan
         - olizilla
-    privacy: closed
-  WG IPFS Cluster:
-    description: People that collaborate or is involved in IPFS Cluster
-    members:
-      maintainer:
-        - hsanjuan
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
