@@ -324,13 +324,10 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - conference
       - ipfs
@@ -382,8 +379,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -417,8 +412,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -466,8 +459,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -497,8 +488,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -530,8 +519,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -559,13 +546,10 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
         - Repos - JavaScript
-        - WG Infrastructure
     visibility: public
   boxo:
     advanced_security: false
@@ -654,9 +638,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-        - WG Web Browsers
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -699,8 +680,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -732,8 +711,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -786,7 +763,6 @@ repositories:
         - shipyard
       maintain:
         - community
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -794,13 +770,6 @@ repositories:
         - Go Core Team
         - gui-dev
         - JS Core Team
-        - WG Captains
-        - WG GUI/UX
-        - WG IPFS Cluster
-        - WG Project
-        - WG Web Browsers
-      triage:
-        - contributors
     visibility: public
   dapps-wg:
     advanced_security: false
@@ -848,13 +817,10 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
         - community
-        - contributors
     visibility: public
   dht-node:
     archived: true
@@ -883,10 +849,7 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
     topics:
       - decentralized
@@ -944,7 +907,6 @@ repositories:
         - shipyard
       maintain:
         - gui-dev
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1017,8 +979,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - website-deployers
       pull:
         - github-mgmt stewards
     topics:
@@ -1050,8 +1010,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1093,8 +1051,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1277,8 +1233,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1323,8 +1277,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1370,8 +1322,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1403,8 +1353,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1432,7 +1380,6 @@ repositories:
         - ipdx
         - shipyard
       pull:
-        - contributors
         - github-mgmt stewards
     visibility: private
   go-dagwriter:
@@ -1491,8 +1438,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1522,8 +1467,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1553,8 +1496,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1594,8 +1535,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1740,14 +1679,11 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
         - Go Core Team
         - Repos - Go
-        - WG IPFS Cluster
     visibility: public
   go-ds-dynamodb:
     advanced_security: false
@@ -1811,8 +1747,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1840,8 +1774,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1869,8 +1801,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1939,8 +1869,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -1983,8 +1911,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2039,8 +1965,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2115,8 +2039,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2176,8 +2098,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2209,8 +2129,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2240,8 +2158,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2290,8 +2206,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2321,8 +2235,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2353,8 +2265,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2397,8 +2307,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2499,8 +2407,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2528,8 +2434,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2564,8 +2468,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2593,8 +2495,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2650,8 +2550,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2710,8 +2608,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -2736,8 +2632,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2766,8 +2660,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2794,8 +2686,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2825,8 +2715,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2861,8 +2749,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -2918,8 +2804,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
         - Repos - Go
@@ -2997,8 +2881,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3029,8 +2911,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3059,8 +2939,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -3085,8 +2963,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3412,13 +3288,10 @@ repositories:
         - shipyard
       maintain:
         - gui-dev
-        - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
       push:
         - Repos - JavaScript
-        - WG Web Browsers
     topics:
       - browsers
       - ipfs
@@ -3537,8 +3410,6 @@ repositories:
         - shipyard
       pull:
         - github-mgmt stewards
-      push:
-        - website-deployers
     topics:
       - decentralization
       - dweb
@@ -3668,7 +3539,6 @@ repositories:
         - shipyard
       pull:
         - github-mgmt stewards
-        - WG GUI/UX
       push:
         - gui-dev
     topics:
@@ -3728,7 +3598,6 @@ repositories:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - desktop
       - dweb
@@ -3817,8 +3686,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -3893,9 +3760,6 @@ repositories:
         - gui-dev
         - ipdx
         - shipyard
-        - WG GUI/UX
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -3935,8 +3799,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -3974,8 +3836,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4022,8 +3882,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - website-deployers
       pull:
         - github-mgmt stewards
     topics:
@@ -4080,7 +3938,6 @@ repositories:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - ipfs-gui
       - ipfs
@@ -4132,10 +3989,7 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
       triage:
         - community
@@ -4190,8 +4044,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4229,7 +4081,6 @@ repositories:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - ipfs-gui
       - ipfs
@@ -4255,8 +4106,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4283,8 +4132,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4376,7 +4223,6 @@ repositories:
       pull:
         - github-mgmt stewards
         - JS Core Team
-        - Maintainers
       push:
         - Repos - JavaScript
     topics:
@@ -4419,8 +4265,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
         - Go Core Team
@@ -4451,8 +4295,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4508,8 +4350,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4539,8 +4379,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4573,8 +4411,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4606,8 +4442,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4637,8 +4471,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4667,12 +4499,9 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - admin
         - github-mgmt stewards
-        - WG Web Browsers
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -4704,8 +4533,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4740,8 +4567,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4799,10 +4624,8 @@ repositories:
         - ipdx
         - shipyard
       pull:
-        - contributors
         - github-mgmt stewards
       push:
-        - Maintainers
         - Repos - Go
     topics:
       - http-client
@@ -4831,8 +4654,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4970,8 +4791,6 @@ repositories:
         - kubo maintainers
       maintain:
         - shipyard
-      pull:
-        - contributors
       push:
         - Repos - Go
     topics:
@@ -5022,8 +4841,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -5047,8 +4864,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -5072,8 +4887,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -5104,8 +4917,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5165,8 +4976,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5253,8 +5062,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5286,16 +5093,11 @@ repositories:
         - shipyard
       maintain:
         - gui-dev
-        - Maintainers
       pull:
         - comms
         - github-mgmt stewards
         - JS Core Team
         - Repos - JavaScript
-        - WG Web Browsers
-      push:
-        - WG GUI/UX
-        - WG Infrastructure
     topics:
       - ipfs-gui
       - ipfs
@@ -5371,14 +5173,10 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
       push:
         - community
-        - WG Captains
     visibility: public
   service-worker-gateway:
     advanced_security: false
@@ -5566,8 +5364,6 @@ repositories:
         - admin
         - ipdx
         - shipyard
-      maintain:
-        - Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -5693,17 +5489,13 @@ teams:
       member:
         - achingbrain
         - alanshaw
-        - arajasek
-        - daviddias
         - hsanjuan
         - jbenet
-        - Kubuxu
-        - marten-seemann
-        - momack2
         - olizilla
         - whyrusleeping
     privacy: closed
   Alumni:
+    description: People who contributed to IPFS in Protocol Labs era (<2024). This team has no permissions to any repository.
     members:
       member:
         - Aaron1011
@@ -5769,18 +5561,16 @@ teams:
     description: Communications
     members:
       member:
-        - jesseclay
         - mishmosh
-        - momack2
     privacy: closed
   community:
     description: Community managers, community engineers, and other people that need write privs.
     members:
       maintainer:
         - mishmosh
-        - TheDiscordian
     privacy: closed
   contributors:
+    description: Contributors to IPFS who are no longer active or do not require extra permissions. This team has no permissions to any repository.
     members:
       maintainer:
         - aschmahmann
@@ -5789,30 +5579,42 @@ teams:
         - achingbrain
         - adlrocha
         - alanshaw
+        - andyschwab
+        - anorth
+        - arajasek
+        - AuHau
         - b5
         - BigLep
         - bigs
         - coryschwartz
+        - daviddias
         - dchoi27
         - dignifiedquire
         - dirkmc
         - dylanPowers
         - ericronne
+        - frrist
+        - gmasgras
+        - Gozala
         - gpestana
+        - guseggert
         - hacdias
         - hannahhoward
         - hugomrdias
         - ianopolous
+        - ischasny
         - jacobheun
         - jbenet
         - jesseclay
         - jimpick
         - jonnycrunch
         - keks
+        - Kubuxu
         - Luzifer
         - magik6k
         - MarcoPolo
         - marten-seemann
+        - masih
         - MichaelMure
         - mishmosh
         - miyazono
@@ -5821,15 +5623,21 @@ teams:
         - olizilla
         - parkan
         - petar
+        - raulk
+        - ribasushi
         - richardschneider
         - SgtPooki
         - Stebalien
         - sukunrt
         - TheDiscordian
+        - travisperson
         - tv42
         - vasco-santos
+        - vmx
+        - vyzo
         - wanderer
         - warpfork
+        - whizzzkid
         - whyrusleeping
         - Wondertan
         - yiannisbot
@@ -5885,34 +5693,16 @@ teams:
     members:
       maintainer:
         - aschmahmann
-        - Kubuxu
         - Stebalien
       member:
-        - dirkmc
         - gammazero
-        - guseggert
-        - hacdias
         - hannahhoward
-        - magik6k
-        - masih
-        - ribasushi
-        - warpfork
     privacy: closed
-  go-ipfs-priv:
-    members:
-      maintainer:
-        - aschmahmann
-      member:
-        - Jorropo
-        - Stebalien
-    privacy: secret
   gui-dev:
     description: GUI Developers and Engineers
     members:
       maintainer:
         - lidel
-      member:
-        - whizzzkid
     privacy: closed
   helia-dev:
     description: Helia Developers and engineers
@@ -5933,7 +5723,6 @@ teams:
         - alanshaw
       member:
         - achingbrain
-        - dirkmc
         - jimpick
         - vasco-santos
     privacy: closed
@@ -5948,12 +5737,6 @@ teams:
         - guillaumemichel
         - hsanjuan
     privacy: closed
-  Maintainers:
-    description: People with Maintainer access to all repositories
-    members:
-      member:
-        - hsanjuan
-    privacy: closed
   Repos - Go:
     description: Golang Repos
     members:
@@ -5964,35 +5747,14 @@ teams:
       member:
         - aarshkshah1992
         - achingbrain
-        - adlrocha
         - alanshaw
-        - anorth
-        - daviddias
-        - dignifiedquire
-        - dirkmc
-        - frrist
         - gammazero
-        - gmasgras
-        - guseggert
-        - hacdias
         - hannahhoward
         - hsanjuan
         - iand
-        - ischasny
-        - jacobheun
         - jbenet
         - Jorropo
-        - Kubuxu
-        - magik6k
-        - marten-seemann
-        - masih
-        - petar
-        - raulk
-        - ribasushi
         - rvagg
-        - travisperson
-        - vyzo
-        - warpfork
         - whyrusleeping
         - willscott
     privacy: closed
@@ -6002,19 +5764,12 @@ teams:
       maintainer:
         - achingbrain
         - alanshaw
-        - daviddias
         - lidel
       member:
-        - AuHau
-        - dirkmc
-        - Gozala
-        - hacdias
-        - jacobheun
-        - momack2
         - olizilla
         - rvagg
+        - SgtPooki
         - vasco-santos
-        - vmx
         - wemeetagain
     privacy: closed
   shipyard:
@@ -6046,72 +5801,6 @@ teams:
     members:
       maintainer:
         - web3-bot
-    privacy: closed
-  website-deployers:
-    description: We can deploy the websites
-    members:
-      maintainer:
-        - lidel
-      member:
-        - achingbrain
-        - andyschwab
-        - cwaring
-        - ericronne
-        - olizilla
-    privacy: closed
-  WG Captains:
-    description: Captains of the various working groups
-    members:
-      maintainer:
-        - momack2
-      member:
-        - alanshaw
-        - daviddias
-        - olizilla
-        - raulk
-        - Stebalien
-    privacy: closed
-  WG GUI/UX:
-    description: "The GUI/UX Team - Making IPFS GUIs simple, accessible, reusable and beautiful. "
-    members:
-      maintainer:
-        - lidel
-        - olizilla
-      member:
-        - alanshaw
-        - andyschwab
-        - cwaring
-        - ericronne
-        - whizzzkid
-    privacy: closed
-  WG Infrastructure:
-    description: IPFS Infrastructure WG - Maintaining IPFS Infrastructure since 2014!
-    members:
-      member:
-        - hsanjuan
-        - olizilla
-    privacy: closed
-  WG IPFS Cluster:
-    description: People that collaborate or is involved in IPFS Cluster
-    members:
-      maintainer:
-        - hsanjuan
-    privacy: closed
-  WG Project:
-    description: Project Working Group
-    members:
-      member:
-        - daviddias
-        - momack2
-    privacy: closed
-  WG Web Browsers:
-    description: Geting IPFS in a browser next to you
-    members:
-      maintainer:
-        - lidel
-      member:
-        - Gozala
-        - hugomrdias
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
