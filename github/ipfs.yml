@@ -551,7 +551,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Repos - JavaScript
-        - WG Infrastructure
     visibility: public
   boxo:
     advanced_security: false
@@ -5115,7 +5114,6 @@ repositories:
         - Repos - JavaScript
       push:
         - WG GUI/UX
-        - WG Infrastructure
     topics:
       - ipfs-gui
       - ipfs
@@ -5860,13 +5858,6 @@ teams:
         - cwaring
         - SgtPooki
         - whizzzkid
-    privacy: closed
-  WG Infrastructure:
-    description: IPFS Infrastructure WG - Maintaining IPFS Infrastructure since 2014!
-    members:
-      member:
-        - hsanjuan
-        - olizilla
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
