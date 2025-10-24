@@ -5495,6 +5495,7 @@ teams:
         - whyrusleeping
     privacy: closed
   Alumni:
+    description: People who contributed to IPFS in Protocol Labs era (<2024). This team has no permissions to any repository.
     members:
       member:
         - Aaron1011
@@ -5569,6 +5570,7 @@ teams:
         - mishmosh
     privacy: closed
   contributors:
+    description: Contributors to IPFS who are no longer active or do not require extra permissions. This team has no permissions to any repository.
     members:
       maintainer:
         - aschmahmann
