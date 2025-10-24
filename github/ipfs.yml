@@ -654,7 +654,6 @@ repositories:
       admin:
         - ipdx
         - shipyard
-        - WG Web Browsers
       maintain:
         - Maintainers
       pull:
@@ -797,10 +796,6 @@ repositories:
         - WG Captains
         - WG GUI/UX
         - WG IPFS Cluster
-        - WG Project
-        - WG Web Browsers
-      triage:
-        - contributors
     visibility: public
   dapps-wg:
     advanced_security: false
@@ -854,7 +849,6 @@ repositories:
         - github-mgmt stewards
       push:
         - community
-        - contributors
     visibility: public
   dht-node:
     archived: true
@@ -886,7 +880,6 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
     topics:
       - decentralized
@@ -1432,7 +1425,6 @@ repositories:
         - ipdx
         - shipyard
       pull:
-        - contributors
         - github-mgmt stewards
     visibility: private
   go-dagwriter:
@@ -3414,11 +3406,9 @@ repositories:
         - gui-dev
         - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
       push:
         - Repos - JavaScript
-        - WG Web Browsers
     topics:
       - browsers
       - ipfs
@@ -4135,7 +4125,6 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
       triage:
         - community
@@ -4672,7 +4661,6 @@ repositories:
       pull:
         - admin
         - github-mgmt stewards
-        - WG Web Browsers
       push:
         - JS Core Team
         - Repos - JavaScript
@@ -4799,7 +4787,6 @@ repositories:
         - ipdx
         - shipyard
       pull:
-        - contributors
         - github-mgmt stewards
       push:
         - Maintainers
@@ -4970,8 +4957,6 @@ repositories:
         - kubo maintainers
       maintain:
         - shipyard
-      pull:
-        - contributors
       push:
         - Repos - Go
     topics:
@@ -5292,7 +5277,6 @@ repositories:
         - github-mgmt stewards
         - JS Core Team
         - Repos - JavaScript
-        - WG Web Browsers
       push:
         - WG GUI/UX
         - WG Infrastructure
@@ -5374,7 +5358,6 @@ repositories:
       maintain:
         - Maintainers
       pull:
-        - contributors
         - github-mgmt stewards
       push:
         - community
@@ -5693,13 +5676,8 @@ teams:
       member:
         - achingbrain
         - alanshaw
-        - arajasek
-        - daviddias
         - hsanjuan
         - jbenet
-        - Kubuxu
-        - marten-seemann
-        - momack2
         - olizilla
         - whyrusleeping
     privacy: closed
@@ -5769,16 +5747,13 @@ teams:
     description: Communications
     members:
       member:
-        - jesseclay
         - mishmosh
-        - momack2
     privacy: closed
   community:
     description: Community managers, community engineers, and other people that need write privs.
     members:
       maintainer:
         - mishmosh
-        - TheDiscordian
     privacy: closed
   contributors:
     members:
@@ -5789,30 +5764,42 @@ teams:
         - achingbrain
         - adlrocha
         - alanshaw
+        - andyschwab
+        - anorth
+        - arajasek
+        - AuHau
         - b5
         - BigLep
         - bigs
         - coryschwartz
+        - daviddias
         - dchoi27
         - dignifiedquire
         - dirkmc
         - dylanPowers
         - ericronne
+        - frrist
+        - gmasgras
+        - Gozala
         - gpestana
+        - guseggert
         - hacdias
         - hannahhoward
         - hugomrdias
         - ianopolous
+        - ischasny
         - jacobheun
         - jbenet
         - jesseclay
         - jimpick
         - jonnycrunch
         - keks
+        - Kubuxu
         - Luzifer
         - magik6k
         - MarcoPolo
         - marten-seemann
+        - masih
         - MichaelMure
         - mishmosh
         - miyazono
@@ -5821,13 +5808,18 @@ teams:
         - olizilla
         - parkan
         - petar
+        - raulk
+        - ribasushi
         - richardschneider
         - SgtPooki
         - Stebalien
         - sukunrt
         - TheDiscordian
+        - travisperson
         - tv42
         - vasco-santos
+        - vmx
+        - vyzo
         - wanderer
         - warpfork
         - whyrusleeping
@@ -5885,18 +5877,11 @@ teams:
     members:
       maintainer:
         - aschmahmann
-        - Kubuxu
         - Stebalien
       member:
-        - dirkmc
         - gammazero
-        - guseggert
         - hacdias
         - hannahhoward
-        - magik6k
-        - masih
-        - ribasushi
-        - warpfork
     privacy: closed
   go-ipfs-priv:
     members:
@@ -5933,7 +5918,6 @@ teams:
         - alanshaw
       member:
         - achingbrain
-        - dirkmc
         - jimpick
         - vasco-santos
     privacy: closed
@@ -5964,35 +5948,15 @@ teams:
       member:
         - aarshkshah1992
         - achingbrain
-        - adlrocha
         - alanshaw
-        - anorth
-        - daviddias
-        - dignifiedquire
-        - dirkmc
-        - frrist
         - gammazero
-        - gmasgras
-        - guseggert
         - hacdias
         - hannahhoward
         - hsanjuan
         - iand
-        - ischasny
-        - jacobheun
         - jbenet
         - Jorropo
-        - Kubuxu
-        - magik6k
-        - marten-seemann
-        - masih
-        - petar
-        - raulk
-        - ribasushi
         - rvagg
-        - travisperson
-        - vyzo
-        - warpfork
         - whyrusleeping
         - willscott
     privacy: closed
@@ -6002,19 +5966,13 @@ teams:
       maintainer:
         - achingbrain
         - alanshaw
-        - daviddias
         - lidel
       member:
-        - AuHau
-        - dirkmc
-        - Gozala
         - hacdias
-        - jacobheun
-        - momack2
         - olizilla
         - rvagg
+        - SgtPooki
         - vasco-santos
-        - vmx
         - wemeetagain
     privacy: closed
   shipyard:
@@ -6054,21 +6012,15 @@ teams:
         - lidel
       member:
         - achingbrain
-        - andyschwab
         - cwaring
-        - ericronne
         - olizilla
     privacy: closed
   WG Captains:
     description: Captains of the various working groups
     members:
-      maintainer:
-        - momack2
       member:
         - alanshaw
-        - daviddias
         - olizilla
-        - raulk
         - Stebalien
     privacy: closed
   WG GUI/UX:
@@ -6079,9 +6031,8 @@ teams:
         - olizilla
       member:
         - alanshaw
-        - andyschwab
         - cwaring
-        - ericronne
+        - SgtPooki
         - whizzzkid
     privacy: closed
   WG Infrastructure:
@@ -6096,22 +6047,6 @@ teams:
     members:
       maintainer:
         - hsanjuan
-    privacy: closed
-  WG Project:
-    description: Project Working Group
-    members:
-      member:
-        - daviddias
-        - momack2
-    privacy: closed
-  WG Web Browsers:
-    description: Geting IPFS in a browser next to you
-    members:
-      maintainer:
-        - lidel
-      member:
-        - Gozala
-        - hugomrdias
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
