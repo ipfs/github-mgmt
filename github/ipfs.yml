@@ -5400,7 +5400,6 @@ repositories:
             - check
           strict: true
     collaborators:
-      admin:
       push:
         - web3-bot
     default_branch: main
@@ -5787,9 +5786,6 @@ teams:
         - aschmahmann
       member:
         - 2color
-        - MarcoPolo
-        - SgtPooki
-        - sukunrt
         - achingbrain
         - adlrocha
         - alanshaw
@@ -5815,6 +5811,7 @@ teams:
         - keks
         - Luzifer
         - magik6k
+        - MarcoPolo
         - marten-seemann
         - MichaelMure
         - mishmosh
@@ -5825,7 +5822,9 @@ teams:
         - parkan
         - petar
         - richardschneider
+        - SgtPooki
         - Stebalien
+        - sukunrt
         - TheDiscordian
         - tv42
         - vasco-santos
@@ -5920,7 +5919,6 @@ teams:
     members:
       maintainer:
         - achingbrain
-      member:
     privacy: closed
   ipdx:
     members:
