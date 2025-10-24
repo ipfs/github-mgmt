@@ -770,7 +770,6 @@ repositories:
         - Go Core Team
         - gui-dev
         - JS Core Team
-        - WG Captains
     visibility: public
   dapps-wg:
     advanced_security: false
@@ -5184,7 +5183,6 @@ repositories:
         - github-mgmt stewards
       push:
         - community
-        - WG Captains
     visibility: public
   service-worker-gateway:
     advanced_security: false
@@ -5829,14 +5827,6 @@ teams:
         - achingbrain
         - cwaring
         - olizilla
-    privacy: closed
-  WG Captains:
-    description: Captains of the various working groups
-    members:
-      member:
-        - alanshaw
-        - olizilla
-        - Stebalien
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
