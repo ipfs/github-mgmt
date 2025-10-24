@@ -328,7 +328,6 @@ repositories:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - conference
       - ipfs
@@ -772,7 +771,6 @@ repositories:
         - gui-dev
         - JS Core Team
         - WG Captains
-        - WG GUI/UX
     visibility: public
   dapps-wg:
     advanced_security: false
@@ -3546,7 +3544,6 @@ repositories:
         - shipyard
       pull:
         - github-mgmt stewards
-        - WG GUI/UX
       push:
         - gui-dev
     topics:
@@ -3606,7 +3603,6 @@ repositories:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - desktop
       - dweb
@@ -3769,7 +3765,6 @@ repositories:
         - gui-dev
         - ipdx
         - shipyard
-        - WG GUI/UX
       pull:
         - github-mgmt stewards
     topics:
@@ -3950,7 +3945,6 @@ repositories:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - ipfs-gui
       - ipfs
@@ -4094,7 +4088,6 @@ repositories:
         - github-mgmt stewards
       push:
         - gui-dev
-        - WG GUI/UX
     topics:
       - ipfs-gui
       - ipfs
@@ -5112,8 +5105,6 @@ repositories:
         - github-mgmt stewards
         - JS Core Team
         - Repos - JavaScript
-      push:
-        - WG GUI/UX
     topics:
       - ipfs-gui
       - ipfs
@@ -5846,18 +5837,6 @@ teams:
         - alanshaw
         - olizilla
         - Stebalien
-    privacy: closed
-  WG GUI/UX:
-    description: "The GUI/UX Team - Making IPFS GUIs simple, accessible, reusable and beautiful. "
-    members:
-      maintainer:
-        - lidel
-        - olizilla
-      member:
-        - alanshaw
-        - cwaring
-        - SgtPooki
-        - whizzzkid
     privacy: closed
   wg-pinning-services:
     description: Special Interest Group interested in generic Pinning Service API ecosystem
