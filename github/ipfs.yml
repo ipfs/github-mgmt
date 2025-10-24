@@ -5635,6 +5635,7 @@ teams:
         - vyzo
         - wanderer
         - warpfork
+        - whizzzkid
         - whyrusleeping
         - Wondertan
         - yiannisbot
@@ -5693,7 +5694,6 @@ teams:
         - Stebalien
       member:
         - gammazero
-        - hacdias
         - hannahhoward
     privacy: closed
   gui-dev:
@@ -5701,8 +5701,6 @@ teams:
     members:
       maintainer:
         - lidel
-      member:
-        - whizzzkid
     privacy: closed
   helia-dev:
     description: Helia Developers and engineers
@@ -5749,7 +5747,6 @@ teams:
         - achingbrain
         - alanshaw
         - gammazero
-        - hacdias
         - hannahhoward
         - hsanjuan
         - iand
@@ -5767,7 +5764,6 @@ teams:
         - alanshaw
         - lidel
       member:
-        - hacdias
         - olizilla
         - rvagg
         - SgtPooki
