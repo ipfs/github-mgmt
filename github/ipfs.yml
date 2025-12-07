@@ -982,9 +982,9 @@ repositories:
         - amanda-agency-undone
         - D3AS8A
         - emilymariahh
+        - justanothersynth
         - mishmosh
         - svvimming
-        - timelytree
       push:
         - web3-bot
     default_branch: main
