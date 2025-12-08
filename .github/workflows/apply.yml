@@ -23,11 +23,20 @@ jobs:
         shell: bash
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Discover workspaces
         id: workspaces
         run: echo "this=$(ls github | jq --raw-input '[.[0:-4]]' | jq -sc add)" >> $GITHUB_OUTPUT
-      - run: npm ci && npm run build
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Use Node.js lts/*
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: ''
+      - run: pnpm install --frozen-lockfile && pnpm run build
         working-directory: scripts
       - name: Find sha for plan
         id: sha
@@ -65,11 +74,11 @@ jobs:
         working-directory: terraform
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup terraform
         uses: hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd # v3.1.2
         with:
-          terraform_version: 1.2.9
+          terraform_version: 1.12.0
           terraform_wrapper: false
       - name: Initialize terraform
         run: terraform init

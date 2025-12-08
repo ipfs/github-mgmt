@@ -23,6 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - new args for repositories and branch protection rules
 
 ### Changed
+- **BREAKING**: added support for efficient labels handling via the `github_issue_labels` resource (please clean `github_issue_label.this.*` from the terraform state and update `locals_override.tf` and `resources_override.tf` before syncing)
+- **BREAKING**: upgraded to terraform 1.12.0 and github provider 6.6.0 (please clean `github_branch_protection.this.*` from the terraform state and update `resources_override.tf` before syncing the upgrade)
 - **BREAKING**: turned scripts into an ESM project (please ensure you remove the following files during the upgrade: `scripts/.eslintignore`, `scripts/.eslintrc.json`, `scripts/jest.config.js`, `jest.d.ts`, `jest.setup.ts`; please update your imports in the `scripts/src/actions/fix-yaml-config.ts` file to include the `.js` extension)
 - **BREAKING**: Updated the signatures of all the shared actions; now the runAction function will persist the changes to disk while action functions will operate on the in-memory state (please update your imports in the `scripts/src/actions/fix-yaml-config.ts` file accordingly)
 - Synchronization script: to use GitHub API directly instead of relying on TF GH Provider's Data Sources
@@ -47,8 +49,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - tf: to prevent destroy of membership and repository resources
 - apply: find sha for plan using proper credentials
 - updated upload and download artifacts actions to v4
+- switched from npm to pnpm
 
 ### Fixed
+- include labels in the config resources only if they are explicitly defined in the config
 - always assert state type when creating resources from state
 - do not break long file content lines
 - source TF_WORKING_DIR from env helper instead of process.env in locals helper
