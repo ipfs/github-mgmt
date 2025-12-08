@@ -12,6 +12,10 @@ on:
         description: Whether to acquire terraform state lock during sync
         required: false
         default: "true"
+      refresh:
+        description: Refresh terraform state before sync
+        required: false
+        default: "false"
 
 jobs:
   prepare:
@@ -24,7 +28,7 @@ jobs:
         shell: bash
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Discover workspaces
         id: workspaces
         env:
@@ -63,11 +67,11 @@ jobs:
         shell: bash
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup terraform
         uses: hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd # v3.1.2
         with:
-          terraform_version: 1.2.9
+          terraform_version: 1.12.0
           terraform_wrapper: false
       - name: Initialize terraform
         run: terraform init -upgrade
@@ -77,15 +81,30 @@ jobs:
           terraform workspace select "${TF_WORKSPACE_OPT}" || terraform workspace new "${TF_WORKSPACE_OPT}"
           echo "TF_WORKSPACE=${TF_WORKSPACE_OPT}" >> $GITHUB_ENV
         working-directory: terraform
+      - name: Refresh terraform state
+        if: ${{ github.event.inputs.refresh == 'true' }}
+        run: |
+          echo "{}" > $TF_WORKSPACE.tfstate.json
+          terraform apply -refresh-only -auto-approve -lock=$TF_LOCK
+        working-directory: terraform
       - name: Pull terraform state
         run: |
           terraform show -json > $TF_WORKSPACE.tfstate.json
         working-directory: terraform
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Use Node.js lts/*
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: ''
       - name: Sync
         run: |
-          npm ci
-          npm run build
-          npm run main
+          pnpm install --frozen-lockfile
+          pnpm run build
+          pnpm run main
         working-directory: scripts
       - uses: ./.github/actions/git-config-user
       - env:
@@ -114,7 +133,7 @@ jobs:
           installation_retrieval_payload: ${{ secrets[format('RW_GITHUB_APP_INSTALLATION_ID_{0}', github.repository_owner)] || secrets.RW_GITHUB_APP_INSTALLATION_ID }}
           private_key: ${{ secrets.RW_GITHUB_APP_PEM_FILE }}
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ steps.token.outputs.token }}
       - uses: ./.github/actions/git-config-user
