@@ -279,6 +279,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -299,6 +300,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   2019.ipfs.camp:
     advanced_security: false
     allow_update_branch: false
@@ -334,6 +336,7 @@ repositories:
       - conference
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   aegir-typedoc-theme:
     advanced_security: false
     allow_update_branch: false
@@ -359,6 +362,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   aegir:
     advanced_security: false
     allow_update_branch: true
@@ -393,6 +397,7 @@ repositories:
       - testing
       - typescript
     visibility: public
+    web_commit_signoff_required: false
   apps:
     advanced_security: false
     allow_update_branch: false
@@ -418,6 +423,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   areweinterplanetaryyet.org:
     advanced_security: false
     allow_update_branch: false
@@ -440,6 +446,7 @@ repositories:
         - admin
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   artwork:
     advanced_security: false
     allow_update_branch: false
@@ -465,6 +472,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   awesome-ipfs:
     advanced_security: false
     allow_update_branch: true
@@ -502,6 +510,7 @@ repositories:
       - awesome
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   bbloom:
     advanced_security: false
     allow_update_branch: false
@@ -529,6 +538,7 @@ repositories:
       push:
         - Go Core Team
     visibility: public
+    web_commit_signoff_required: false
   benchmarks:
     advanced_security: false
     allow_update_branch: false
@@ -558,6 +568,7 @@ repositories:
         - Repos - JavaScript
         - WG Infrastructure
     visibility: public
+    web_commit_signoff_required: false
   boxo:
     advanced_security: false
     allow_update_branch: true
@@ -575,6 +586,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: true
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -598,6 +610,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -623,6 +636,7 @@ repositories:
       - go
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   browser-design-guidelines:
     advanced_security: false
     allow_update_branch: false
@@ -659,6 +673,7 @@ repositories:
       - research
       - user-interface
     visibility: public
+    web_commit_signoff_required: false
   camp:
     advanced_security: false
     allow_update_branch: false
@@ -673,6 +688,8 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
     collaborators:
       push:
         - web3-bot
@@ -698,6 +715,7 @@ repositories:
       triage:
         - docs
     visibility: public
+    web_commit_signoff_required: false
   choco-go-ipfs:
     archived: true
   ci-helpers:
@@ -727,6 +745,7 @@ repositories:
       push:
         - Go Core Team
     visibility: public
+    web_commit_signoff_required: false
   communications:
     advanced_security: false
     allow_update_branch: false
@@ -749,6 +768,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   community:
     advanced_security: false
     allow_update_branch: false
@@ -789,6 +809,7 @@ repositories:
       triage:
         - contributors
     visibility: public
+    web_commit_signoff_required: false
   dapps-wg:
     advanced_security: false
     allow_update_branch: false
@@ -809,6 +830,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   devgrants:
     advanced_security: false
     allow_update_branch: false
@@ -842,6 +864,7 @@ repositories:
         - community
         - contributors
     visibility: public
+    web_commit_signoff_required: false
   dht-node:
     archived: true
   dir-index-html:
@@ -881,6 +904,7 @@ repositories:
       - peer-to-peer
       - wikipedia
     visibility: public
+    web_commit_signoff_required: false
   distributions:
     advanced_security: false
     allow_update_branch: false
@@ -905,6 +929,10 @@ repositories:
             - persist
             - sign-macos
           strict: true
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - ipfs/admin
     collaborators:
       admin:
         - lidel
@@ -935,6 +963,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   download-ipfs-distribution-action:
     advanced_security: false
     allow_update_branch: true
@@ -963,6 +992,7 @@ repositories:
     topics:
       - ipdx
     visibility: public
+    web_commit_signoff_required: false
   ecosystem-directory:
     advanced_security: false
     allow_update_branch: false
@@ -1009,6 +1039,7 @@ repositories:
       - ipfs
       - web3
     visibility: public
+    web_commit_signoff_required: false
   eslint-config-ipfs:
     advanced_security: false
     allow_update_branch: true
@@ -1038,6 +1069,7 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   fs-repo-migrations:
     advanced_security: false
     allow_update_branch: true
@@ -1052,6 +1084,8 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
     collaborators:
       push:
         - web3-bot
@@ -1079,6 +1113,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   gateway-conformance:
     advanced_security: false
     allow_update_branch: false
@@ -1096,6 +1131,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -1128,6 +1164,7 @@ repositories:
       - ipfs-http-client
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   gh-issue-form-test:
     advanced_security: false
     allow_update_branch: false
@@ -1149,6 +1186,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
@@ -1160,6 +1198,8 @@ repositories:
         allows_force_pushes: false
         blocks_creations: false
         enforce_admins: false
+        force_push_bypassers:
+          - /galargh
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -1167,6 +1207,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -1200,6 +1241,7 @@ repositories:
     topics:
       - ipdx
     visibility: public
+    web_commit_signoff_required: false
   go-bitfield:
     advanced_security: false
     allow_update_branch: false
@@ -1224,6 +1266,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-bitswap-priv:
     archived: true
   go-bitswap:
@@ -1257,6 +1300,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-blockservice:
     archived: true
   go-bs-sqlite3:
@@ -1275,6 +1319,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /web3-bot
     collaborators:
       admin:
         - raulk
@@ -1300,6 +1348,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-cid:
     advanced_security: false
     allow_update_branch: false
@@ -1317,6 +1366,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -1351,6 +1401,7 @@ repositories:
       - ipld
       - multiformats
     visibility: public
+    web_commit_signoff_required: false
   go-cidutil:
     advanced_security: false
     allow_update_branch: false
@@ -1379,6 +1430,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-dag-store:
     advanced_security: false
     allow_update_branch: false
@@ -1424,6 +1476,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-datastore:
     advanced_security: false
     allow_update_branch: false
@@ -1440,6 +1493,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /web3-bot
     collaborators:
       push:
         - web3-bot
@@ -1464,6 +1521,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-delegated-routing:
     archived: true
   go-detect-race:
@@ -1494,6 +1552,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-dnslink:
     advanced_security: false
     allow_update_branch: false
@@ -1523,6 +1582,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-badger:
     advanced_security: false
     allow_update_branch: false
@@ -1539,6 +1599,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /web3-bot
     collaborators:
       push:
         - web3-bot
@@ -1562,6 +1626,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-badger2:
     archived: true
   go-ds-badger3:
@@ -1596,6 +1661,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-ds-badger4:
     advanced_security: false
     allow_update_branch: false
@@ -1630,6 +1696,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-ds-bench:
     archived: true
   go-ds-bitcask:
@@ -1655,10 +1722,15 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
           strict: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /hsanjuan
     collaborators:
       admin:
         - hsanjuan
@@ -1709,6 +1781,7 @@ repositories:
         - Repos - Go
         - WG IPFS Cluster
     visibility: public
+    web_commit_signoff_required: false
   go-ds-dynamodb:
     advanced_security: false
     allow_update_branch: false
@@ -1736,6 +1809,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-ds-flatfs:
     advanced_security: false
     allow_update_branch: false
@@ -1752,6 +1826,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /web3-bot
     collaborators:
       push:
         - web3-bot
@@ -1776,6 +1854,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-leveldb:
     advanced_security: false
     allow_update_branch: false
@@ -1804,6 +1883,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-measure:
     advanced_security: false
     allow_update_branch: false
@@ -1832,6 +1912,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-pebble:
     advanced_security: false
     allow_update_branch: true
@@ -1849,6 +1930,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: false
     collaborators:
@@ -1872,6 +1954,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-ds-redis:
     advanced_security: false
     allow_update_branch: false
@@ -1900,6 +1983,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-s3:
     advanced_security: false
     allow_update_branch: false
@@ -1916,6 +2000,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /web3-bot
     collaborators:
       maintain:
         - MichaelMure
@@ -1942,6 +2030,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-sql:
     advanced_security: false
     allow_update_branch: false
@@ -1969,6 +2058,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ds-swift:
     advanced_security: false
     allow_update_branch: false
@@ -1996,6 +2086,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-dsqueue:
     advanced_security: false
     allow_update_branch: false
@@ -2019,6 +2110,7 @@ repositories:
         - Go Core Team
         - shipyard
     visibility: public
+    web_commit_signoff_required: false
   go-fetcher:
     archived: true
   go-filestore:
@@ -2071,6 +2163,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-graphsync:
     advanced_security: false
     allow_update_branch: false
@@ -2088,6 +2181,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -2131,6 +2225,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-hamt-ipld:
     archived: true
   go-ipfs-api:
@@ -2163,6 +2258,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-blockstore:
     archived: true
   go-ipfs-blocksutil:
@@ -2193,6 +2289,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-chunker:
     archived: true
   go-ipfs-cmdkit:
@@ -2214,6 +2311,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: true
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -2242,6 +2340,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-config:
     archived: true
   go-ipfs-delay:
@@ -2272,6 +2371,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-ds-help:
     archived: true
   go-ipfs-example-plugin:
@@ -2302,6 +2402,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-exchange-interface:
     archived: true
   go-ipfs-exchange-offline:
@@ -2346,6 +2447,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-priv:
     archived: true
   go-ipfs-provider:
@@ -2369,10 +2471,15 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
           strict: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /web3-bot
     collaborators:
       admin:
         - lidel
@@ -2394,6 +2501,7 @@ repositories:
         - admin
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-regression:
     advanced_security: false
     allow_update_branch: false
@@ -2414,6 +2522,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-ipfs-routing:
     archived: true
   go-ipfs-util:
@@ -2446,6 +2555,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-eth-import:
     advanced_security: false
     allow_update_branch: false
@@ -2479,6 +2589,7 @@ repositories:
       - ipfs
       - ipld
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-eth:
     archived: true
   go-ipld-format:
@@ -2509,6 +2620,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-git:
     advanced_security: false
     allow_update_branch: false
@@ -2537,6 +2649,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-legacy:
     advanced_security: false
     allow_update_branch: false
@@ -2564,6 +2677,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-zcash:
     advanced_security: false
     allow_update_branch: false
@@ -2592,6 +2706,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-ipns:
     archived: true
   go-jaeger-plugin:
@@ -2623,6 +2738,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-libp2p-dns-router:
     advanced_security: false
     allow_update_branch: false
@@ -2647,6 +2763,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-log:
     advanced_security: false
     allow_update_branch: false
@@ -2675,6 +2792,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-merkledag:
     advanced_security: false
     allow_update_branch: false
@@ -2704,6 +2822,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-metrics-interface:
     advanced_security: false
     allow_update_branch: false
@@ -2731,6 +2850,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-metrics-prometheus:
     advanced_security: false
     allow_update_branch: false
@@ -2760,6 +2880,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-mfs:
     archived: true
   go-namesys:
@@ -2796,6 +2917,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-pinning-service-http-client:
     archived: true
   go-poll-endpoint:
@@ -2822,6 +2944,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-qringbuf:
     advanced_security: false
     allow_update_branch: false
@@ -2852,6 +2975,7 @@ repositories:
       push:
         - Go Core Team
     visibility: public
+    web_commit_signoff_required: false
   go-sbs:
     archived: true
   go-test:
@@ -2871,6 +2995,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: false
         required_status_checks:
@@ -2901,6 +3026,7 @@ repositories:
     topics:
       - testing
     visibility: public
+    web_commit_signoff_required: false
   go-todocounter:
     advanced_security: false
     allow_update_branch: false
@@ -2928,6 +3054,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-unixfs:
     archived: true
   go-unixfsnode:
@@ -2960,6 +3087,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   go-verifcid:
     archived: true
   gomod:
@@ -2986,6 +3114,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   gs-priv:
     archived: true
   hang-fds:
@@ -3013,6 +3142,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   helia-car:
     archived: true
   helia-cli:
@@ -3032,6 +3162,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: true
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -3061,6 +3192,7 @@ repositories:
     topics:
       - ipfs-helia
     visibility: public
+    web_commit_signoff_required: false
   helia-dag-cbor:
     archived: true
   helia-dag-json:
@@ -3094,6 +3226,7 @@ repositories:
     topics:
       - ipfs-helia
     visibility: public
+    web_commit_signoff_required: false
   helia-http-gateway:
     advanced_security: false
     allow_update_branch: true
@@ -3123,6 +3256,7 @@ repositories:
       - helia-nodejs
       - ipfs-helia
     visibility: public
+    web_commit_signoff_required: false
   helia-ipns:
     archived: true
   helia-json:
@@ -3159,6 +3293,7 @@ repositories:
       - ipfs
       - typescript-library
     visibility: public
+    web_commit_signoff_required: false
   helia-strings:
     archived: true
   helia-unixfs:
@@ -3192,6 +3327,7 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   helia:
     advanced_security: false
     allow_update_branch: true
@@ -3209,6 +3345,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: true
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -3244,6 +3381,7 @@ repositories:
       - ipfs-helia
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   i18n:
     advanced_security: false
     allow_update_branch: false
@@ -3271,6 +3409,7 @@ repositories:
       - ipfs
       - translation
     visibility: public
+    web_commit_signoff_required: false
   implementations-grants:
     advanced_security: false
     allow_update_branch: false
@@ -3292,6 +3431,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   in-web-browsers:
     advanced_security: false
     allow_update_branch: false
@@ -3309,6 +3449,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -3343,6 +3484,7 @@ repositories:
       - browsers
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   infra:
     archived: true
   integrations:
@@ -3366,6 +3508,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   interface-datastore:
     archived: true
   interface-go-ipfs-core:
@@ -3389,6 +3532,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: false
         required_status_checks:
@@ -3464,6 +3608,7 @@ repositories:
       - ipfs
       - web3
     visibility: public
+    web_commit_signoff_required: false
   ipfs-camp-2022:
     advanced_security: false
     allow_update_branch: false
@@ -3488,6 +3633,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   ipfs-camp-2024:
     advanced_security: false
     allow_update_branch: false
@@ -3506,6 +3652,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   ipfs-check:
     advanced_security: false
     allow_update_branch: true
@@ -3531,6 +3678,7 @@ repositories:
     topics:
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   ipfs-companion:
     advanced_security: false
     allow_update_branch: true
@@ -3548,6 +3696,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
       main:
@@ -3562,8 +3711,11 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
+        restrict_pushes:
+          - blocks_creations: false
     collaborators:
       admin:
         - lidel
@@ -3599,6 +3751,7 @@ repositories:
       - protocol
       - webextension
     visibility: public
+    web_commit_signoff_required: false
   ipfs-desktop:
     advanced_security: false
     allow_update_branch: true
@@ -3616,6 +3769,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -3657,6 +3811,7 @@ repositories:
       - protocol
       - unixfs
     visibility: public
+    web_commit_signoff_required: false
   ipfs-docs:
     advanced_security: false
     allow_update_branch: true
@@ -3677,6 +3832,7 @@ repositories:
             - /lidel
             - /mishmosh
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: true
         required_status_checks:
@@ -3744,6 +3900,7 @@ repositories:
       - ipfs-docs
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   ipfs-ds-postgres:
     advanced_security: false
     allow_update_branch: false
@@ -3769,6 +3926,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   ipfs-gui:
     advanced_security: false
     allow_update_branch: false
@@ -3786,6 +3944,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -3814,6 +3973,7 @@ repositories:
       - ipfs-gui
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   ipfs-project.org:
     archived: true
   ipfs-repository-template:
@@ -3851,6 +4011,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   ipfs-update:
     advanced_security: false
     allow_update_branch: false
@@ -3867,6 +4028,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - /web3-bot
     collaborators:
       push:
         - web3-bot
@@ -3891,6 +4056,7 @@ repositories:
         - Go Core Team
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   ipfs-website:
     advanced_security: false
     allow_update_branch: true
@@ -3908,6 +4074,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: false
         required_status_checks:
@@ -3940,6 +4107,7 @@ repositories:
       - ipfs
       - web3
     visibility: public
+    web_commit_signoff_required: false
   ipfs-webui:
     advanced_security: false
     allow_update_branch: true
@@ -3950,6 +4118,9 @@ repositories:
         allows_force_pushes: false
         blocks_creations: false
         enforce_admins: false
+        force_push_bypassers:
+          - /ipfs-gui-bot
+          - /lidel
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -3959,6 +4130,7 @@ repositories:
           pull_request_bypassers:
             - U_kgDOBn5-CA
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -3997,6 +4169,7 @@ repositories:
       - redux-bundler
       - redux
     visibility: public
+    web_commit_signoff_required: false
   ipfs.fyi:
     advanced_security: false
     allow_update_branch: false
@@ -4017,6 +4190,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   ipfs:
     advanced_security: false
     allow_update_branch: true
@@ -4056,6 +4230,7 @@ repositories:
       - paper
       - protocol
     visibility: public
+    web_commit_signoff_required: false
   ipfsio-about:
     advanced_security: false
     allow_update_branch: true
@@ -4075,6 +4250,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   ipget:
     advanced_security: false
     allow_update_branch: false
@@ -4102,6 +4278,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   ipld-explorer-components:
     advanced_security: false
     allow_update_branch: true
@@ -4138,6 +4315,7 @@ repositories:
       - ipfs-gui
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   iptb-plugins:
     advanced_security: false
     allow_update_branch: false
@@ -4165,6 +4343,7 @@ repositories:
       push:
         - Repos - Go
     visibility: public
+    web_commit_signoff_required: false
   iptb:
     advanced_security: false
     allow_update_branch: false
@@ -4193,6 +4372,7 @@ repositories:
         - Go Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-blockstore-core:
     archived: true
   js-blockstore-datastore-adapter:
@@ -4219,6 +4399,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   js-blockstore-fs:
     archived: true
   js-blockstore-idb:
@@ -4244,6 +4425,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -4251,6 +4433,8 @@ repositories:
             - DCO
             - Lint+Test
           strict: false
+        restrict_pushes:
+          - blocks_creations: false
     collaborators:
       admin:
         - carsonfarmer
@@ -4288,6 +4472,7 @@ repositories:
       - p2p
       - peer-to-peer
     visibility: public
+    web_commit_signoff_required: false
   js-datastore-core:
     archived: true
   js-datastore-fs:
@@ -4327,6 +4512,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-datastore-s3:
     archived: true
   js-fs-pull-blob-store:
@@ -4357,6 +4543,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-hamt-sharding:
     advanced_security: false
     allow_update_branch: false
@@ -4384,6 +4571,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-idb-pull-blob-store:
     advanced_security: false
     allow_update_branch: false
@@ -4412,6 +4600,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-ipfs-bitswap:
     advanced_security: false
     allow_update_branch: true
@@ -4443,6 +4632,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-ipfs-block-service:
     archived: true
   js-ipfs-http-response:
@@ -4475,6 +4665,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-ipfs-repo-migrations:
     archived: true
   js-ipfs-repo:
@@ -4507,6 +4698,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-ipfs-unixfs:
     advanced_security: false
     allow_update_branch: true
@@ -4537,6 +4729,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-ipfs-utils:
     advanced_security: false
     allow_update_branch: false
@@ -4570,6 +4763,7 @@ repositories:
     topics:
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   js-ipfs:
     archived: true
   js-ipfsd-ctl:
@@ -4608,6 +4802,7 @@ repositories:
       - ipfs
       - js-ipfs
     visibility: public
+    web_commit_signoff_required: false
   js-ipns:
     advanced_security: false
     allow_update_branch: true
@@ -4638,6 +4833,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-kubo-rpc-client:
     advanced_security: false
     allow_update_branch: true
@@ -4698,6 +4894,7 @@ repositories:
       - kubo
       - rpc-client
     visibility: public
+    web_commit_signoff_required: false
   js-level-pull-blob-store:
     advanced_security: false
     allow_update_branch: false
@@ -4726,6 +4923,7 @@ repositories:
         - JS Core Team
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   js-stores:
     advanced_security: false
     allow_update_branch: true
@@ -4752,6 +4950,7 @@ repositories:
       push:
         - JS Core Team
     visibility: public
+    web_commit_signoff_required: false
   kubo:
     advanced_security: false
     allow_update_branch: true
@@ -4768,6 +4967,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - ipfs/kubo-maintainers
       feat/stabilize-dht:
         allows_deletions: false
         allows_force_pushes: true
@@ -4779,6 +4982,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - ipfs/kubo-maintainers
       master:
         allows_deletions: false
         allows_force_pushes: false
@@ -4793,6 +5000,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -4804,11 +5012,18 @@ repositories:
             - go-test
             - sharness-test
           strict: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - ipfs/kubo-maintainers
       release-*:
         allows_deletions: true
         allows_force_pushes: false
         blocks_creations: false
         enforce_admins: true
+        force_push_bypassers:
+          - /aschmahmann
+          - /lidel
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -4825,6 +5040,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -4863,6 +5079,7 @@ repositories:
     topics:
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   lightning-storm:
     advanced_security: false
     allow_update_branch: false
@@ -4885,6 +5102,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   local-offline-collab:
     advanced_security: false
     allow_update_branch: false
@@ -4912,6 +5130,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   metrics:
     advanced_security: false
     allow_update_branch: false
@@ -4936,6 +5155,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   mobile-design-guidelines:
     advanced_security: false
     allow_update_branch: false
@@ -4965,6 +5185,7 @@ repositories:
       - offline-first
       - p2p
     visibility: public
+    web_commit_signoff_required: false
   newsletter:
     advanced_security: false
     allow_update_branch: false
@@ -4993,6 +5214,7 @@ repositories:
       push:
         - comms
     visibility: public
+    web_commit_signoff_required: false
   notes:
     archived: true
   npm-kubo:
@@ -5023,6 +5245,7 @@ repositories:
       - ipfs
       - npm
     visibility: public
+    web_commit_signoff_required: false
   papers:
     archived: true
   pinbot-irc:
@@ -5052,6 +5275,7 @@ repositories:
       push:
         - Go Core Team
     visibility: public
+    web_commit_signoff_required: false
   pinning-services-api-spec:
     advanced_security: false
     allow_update_branch: false
@@ -5069,10 +5293,13 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: true
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
           strict: false
+        restrict_pushes:
+          - blocks_creations: false
     collaborators:
       admin:
         - jacobheun
@@ -5107,6 +5334,7 @@ repositories:
       - pinning-services
       - pinning
     visibility: public
+    web_commit_signoff_required: false
   protons:
     advanced_security: false
     allow_update_branch: true
@@ -5138,6 +5366,7 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+    web_commit_signoff_required: false
   public-gateway-checker:
     advanced_security: false
     allow_update_branch: true
@@ -5177,6 +5406,7 @@ repositories:
       - ipfs-gui
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   rainbow:
     advanced_security: false
     allow_update_branch: true
@@ -5194,6 +5424,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: false
         required_status_checks:
@@ -5227,6 +5458,7 @@ repositories:
       - ipfs-gateway
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   roadmap:
     advanced_security: false
     allow_update_branch: false
@@ -5256,6 +5488,7 @@ repositories:
         - community
         - WG Captains
     visibility: public
+    web_commit_signoff_required: false
   service-worker-gateway:
     advanced_security: false
     allow_update_branch: true
@@ -5299,6 +5532,7 @@ repositories:
       - service-worker
       - typescript
     visibility: public
+    web_commit_signoff_required: false
   sharness:
     advanced_security: false
     allow_update_branch: false
@@ -5330,6 +5564,7 @@ repositories:
         - github-mgmt stewards
         - shipyard
     visibility: public
+    web_commit_signoff_required: false
   someguy:
     advanced_security: false
     allow_update_branch: false
@@ -5347,6 +5582,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: false
         required_status_checks:
@@ -5375,6 +5611,7 @@ repositories:
       - ipfs
       - p2p
     visibility: public
+    web_commit_signoff_required: false
   spec-generator:
     advanced_security: false
     allow_update_branch: false
@@ -5398,6 +5635,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   specs:
     advanced_security: false
     allow_update_branch: true
@@ -5418,8 +5656,14 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - ipfs/admin
+              - ipfs/docs
     collaborators:
       maintain:
         - bumblefudge
@@ -5458,6 +5702,7 @@ repositories:
       - specs
       - standards
     visibility: public
+    web_commit_signoff_required: false
   start-ipfs-daemon-action:
     advanced_security: false
     allow_update_branch: false
@@ -5486,6 +5731,7 @@ repositories:
     topics:
       - ipdx
     visibility: public
+    web_commit_signoff_required: false
   steering-wg:
     advanced_security: false
     allow_update_branch: false
@@ -5508,6 +5754,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   tar-utils:
     archived: true
   team-mgmt:
@@ -5534,6 +5781,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   working-groups:
     advanced_security: false
     allow_update_branch: false
@@ -5555,6 +5803,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
 teams:
   admin:
     description: Admin Access to all repos, for CI etc
@@ -5785,6 +6034,7 @@ teams:
         - lidel
       member:
         - whizzzkid
+    parent_team_id: WG GUI/UX
     privacy: closed
   helia-dev:
     description: Helia Developers and engineers
