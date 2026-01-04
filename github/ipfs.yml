@@ -5898,6 +5898,7 @@ teams:
     description: Community managers, community engineers, and other people that need write privs.
     members:
       maintainer:
+        - 2color
         - mishmosh
         - TheDiscordian
     privacy: closed
@@ -6078,6 +6079,7 @@ teams:
         - lidel
         - Stebalien
       member:
+        - 2color
         - aarshkshah1992
         - achingbrain
         - adlrocha
@@ -6119,6 +6121,7 @@ teams:
         - daviddias
         - lidel
       member:
+        - 2color
         - AuHau
         - dirkmc
         - Gozala
@@ -6193,6 +6196,7 @@ teams:
         - lidel
         - olizilla
       member:
+        - 2color
         - alanshaw
         - andyschwab
         - cwaring
