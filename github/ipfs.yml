@@ -746,6 +746,36 @@ repositories:
         - Go Core Team
     visibility: public
     web_commit_signoff_required: false
+  cid.ipfs.tech:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+        - lidel
+        - olizilla
+      push:
+        - web3-bot
+    default_branch: main
+    description: A website for decoding CIDs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - shipyard
+    topics:
+      - cid
+      - content-addressing
+      - dag-pb
+      - ipfs
+    visibility: public
+    web_commit_signoff_required: false
   communications:
     advanced_security: false
     allow_update_branch: false
@@ -5005,12 +5035,13 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
+            - cli-tests
             - gateway-conformance
             - go-build
             - go-check
             - go-lint
-            - go-test
             - sharness-test
+            - unit-tests
           strict: false
         restrict_pushes:
           - blocks_creations: false
