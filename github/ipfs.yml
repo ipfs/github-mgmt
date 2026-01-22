@@ -497,8 +497,8 @@ repositories:
     teams:
       admin:
         - admin
-        - shipyard
         - devrel
+        - shipyard
       maintain:
         - Maintainers
       pull:
@@ -892,8 +892,8 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - devrel
         - contributors
+        - devrel
     visibility: public
     web_commit_signoff_required: false
   dht-node:
@@ -1059,8 +1059,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - shipyard
         - devrel
+        - shipyard
       maintain:
         - website-deployers
       pull:
@@ -3629,8 +3629,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - shipyard
         - devrel
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -4131,8 +4131,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - shipyard
         - devrel
+        - shipyard
       maintain:
         - website-deployers
       pull:
@@ -4223,10 +4223,10 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
-        - github-mgmt stewards
       admin:
         - devrel
+      pull:
+        - github-mgmt stewards
     visibility: public
     web_commit_signoff_required: false
   ipfs:
@@ -5933,13 +5933,6 @@ teams:
         - mishmosh
         - momack2
     privacy: closed
-  devrel:
-    description: Developer advocates and other people that need write privs.
-    members:
-      maintainer:
-        - 2color
-        - mishmosh
-    privacy: closed
   contributors:
     members:
       maintainer:
@@ -5993,6 +5986,13 @@ teams:
         - whyrusleeping
         - Wondertan
         - yiannisbot
+    privacy: closed
+  devrel:
+    description: Developer advocates and other people that need write privs.
+    members:
+      maintainer:
+        - 2color
+        - mishmosh
     privacy: closed
   docs:
     description: We take care of tooling and processes for documentation
