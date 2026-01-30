@@ -497,6 +497,7 @@ repositories:
     teams:
       admin:
         - admin
+        - devrel
         - shipyard
       maintain:
         - Maintainers
@@ -711,7 +712,7 @@ repositories:
         - github-mgmt stewards
       push:
         - comms
-        - community
+        - devrel
       triage:
         - docs
     visibility: public
@@ -822,7 +823,7 @@ repositories:
         - admin
         - shipyard
       maintain:
-        - community
+        - devrel
         - Maintainers
       pull:
         - github-mgmt stewards
@@ -891,8 +892,8 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
-        - community
         - contributors
+        - devrel
     visibility: public
     web_commit_signoff_required: false
   dht-node:
@@ -1058,6 +1059,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - devrel
         - shipyard
       maintain:
         - website-deployers
@@ -3627,6 +3629,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - devrel
         - shipyard
       pull:
         - github-mgmt stewards
@@ -3918,6 +3921,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - devrel
       maintain:
         - Maintainers
       pull:
@@ -4126,6 +4131,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - devrel
         - shipyard
       maintain:
         - website-deployers
@@ -4217,6 +4223,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - devrel
       pull:
         - github-mgmt stewards
     visibility: public
@@ -4248,7 +4256,7 @@ repositories:
         - contributors
         - github-mgmt stewards
       triage:
-        - community
+        - devrel
     topics:
       - ipfs-protocol
       - ipfs-web
@@ -5561,7 +5569,7 @@ repositories:
         - contributors
         - github-mgmt stewards
       push:
-        - community
+        - devrel
         - WG Captains
     visibility: public
     web_commit_signoff_required: false
@@ -5769,7 +5777,7 @@ repositories:
         - Repos - Go
         - Specs Stewards
       triage:
-        - community
+        - devrel
     topics:
       - ipfs
       - p2p
@@ -5970,14 +5978,6 @@ teams:
         - mishmosh
         - momack2
     privacy: closed
-  community:
-    description: Community managers, community engineers, and other people that need write privs.
-    members:
-      maintainer:
-        - 2color
-        - mishmosh
-        - TheDiscordian
-    privacy: closed
   contributors:
     members:
       maintainer:
@@ -6031,6 +6031,13 @@ teams:
         - whyrusleeping
         - Wondertan
         - yiannisbot
+    privacy: closed
+  devrel:
+    description: Developer advocates and other people that need write privs.
+    members:
+      maintainer:
+        - 2color
+        - mishmosh
     privacy: closed
   docs:
     description: We take care of tooling and processes for documentation
