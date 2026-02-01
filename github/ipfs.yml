@@ -1039,12 +1039,13 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
     collaborators:
+      admin:
+        - mishmosh
       maintain:
         - amanda-agency-undone
         - D3AS8A
         - emilymariahh
         - justanothersynth
-        - mishmosh
         - svvimming
       push:
         - web3-bot
@@ -3581,11 +3582,12 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
     collaborators:
+      admin:
+        - mishmosh
       push:
         - damedoteth
         - darobin
         - emilymvaughan
-        - mishmosh
         - stan-pl
         - TheDiscordian
         - warpfork
@@ -3873,10 +3875,11 @@ repositories:
             - build
           strict: false
     collaborators:
+      admin:
+        - mishmosh
       maintain:
         - bumblefudge
       push:
-        - mishmosh
         - web3-bot
     default_branch: main
     description: 📚IPFS documentation website
@@ -4117,8 +4120,8 @@ repositories:
     collaborators:
       admin:
         - cwaring
-      push:
         - mishmosh
+      push:
         - web3-bot
     default_branch: main
     description: Official IPFS Project website
@@ -6033,6 +6036,7 @@ teams:
         - yiannisbot
     privacy: closed
   devrel:
+    create_default_maintainer: false
     description: Developer advocates and other people that need write privs.
     members:
       maintainer:
