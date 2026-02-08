@@ -1966,9 +1966,6 @@ repositories:
           required_approving_review_count: 0
           restrict_dismissals: false
     collaborators:
-      admin:
-        - Kubuxu
-        - raulk
       push:
         - web3-bot
     default_branch: master
@@ -3879,6 +3876,7 @@ repositories:
       maintain:
         - bumblefudge
       push:
+        - vmx
         - web3-bot
     default_branch: main
     description: 📚IPFS documentation website
