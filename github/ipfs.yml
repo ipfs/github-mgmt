@@ -2749,6 +2749,8 @@ repositories:
       admin:
         - guillaumemichel
         - lidel
+      push:
+        - web3-bot
     default_branch: main
     description: Generic Go DHT toolbox
     has_discussions: false
