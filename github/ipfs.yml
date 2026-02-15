@@ -1487,6 +1487,7 @@ repositories:
         - contributors
         - github-mgmt stewards
     visibility: private
+    web_commit_signoff_required: false
   go-dagwriter:
     archived: true
   go-data-transfer-bus:
@@ -2740,6 +2741,25 @@ repositories:
     archived: true
   go-jaeger-plugin:
     archived: true
+  go-libdht:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - guillaumemichel
+        - lidel
+    default_branch: main
+    description: Generic Go DHT toolbox
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   go-libipfs-rapide:
     advanced_security: false
     allow_update_branch: false
@@ -5084,12 +5104,13 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
+            - cli-tests
             - gateway-conformance
             - go-build
             - go-check
             - go-lint
-            - go-test
             - sharness-test
+            - unit-tests
           strict: true
     collaborators:
       push:
