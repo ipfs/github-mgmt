@@ -161,7 +161,6 @@ members:
     - kumavis
     - kylehuntsman
     - laurentsenta
-    - leshokunin
     - listenaddress
     - litzenberger
     - locotorp
@@ -230,6 +229,7 @@ members:
     - teh-f00l
     - ten15bit
     - terichadbourne
+    - tetrisgm
     - thattommyhall
     - TheDiscordian
     - TinyTb
@@ -808,7 +808,7 @@ repositories:
       push:
         - web3-bot
       triage:
-        - leshokunin
+        - tetrisgm
     default_branch: master
     description: Discussion and documentation on community practices
     has_discussions: false
@@ -863,39 +863,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   devgrants:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - FF-FOIT
-        - mishmosh
-      maintain:
-        - realChainLife
-      push:
-        - momack2
-        - web3-bot
-    default_branch: main
-    description: The IPFS Grant platform connects funding organizations with builders and researchers in the IPFS community.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - contributors
-        - devrel
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   dht-node:
     archived: true
   dir-index-html:
@@ -2763,33 +2731,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-libipfs-rapide:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - Jorropo
-      push:
-        - web3-bot
-    default_branch: main
-    description: "[EXPERIMENTAL] A fork of ipfs/boxo with experimental RAPIDE client."
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-libp2p-dns-router:
     advanced_security: false
     allow_update_branch: false
@@ -3467,9 +3409,9 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - darobin
-      maintain:
         - bumblefudge
+        - darobin
+        - mishmosh
       push:
         - web3-bot
     default_branch: main
