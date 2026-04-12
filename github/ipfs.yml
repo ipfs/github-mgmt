@@ -4011,50 +4011,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs-update:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        push_restrictions:
-          - /web3-bot
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        restrict_pushes:
-          - blocks_creations: false
-            push_allowances:
-              - /web3-bot
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: "[DEPRECATED] legacy updater tool for Kubo IPFS binary. Please migrate to something else."
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-website:
     advanced_security: false
     allow_update_branch: true
