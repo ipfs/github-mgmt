@@ -301,41 +301,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   2019.ipfs.camp:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - cwaring
-        - lidel
-        - olizilla
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Camp 2019 Website
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - gui-dev
-        - WG GUI/UX
-    topics:
-      - conference
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   aegir-typedoc-theme:
     advanced_security: false
     allow_update_branch: false
@@ -3257,7 +3223,7 @@ repositories:
     archived: true
   helia-remote-pinning:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
