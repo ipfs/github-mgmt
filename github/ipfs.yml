@@ -3737,6 +3737,8 @@ repositories:
         - lidel
       push:
         - web3-bot
+      write:
+        - devrel
     default_branch: main
     description: "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
     files:
