@@ -4031,6 +4031,8 @@ repositories:
     collaborators:
       admin:
         - 2color
+      push:
+        - web3-bot
     default_branch: main
     has_discussions: false
     merge_commit_message: PR_TITLE
