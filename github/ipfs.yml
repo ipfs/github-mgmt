@@ -3741,7 +3741,53 @@ repositories:
     description: "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. "
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
+
+            - package-ecosystem: "npm"
+              directory: "/"
+              schedule:
+                interval: "weekly"
+              open-pull-requests-limit: 10
+              labels:
+                - "dependencies"
+              groups:
+                # Kubo binary and its RPC client. kubo-rpc-client is pre-listed so the
+                # future migration off ipfs-http-client lands cleanly without a config
+                # change.
+                kubo:
+                  patterns:
+                    - "kubo"
+                    - "kubo-rpc-client"
+                # Core Electron runtime and the two packagers/updaters tied to its
+                # version. Major bumps here usually require manual smoke testing, so
+                # keeping them in one PR helps.
+                electron:
+                  patterns:
+                    - "electron"
+                    - "electron-builder"
+                    - "electron-updater"
+                # Test runners and mocks. Low-risk, high-frequency churn that should
+                # not generate one PR per package.
+                test:
+                  patterns:
+                    - "playwright"
+                    - "@playwright/*"
+                    - "sinon"
+                    - "proxyquire"
+                    - "xvfb-maybe"
+                    - "cross-env"
+                # Catch-all for everything not covered above (i18next, winston, got,
+                # release-please plugin, ipfs-* libs, etc). Dependabot assigns each dep
+                # to the first matching group, so this sweeps the remainder.
+                rest:
+                  patterns:
+                    - "*"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3978,6 +4024,23 @@ repositories:
     web_commit_signoff_required: false
   ipfs-update:
     archived: true
+  ipfs-website-v2:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   ipfs-website:
     advanced_security: false
     allow_update_branch: true
