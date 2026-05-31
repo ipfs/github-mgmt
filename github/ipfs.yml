@@ -3828,6 +3828,8 @@ repositories:
         allows_force_pushes: false
         blocks_creations: false
         enforce_admins: false
+        force_push_bypassers:
+          - /2color
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -3835,6 +3837,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           dismissal_restrictions:
+            - /2color
             - /lidel
             - /mishmosh
           require_code_owner_reviews: false
