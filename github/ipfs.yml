@@ -5690,6 +5690,7 @@ repositories:
         push_restrictions:
           - ipfs/admin
           - ipfs/docs
+          - ipfs/specs-stewards
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5704,6 +5705,7 @@ repositories:
             push_allowances:
               - ipfs/admin
               - ipfs/docs
+              - ipfs/specs-stewards
     collaborators:
       maintain:
         - bumblefudge
@@ -6003,6 +6005,9 @@ teams:
         - lidel
       member:
         - achingbrain
+        - bumblefudge
+        - darobin
+        - mishmosh
     privacy: closed
   github-mgmt stewards:
     # Notes:
@@ -6193,6 +6198,8 @@ teams:
         - lidel
       member:
         - achingbrain
+        - bumblefudge
+        - mishmosh
         - Stebalien
         - yiannisbot
     privacy: closed
