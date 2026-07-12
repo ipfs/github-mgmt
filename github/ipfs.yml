@@ -65,6 +65,7 @@ members:
     - blackforestboi
     - bmcorser
     - BrendanBenshoof
+    - bumblefudge
     - carsonfarmer
     - cboddy
     - cesarosum
@@ -2223,34 +2224,7 @@ repositories:
   go-ipfs-blockstore:
     archived: true
   go-ipfs-blocksutil:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Utility functions for working with Blocks
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipfs-chunker:
     archived: true
   go-ipfs-cmdkit:
@@ -4022,25 +3996,7 @@ repositories:
   ipfs-update:
     archived: true
   ipfs-website-v2:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-      push:
-        - mishmosh
-        - web3-bot
-    default_branch: main
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-website:
     advanced_security: false
     allow_update_branch: true
