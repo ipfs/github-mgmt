@@ -65,7 +65,6 @@ members:
     - blackforestboi
     - bmcorser
     - BrendanBenshoof
-    - bumblefudge
     - carsonfarmer
     - cboddy
     - cesarosum
@@ -828,6 +827,21 @@ repositories:
         - github-mgmt stewards
     visibility: public
     web_commit_signoff_required: false
+  dev.webui.ipfs.io:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: Github Pages pipeline for dev.webui.ipfs.io
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   devgrants:
     archived: true
   dht-node:
@@ -1397,29 +1411,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-dag-store:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A prototype of a diskbased datastore looks up DAG data by selector
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      pull:
-        - contributors
-        - github-mgmt stewards
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   go-dagwriter:
     archived: true
   go-data-transfer-bus:
@@ -2438,26 +2430,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-ipfs-regression:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: This repo provides definitions of regression statistics produced by IPFS testground experiments
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipfs-routing:
     archived: true
   go-ipfs-util:
@@ -2614,34 +2587,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-ipld-zcash:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: An implementation of the zcash block and transaction datastructures for ipld
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipns:
     archived: true
   go-jaeger-plugin:
@@ -2853,28 +2799,7 @@ repositories:
   go-poll-endpoint:
     archived: true
   go-protocolnetwork:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-      push:
-        - web3-bot
-    default_branch: main
-    description: Extracted generic networking code from go-bitswap and go-graphsync
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-qringbuf:
     advanced_security: false
     allow_update_branch: false
@@ -3021,30 +2946,7 @@ repositories:
   go-verifcid:
     archived: true
   gomod:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Tips, tricks and scripts for gomod
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   gs-priv:
     archived: true
   hang-fds:
@@ -4042,10 +3944,11 @@ repositories:
       pull:
         - github-mgmt stewards
     topics:
+      - cid
+      - content-addressing
       - decentralized
       - dweb
       - ipfs
-      - web3
     visibility: public
     web_commit_signoff_required: false
   ipfs-webui:
@@ -5954,7 +5857,6 @@ teams:
         - lidel
       member:
         - achingbrain
-        - bumblefudge
         - darobin
         - mishmosh
     privacy: closed
@@ -6147,7 +6049,6 @@ teams:
         - lidel
       member:
         - achingbrain
-        - bumblefudge
         - mishmosh
         - Stebalien
         - yiannisbot
