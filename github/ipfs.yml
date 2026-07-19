@@ -831,6 +831,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: Github Pages pipeline for dev.webui.ipfs.io
     has_discussions: false
