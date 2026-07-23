@@ -5562,6 +5562,7 @@ repositories:
       maintain:
         - bumblefudge
       push:
+        - mishmosh
         - vmx
         - web3-bot
     default_branch: main
