@@ -88,7 +88,6 @@ members:
     - deltazxm
     - dgrisham
     - dignifiedquire
-    - dirkmc
     - doctorrobinson
     - dongtianyi
     - drbh
@@ -685,33 +684,7 @@ repositories:
   choco-go-ipfs:
     archived: true
   ci-helpers:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Helper scripts for C.I.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   cid.ipfs.tech:
     advanced_security: false
     allow_update_branch: false
@@ -2150,7 +2123,6 @@ repositories:
           strict: true
     collaborators:
       admin:
-        - dirkmc
         - hannahhoward
         - rvagg
         - willscott
@@ -2801,36 +2773,7 @@ repositories:
   go-protocolnetwork:
     archived: true
   go-qringbuf:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - ribasushi
-      push:
-        - web3-bot
-    default_branch: master
-    description: An implementation of a Quantized Ring Buffer
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-        - Repos - Go
-      push:
-        - Go Core Team
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-sbs:
     archived: true
   go-test:
@@ -2883,33 +2826,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-todocounter:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A threadsafe counter
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-unixfs:
     archived: true
   go-unixfsnode:
@@ -4996,33 +4913,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   local-offline-collab:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - momack2
-      push:
-        - terichadbourne
-        - web3-bot
-    default_branch: master
-    description: Local Offline Collaboration Special Interest Group
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   metrics:
     advanced_security: false
     allow_update_branch: false
@@ -5802,7 +5693,6 @@ teams:
         - coryschwartz
         - dchoi27
         - dignifiedquire
-        - dirkmc
         - dylanPowers
         - ericronne
         - gpestana
@@ -5905,7 +5795,6 @@ teams:
         - Kubuxu
         - Stebalien
       member:
-        - dirkmc
         - gammazero
         - guseggert
         - hacdias
@@ -5945,7 +5834,6 @@ teams:
         - alanshaw
       member:
         - achingbrain
-        - dirkmc
         - jimpick
         - vasco-santos
     privacy: closed
@@ -5981,7 +5869,6 @@ teams:
         - anorth
         - daviddias
         - dignifiedquire
-        - dirkmc
         - frrist
         - gammazero
         - gmasgras
@@ -6016,7 +5903,6 @@ teams:
         - lidel
       member:
         - AuHau
-        - dirkmc
         - Gozala
         - hacdias
         - jacobheun
