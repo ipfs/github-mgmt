@@ -363,80 +363,11 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   apps:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Coordinating writing apps on top of ipfs, and their concerns.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   areweinterplanetaryyet.org:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - vesahc
-        - web3-bot
-    default_branch: main
-    description: is IPFS actually InterPlanetary yet?
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - admin
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   artwork:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Open-licensed IPFS-related artwork
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   awesome-ipfs:
     advanced_security: false
     allow_update_branch: true
@@ -505,35 +436,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   benchmarks:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - alanshaw
-      push:
-        - web3-bot
-    default_branch: master
-    description: Benchmarking for IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - JavaScript
-        - WG Infrastructure
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   boxo:
     advanced_security: false
     allow_update_branch: true
@@ -603,84 +506,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   browser-design-guidelines:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      maintain:
-        - jkosem
-      push:
-        - web3-bot
-    default_branch: master
-    description: Guidelines and recommendations for browser vendor design and implementation of IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-        - WG Web Browsers
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - design-pa
-      - design
-      - internet
-      - ipfs-browser
-      - p2p
-      - protocol
-      - research
-      - user-interface
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   camp:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        restrict_pushes:
-          - blocks_creations: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: 🏕 IPFS Camp is a 3 day hacker retreat designed for the builders of the Distributed Web.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - comms
-        - devrel
-      triage:
-        - docs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   choco-go-ipfs:
     archived: true
   ci-helpers:
@@ -716,28 +544,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   communications:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - damedoteth
-      push:
-        - web3-bot
-    default_branch: main
-    description: A repository with information and documents about the Communications Working Group.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   community:
     advanced_security: false
     allow_update_branch: false
@@ -822,41 +629,7 @@ repositories:
   dir-index-html:
     archived: true
   distributed-wikipedia-mirror:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - lidel
-      push:
-        - web3-bot
-    default_branch: main
-    description: Putting Wikipedia Snapshots on IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - contributors
-        - github-mgmt stewards
-    topics:
-      - decentralized
-      - distributed
-      - ipfs
-      - p2p
-      - peer-to-peer
-      - wikipedia
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   distributions:
     advanced_security: false
     allow_update_branch: false
@@ -1023,49 +796,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   fs-repo-migrations:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        restrict_pushes:
-          - blocks_creations: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Migrations for the filesystem repository of ipfs clients
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   gateway-conformance:
     advanced_security: false
     allow_update_branch: false
@@ -1118,27 +849,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   gh-issue-form-test:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
@@ -1388,26 +1099,7 @@ repositories:
   go-dagwriter:
     archived: true
   go-data-transfer-bus:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    description: Simple event bus for data transfers
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-datastore:
     advanced_security: false
     allow_update_branch: false
@@ -1515,49 +1207,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-ds-badger:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        push_restrictions:
-          - /web3-bot
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        restrict_pushes:
-          - blocks_creations: false
-            push_allowances:
-              - /web3-bot
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Datastore implementation using badger as backend.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ds-badger2:
     archived: true
   go-ds-badger3:
@@ -1987,33 +1637,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-ds-swift:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Experimental Swift / Openstack Object Storage datastore
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-dsqueue:
     advanced_security: false
     allow_update_branch: false
@@ -2157,34 +1781,7 @@ repositories:
   go-ipfs-api:
     archived: true
   go-ipfs-archived:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: archived/master
-    description: Archived branches of go-ipfs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipfs-blockstore:
     archived: true
   go-ipfs-blocksutil:
@@ -2274,34 +1871,7 @@ repositories:
   go-ipfs-ds-help:
     archived: true
   go-ipfs-example-plugin:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      admin:
-        - Stebalien
-      push:
-        - web3-bot
-    default_branch: master
-    description: Demo plugin for Kubo IPFS daemon
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipfs-exchange-interface:
     archived: true
   go-ipfs-exchange-offline:
@@ -2437,39 +2007,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-ipld-eth-import:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: ":globe_with_meridians: Bring Ethereum to IPFS :globe_with_meridians:"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    topics:
-      - ethereum
-      - go
-      - golang
-      - ipfs
-      - ipld
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ipld-eth:
     archived: true
   go-ipld-format:
@@ -2588,30 +2126,7 @@ repositories:
   go-libipfs-rapide:
     archived: true
   go-libp2p-dns-router:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Under construction /!\
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-log:
     advanced_security: false
     allow_update_branch: false
@@ -2867,31 +2382,7 @@ repositories:
   gs-priv:
     archived: true
   hang-fds:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   helia-car:
     archived: true
   helia-cli:
@@ -3237,27 +2728,7 @@ repositories:
   infra:
     archived: true
   integrations:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      maintain:
-        - markg85
-      push:
-        - web3-bot
-    default_branch: main
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   interface-datastore:
     archived: true
   interface-go-ipfs-core:
@@ -3359,49 +2830,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs-camp-2022:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - mishmosh
-        - TheDiscordian
-      push:
-        - quickhatche
-        - web3-bot
-    default_branch: main
-    description: Conference content and other resources for IPFS Camp 2022 in Lisbon, Portugal
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-camp-2024:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - mishmosh
-        - web3-bot
-        - yunigraham
-    default_branch: master
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-check:
     advanced_security: false
     allow_update_branch: true
@@ -3728,52 +3159,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipfs-gui:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          require_last_push_approval: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    description: Creating standards and patterns for IPFS that are simple, accessible, reusable, and beautiful
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - gui-dev
-        - shipyard
-        - WG GUI/UX
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs-gui
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipfs-project.org:
     archived: true
   ipfs-repository-template:
@@ -4079,62 +3465,9 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   iptb-plugins:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPTB Plugins for IPFS
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   iptb:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: InterPlanetary TestBed 🌌🛌
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-        - Repos - JavaScript
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-blockstore-core:
     archived: true
   js-blockstore-datastore-adapter:
@@ -4400,34 +3733,7 @@ repositories:
   js-ipfs-http-response:
     archived: true
   js-ipfs-merkle-dag:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: "[DEPRECATED]"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - JS Core Team
-        - Repos - JavaScript
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   js-ipfs-repo-migrations:
     archived: true
   js-ipfs-repo:
@@ -4890,85 +4196,13 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   lightning-storm:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-      push:
-        - web3-bot
-    default_branch: main
-    description: Just a planning repo for project lightning storm for now
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   local-offline-collab:
     archived: true
   metrics:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Regularly collect and publish metrics about the IPFS ecosystem
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   mobile-design-guidelines:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Making IPFS work for mobile
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-    topics:
-      - ipfs
-      - mobile
-      - offline-first
-      - p2p
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   newsletter:
     advanced_security: false
     allow_update_branch: false
@@ -5032,92 +4266,9 @@ repositories:
   papers:
     archived: true
   pinbot-irc:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: a bot for the ipfs irc channel that pins things (among other menial tasks)
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Go Core Team
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   pinning-services-api-spec:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: true
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: true
-          require_last_push_approval: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: false
-        restrict_pushes:
-          - blocks_creations: false
-    collaborators:
-      admin:
-        - jacobheun
-        - lidel
-      push:
-        - Gozala
-        - web3-bot
-    default_branch: main
-    description: Standalone, vendor-agnostic Pinning Service API for IPFS ecosystem
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - shipyard
-      pull:
-        - github-mgmt stewards
-        - wg-pinning-services
-      push:
-        - Go Core Team
-        - JS Core Team
-    topics:
-      - ipfs
-      - pinning-commands
-      - pinning-services
-      - pinning
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   protons:
     advanced_security: false
     allow_update_branch: true
@@ -5243,35 +4394,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   roadmap:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: IPFS Project && Working Group Roadmaps Repo
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - contributors
-        - github-mgmt stewards
-      push:
-        - devrel
-        - WG Captains
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   service-worker-gateway:
     advanced_security: false
     allow_update_branch: true
@@ -5317,37 +4440,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   sharness:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        blocks_creations: false
-        enforce_admins: false
-        lock_branch: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Shell library to test your Unix tools like Git does
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-        - shipyard
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   someguy:
     advanced_security: false
     allow_update_branch: false
@@ -5568,27 +4661,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   working-groups:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - damedoteth
-      push:
-        - web3-bot
-    default_branch: main
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
 teams:
   admin:
     description: Admin Access to all repos, for CI etc
