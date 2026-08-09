@@ -1177,35 +1177,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   go-dnslink:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - jbenet
-      push:
-        - web3-bot
-    default_branch: master
-    description: dnslink resolution in go-ipfs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ds-badger:
     archived: true
   go-ds-badger2:
@@ -2699,7 +2671,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: Tracking the endeavor towards getting web browsers to natively support IPFS and content-addressing
+    description: "Tracking IPFS support in web browsers: ipfs:// addressing, transports browsers can dial directly, and work with browser vendors"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2903,7 +2875,7 @@ repositories:
         - olizilla
         - web3-bot
     default_branch: main
-    description: Browser extension that simplifies access to IPFS resources on the web
+    description: Browser extension that routes ipfs:// addresses and content-addressed websites through your own local IPFS node
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3400,33 +3372,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   ipget:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Retrieve files over IPFS and save them locally.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-        - shipyard
-      maintain:
-        - Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - Repos - Go
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   ipld-explorer-components:
     advanced_security: false
     allow_update_branch: true
@@ -4126,7 +4072,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: An IPFS implementation in Go
+    description: "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API"
     files:
       .github/dependabot.yml:
         content: |
@@ -4374,7 +4320,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: A specialized IPFS HTTP gateway
+    description: "IPFS HTTP Gateway daemon in Go, tuned for public production traffic: retrieval only, no pinning, no providing"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4470,7 +4416,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: A Delegated Routing V1 server and client for all your HTTP/IPFS routing needs.
+    description: Delegated Routing V1 server that proxies provider, peer, and IPNS lookups to the Amino DHT and other routers
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
